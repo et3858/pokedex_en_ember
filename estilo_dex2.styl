@@ -1,0 +1,942 @@
+@import url('http://fonts.googleapis.com/css?family=Cabin+Condensed')
+@import 'nib/gradients'
+@import 'nib/vendor'
+
+vendor-prefixes = o ms moz webkit official
+
+/*
+*
+	margin: 0
+	padding: 0
+*/
+.spnType
+	//background: gray
+	border-radius: 14px
+	color: white
+	display: inline-block
+	//padding: 2px 11px 4px 10px
+	padding: 4px 1px 4px 0
+	position: relative
+	text-align: center
+	text-shadow: 0 0 10px black
+	width: 100px
+	box-shadow: 0px 1px 5px black
+	//z-index: 1
+
+
+.spnTypeGrass
+	background: #34C339//rgb(52, 195, 57)
+.spnTypeFire
+	background: #F97415//rgb(249, 116, 21)
+.spnTypeWater
+	background: #3595FC//rgb(53, 149, 252)
+.spnTypeBug
+	background: #82E01E//rgb(130, 224, 30)
+.spnTypePoison
+	background: #8620A2//rgb(134, 32, 162)
+.spnTypeFlying
+	background: #A3C2DA//rgb(163, 194, 218)
+.spnTypeNormal
+	background: #C1B69D//rgb(193, 182, 157)
+.spnTypeElectric
+	background: #F2E20B//rgb(242, 226, 11)
+.spnTypeGround
+	background: #D2AC44//rgb(210, 172, 68)
+.spnTypeRock
+	background: #89712D//rgb(137, 113, 45)
+.spnTypeSteel
+	background: #9E9E9E//rgb(158, 158, 158)
+.spnTypeFight
+	background: #CA1111//rgb(202, 17, 17)
+.spnTypePsychic
+	background: #EA427D//rgb(234, 66, 125)
+.spnTypeGhost
+	background: #352269//rgb(53, 34, 105)
+.spnTypeDark
+	background: #46380A//rgb(70, 56, 10)
+.spnTypeIce
+	background: #4DDFE4//rgb(77, 223, 228)
+.spnTypeDragon
+	background: #4C06C5//rgb(76, 6, 197)
+.spnTypeFairy
+	background: #EF99BD//rgb(239, 153, 189)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body, html
+	//font-family: "Cabin Condensed", Helvetica neue, Helvetica, Arial, Sans-serif
+	font-family: "RobotoDraft", Helvetica neue, Helvetica, Arial, Sans-serif
+	margin: 0
+	padding: 0
+	position: relative
+
+div, header, nav, section, footer, article, aside, input, textarea, button, iframe, audio, video, img, embed, table, tr, th, td
+	margin: 0
+	padding: 0
+
+
+header
+	background: red
+	display: block
+	//height: 50px
+	position: fixed
+	top: 0
+	width: 100%
+	z-index: 1
+	nav
+		background: green
+		margin: 0 auto
+		padding: 10px 0
+		position: relative
+		//position: fixed
+		vertical-align: middle
+		//width: 1100px
+		text-align: center
+		.text
+			//border: 1px solid orange
+			//margin: 0 auto
+			border: 0
+			border-radius: 10px
+			display: block
+			font-size: 20px
+			outline: none
+			padding: 8px 0 8px 10px
+			width: 1090px
+
+
+footer
+	background: blue
+	display: block
+	height 50px
+
+
+
+
+#secGeneral
+	//background: yellow
+	display: block
+	min-height: 500px
+	margin-top: 10px
+	#secPrincipal
+		//background: #f2f2f2
+		display: block
+		margin: 0 auto
+		max-width: 1100px
+		min-height: 400px
+		font-size: 30px
+		#secName
+			//background: #f2f2f2
+			display: block
+			margin: 0
+			padding: 5px 0 5px 10px
+		#secFirstLook
+			//background: blue
+			display: block
+			section
+				display: inline-block
+				vertical-align: top
+				margin-right: -2px
+				margin-left: 0
+			
+			#secImage
+				width: 300px
+				height: 300px
+				position: relative
+				text-align: center
+				img
+					max-width: 100%
+					max-height: 100%
+					position:absolute
+					margin: auto
+					top: 0
+					bottom: 0
+					left: 0
+					right: 0
+			
+			#secStartInfo
+				//background: orange
+				//min-width: 300px
+				width: 790px
+				//section
+				background: #e2e2e2
+				display: inline-block
+				margin-bottom: 1px
+				//padding: 8px 0 0 10px
+				padding: 8px 0 0 0
+				//vertical-align: top
+				font-size: .6em
+				vertical-align: middle
+				//height: 150px
+				height: 290px
+				.blcSpec
+					cursor: default
+					display: block
+					padding: 3px 0 0 10px
+					transition: all .1s ease-in
+					&:hover
+						background: #a2a2a2
+						color: white
+						transition: all .1s ease-out
+				//#secBasicInfo
+				//width: 210px
+				//width: 788px
+				//height: 290px
+				//font-size: 1.2em
+				//display: block				
+				//url de diseno de garfica tipo pastel
+				//http://codepen.io/AtomicNoggin/pen/fEish?editors=110
+				/*
+				.pie
+					position: absolute
+					//width: 100px
+					width: 50px
+					//height: 200px
+					height: 100px
+					overflow: hidden
+					//left: 150px
+					left: 100px
+					//left: 120px
+					transform-origin: left center
+					&:before
+						content: ""
+						position: absolute
+						//width: 100px
+						width: 50px
+						//height: 200px
+						height: 100px
+						//left: -100px
+						left: -50px
+						//border-radius: 100px 0 0 100px
+						border-radius: 50px 0 0 50px
+						transform-origin: right center
+				.pie.big
+					//width: 200px
+					width: 100px
+					//height: 200px
+					height: 100px
+					left: 50px
+					//left: 20px
+					transform-origin: center center
+					&:before
+						left: 0
+					&:after
+						content: ""
+						position: absolute
+						//width: 100px
+						width: 50px
+						//height: 200px
+						height: 100px
+						//left: 100px
+						left: 50px
+						//border-radius: 0 100px 100px 0
+						border-radius: 0 50px 50px 0
+				.pie:nth-of-type(1):before, .pie:nth-of-type(1):after
+					background-color: blue
+				.pie:nth-of-type(2):after, .pie:nth-of-type(2):before
+					background-color: green	
+				.pie:nth-of-type(3):after, .pie:nth-of-type(3):before
+					background-color: red
+				.pie:nth-of-type(4):after, .pie:nth-of-type(4):before
+					background-color: orange
+				.pie[data-start="30"]
+					transform: rotate(30deg)
+				.pie[data-start="60"]
+					transform: rotate(60deg)
+				.pie[data-start="100"]
+					transform: rotate(100deg)
+				.pie[data-value="30"]:before
+					transform: rotate(31deg)
+				.pie[data-value="40"]:before
+					transform: rotate(41deg)
+				.pie[data-value="260"]:before
+					transform: rotate(260deg)
+				*/
+				//url de la segunda alternativa de grafico pastel en css
+				//http://www.kylejlarson.com/blog/2011/how-to-create-pie-charts-with-css3/
+				/*
+				#pieSlice2
+					transform: rotate(220deg)
+				#pieSlice2 .pie
+					background: pink
+					transform: rotate(25deg)
+				*/
+				//Consideracion: .pieBackground debe ser para uno de los generos si cada uno tiene 50%. 
+				//               .pieBackground tendra como color principal uno del los generos que supere el 50%
+				//               #pieSlice1 va a rotar dependiendo del genero que no iguale al 50% y se posicionara del lado de uno de los generos.
+				//               #pieSlice1 .pie tendra como color principal uno de los generos que no iguale al 50% y ajustara su dimension de acuerdo al porcentaje ganado
+		#secOtherSpecifications
+			//background: yellow
+			display: block
+			//width: 20px
+			min-height: 20px
+			.secSecond
+				display: block
+				.thirdTitle, .thirdContent
+					//display: block
+					color: white
+				.thirdTitle
+					display: block
+					background: red
+					font-size: .7em
+					padding: 4px 0 3px 10px
+					margin-top: 3px
+					&:hover
+						background: #E73131
+				.thirdContent
+					//display: none
+					display: block
+					background: #e2e2e2
+					color: #323035
+					font-size: .6em
+					margin-bottom: 50px
+					padding: 5px 0
+					.blcSpec
+						padding-left: 10px
+					.text-align-center
+						text-align: center
+					.ability-general
+						//background: purple
+						color: white
+						.ability-normal, .ability-hidden
+							border-radius: 20px
+							//box-shadow: 0px 1px 3px black
+							display: block
+							padding: 5px 8px 5px 10px
+							span
+								background: white
+								border-radius: 50%
+								display: inline-block
+								height: 30px
+								line-height: 30px
+								margin-right: 5px
+								margin-left: -5px
+								text-align: center
+								width: 30px
+								&:before
+									margin: 0
+						.ability-normal
+							background: #07D846
+							span
+								color: #07D846
+						.ability-hidden
+							background: #F21CF2
+							span
+								color: #F21CF2
+					//#artNormalAbilities, #artHiddenAbilities
+					//	display: inline-block
+					//	vertical-align: top
+					//	max-width: 540px
+					//	//width: 540px
+					//	margin-right: -3px
+					//	min-height: 120px
+					//	span:before
+					//		margin: 0
+					//	p
+					//		padding-left: 20px
+					//		padding-right: 15px
+					//#artNormalAbilities
+					//	background: #1DE559
+					//#artHiddenAbilities
+					//	background: #F21CF2
+					.stats
+						//background: purple
+						display: inline-block
+						width: 170px
+						height: 130px
+						text-align: center
+						vertical-align: top
+						span
+							//background: blue
+							color: white
+							display: block
+							margin: auto
+							width: 100px
+							height: 100px
+							border-radius: 50%
+							&:before
+								margin: 0
+								display: block
+								padding-top: 30px
+								font-size: 50px//No se tocan los tamanos, dejarlo asi
+						.spn-HP
+							background: #0BD20B
+						.spn-Atk
+							background: #FDC017
+						.spn-Def
+							background: #F18A0D
+						.spn-Special-Atk
+							background: #00ADE7
+						.spn-Special-Def
+							background: #1752D1
+						.spn-Spd
+							background: #CE31D9
+					.pokedex-regions
+						display: inline-block
+						vertical-align: top
+						width: 150px
+						span
+							background: blue
+							border-radius: 50%
+							color: white
+							font-size: 30px
+							width: 100px
+							height: 100px
+							display: block
+							line-height: 100px
+							margin: 0 auto
+							//box-shadow: 0px 5px 1px black
+						//.spn-red-green-ver
+						//	background: linear-gradient(to right, red 50%, blue 50%)
+					.flags
+						//background: purple
+						display: inline-block
+						width: 120px
+						height: 130px
+						text-align: center
+						padding: 0 30px
+						position: relative
+						vertical-align: top
+						div
+							display: block
+							height: 70px
+							//background: red
+						.flag-portrait
+							box-shadow: 0px 1px 5px black
+						.french
+							background: linear-gradient(to right, blue 33%, white 33%, white 67%, red 67%)
+							//background: linear-gradient(to right, blue 33.33%, white 33.33%, white 66.66%, red 66.66%)
+						.german
+							background: linear-gradient(top, black 33%, red 33%, red 67%, yellow 67%)
+						.japanese
+							background: white
+							&:before
+								content: ""
+								display: block
+								width: 36px
+								height: 36px
+								background: red
+								border-radius: 50%
+								margin: auto
+								position: relative
+								top: 17px
+						.korean
+							background: white
+							position: relative
+							.taegeukgi
+								width: 36px
+								height: 36px
+								border-radius: 100%
+								background: linear-gradient(-135deg, #c60c30 50%,#003478 50%)
+								position: absolute
+								top: 17px
+								right: 42px
+								&:before, &:after
+									width: 18px
+									height: 18px
+									border-radius: 100%
+									position: absolute
+									content: ""
+								&:before
+									background: #c60c30
+									top: 5px
+									left: 1px
+								&:after
+									background: #003478
+									bottom: 5px
+									right: 1px
+							.trigram
+								width: 4px
+								height: 20px
+								position: absolute
+
+							.geon:before, .geon:after, 
+							.ri:before, .ri:after, 
+							.gam:before, .gam:after,
+							.gon:before, .gon:after
+								content: ""
+								width: 4px
+								height: 20px
+								position: absolute
+
+							.geon, .geon:before, .geon:after,
+							.ri:before, .ri:after,
+							.gam
+								background: black
+
+							.ri, .gon, 
+							.gon:before, .gon:after,
+							.gam:before, .gam:after
+								background:linear-gradient(to bottom, #000000 0%,#000000 50%,#ffffff 50%,#ffffff 55%,#000000 55%,#000000 100%)
+							
+							.geon:before,
+							.ri:before,
+							.gam:before,
+							.gon:before
+								left: 5px
+
+							.geon:after,
+							.ri:after,
+							.gam:after,
+							.gon:after
+								right: 5px
+
+							.geon, .ri
+								left: 25%
+							.gam, .gon
+								right: 25%
+							.geon, .gam
+								top: 8%
+							.gon, .ri
+								bottom: 8%
+
+							.ri, .gam
+								transform: rotate(-30deg)
+							.geon, .gon
+								transform: rotate(30deg)
+							
+
+						
+
+					.pieGenderContainer
+						//background: purple
+						height: 100px
+						//padding-left: 10px
+						//padding: 0 10px
+						width: 100px
+						margin: 0 auto
+						.pieBackground
+							//background: gray
+							background: pink
+							position: absolute
+							width: 100px
+							height: 100px
+							border-radius: 50px
+							//display: block
+						.pie
+							position: absolute
+							width: 100px
+							height: 100px
+							border-radius: 50px
+							clip: rect(0px, 50px, 100px, 0px)
+						.hold
+							position: absolute
+							width: 100px
+							height: 100px
+							border-radius: 50px
+							clip: rect(0, 100px, 100px, 50px)
+						#pieSlice1
+							transform: rotate(0deg)
+						#pieSlice1 .pie
+							background: blue
+							//transform: rotate(50deg)
+							transform: rotate(90deg)
+					.spn-gender-male, .spn-gender-female
+						//background: yellow
+						color: white
+						display: inline-block
+						border-radius: 50%
+						height: 40px
+						width: 40px
+						vertical-align: middle
+						margin-right: 5px
+						&:before
+							display: block
+							margin: 0
+							position: relative
+							text-align: center
+							top: 25%
+					.spn-gender-male
+						background: blue
+					.spn-gender-female
+						background: pink
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container
+	margin: 0 auto
+	max-width: 750px
+	text-align: center
+.tt-dropdown-menu, .gist
+	text-align: left
+/*
+html
+	color: #333333
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif
+	font-size: 18px
+	line-height: 1.2
+*/
+.title, .example-name
+	font-family: Prociono
+p
+	margin: 0 0 10px
+.title
+	font-size: 64px
+	margin: 20px 0 0
+.example
+	padding: 30px 0
+.example-name
+	font-size: 32px
+	margin: 20px 0
+.demo
+	margin: 50px 0
+	position: relative
+.typeahead, .tt-query, .tt-hint
+	border: 2px solid #CCCCCC
+	border-radius: 8px 8px 8px 8px
+	font-size: 24px
+	height: 30px
+	line-height: 30px
+	outline: medium none
+	padding: 8px 12px
+	width: 396px
+.typeahead
+	background-color: #FFFFFF
+	&:focus
+		border: 2px solid #0097CF
+.tt-query
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset
+.tt-hint
+	color: #999999
+.tt-dropdown-menu
+	background-color: #FFFFFF
+	border: 1px solid rgba(0, 0, 0, 0.2)
+	border-radius: 8px 8px 8px 8px
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2)
+	margin-top: 12px
+	padding: 8px 0
+	width: 422px
+.tt-suggestion
+	font-size: 18px
+	line-height: 24px
+	padding: 3px 20px
+.tt-suggestion.tt-cursor
+	background-color: #0097CF
+	color: #FFFFFF
+.tt-suggestion p
+	margin: 0
+.gist
+	font-size: 14px
+.example-twitter-oss .tt-suggestion
+	padding: 8px 20px
+.example-twitter-oss .tt-suggestion + .tt-suggestion
+	border-top: 1px solid #CCCCCC
+.example-twitter-oss .repo-language
+	float: right
+	font-style: italic
+.example-twitter-oss .repo-name
+	font-weight: bold
+.example-twitter-oss .repo-description
+	font-size: 14px
+.example-sports .league-name
+	border-bottom: 1px solid #CCCCCC
+	margin: 0 20px 5px
+	padding: 3px 0
+.example-arabic .tt-dropdown-menu
+	text-align: right
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Ancho de pantalla de un iPad mini en horizontal (1024px)
+//@media screen and (max-width: 1024px)
+@media screen and (max-width: 1024px)
+	header nav .text
+		width: 1000px
+
+	#secStartInfo
+		//background: orange
+		max-width: 718px
+		
+
+
+
+
+
+
+
+
+//Ancho de pantalla de un Nexus 7 2 en horizontal (960px)
+//@media screen and (max-width: 960px)
+@media screen and (max-width: 960px)
+	header nav .text
+		width: 740px
+
+	#secStartInfo
+		//background: orange
+		max-width: 654px
+
+
+
+
+
+
+
+
+//Ancho de pantalla de una Galaxy Tab 7.7, 8.9 y 10.1 en vertical (800px)
+//@media screen and (max-width: 800px)
+@media screen and (max-width: 800px)
+	header nav .text
+		width: 740px
+
+	#secStartInfo
+		//background: orange
+		max-width: 494px
+
+
+
+
+
+//Ancho de pantalla de un iPad mini en vertical (768px)
+//@media screen and (max-width: 768px)
+@media screen and (max-width: 768px)
+	header nav .text
+		width: 740px
+
+	#secStartInfo
+		//background: orange
+		max-width: 464px
+
+
+
+
+
+
+//Ancho de pantalla de un Nexus 4 o 5 en horizontal (640px)
+//@media screen and (max-width: 640px)
+@media screen and (max-width: 640px)
+	header nav .text
+		width: 548px
+
+	//#secImage img
+	//	width: 200px
+	//	height: 200px
+	#secImage
+		max-width: 200px
+		max-height: 200px
+	#secStartInfo
+		max-width: 434px
+		max-height: 192px
+
+	.ability-general
+		padding-left: 8px
+		padding-right: 8px
+		//background: purple
+		//color: white
+
+
+
+
+
+
+
+
+
+
+//Ancho de pantalla de un Nexus 7 2 en vertical (600px)
+//@media screen and (max-width: 600px)
+@media screen and (max-width: 600px)
+	header nav .text
+		width: 548px
+
+	#secStartInfo
+		max-width: 394px			
+
+
+
+
+
+
+//Ancho de pantalla de un iPhone 5 en horizontal (568px)
+//@media screen and (max-width: 568px)
+@media screen and (max-width: 568px)
+	header nav .text
+		width: 548px
+
+	#secStartInfo
+		max-width: 362px
+
+
+
+
+
+
+//Ancho de pantalla de un Nokia Lumia 7X0, 8XX y 900 en horizontal (533px)
+//@media screen and (max-width: 533px)
+@media screen and (max-width: 533px)
+	header nav .text
+		width: 460px
+
+	//#secImage img
+	//	width: 150px
+	//	height: 150px
+	#secImage
+		max-width: 150px
+		max-height: 150px
+	#secStartInfo
+		//background: orange
+		max-width: 377px
+		max-height: 142px
+
+
+
+
+
+
+
+//Ancho de pantalla de un iPhone 4 en horizontal (480px)
+//@media screen and (max-width: 480px)
+@media screen and (max-width: 480px)
+	header nav .text
+		width: 460px
+
+	#secStartInfo
+		//background: orange
+		max-width: 324px
+	.stats
+		max-width: 150px
+		min-height: 150px
+		
+
+
+
+
+
+
+//Ancho de pantalla de una Galaxy Note en vertical (400px)
+//@media screen and (max-width: 400px)
+@media screen and (max-width: 400px)
+	header nav .text
+		width: 300px
+
+	//#secImage img
+	//	//max-width: 100%
+	//	width: 100%
+	//	height: 100%
+	#secImage
+		max-width: 100%
+		max-height: 100%
+
+	#secFirstLook
+		text-align: center
+		#secStartInfo
+			text-align: left
+			max-height: 130px
+			//max-width: 100%
+			max-width: 398px
+			//margin-left: -2px
+
+
+
+
+
+
+
+//Ancho de pantalla de un Nexus 4 en vertical (384px)
+//@media screen and (max-width: 384px)
+@media screen and (max-width: 384px)
+	header nav .text
+		width: 300px
+
+	#secFirstLook
+		#secStartInfo
+			max-width: 382px
+
+
+
+
+
+
+
+
+
+//Ancho de pantalla de un Nexus 5 en vertical (360px)
+//@media screen and (max-width: 360px)
+@media screen and (max-width: 360px)
+	header nav .text
+		width: 300px
+
+	#secFirstLook
+		#secStartInfo
+			max-width: 358px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Ancho de pantalla de un iPhone 4 o 5 en vertical (320px)
+//@media screen and (max-width: 320px)
+@media screen and (max-width: 320px)
+	header nav .text
+		width: 300px
+
+	#secFirstLook
+		#secStartInfo
+			max-width: 318px
+
+
+
