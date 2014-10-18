@@ -100,6 +100,10 @@ Ember.Handlebars.registerHelper('imagenPorNombre', function(valor, options){
 		//var flechas = "<span class=\"prev\">&laquo;</span><span class=\"next\">&raquo;</span>";
 		return primero+segundo;
 		//return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-male.jpg\" border=\"0\">";
+	}else if (nombreImg == 'Nidoran♀') {
+		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase().substr(0,nombreImg.length-1)+"-f.jpg\" border=\"0\">";
+	}else if (nombreImg == 'Nidoran♂') {
+		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase().substr(0,nombreImg.length-1)+"-m.jpg\" border=\"0\">";
 	}else if (nombreImg == 'Rotom') {
 		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-normal.jpg\" border=\"0\">";
 	}else if (nombreImg == 'Kyurem') {
@@ -124,6 +128,8 @@ Ember.Handlebars.registerHelper('imagenPorNombre', function(valor, options){
 		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-plant.jpg\" border=\"0\">";
 	}else if (nombreImg == 'Pumpkaboo') {
 		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-average.jpg\" border=\"0\">";
+	}else if (nombreImg == 'Bergmite') {
+		return "<img src=\"http://img.pokemondb.net/artwork/dream/"+nombreImg.toLowerCase()+".png\" border=\"0\">";
 	}else{
 		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+".jpg\" border=\"0\">";
 	}
