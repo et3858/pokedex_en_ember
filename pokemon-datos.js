@@ -1309,6 +1309,7 @@ var names2 = [
 
 
 
+
 {
 	id: '030',
 	nombre: names[29],
@@ -1334,6 +1335,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[29],
 		aleman: namesDE[29],
@@ -1366,6 +1368,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[30],
 		aleman: namesDE[30],
@@ -1398,6 +1401,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[31],
 		aleman: namesDE[31],
@@ -1430,6 +1434,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[32],
 		aleman: namesDE[32],
@@ -1462,6 +1467,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[33],
 		aleman: namesDE[33],
@@ -1494,6 +1500,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[34],
 		aleman: namesDE[34],
@@ -1526,6 +1533,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[35],
 		aleman: namesDE[35],
@@ -1554,6 +1562,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[36],
 		aleman: namesDE[36],
@@ -1583,6 +1592,7 @@ var names2 = [
 		defensaEspecial: 1,
 		velocidad: 1,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[37],
 		aleman: namesDE[37],
@@ -1615,6 +1625,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[38],
 		aleman: namesDE[38],
@@ -1647,6 +1658,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[39],
 		aleman: namesDE[39],
@@ -1675,6 +1687,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[40],
 		aleman: namesDE[40],
@@ -1703,6 +1716,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[41],
 		aleman: namesDE[41],
@@ -1731,6 +1745,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[42],
 		aleman: namesDE[42],
@@ -1759,6 +1774,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[43],
 		aleman: namesDE[43],
@@ -1787,6 +1803,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[44],
 		aleman: namesDE[44],
@@ -1819,6 +1836,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[45],
 		aleman: namesDE[45],
@@ -1852,6 +1870,7 @@ var names2 = [
 		ataque: 2,
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[46],
 		aleman: namesDE[46],
@@ -1884,6 +1903,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[47],
 		aleman: namesDE[47],
@@ -1917,6 +1937,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[48],
 		aleman: namesDE[48],
@@ -1949,6 +1970,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[49],
 		aleman: namesDE[49],
@@ -1981,6 +2003,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[50],
 		aleman: namesDE[50],
@@ -2013,6 +2036,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[51],
 		aleman: namesDE[51],
@@ -2045,6 +2069,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[52],
 		aleman: namesDE[52],
@@ -2077,6 +2102,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[53],
 		aleman: namesDE[53],
@@ -2109,6 +2135,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[54],
 		aleman: namesDE[54],
@@ -2141,6 +2168,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[55],
 		aleman: namesDE[55],
@@ -2173,6 +2201,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[56],
 		aleman: namesDE[56],
@@ -2205,6 +2234,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[57],
 		aleman: namesDE[57],
@@ -2237,6 +2267,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[58],
 		aleman: namesDE[58],
@@ -2269,6 +2300,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[59],
 		aleman: namesDE[59],
@@ -2301,6 +2333,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[60],
 		aleman: namesDE[60],
@@ -2333,6 +2366,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[61],
 		aleman: namesDE[61],
@@ -2365,6 +2399,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[62],
 		aleman: namesDE[62],
@@ -2397,6 +2432,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[63],
 		aleman: namesDE[63],
@@ -2429,6 +2465,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[64],
 		aleman: namesDE[64],
@@ -2461,6 +2498,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[65],
 		aleman: namesDE[65],
@@ -2493,6 +2531,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[66],
 		aleman: namesDE[66],
@@ -2525,6 +2564,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[67],
 		aleman: namesDE[67],
@@ -2553,6 +2593,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[68],
 		aleman: namesDE[68],
@@ -2581,6 +2622,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[69],
 		aleman: namesDE[69],
@@ -2609,6 +2651,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[70],
 		aleman: namesDE[70],
@@ -2641,6 +2684,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[71],
 		aleman: namesDE[71],
@@ -2673,6 +2717,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[72],
 		aleman: namesDE[72],
@@ -2705,6 +2750,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[73],
 		aleman: namesDE[73],
@@ -2737,6 +2783,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[74],
 		aleman: namesDE[74],
@@ -2769,6 +2816,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[75],
 		aleman: namesDE[75],
@@ -2801,6 +2849,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[76],
 		aleman: namesDE[76],
@@ -2833,6 +2882,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[77],
 		aleman: namesDE[77],
@@ -2865,6 +2915,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[78],
 		aleman: namesDE[78],
@@ -2897,6 +2948,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[79],
 		aleman: namesDE[79],
@@ -2993,6 +3045,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[82],
 		aleman: namesDE[82],
@@ -3025,6 +3078,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[83],
 		aleman: namesDE[83],
@@ -3057,6 +3111,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[84],
 		aleman: namesDE[84],
@@ -3089,6 +3144,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[85],
 		aleman: namesDE[85],
@@ -3121,6 +3177,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[86],
 		aleman: namesDE[86],
@@ -3153,6 +3210,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[87],
 		aleman: namesDE[87],
@@ -3186,6 +3244,7 @@ var names2 = [
 		ps: 1,
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[88],
 		aleman: namesDE[88],
@@ -3218,6 +3277,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[89],
 		aleman: namesDE[89],
@@ -3250,6 +3310,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[90],
 		aleman: namesDE[90],
@@ -3272,6 +3333,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[91],
 		aleman: namesDE[91],
@@ -3294,6 +3356,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[92],
 		aleman: namesDE[92],
@@ -3316,6 +3379,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[93],
 		aleman: namesDE[93],
@@ -3348,6 +3412,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[94],
 		aleman: namesDE[94],
@@ -3380,6 +3445,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[95],
 		aleman: namesDE[95],
@@ -3412,6 +3478,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[96],
 		aleman: namesDE[96],
@@ -3444,6 +3511,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[97],
 		aleman: namesDE[97],
@@ -3476,6 +3544,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[98],
 		aleman: namesDE[98],
@@ -3568,6 +3637,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[101],
 		aleman: namesDE[101],
@@ -3596,6 +3666,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[102],
 		aleman: namesDE[102],
@@ -3628,6 +3699,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[103],
 		aleman: namesDE[103],
@@ -3660,6 +3732,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[104],
 		aleman: namesDE[104],
@@ -3692,6 +3765,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[105],
 		aleman: namesDE[105],
@@ -3724,6 +3798,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[106],
 		aleman: namesDE[106],
@@ -3756,6 +3831,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[107],
 		aleman: namesDE[107],
@@ -3778,6 +3854,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[108],
 		aleman: namesDE[108],
@@ -3800,6 +3877,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[109],
 		aleman: namesDE[109],
@@ -3832,6 +3910,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[110],
 		aleman: namesDE[110],
@@ -3864,6 +3943,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[111],
 		aleman: namesDE[111],
@@ -3896,6 +3976,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[112],
 		aleman: namesDE[112],
@@ -3928,6 +4009,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[113],
 		aleman: namesDE[113],
@@ -3960,6 +4042,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[114],
 		aleman: namesDE[114],
@@ -3992,6 +4075,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[115],
 		aleman: namesDE[115],
@@ -4025,6 +4109,7 @@ var names2 = [
 		defensa: 1,
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[116],
 		aleman: namesDE[116],
@@ -4057,6 +4142,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[117],
 		aleman: namesDE[117],
@@ -4089,6 +4175,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[118],
 		aleman: namesDE[118],
@@ -4185,6 +4272,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[121],
 		aleman: namesDE[121],
@@ -4217,6 +4305,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[122],
 		aleman: namesDE[122],
@@ -4249,6 +4338,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[123],
 		aleman: namesDE[123],
@@ -4277,6 +4367,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[124],
 		aleman: namesDE[124],
@@ -4305,6 +4396,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[125],
 		aleman: namesDE[125],
@@ -4337,6 +4429,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[126],
 		aleman: namesDE[126],
@@ -4370,6 +4463,7 @@ var names2 = [
 		ataque: 1,
 		velocidad: 1,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[127],
 		aleman: namesDE[127],
@@ -4398,6 +4492,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[128],
 		aleman: namesDE[128],
@@ -4426,6 +4521,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[129],
 		aleman: namesDE[129],
@@ -4458,6 +4554,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[130],
 		aleman: namesDE[130],
@@ -4518,6 +4615,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[132],
 		aleman: namesDE[132],
@@ -4546,6 +4644,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[133],
 		aleman: namesDE[133],
@@ -4574,6 +4673,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[134],
 		aleman: namesDE[134],
@@ -4602,6 +4702,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[135],
 		aleman: namesDE[135],
@@ -4666,6 +4767,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[137],
 		aleman: namesDE[137],
@@ -4698,6 +4800,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[138],
 		aleman: namesDE[138],
@@ -4730,6 +4833,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[139],
 		aleman: namesDE[139],
@@ -4762,6 +4866,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[140],
 		aleman: namesDE[140],
@@ -4794,6 +4899,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[141],
 		aleman: namesDE[141],
@@ -4826,6 +4932,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[142],
 		aleman: namesDE[142],
@@ -4938,6 +5045,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[146],
 		aleman: namesDE[146],
@@ -4966,6 +5074,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[147],
 		aleman: namesDE[147],
@@ -4994,6 +5103,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[148],
 		aleman: namesDE[148],
@@ -5061,6 +5171,12 @@ var names2 = [
 
 
 
+
+
+
+
+
+
 {
 	id: '152',
 	nombre: names[151],
@@ -5082,6 +5198,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[151],
 		aleman: namesDE[151],
@@ -5111,6 +5228,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[152],
 		aleman: namesDE[152],
@@ -5140,6 +5258,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[153],
 		aleman: namesDE[153],
@@ -5168,6 +5287,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[154],
 		aleman: namesDE[154],
@@ -5197,6 +5317,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[155],
 		aleman: namesDE[155],
@@ -5225,6 +5346,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[156],
 		aleman: namesDE[156],
@@ -5253,6 +5375,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[157],
 		aleman: namesDE[157],
@@ -5282,6 +5405,7 @@ var names2 = [
 		ataque: 1,
 		defensa: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[158],
 		aleman: namesDE[158],
@@ -5311,6 +5435,7 @@ var names2 = [
 		ataque: 2,
 		defensa: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[159],
 		aleman: namesDE[159],
@@ -5343,6 +5468,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[160],
 		aleman: namesDE[160],
@@ -5375,6 +5501,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[161],
 		aleman: namesDE[161],
@@ -5407,6 +5534,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[162],
 		aleman: namesDE[162],
@@ -5439,6 +5567,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[163],
 		aleman: namesDE[163],
@@ -5471,6 +5600,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[164],
 		aleman: namesDE[164],
@@ -5503,6 +5633,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[165],
 		aleman: namesDE[165],
@@ -5535,6 +5666,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[166],
 		aleman: namesDE[166],
@@ -5567,6 +5699,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[167],
 		aleman: namesDE[167],
@@ -5595,6 +5728,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[168],
 		aleman: namesDE[168],
@@ -5627,6 +5761,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[169],
 		aleman: namesDE[169],
@@ -5659,6 +5794,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[170],
 		aleman: namesDE[170],
@@ -5687,6 +5823,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[171],
 		aleman: namesDE[171],
@@ -5719,6 +5856,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[172],
 		aleman: namesDE[172],
@@ -5751,6 +5889,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[173],
 		aleman: namesDE[173],
@@ -5783,6 +5922,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[174],
 		aleman: namesDE[174],
@@ -5815,6 +5955,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[175],
 		aleman: namesDE[175],
@@ -5847,6 +5988,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[176],
 		aleman: namesDE[176],
@@ -5880,6 +6022,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[177],
 		aleman: namesDE[177],
@@ -5908,6 +6051,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[178],
 		aleman: namesDE[178],
@@ -5936,6 +6080,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[179],
 		aleman: namesDE[179],
@@ -5964,6 +6109,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[180],
 		aleman: namesDE[180],
@@ -5992,6 +6138,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[181],
 		aleman: namesDE[181],
@@ -6024,6 +6171,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[182],
 		aleman: namesDE[182],
@@ -6056,6 +6204,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[183],
 		aleman: namesDE[183],
@@ -6088,6 +6237,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[184],
 		aleman: namesDE[184],
@@ -6120,6 +6270,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[185],
 		aleman: namesDE[185],
@@ -6152,6 +6303,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[186],
 		aleman: namesDE[186],
@@ -6184,6 +6336,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[187],
 		aleman: namesDE[187],
@@ -6216,6 +6369,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[188],
 		aleman: namesDE[188],
@@ -6248,6 +6402,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[189],
 		aleman: namesDE[189],
@@ -6280,6 +6435,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[190],
 		aleman: namesDE[190],
@@ -6312,6 +6468,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[191],
 		aleman: namesDE[191],
@@ -6344,6 +6501,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[192],
 		aleman: namesDE[192],
@@ -6376,6 +6534,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[193],
 		aleman: namesDE[193],
@@ -6408,6 +6567,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[194],
 		aleman: namesDE[194],
@@ -6436,6 +6596,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[195],
 		aleman: namesDE[195],
@@ -6464,6 +6625,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[196],
 		aleman: namesDE[196],
@@ -6496,6 +6658,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[197],
 		aleman: namesDE[197],
@@ -6528,6 +6691,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[198],
 		aleman: namesDE[198],
@@ -6550,6 +6714,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[199],
 		aleman: namesDE[199],
@@ -6601,6 +6766,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[201],
 		aleman: namesDE[201],
@@ -6633,6 +6799,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[202],
 		aleman: namesDE[202],
@@ -6661,6 +6828,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[203],
 		aleman: namesDE[203],
@@ -6689,6 +6857,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[204],
 		aleman: namesDE[204],
@@ -6721,6 +6890,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[205],
 		aleman: namesDE[205],
@@ -6753,6 +6923,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[206],
 		aleman: namesDE[206],
@@ -6785,6 +6956,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[207],
 		aleman: namesDE[207],
@@ -6817,6 +6989,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[208],
 		aleman: namesDE[208],
@@ -6849,6 +7022,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[209],
 		aleman: namesDE[209],
@@ -6881,6 +7055,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[210],
 		aleman: namesDE[210],
@@ -6913,6 +7088,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[211],
 		aleman: namesDE[211],
@@ -6946,6 +7122,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[212],
 		aleman: namesDE[212],
@@ -6978,6 +7155,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[213],
 		aleman: namesDE[213],
@@ -7010,6 +7188,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[214],
 		aleman: namesDE[214],
@@ -7042,6 +7221,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[215],
 		aleman: namesDE[215],
@@ -7074,6 +7254,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[216],
 		aleman: namesDE[216],
@@ -7106,6 +7287,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[217],
 		aleman: namesDE[217],
@@ -7138,6 +7320,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[218],
 		aleman: namesDE[218],
@@ -7170,6 +7353,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[219],
 		aleman: namesDE[219],
@@ -7203,6 +7387,7 @@ var names2 = [
 		ps: 1,
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[220],
 		aleman: namesDE[220],
@@ -7236,6 +7421,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[221],
 		aleman: namesDE[221],
@@ -7268,6 +7454,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[222],
 		aleman: namesDE[222],
@@ -7301,6 +7488,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[223],
 		aleman: namesDE[223],
@@ -7333,6 +7521,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[224],
 		aleman: namesDE[224],
@@ -7365,6 +7554,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[225],
 		aleman: namesDE[225],
@@ -7397,6 +7587,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[226],
 		aleman: namesDE[226],
@@ -7429,6 +7620,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[227],
 		aleman: namesDE[227],
@@ -7461,6 +7653,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[228],
 		aleman: namesDE[228],
@@ -7495,6 +7688,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[229],
 		aleman: namesDE[229],
@@ -7523,6 +7717,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[230],
 		aleman: namesDE[230],
@@ -7552,6 +7747,7 @@ var names2 = [
 		ataque: 1,
 		defensa: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[231],
 		aleman: namesDE[231],
@@ -7616,6 +7812,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[233],
 		aleman: namesDE[233],
@@ -7648,6 +7845,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[234],
 		aleman: namesDE[234],
@@ -7680,6 +7878,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[235],
 		aleman: namesDE[235],
@@ -7712,6 +7911,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[236],
 		aleman: namesDE[236],
@@ -7744,6 +7944,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[237],
 		aleman: namesDE[237],
@@ -7772,6 +7973,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[238],
 		aleman: namesDE[238],
@@ -7800,6 +8002,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[239],
 		aleman: namesDE[239],
@@ -7832,6 +8035,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[240],
 		aleman: namesDE[240],
@@ -7864,6 +8068,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[241],
 		aleman: namesDE[241],
@@ -7979,6 +8184,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[245],
 		aleman: namesDE[245],
@@ -8001,6 +8207,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[246],
 		aleman: namesDE[246],
@@ -8029,6 +8236,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[247],
 		aleman: namesDE[247],
@@ -8133,6 +8341,11 @@ var names2 = [
 
 
 
+
+
+
+
+
 {
 	id: '252',
 	nombre: names[251],
@@ -8154,6 +8367,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[251],
 		aleman: namesDE[251],
@@ -8182,6 +8396,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[252],
 		aleman: namesDE[252],
@@ -8210,6 +8425,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 3,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[253],
 		aleman: namesDE[253],
@@ -8238,6 +8454,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[254],
 		aleman: namesDE[254],
@@ -8267,6 +8484,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[255],
 		aleman: namesDE[255],
@@ -8295,6 +8513,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[256],
 		aleman: namesDE[256],
@@ -8323,6 +8542,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[257],
 		aleman: namesDE[257],
@@ -8351,6 +8571,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[258],
 		aleman: namesDE[258],
@@ -8379,6 +8600,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[259],
 		aleman: namesDE[259],
@@ -8411,6 +8633,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[260],
 		aleman: namesDE[260],
@@ -8443,6 +8666,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[261],
 		aleman: namesDE[261],
@@ -8475,6 +8699,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[262],
 		aleman: namesDE[262],
@@ -8507,6 +8732,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[263],
 		aleman: namesDE[263],
@@ -8535,6 +8761,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[264],
 		aleman: namesDE[264],
@@ -8557,6 +8784,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[265],
 		aleman: namesDE[265],
@@ -8585,6 +8813,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[266],
 		aleman: namesDE[266],
@@ -8607,6 +8836,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[267],
 		aleman: namesDE[267],
@@ -8635,6 +8865,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[268],
 		aleman: namesDE[268],
@@ -8667,6 +8898,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[269],
 		aleman: namesDE[269],
@@ -8699,6 +8931,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[270],
 		aleman: namesDE[270],
@@ -8731,6 +8964,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[271],
 		aleman: namesDE[271],
@@ -8763,6 +8997,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[272],
 		aleman: namesDE[272],
@@ -8795,6 +9030,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[273],
 		aleman: namesDE[273],
@@ -8827,6 +9063,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[274],
 		aleman: namesDE[274],
@@ -8855,6 +9092,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[275],
 		aleman: namesDE[275],
@@ -8883,6 +9121,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[276],
 		aleman: namesDE[276],
@@ -8911,6 +9150,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[277],
 		aleman: namesDE[277],
@@ -8939,6 +9179,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[278],
 		aleman: namesDE[278],
@@ -8971,6 +9212,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[279],
 		aleman: namesDE[279],
@@ -9003,6 +9245,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[280],
 		aleman: namesDE[280],
@@ -9035,6 +9278,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[281],
 		aleman: namesDE[281],
@@ -9063,6 +9307,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[282],
 		aleman: namesDE[282],
@@ -9092,6 +9337,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[283],
 		aleman: namesDE[283],
@@ -9124,6 +9370,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[284],
 		aleman: namesDE[284],
@@ -9156,6 +9403,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[285],
 		aleman: namesDE[285],
@@ -9178,6 +9426,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[286],
 		aleman: namesDE[286],
@@ -9200,6 +9449,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[287],
 		aleman: namesDE[287],
@@ -9222,6 +9472,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[288],
 		aleman: namesDE[288],
@@ -9250,6 +9501,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[289],
 		aleman: namesDE[289],
@@ -9278,6 +9530,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[290],
 		aleman: namesDE[290],
@@ -9328,6 +9581,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[292],
 		aleman: namesDE[292],
@@ -9356,6 +9610,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[293],
 		aleman: namesDE[293],
@@ -9384,6 +9639,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[294],
 		aleman: namesDE[294],
@@ -9416,6 +9672,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[295],
 		aleman: namesDE[295],
@@ -9448,6 +9705,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[296],
 		aleman: namesDE[296],
@@ -9480,6 +9738,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[297],
 		aleman: namesDE[297],
@@ -9512,6 +9771,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[298],
 		aleman: namesDE[298],
@@ -9544,6 +9804,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[299],
 		aleman: namesDE[299],
@@ -9577,6 +9838,7 @@ var names2 = [
 		ps: 1,
 		velocidad: 1,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[300],
 		aleman: namesDE[300],
@@ -9610,6 +9872,7 @@ var names2 = [
 		ataque: 1,
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[301],
 		aleman: namesDE[301],
@@ -9643,6 +9906,7 @@ var names2 = [
 		ataque: 1,
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[302],
 		aleman: namesDE[302],
@@ -9675,6 +9939,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[303],
 		aleman: namesDE[303],
@@ -9707,6 +9972,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[304],
 		aleman: namesDE[304],
@@ -9739,6 +10005,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[305],
 		aleman: namesDE[305],
@@ -9767,6 +10034,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[306],
 		aleman: namesDE[306],
@@ -9795,6 +10063,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[307],
 		aleman: namesDE[307],
@@ -9827,6 +10096,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[308],
 		aleman: namesDE[308],
@@ -9859,6 +10129,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[309],
 		aleman: namesDE[309],
@@ -9887,6 +10158,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[310],
 		aleman: namesDE[310],
@@ -9915,6 +10187,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[311],
 		aleman: namesDE[311],
@@ -9947,6 +10220,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[312],
 		aleman: namesDE[312],
@@ -9979,6 +10253,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[313],
 		aleman: namesDE[313],
@@ -10011,6 +10286,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[314],
 		aleman: namesDE[314],
@@ -10043,6 +10319,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[315],
 		aleman: namesDE[315],
@@ -10075,6 +10352,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[316],
 		aleman: namesDE[316],
@@ -10103,6 +10381,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[317],
 		aleman: namesDE[317],
@@ -10131,6 +10410,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[318],
 		aleman: namesDE[318],
@@ -10163,6 +10443,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[319],
 		aleman: namesDE[319],
@@ -10195,6 +10476,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[320],
 		aleman: namesDE[320],
@@ -10227,6 +10509,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[321],
 		aleman: namesDE[321],
@@ -10260,6 +10543,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[322],
 		aleman: namesDE[322],
@@ -10288,6 +10572,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[323],
 		aleman: namesDE[323],
@@ -10320,6 +10605,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[324],
 		aleman: namesDE[324],
@@ -10352,6 +10638,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[325],
 		aleman: namesDE[325],
@@ -10384,6 +10671,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[326],
 		aleman: namesDE[326],
@@ -10416,6 +10704,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[327],
 		aleman: namesDE[327],
@@ -10439,6 +10728,7 @@ var names2 = [
 		ataque: 1,
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[328],
 		aleman: namesDE[328],
@@ -10462,6 +10752,7 @@ var names2 = [
 		ataque: 1,
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[329],
 		aleman: namesDE[329],
@@ -10490,6 +10781,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[330],
 		aleman: namesDE[330],
@@ -10519,6 +10811,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[331],
 		aleman: namesDE[331],
@@ -10547,6 +10840,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[332],
 		aleman: namesDE[332],
@@ -10575,6 +10869,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[333],
 		aleman: namesDE[333],
@@ -10603,6 +10898,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[334],
 		aleman: namesDE[334],
@@ -10632,6 +10928,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[335],
 		aleman: namesDE[335],
@@ -10708,6 +11005,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[338],
 		aleman: namesDE[338],
@@ -10740,6 +11038,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[339],
 		aleman: namesDE[339],
@@ -10772,6 +11071,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[340],
 		aleman: namesDE[340],
@@ -10804,6 +11104,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[341],
 		aleman: namesDE[341],
@@ -10876,6 +11177,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[344],
 		aleman: namesDE[344],
@@ -10904,6 +11206,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[345],
 		aleman: namesDE[345],
@@ -10932,6 +11235,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[346],
 		aleman: namesDE[346],
@@ -10960,6 +11264,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[347],
 		aleman: namesDE[347],
@@ -10988,6 +11293,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[348],
 		aleman: namesDE[348],
@@ -11020,6 +11326,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[349],
 		aleman: namesDE[349],
@@ -11042,6 +11349,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[350],
 		aleman: namesDE[350],
@@ -11070,6 +11378,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[351],
 		aleman: namesDE[351],
@@ -11102,6 +11411,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[352],
 		aleman: namesDE[352],
@@ -11134,6 +11444,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[353],
 		aleman: namesDE[353],
@@ -11162,6 +11473,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[354],
 		aleman: namesDE[354],
@@ -11191,6 +11503,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[355],
 		aleman: namesDE[355],
@@ -11223,6 +11536,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[356],
 		aleman: namesDE[356],
@@ -11246,6 +11560,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[357],
 		aleman: namesDE[357],
@@ -11278,6 +11593,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[358],
 		aleman: namesDE[358],
@@ -11306,6 +11622,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[359],
 		aleman: namesDE[359],
@@ -11338,6 +11655,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[360],
 		aleman: namesDE[360],
@@ -11370,6 +11688,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[361],
 		aleman: namesDE[361],
@@ -11402,6 +11721,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[362],
 		aleman: namesDE[362],
@@ -11434,6 +11754,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[363],
 		aleman: namesDE[363],
@@ -11466,6 +11787,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[364],
 		aleman: namesDE[364],
@@ -11494,6 +11816,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[365],
 		aleman: namesDE[365],
@@ -11523,6 +11846,7 @@ var names2 = [
 		ataque: 1,
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[366],
 		aleman: namesDE[366],
@@ -11551,6 +11875,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[367],
 		aleman: namesDE[367],
@@ -11584,6 +11909,7 @@ var names2 = [
 		ps: 1,
 		defensa: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[368],
 		aleman: namesDE[368],
@@ -11612,6 +11938,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[369],
 		aleman: namesDE[369],
@@ -11640,6 +11967,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[370],
 		aleman: namesDE[370],
@@ -11668,6 +11996,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[371],
 		aleman: namesDE[371],
@@ -11696,6 +12025,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[372],
 		aleman: namesDE[372],
@@ -11887,6 +12217,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[379],
 		aleman: namesDE[379],
@@ -11909,6 +12240,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[380],
 		aleman: namesDE[380],
@@ -12048,6 +12380,7 @@ var names2 = [
 
 
 
+
 {
 	id: '387',
 	nombre: names[386],
@@ -12069,6 +12402,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[386],
 		aleman: namesDE[386],
@@ -12098,6 +12432,7 @@ var names2 = [
 		ataque: 1,
 		defensa: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[387],
 		aleman: namesDE[387],
@@ -12127,6 +12462,7 @@ var names2 = [
 		ataque: 2,
 		defensa: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[388],
 		aleman: namesDE[388],
@@ -12155,6 +12491,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[389],
 		aleman: namesDE[389],
@@ -12184,6 +12521,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[390],
 		aleman: namesDE[390],
@@ -12214,6 +12552,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[391],
 		aleman: namesDE[391],
@@ -12242,6 +12581,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[392],
 		aleman: namesDE[392],
@@ -12270,6 +12610,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[393],
 		aleman: namesDE[393],
@@ -12298,6 +12639,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[394],
 		aleman: namesDE[394],
@@ -12326,6 +12668,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[395],
 		aleman: namesDE[395],
@@ -12354,6 +12697,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[396],
 		aleman: namesDE[396],
@@ -12382,6 +12726,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[397],
 		aleman: namesDE[397],
@@ -12414,6 +12759,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[398],
 		aleman: namesDE[398],
@@ -12446,6 +12792,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[399],
 		aleman: namesDE[399],
@@ -12474,6 +12821,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[400],
 		aleman: namesDE[400],
@@ -12502,6 +12850,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[401],
 		aleman: namesDE[401],
@@ -12534,6 +12883,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[402],
 		aleman: namesDE[402],
@@ -12566,6 +12916,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[403],
 		aleman: namesDE[403],
@@ -12598,6 +12949,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[404],
 		aleman: namesDE[404],
@@ -12630,6 +12982,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[405],
 		aleman: namesDE[405],
@@ -12662,6 +13015,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[406],
 		aleman: namesDE[406],
@@ -12690,6 +13044,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[407],
 		aleman: namesDE[407],
@@ -12718,6 +13073,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[408],
 		aleman: namesDE[408],
@@ -12746,6 +13102,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[409],
 		aleman: namesDE[409],
@@ -12774,6 +13131,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[410],
 		aleman: namesDE[410],
@@ -12802,6 +13160,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[411],
 		aleman: namesDE[411],
@@ -12833,6 +13192,7 @@ var names2 = [
 		//(Solo en Wormadam forma Basura) defensaEspecial: 1,
 		defensaEspecial: 2,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[412],
 		aleman: namesDE[412],
@@ -12862,6 +13222,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[413],
 		aleman: namesDE[413],
@@ -12890,6 +13251,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[414],
 		aleman: namesDE[414],
@@ -12919,6 +13281,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[415],
 		aleman: namesDE[415],
@@ -12951,6 +13314,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[416],
 		aleman: namesDE[416],
@@ -12979,6 +13343,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[417],
 		aleman: namesDE[417],
@@ -13007,6 +13372,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[418],
 		aleman: namesDE[418],
@@ -13029,6 +13395,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[419],
 		aleman: namesDE[419],
@@ -13051,6 +13418,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[420],
 		aleman: namesDE[420],
@@ -13083,6 +13451,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[421],
 		aleman: namesDE[421],
@@ -13115,6 +13484,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[422],
 		aleman: namesDE[422],
@@ -13147,6 +13517,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[423],
 		aleman: namesDE[423],
@@ -13179,6 +13550,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[424],
 		aleman: namesDE[424],
@@ -13211,6 +13583,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[425],
 		aleman: namesDE[425],
@@ -13243,6 +13616,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[426],
 		aleman: namesDE[426],
@@ -13275,6 +13649,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[427],
 		aleman: namesDE[427],
@@ -13298,6 +13673,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[428],
 		aleman: namesDE[428],
@@ -13330,6 +13706,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[429],
 		aleman: namesDE[429],
@@ -13362,6 +13739,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[430],
 		aleman: namesDE[430],
@@ -13394,6 +13772,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[431],
 		aleman: namesDE[431],
@@ -13416,6 +13795,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[432],
 		aleman: namesDE[432],
@@ -13448,6 +13828,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[433],
 		aleman: namesDE[433],
@@ -13480,6 +13861,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[434],
 		aleman: namesDE[434],
@@ -13512,6 +13894,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+
 	idiomas: {
 		frances: namesFR[435],
 		aleman: namesDE[435],
@@ -13577,6 +13960,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[437],
 		aleman: namesDE[437],
@@ -13609,6 +13993,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[438],
 		aleman: namesDE[438],
@@ -13641,6 +14026,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[439],
 		aleman: namesDE[439],
@@ -13673,6 +14059,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[440],
 		aleman: namesDE[440],
@@ -13702,6 +14089,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[441],
 		aleman: namesDE[441],
@@ -13730,6 +14118,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[442],
 		aleman: namesDE[442],
@@ -13758,6 +14147,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[443],
 		aleman: namesDE[443],
@@ -13786,6 +14176,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[444],
 		aleman: namesDE[444],
@@ -13818,6 +14209,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[445],
 		aleman: namesDE[445],
@@ -13850,6 +14242,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[446],
 		aleman: namesDE[446],
@@ -13883,6 +14276,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[447],
 		aleman: namesDE[447],
@@ -13911,6 +14305,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[448],
 		aleman: namesDE[448],
@@ -13939,6 +14334,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[449],
 		aleman: namesDE[449],
@@ -13971,6 +14367,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[450],
 		aleman: namesDE[450],
@@ -14003,6 +14400,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[451],
 		aleman: namesDE[451],
@@ -14035,6 +14433,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[452],
 		aleman: namesDE[452],
@@ -14067,6 +14466,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[453],
 		aleman: namesDE[453],
@@ -14089,6 +14489,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[454],
 		aleman: namesDE[454],
@@ -14121,6 +14522,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[455],
 		aleman: namesDE[455],
@@ -14153,6 +14555,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[456],
 		aleman: namesDE[456],
@@ -14185,6 +14588,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[457],
 		aleman: namesDE[457],
@@ -14213,6 +14617,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[458],
 		aleman: namesDE[458],
@@ -14242,6 +14647,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[459],
 		aleman: namesDE[459],
@@ -14271,6 +14677,7 @@ var names2 = [
 		ataque: 1,
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[460],
 		aleman: namesDE[460],
@@ -14335,6 +14742,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[462],
 		aleman: namesDE[462],
@@ -14367,6 +14775,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[463],
 		aleman: namesDE[463],
@@ -14399,6 +14808,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[464],
 		aleman: namesDE[464],
@@ -14427,6 +14837,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[465],
 		aleman: namesDE[465],
@@ -14455,6 +14866,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[466],
 		aleman: namesDE[466],
@@ -14488,6 +14900,7 @@ var names2 = [
 		ataqueEspecial: 2,
 		defensaEspecial: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[467],
 		aleman: namesDE[467],
@@ -14520,6 +14933,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[468],
 		aleman: namesDE[468],
@@ -14548,6 +14962,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[469],
 		aleman: namesDE[469],
@@ -14576,6 +14991,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[470],
 		aleman: namesDE[470],
@@ -14608,6 +15024,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[471],
 		aleman: namesDE[471],
@@ -14640,6 +15057,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[472],
 		aleman: namesDE[472],
@@ -14700,6 +15118,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[474],
 		aleman: namesDE[474],
@@ -14733,6 +15152,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[475],
 		aleman: namesDE[475],
@@ -14762,6 +15182,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[476],
 		aleman: namesDE[476],
@@ -14790,6 +15211,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[477],
 		aleman: namesDE[477],
@@ -14967,6 +15389,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[484],
 		aleman: namesDE[484],
@@ -15043,6 +15466,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[487],
 		aleman: namesDE[487],
@@ -15176,6 +15600,14 @@ var names2 = [
 
 
 
+
+
+
+
+
+
+
+
 {
 	id: '494',
 	nombre: names[493],
@@ -15219,6 +15651,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[494],
 		aleman: namesDE[494],
@@ -15247,6 +15680,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[495],
 		aleman: namesDE[495],
@@ -15275,6 +15709,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 3,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[496],
 		aleman: namesDE[496],
@@ -15303,6 +15738,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[497],
 		aleman: namesDE[497],
@@ -15331,6 +15767,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[498],
 		aleman: namesDE[498],
@@ -15359,6 +15796,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[499],
 		aleman: namesDE[499],
@@ -15387,6 +15825,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[500],
 		aleman: namesDE[500],
@@ -15415,6 +15854,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[501],
 		aleman: namesDE[501],
@@ -15443,6 +15883,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[502],
 		aleman: namesDE[502],
@@ -15475,6 +15916,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[503],
 		aleman: namesDE[503],
@@ -15507,6 +15949,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[504],
 		aleman: namesDE[504],
@@ -15539,6 +15982,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[505],
 		aleman: namesDE[505],
@@ -15571,6 +16015,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[506],
 		aleman: namesDE[506],
@@ -15603,6 +16048,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[507],
 		aleman: namesDE[507],
@@ -15635,6 +16081,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[508],
 		aleman: namesDE[508],
@@ -15667,6 +16114,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[509],
 		aleman: namesDE[509],
@@ -15695,6 +16143,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[510],
 		aleman: namesDE[510],
@@ -15723,6 +16172,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[511],
 		aleman: namesDE[511],
@@ -15751,6 +16201,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[512],
 		aleman: namesDE[512],
@@ -15779,6 +16230,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[513],
 		aleman: namesDE[513],
@@ -15807,6 +16259,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[514],
 		aleman: namesDE[514],
@@ -15835,6 +16288,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[515],
 		aleman: namesDE[515],
@@ -15867,6 +16321,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[516],
 		aleman: namesDE[516],
@@ -15899,6 +16354,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[517],
 		aleman: namesDE[517],
@@ -15931,6 +16387,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[518],
 		aleman: namesDE[518],
@@ -15963,6 +16420,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[519],
 		aleman: namesDE[519],
@@ -15995,6 +16453,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[520],
 		aleman: namesDE[520],
@@ -16027,6 +16486,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[521],
 		aleman: namesDE[521],
@@ -16059,6 +16519,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[522],
 		aleman: namesDE[522],
@@ -16087,6 +16548,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[523],
 		aleman: namesDE[523],
@@ -16116,6 +16578,7 @@ var names2 = [
 		ataque: 1,
 		defensa: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[524],
 		aleman: namesDE[524],
@@ -16144,6 +16607,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[525],
 		aleman: namesDE[525],
@@ -16176,6 +16640,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[526],
 		aleman: namesDE[526],
@@ -16208,6 +16673,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[527],
 		aleman: namesDE[527],
@@ -16240,6 +16706,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[528],
 		aleman: namesDE[528],
@@ -16272,6 +16739,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[529],
 		aleman: namesDE[529],
@@ -16304,6 +16772,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[530],
 		aleman: namesDE[530],
@@ -16336,6 +16805,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[531],
 		aleman: namesDE[531],
@@ -16368,6 +16838,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[532],
 		aleman: namesDE[532],
@@ -16400,6 +16871,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[533],
 		aleman: namesDE[533],
@@ -16432,6 +16904,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[534],
 		aleman: namesDE[534],
@@ -16464,6 +16937,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[535],
 		aleman: namesDE[535],
@@ -16496,6 +16970,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[536],
 		aleman: namesDE[536],
@@ -16528,6 +17003,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[537],
 		aleman: namesDE[537],
@@ -16560,6 +17036,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[538],
 		aleman: namesDE[538],
@@ -16592,6 +17069,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[539],
 		aleman: namesDE[539],
@@ -16624,6 +17102,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[540],
 		aleman: namesDE[540],
@@ -16656,6 +17135,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[541],
 		aleman: namesDE[541],
@@ -16692,6 +17172,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[542],
 		aleman: namesDE[542],
@@ -16728,6 +17209,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[543],
 		aleman: namesDE[543],
@@ -16764,6 +17246,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[544],
 		aleman: namesDE[544],
@@ -16796,6 +17279,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[545],
 		aleman: namesDE[545],
@@ -16828,6 +17312,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[546],
 		aleman: namesDE[546],
@@ -16860,6 +17345,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[547],
 		aleman: namesDE[547],
@@ -16892,6 +17378,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[548],
 		aleman: namesDE[548],
@@ -16924,6 +17411,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[549],
 		aleman: namesDE[549],
@@ -16956,6 +17444,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[550],
 		aleman: namesDE[550],
@@ -16988,6 +17477,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[551],
 		aleman: namesDE[551],
@@ -17020,6 +17510,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[552],
 		aleman: namesDE[552],
@@ -17048,6 +17539,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[553],
 		aleman: namesDE[553],
@@ -17081,6 +17573,7 @@ var names2 = [
 		//(Solo en Darmanitan modo Zen/Daruma) ataqueEspecial: 2,
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[554],
 		aleman: namesDE[554],
@@ -17113,6 +17606,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[555],
 		aleman: namesDE[555],
@@ -17145,6 +17639,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[556],
 		aleman: namesDE[556],
@@ -17177,6 +17672,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[557],
 		aleman: namesDE[557],
@@ -17209,6 +17705,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[558],
 		aleman: namesDE[558],
@@ -17242,6 +17739,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[559],
 		aleman: namesDE[559],
@@ -17274,6 +17772,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[560],
 		aleman: namesDE[560],
@@ -17296,6 +17795,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[561],
 		aleman: namesDE[561],
@@ -17318,6 +17818,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[562],
 		aleman: namesDE[562],
@@ -17350,6 +17851,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[563],
 		aleman: namesDE[563],
@@ -17382,6 +17884,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[564],
 		aleman: namesDE[564],
@@ -17404,6 +17907,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[565],
 		aleman: namesDE[565],
@@ -17426,6 +17930,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[566],
 		aleman: namesDE[566],
@@ -17458,6 +17963,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[567],
 		aleman: namesDE[567],
@@ -17490,6 +17996,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[568],
 		aleman: namesDE[568],
@@ -17512,6 +18019,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[569],
 		aleman: namesDE[569],
@@ -17534,6 +18042,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[570],
 		aleman: namesDE[570],
@@ -17566,6 +18075,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[571],
 		aleman: namesDE[571],
@@ -17598,6 +18108,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[572],
 		aleman: namesDE[572],
@@ -17630,6 +18141,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[573],
 		aleman: namesDE[573],
@@ -17662,6 +18174,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[574],
 		aleman: namesDE[574],
@@ -17694,6 +18207,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[575],
 		aleman: namesDE[575],
@@ -17726,6 +18240,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[576],
 		aleman: namesDE[576],
@@ -17758,6 +18273,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[577],
 		aleman: namesDE[577],
@@ -17790,6 +18306,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[578],
 		aleman: namesDE[578],
@@ -17822,6 +18339,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[579],
 		aleman: namesDE[579],
@@ -17854,6 +18372,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[580],
 		aleman: namesDE[580],
@@ -17882,6 +18401,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[581],
 		aleman: namesDE[581],
@@ -17910,6 +18430,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[582],
 		aleman: namesDE[582],
@@ -17938,6 +18459,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[583],
 		aleman: namesDE[583],
@@ -17970,6 +18492,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[584],
 		aleman: namesDE[584],
@@ -18002,6 +18525,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[585],
 		aleman: namesDE[585],
@@ -18030,6 +18554,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[586],
 		aleman: namesDE[586],
@@ -18062,6 +18587,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[587],
 		aleman: namesDE[587],
@@ -18094,6 +18620,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[588],
 		aleman: namesDE[588],
@@ -18122,6 +18649,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[589],
 		aleman: namesDE[589],
@@ -18150,6 +18678,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[590],
 		aleman: namesDE[590],
@@ -18182,6 +18711,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[591],
 		aleman: namesDE[591],
@@ -18214,6 +18744,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[592],
 		aleman: namesDE[592],
@@ -18246,6 +18777,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[593],
 		aleman: namesDE[593],
@@ -18278,6 +18810,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[594],
 		aleman: namesDE[594],
@@ -18310,6 +18843,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[595],
 		aleman: namesDE[595],
@@ -18338,6 +18872,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[596],
 		aleman: namesDE[596],
@@ -18366,6 +18901,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[597],
 		aleman: namesDE[597],
@@ -18484,6 +19020,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[601],
 		aleman: namesDE[601],
@@ -18506,6 +19043,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[602],
 		aleman: namesDE[602],
@@ -18528,6 +19066,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[603],
 		aleman: namesDE[603],
@@ -18560,6 +19099,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[604],
 		aleman: namesDE[604],
@@ -18592,6 +19132,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[605],
 		aleman: namesDE[605],
@@ -18628,6 +19169,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[606],
 		aleman: namesDE[606],
@@ -18664,6 +19206,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[607],
 		aleman: namesDE[607],
@@ -18700,6 +19243,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[608],
 		aleman: namesDE[608],
@@ -18732,6 +19276,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[609],
 		aleman: namesDE[609],
@@ -18764,6 +19309,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[610],
 		aleman: namesDE[610],
@@ -18796,6 +19342,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[611],
 		aleman: namesDE[611],
@@ -18824,6 +19371,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[612],
 		aleman: namesDE[612],
@@ -18852,6 +19400,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[613],
 		aleman: namesDE[613],
@@ -18906,6 +19455,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[615],
 		aleman: namesDE[615],
@@ -18938,6 +19488,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[616],
 		aleman: namesDE[616],
@@ -18970,6 +19521,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[617],
 		aleman: namesDE[617],
@@ -19002,6 +19554,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[618],
 		aleman: namesDE[618],
@@ -19034,6 +19587,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[619],
 		aleman: namesDE[619],
@@ -19066,6 +19620,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[620],
 		aleman: namesDE[620],
@@ -19162,6 +19717,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[623],
 		aleman: namesDE[623],
@@ -19194,6 +19750,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[624],
 		aleman: namesDE[624],
@@ -19226,6 +19783,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[625],
 		aleman: namesDE[625],
@@ -19258,6 +19816,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[626],
 		aleman: namesDE[626],
@@ -19290,6 +19849,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[627],
 		aleman: namesDE[627],
@@ -19322,6 +19882,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[628],
 		aleman: namesDE[628],
@@ -19354,6 +19915,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[629],
 		aleman: namesDE[629],
@@ -19386,6 +19948,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[630],
 		aleman: namesDE[630],
@@ -19418,6 +19981,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[631],
 		aleman: namesDE[631],
@@ -19440,6 +20004,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[632],
 		aleman: namesDE[632],
@@ -19462,6 +20027,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[633],
 		aleman: namesDE[633],
@@ -19484,6 +20050,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[634],
 		aleman: namesDE[634],
@@ -19512,6 +20079,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[635],
 		aleman: namesDE[635],
@@ -19540,6 +20108,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[636],
 		aleman: namesDE[636],
@@ -19639,6 +20208,7 @@ var names2 = [
 		//(Solo en Tornadus forma Totem) velocidad: 3,
 		ataque: 3,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[640],
 		aleman: namesDE[640],
@@ -19672,6 +20242,7 @@ var names2 = [
 		//(Solo en Thundururs forma Totem) ataqueEspecial: 3,
 		ataque: 3,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[641],
 		aleman: namesDE[641],
@@ -19749,6 +20320,7 @@ var names2 = [
 		//(solo en Landorus forma Totem) ataque: 3,
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[644],
 		aleman: namesDE[644],
@@ -19874,6 +20446,7 @@ var names2 = [
 
 
 
+
 {
 	id: '650',
 	nombre: names[649],
@@ -19895,6 +20468,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[649],
 		aleman: namesDE[649],
@@ -19923,6 +20497,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[650],
 		aleman: namesDE[650],
@@ -19951,6 +20526,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 3,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[651],
 		aleman: namesDE[651],
@@ -19979,6 +20555,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[652],
 		aleman: namesDE[652],
@@ -20007,6 +20584,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[653],
 		aleman: namesDE[653],
@@ -20035,6 +20613,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[654],
 		aleman: namesDE[654],
@@ -20063,6 +20642,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[655],
 		aleman: namesDE[655],
@@ -20091,6 +20671,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[656],
 		aleman: namesDE[656],
@@ -20119,6 +20700,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 3,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[657],
 		aleman: namesDE[657],
@@ -20151,6 +20733,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[658],
 		aleman: namesDE[658],
@@ -20183,6 +20766,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[659],
 		aleman: namesDE[659],
@@ -20211,6 +20795,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[660],
 		aleman: namesDE[660],
@@ -20239,6 +20824,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[661],
 		aleman: namesDE[661],
@@ -20267,6 +20853,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[662],
 		aleman: namesDE[662],
@@ -20299,6 +20886,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[663],
 		aleman: namesDE[663],
@@ -20327,6 +20915,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[664],
 		aleman: namesDE[664],
@@ -20361,6 +20950,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[665],
 		aleman: namesDE[665],
@@ -20393,6 +20983,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[666],
 		aleman: namesDE[666],
@@ -20425,6 +21016,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[667],
 		aleman: namesDE[667],
@@ -20453,6 +21045,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[668],
 		aleman: namesDE[668],
@@ -20481,6 +21074,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[669],
 		aleman: namesDE[669],
@@ -20509,6 +21103,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[670],
 		aleman: namesDE[670],
@@ -20537,6 +21132,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[671],
 		aleman: namesDE[671],
@@ -20565,6 +21161,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[672],
 		aleman: namesDE[672],
@@ -20597,6 +21194,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[673],
 		aleman: namesDE[673],
@@ -20629,6 +21227,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[674],
 		aleman: namesDE[674],
@@ -20651,6 +21250,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[675],
 		aleman: namesDE[675],
@@ -20683,6 +21283,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[676],
 		aleman: namesDE[676],
@@ -20706,6 +21307,7 @@ var names2 = [
 	valoresEsfuerzo: {
 	velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[677],
 		aleman: namesDE[677],
@@ -20729,6 +21331,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[678],
 		aleman: namesDE[678],
@@ -20751,6 +21354,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[679],
 		aleman: namesDE[679],
@@ -20774,6 +21378,7 @@ var names2 = [
 		defensa: 2,
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[680],
 		aleman: namesDE[680],
@@ -20802,6 +21407,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[681],
 		aleman: namesDE[681],
@@ -20830,6 +21436,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[682],
 		aleman: namesDE[682],
@@ -20858,6 +21465,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[683],
 		aleman: namesDE[683],
@@ -20886,6 +21494,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[684],
 		aleman: namesDE[684],
@@ -20918,6 +21527,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[685],
 		aleman: namesDE[685],
@@ -20950,6 +21560,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[686],
 		aleman: namesDE[686],
@@ -20982,6 +21593,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[687],
 		aleman: namesDE[687],
@@ -21014,6 +21626,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[688],
 		aleman: namesDE[688],
@@ -21046,6 +21659,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[689],
 		aleman: namesDE[689],
@@ -21078,6 +21692,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[690],
 		aleman: namesDE[690],
@@ -21100,6 +21715,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[691],
 		aleman: namesDE[691],
@@ -21122,6 +21738,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[692],
 		aleman: namesDE[692],
@@ -21154,6 +21771,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[693],
 		aleman: namesDE[693],
@@ -21187,6 +21805,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[694],
 		aleman: namesDE[694],
@@ -21215,6 +21834,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[695],
 		aleman: namesDE[695],
@@ -21243,6 +21863,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[696],
 		aleman: namesDE[696],
@@ -21271,6 +21892,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[697],
 		aleman: namesDE[697],
@@ -21299,6 +21921,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[698],
 		aleman: namesDE[698],
@@ -21327,6 +21950,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[699],
 		aleman: namesDE[699],
@@ -21359,6 +21983,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[700],
 		aleman: namesDE[700],
@@ -21391,6 +22016,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[701],
 		aleman: namesDE[701],
@@ -21452,6 +22078,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[703],
 		aleman: namesDE[703],
@@ -21484,6 +22111,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[704],
 		aleman: namesDE[704],
@@ -21516,6 +22144,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[705],
 		aleman: namesDE[705],
@@ -21544,6 +22173,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[706],
 		aleman: namesDE[706],
@@ -21576,6 +22206,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[707],
 		aleman: namesDE[707],
@@ -21608,6 +22239,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[708],
 		aleman: namesDE[708],
@@ -21640,6 +22272,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[709],
 		aleman: namesDE[709],
@@ -21672,6 +22305,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[710],
 		aleman: namesDE[710],
@@ -21704,6 +22338,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[711],
 		aleman: namesDE[711],
@@ -21736,6 +22371,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[712],
 		aleman: namesDE[712],
@@ -21768,6 +22404,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[713],
 		aleman: namesDE[713],
@@ -21800,6 +22437,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[714],
 		aleman: namesDE[714],
@@ -21896,6 +22534,8 @@ var names2 = [
 		coreano: [namesKO[718][1], namesKO[718][0]]
 	}
 },
+
+
 
 
 
