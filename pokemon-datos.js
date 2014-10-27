@@ -807,7 +807,7 @@ var names2 = [
 		velocidad: 1,
 	},
 	pasos: 3840,
-	grupo: ['Volador'],
+	grupo: ['Campo'],
 	amistad: 70,
 	generos: {macho: 50, hembra: 50},
 	dexRegiones: {
@@ -850,7 +850,7 @@ var names2 = [
 		velocidad: 2,
 	},
 	pasos: 3840,
-	grupo: ['Volador'],
+	grupo: ['Campo'],
 	amistad: 70,
 	generos: {macho: 50, hembra: 50},
 	dexRegiones: {
@@ -1310,6 +1310,7 @@ var names2 = [
 
 
 
+
 {
 	id: '030',
 	nombre: names[29],
@@ -1335,6 +1336,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[29],
@@ -1368,6 +1370,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[30],
@@ -1401,6 +1404,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Monstruo', 'Campo'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[31],
@@ -1434,6 +1438,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Monstruo', 'Campo'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[32],
@@ -1467,6 +1472,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Monstruo', 'Campo'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[33],
@@ -1500,6 +1506,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[34],
@@ -1533,6 +1540,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[35],
@@ -1562,6 +1570,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[36],
@@ -1592,6 +1601,7 @@ var names2 = [
 		defensaEspecial: 1,
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[37],
@@ -1625,6 +1635,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[38],
@@ -1658,6 +1669,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[39],
@@ -1687,6 +1699,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[40],
@@ -1716,6 +1729,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[41],
@@ -1745,6 +1759,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[42],
@@ -1774,6 +1789,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[43],
@@ -1803,6 +1819,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[44],
@@ -1836,6 +1853,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Bicho', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[45],
@@ -1870,6 +1888,7 @@ var names2 = [
 		ataque: 2,
 		defensa: 1,
 	},
+	grupo: ['Bicho', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[46],
@@ -1903,6 +1922,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[47],
@@ -1937,6 +1957,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[48],
@@ -1970,6 +1991,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[49],
@@ -2003,6 +2025,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[50],
@@ -2036,6 +2059,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[51],
@@ -2069,6 +2093,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[52],
@@ -2102,6 +2127,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[53],
@@ -2135,6 +2161,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[54],
@@ -2168,6 +2195,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[55],
@@ -2201,6 +2229,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[56],
@@ -2234,6 +2263,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[57],
@@ -2267,6 +2297,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[58],
@@ -2300,6 +2331,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[59],
@@ -2333,6 +2365,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[60],
@@ -2366,6 +2399,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 3,
 	},
+	grupo: ['Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[61],
@@ -2399,6 +2433,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[62],
@@ -2432,6 +2467,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[63],
@@ -2465,6 +2501,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[64],
@@ -2498,6 +2535,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[65],
@@ -2531,6 +2569,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[66],
@@ -2564,6 +2603,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[67],
@@ -2593,6 +2633,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[68],
@@ -2622,6 +2663,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[69],
@@ -2651,6 +2693,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[70],
@@ -2684,6 +2727,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Agua 3'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[71],
@@ -2717,6 +2761,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Agua 3'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[72],
@@ -2750,6 +2795,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[73],
@@ -2783,6 +2829,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[74],
@@ -2816,6 +2863,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 3,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[75],
@@ -2849,6 +2897,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[76],
@@ -2882,6 +2931,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[77],
@@ -2915,6 +2965,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Monstruo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[78],
@@ -2948,6 +2999,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Monstruo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[79],
@@ -2981,6 +3033,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[80],
 		aleman: namesDE[80],
@@ -3013,6 +3066,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[81],
 		aleman: namesDE[81],
@@ -3045,6 +3099,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo', 'Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[82],
@@ -3078,6 +3133,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[83],
@@ -3111,6 +3167,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[84],
@@ -3144,6 +3201,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[85],
@@ -3177,6 +3235,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[86],
@@ -3210,6 +3269,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[87],
@@ -3244,6 +3304,7 @@ var names2 = [
 		ps: 1,
 		ataque: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[88],
@@ -3277,6 +3338,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Agua 3'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[89],
@@ -3310,6 +3372,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Agua 3'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[90],
@@ -3333,6 +3396,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[91],
@@ -3356,6 +3420,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[92],
@@ -3379,6 +3444,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[93],
@@ -3412,6 +3478,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[94],
@@ -3445,6 +3512,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[95],
@@ -3478,6 +3546,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[96],
@@ -3511,6 +3580,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Agua 3'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[97],
@@ -3544,6 +3614,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Agua 3'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[98],
@@ -3577,6 +3648,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[99],
 		aleman: namesDE[99],
@@ -3609,6 +3681,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[100],
 		aleman: namesDE[100],
@@ -3637,6 +3710,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[101],
@@ -3666,6 +3740,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[102],
@@ -3699,6 +3774,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[103],
@@ -3732,6 +3808,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[104],
@@ -3765,6 +3842,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[105],
@@ -3798,6 +3876,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[106],
@@ -3831,6 +3910,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[107],
@@ -3854,6 +3934,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[108],
@@ -3877,6 +3958,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[109],
@@ -3910,6 +3992,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Campo', 'Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[110],
@@ -3943,6 +4026,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo', 'Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[111],
@@ -3976,6 +4060,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[112],
@@ -4009,6 +4094,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[113],
@@ -4042,6 +4128,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[114],
@@ -4075,6 +4162,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Dragón', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[115],
@@ -4109,6 +4197,7 @@ var names2 = [
 		defensa: 1,
 		ataqueEspecial: 1,
 	},
+	grupo: ['Dragón', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[116],
@@ -4142,6 +4231,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Agua 2'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[117],
@@ -4175,6 +4265,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Agua 2'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[118],
@@ -4208,6 +4299,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Agua 3'],
 	idiomas: {
 		frances: namesFR[119],
 		aleman: namesDE[119],
@@ -4240,6 +4332,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Agua 3'],
 	idiomas: {
 		frances: namesFR[120],
 		aleman: namesDE[120],
@@ -4272,6 +4365,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[121],
@@ -4305,6 +4399,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[122],
@@ -4338,6 +4433,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[123],
@@ -4367,6 +4463,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[124],
@@ -4396,6 +4493,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[125],
@@ -4429,6 +4527,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[126],
@@ -4463,6 +4562,7 @@ var names2 = [
 		ataque: 1,
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[127],
@@ -4492,6 +4592,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Dragón', 'Agua 2'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[128],
@@ -4521,6 +4622,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Dragón', 'Agua 2'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[129],
@@ -4554,6 +4656,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Monstruo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[130],
@@ -4583,6 +4686,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Ditto'],
 	idiomas: {
 		frances: namesFR[131],
 		aleman: namesDE[131],
@@ -4615,6 +4719,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[132],
@@ -4644,6 +4749,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[133],
@@ -4673,6 +4779,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[134],
@@ -4702,6 +4809,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[135],
@@ -4735,6 +4843,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[136],
 		aleman: namesDE[136],
@@ -4767,6 +4876,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Agua 1', 'Agua 3'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[137],
@@ -4800,6 +4910,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Agua 1', 'Agua 3'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[138],
@@ -4833,6 +4944,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Agua 1', 'Agua 3'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[139],
@@ -4866,6 +4978,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Agua 1', 'Agua 3'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[140],
@@ -4899,6 +5012,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[141],
@@ -4932,6 +5046,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[142],
@@ -4961,6 +5076,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[143],
 		aleman: namesDE[143],
@@ -4989,6 +5105,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[144],
 		aleman: namesDE[144],
@@ -5017,6 +5134,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[145],
 		aleman: namesDE[145],
@@ -5045,6 +5163,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Dragón', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[146],
@@ -5074,6 +5193,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Dragón', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[147],
@@ -5103,6 +5223,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Dragón', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[148],
@@ -5132,6 +5253,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[149],
 		aleman: namesDE[149],
@@ -5154,6 +5276,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[150],
 		aleman: namesDE[150],
@@ -5198,6 +5321,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Monstruo', 'Planta'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[151],
@@ -5228,6 +5352,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	grupo: ['Monstruo', 'Planta'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[152],
@@ -5258,6 +5383,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 2,
 	},
+	grupo: ['Monstruo', 'Planta'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[153],
@@ -5287,6 +5413,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[154],
@@ -5317,6 +5444,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[155],
@@ -5346,6 +5474,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[156],
@@ -5375,6 +5504,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Monstruo', 'Agua 1'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[157],
@@ -5405,6 +5535,7 @@ var names2 = [
 		ataque: 1,
 		defensa: 1,
 	},
+	grupo: ['Monstruo', 'Agua 1'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[158],
@@ -5435,6 +5566,7 @@ var names2 = [
 		ataque: 2,
 		defensa: 1,
 	},
+	grupo: ['Monstruo', 'Agua 1'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[159],
@@ -5468,6 +5600,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[160],
@@ -5501,6 +5634,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[161],
@@ -5534,6 +5668,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[162],
@@ -5567,6 +5702,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[163],
@@ -5600,6 +5736,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[164],
@@ -5633,6 +5770,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[165],
@@ -5666,6 +5804,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[166],
@@ -5699,6 +5838,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[167],
@@ -5728,6 +5868,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 3,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[168],
@@ -5761,6 +5902,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Agua 2'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[169],
@@ -5794,6 +5936,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Agua 2'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[170],
@@ -5823,6 +5966,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[171],
@@ -5856,6 +6000,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[172],
@@ -5889,6 +6034,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[173],
@@ -5922,6 +6068,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[174],
@@ -5955,6 +6102,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Hada', 'Volador'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[175],
@@ -5988,6 +6136,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[176],
@@ -6022,6 +6171,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[177],
@@ -6051,6 +6201,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Campo', 'Monstruo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[178],
@@ -6080,6 +6231,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Campo', 'Monstruo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[179],
@@ -6109,6 +6261,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Campo', 'Monstruo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[180],
@@ -6138,6 +6291,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[181],
@@ -6171,6 +6325,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Hada', 'Agua 1'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[182],
@@ -6204,6 +6359,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Hada', 'Agua 1'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[183],
@@ -6237,6 +6393,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[184],
@@ -6270,6 +6427,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	grupo: ['Agua 1'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[185],
@@ -6303,6 +6461,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Hada', 'Planta'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[186],
@@ -6336,6 +6495,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Hada', 'Planta'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[187],
@@ -6369,6 +6529,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 3,
 	},
+	grupo: ['Hada', 'Planta'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[188],
@@ -6402,6 +6563,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[189],
@@ -6435,6 +6597,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[190],
@@ -6468,6 +6631,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[191],
@@ -6501,6 +6665,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[192],
@@ -6534,6 +6699,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[193],
@@ -6567,6 +6733,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[194],
@@ -6596,6 +6763,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[195],
@@ -6625,6 +6793,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[196],
@@ -6658,6 +6827,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[197],
@@ -6691,6 +6861,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	grupo: ['Monstruo', 'Agua 1'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[198],
@@ -6714,6 +6885,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[199],
@@ -6738,6 +6910,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[200],
 		aleman: namesDE[200],
@@ -6766,6 +6939,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[201],
@@ -6799,6 +6973,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[202],
@@ -6828,6 +7003,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[203],
@@ -6857,6 +7033,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[204],
@@ -6890,6 +7067,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[205],
@@ -6923,6 +7101,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[206],
@@ -6956,6 +7135,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[207],
@@ -6989,6 +7169,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo', 'Hada'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[208],
@@ -7022,6 +7203,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo', 'Hada'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[209],
@@ -7055,6 +7237,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Agua 2'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[210],
@@ -7088,6 +7271,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[211],
@@ -7122,6 +7306,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[212],
@@ -7155,6 +7340,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[213],
@@ -7188,6 +7374,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[214],
@@ -7221,6 +7408,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[215],
@@ -7254,6 +7442,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[216],
@@ -7287,6 +7476,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[217],
@@ -7320,6 +7510,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[218],
@@ -7353,6 +7544,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[219],
@@ -7387,6 +7579,7 @@ var names2 = [
 		ps: 1,
 		ataque: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[220],
@@ -7421,6 +7614,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	grupo: ['Agua 1', 'Agua 3'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[221],
@@ -7454,6 +7648,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Agua 1', 'Agua 2'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[222],
@@ -7488,6 +7683,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	grupo: ['Agua 1', 'Agua 2'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[223],
@@ -7521,6 +7717,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[224],
@@ -7554,6 +7751,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Agua 1'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[225],
@@ -7587,6 +7785,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[226],
@@ -7620,6 +7819,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[227],
@@ -7653,6 +7853,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[228],
@@ -7688,6 +7889,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		defensaEspecial: 1,
 	},
+	grupo: ['Dragón', 'Agua 1'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[229],
@@ -7717,6 +7919,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[230],
@@ -7747,6 +7950,7 @@ var names2 = [
 		ataque: 1,
 		defensa: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[231],
@@ -7780,6 +7984,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[232],
 		aleman: namesDE[232],
@@ -7812,6 +8017,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[233],
@@ -7845,6 +8051,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[234],
@@ -7878,6 +8085,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[235],
@@ -7911,6 +8119,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[236],
@@ -7944,6 +8153,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[237],
@@ -7973,6 +8183,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[238],
@@ -8002,6 +8213,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[239],
@@ -8035,6 +8247,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[240],
@@ -8068,6 +8281,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[241],
@@ -8098,6 +8312,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 2,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[242],
 		aleman: namesDE[242],
@@ -8127,6 +8342,7 @@ var names2 = [
 		ps: 1,
 		ataque: 2,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[243],
 		aleman: namesDE[243],
@@ -8156,6 +8372,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 2,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[244],
 		aleman: namesDE[244],
@@ -8184,6 +8401,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[245],
@@ -8207,6 +8425,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[246],
@@ -8236,6 +8455,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[247],
@@ -8265,6 +8485,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[248],
 		aleman: namesDE[248],
@@ -8293,6 +8514,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[249],
 		aleman: namesDE[249],
@@ -8315,6 +8537,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[250],
 		aleman: namesDE[250],
@@ -8367,6 +8590,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Monstruo', 'Dragón'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[251],
@@ -8396,6 +8620,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Monstruo', 'Dragón'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[252],
@@ -8425,6 +8650,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 3,
 	},
+	grupo: ['Monstruo', 'Dragón'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[253],
@@ -8454,6 +8680,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[254],
@@ -8484,6 +8711,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[255],
@@ -8513,6 +8741,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[256],
@@ -8542,6 +8771,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Monstruo', 'Agua 1'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[257],
@@ -8571,6 +8801,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Monstruo', 'Agua 1'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[258],
@@ -8600,6 +8831,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Monstruo', 'Agua 1'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[259],
@@ -8633,6 +8865,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[260],
@@ -8666,6 +8899,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[261],
@@ -8699,6 +8933,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[262],
@@ -8732,6 +8967,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[263],
@@ -8761,6 +8997,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[264],
@@ -8784,6 +9021,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[265],
@@ -8813,6 +9051,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[266],
@@ -8836,6 +9075,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[267],
@@ -8865,6 +9105,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[268],
@@ -8898,6 +9139,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Planta', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[269],
@@ -8931,6 +9173,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Planta', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[270],
@@ -8964,6 +9207,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	grupo: ['Planta', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[271],
@@ -8997,6 +9241,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Campo', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[272],
@@ -9030,6 +9275,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[273],
@@ -9063,6 +9309,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Campo', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[274],
@@ -9092,6 +9339,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[275],
@@ -9121,6 +9369,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[276],
@@ -9150,6 +9399,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Volador', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[277],
@@ -9179,6 +9429,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Volador', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[278],
@@ -9212,6 +9463,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[279],
@@ -9245,6 +9497,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[280],
@@ -9278,6 +9531,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[281],
@@ -9307,6 +9561,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Bicho', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[282],
@@ -9337,6 +9592,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		defensaEspecial: 1,
 	},
+	grupo: ['Bicho', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[283],
@@ -9370,6 +9626,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Hada', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[284],
@@ -9403,6 +9660,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Hada', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[285],
@@ -9426,6 +9684,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[286],
@@ -9449,6 +9708,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[287],
@@ -9472,6 +9732,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[288],
@@ -9501,6 +9762,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[289],
@@ -9530,6 +9792,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[290],
@@ -9553,6 +9816,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[291],
 		aleman: namesDE[291],
@@ -9581,6 +9845,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Campo', 'Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[292],
@@ -9610,6 +9875,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Campo', 'Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[293],
@@ -9639,6 +9905,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Campo', 'Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[294],
@@ -9672,6 +9939,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[295],
@@ -9705,6 +9973,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[296],
@@ -9738,6 +10007,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[297],
@@ -9771,6 +10041,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[298],
@@ -9804,6 +10075,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo', 'Hada'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[299],
@@ -9838,6 +10110,7 @@ var names2 = [
 		ps: 1,
 		velocidad: 1,
 	},
+	grupo: ['Campo', 'Hada'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[300],
@@ -9872,6 +10145,7 @@ var names2 = [
 		ataque: 1,
 		defensa: 1,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[301],
@@ -9906,6 +10180,7 @@ var names2 = [
 		ataque: 1,
 		defensa: 1,
 	},
+	grupo: ['Campo', 'Hada'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[302],
@@ -9939,6 +10214,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[303],
@@ -9972,6 +10248,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[304],
@@ -10005,6 +10282,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 3,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[305],
@@ -10034,6 +10312,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[306],
@@ -10063,6 +10342,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[307],
@@ -10096,6 +10376,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[308],
@@ -10129,6 +10410,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[309],
@@ -10158,6 +10440,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[310],
@@ -10187,6 +10470,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[311],
@@ -10220,6 +10504,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Bicho', 'Humanoide'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[312],
@@ -10253,6 +10538,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Bicho', 'Humanoide'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[313],
@@ -10286,6 +10572,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Hada', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[314],
@@ -10319,6 +10606,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[315],
@@ -10352,6 +10640,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[316],
@@ -10381,6 +10670,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Agua 2'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[317],
@@ -10410,6 +10700,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Agua 2'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[318],
@@ -10443,6 +10734,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Campo', 'Agua 2'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[319],
@@ -10476,6 +10768,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Campo', 'Agua 2'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[320],
@@ -10509,6 +10802,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[321],
@@ -10543,6 +10837,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[322],
@@ -10572,6 +10867,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[323],
@@ -10605,6 +10901,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[324],
@@ -10638,6 +10935,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[325],
@@ -10671,6 +10969,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Campo', 'Humanoide'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[326],
@@ -10704,6 +11003,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[327],
@@ -10728,6 +11028,7 @@ var names2 = [
 		ataque: 1,
 		velocidad: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[328],
@@ -10752,6 +11053,7 @@ var names2 = [
 		ataque: 1,
 		velocidad: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[329],
@@ -10781,6 +11083,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Humanoide', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[330],
@@ -10811,6 +11114,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	grupo: ['Humanoide', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[331],
@@ -10840,6 +11144,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Dragón', 'Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[332],
@@ -10869,6 +11174,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Dragón', 'Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[333],
@@ -10898,6 +11204,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[334],
@@ -10928,6 +11235,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	grupo: ['Campo', 'Dragón'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[335],
@@ -10951,6 +11259,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[336],
 		aleman: namesDE[336],
@@ -10973,6 +11282,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[337],
 		aleman: namesDE[337],
@@ -11005,6 +11315,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Agua 2'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[338],
@@ -11038,6 +11349,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Agua 2'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[339],
@@ -11071,6 +11383,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Agua 1', 'Agua 3'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[340],
@@ -11104,6 +11417,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Agua 1', 'Agua 3'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[341],
@@ -11127,6 +11441,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[342],
 		aleman: namesDE[342],
@@ -11149,6 +11464,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[343],
 		aleman: namesDE[343],
@@ -11177,6 +11493,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Agua 3'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[344],
@@ -11206,6 +11523,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Agua 3'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[345],
@@ -11235,6 +11553,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Agua 3'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[346],
@@ -11264,6 +11583,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Agua 3'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[347],
@@ -11293,6 +11613,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Dragón', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[348],
@@ -11326,6 +11647,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Dragón', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[349],
@@ -11349,6 +11671,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Amorfo', 'Hada'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[350],
@@ -11378,6 +11701,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[351],
@@ -11411,6 +11735,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[352],
@@ -11444,6 +11769,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[353],
@@ -11473,6 +11799,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[354],
@@ -11503,6 +11830,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[355],
@@ -11536,6 +11864,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Monstruo', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[356],
@@ -11560,6 +11889,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		defensaEspecial: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[357],
@@ -11593,6 +11923,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[358],
@@ -11622,6 +11953,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[359],
@@ -11655,6 +11987,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Hada', 'Mineral'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[360],
@@ -11688,6 +12021,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Hada', 'Mineral'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[361],
@@ -11721,6 +12055,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[362],
@@ -11754,6 +12089,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[363],
@@ -11787,6 +12123,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[364],
@@ -11816,6 +12153,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[365],
@@ -11846,6 +12184,7 @@ var names2 = [
 		ataque: 1,
 		defensa: 1,
 	},
+	grupo: ['Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[366],
@@ -11875,6 +12214,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[367],
@@ -11909,6 +12249,7 @@ var names2 = [
 		ps: 1,
 		defensa: 1,
 	},
+	grupo: ['Agua 1', 'Agua 2'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[368],
@@ -11938,6 +12279,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Agua 2'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[369],
@@ -11967,6 +12309,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Dragón'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[370],
@@ -11996,6 +12339,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Dragón'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[371],
@@ -12025,6 +12369,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Dragón'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[372],
@@ -12054,6 +12399,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[373],
 		aleman: namesDE[373],
@@ -12082,6 +12428,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[374],
 		aleman: namesDE[374],
@@ -12110,6 +12457,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 3,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[375],
 		aleman: namesDE[375],
@@ -12138,6 +12486,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[376],
 		aleman: namesDE[376],
@@ -12166,6 +12515,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[377],
 		aleman: namesDE[377],
@@ -12195,6 +12545,7 @@ var names2 = [
 		defensa: 2,
 		defensaEspecial: 1,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[378],
 		aleman: namesDE[378],
@@ -12217,6 +12568,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[379],
@@ -12240,6 +12592,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[380],
@@ -12263,6 +12616,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[381],
 		aleman: namesDE[381],
@@ -12285,6 +12639,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[382],
 		aleman: namesDE[382],
@@ -12308,6 +12663,7 @@ var names2 = [
 		ataque: 2,
 		ataqueEspecial: 1,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[383],
 		aleman: namesDE[383],
@@ -12330,6 +12686,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[384],
 		aleman: namesDE[384],
@@ -12359,6 +12716,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[385],
 		aleman: namesDE[385],
@@ -12402,6 +12760,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Monstruo', 'Planta'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[386],
@@ -12432,6 +12791,7 @@ var names2 = [
 		ataque: 1,
 		defensa: 1,
 	},
+	grupo: ['Monstruo', 'Planta'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[387],
@@ -12462,6 +12822,7 @@ var names2 = [
 		ataque: 2,
 		defensa: 1,
 	},
+	grupo: ['Monstruo', 'Planta'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[388],
@@ -12491,6 +12852,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo', 'Humanoide'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[389],
@@ -12521,6 +12883,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	grupo: ['Campo', 'Humanoide'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[390],
@@ -12552,6 +12915,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	grupo: ['Campo', 'Humanoide'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[391],
@@ -12581,6 +12945,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[392],
@@ -12610,6 +12975,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[393],
@@ -12639,6 +13005,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[394],
@@ -12668,6 +13035,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[395],
@@ -12697,6 +13065,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[396],
@@ -12726,6 +13095,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[397],
@@ -12759,6 +13129,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[398],
@@ -12792,6 +13163,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[399],
@@ -12821,6 +13193,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[400],
@@ -12850,6 +13223,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[401],
@@ -12883,6 +13257,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[402],
@@ -12916,6 +13291,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[403],
@@ -12949,6 +13325,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[404],
@@ -12982,6 +13359,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[405],
@@ -13015,6 +13393,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Hada', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[406],
@@ -13044,6 +13423,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[407],
@@ -13073,6 +13453,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[408],
@@ -13102,6 +13483,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[409],
@@ -13131,6 +13513,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[410],
@@ -13160,6 +13543,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[411],
@@ -13192,6 +13576,7 @@ var names2 = [
 		//(Solo en Wormadam forma Basura) defensaEspecial: 1,
 		defensaEspecial: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[412],
@@ -13222,6 +13607,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[413],
@@ -13251,6 +13637,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[414],
@@ -13281,6 +13668,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[415],
@@ -13314,6 +13702,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo', 'Hada'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[416],
@@ -13343,6 +13732,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[417],
@@ -13372,6 +13762,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[418],
@@ -13395,6 +13786,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Hada', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[419],
@@ -13418,6 +13810,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Hada', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[420],
@@ -13451,6 +13844,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Amorfo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[421],
@@ -13484,6 +13878,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Amorfo', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[422],
@@ -13517,6 +13912,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[423],
@@ -13550,6 +13946,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[424],
@@ -13583,6 +13980,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[425],
@@ -13616,6 +14014,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo', 'Humanoide'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[426],
@@ -13649,6 +14048,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo', 'Humanoide'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[427],
@@ -13673,6 +14073,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		defensaEspecial: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[428],
@@ -13706,6 +14107,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[429],
@@ -13739,6 +14141,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[430],
@@ -13772,6 +14175,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[431],
@@ -13795,6 +14199,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[432],
@@ -13828,6 +14233,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[433],
@@ -13861,6 +14267,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[434],
@@ -13894,7 +14301,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
-
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[435],
 		aleman: namesDE[435],
@@ -13928,6 +14335,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[436],
 		aleman: namesDE[436],
@@ -13960,6 +14368,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[437],
@@ -13993,6 +14402,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[438],
@@ -14026,6 +14436,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[439],
@@ -14059,6 +14470,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[440],
@@ -14089,6 +14501,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[441],
@@ -14118,6 +14531,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Dragón', 'Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[442],
@@ -14147,6 +14561,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Dragón', 'Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[443],
@@ -14176,6 +14591,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Dragón', 'Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[444],
@@ -14209,6 +14625,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[445],
@@ -14242,6 +14659,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[446],
@@ -14276,6 +14694,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	grupo: ['Campo', 'Humanoide'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[447],
@@ -14305,6 +14724,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[448],
@@ -14334,6 +14754,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[449],
@@ -14367,6 +14788,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Bicho', 'Agua 3'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[450],
@@ -14400,6 +14822,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Bicho', 'Agua 3'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[451],
@@ -14433,6 +14856,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[452],
@@ -14466,6 +14890,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[453],
@@ -14489,6 +14914,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[454],
@@ -14522,6 +14948,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Agua 2'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[455],
@@ -14555,6 +14982,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Agua 2'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[456],
@@ -14588,6 +15016,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[457],
@@ -14617,6 +15046,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Monstruo', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[458],
@@ -14647,6 +15077,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	grupo: ['Monstruo', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[459],
@@ -14677,6 +15108,7 @@ var names2 = [
 		ataque: 1,
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[460],
@@ -14710,6 +15142,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[461],
 		aleman: namesDE[461],
@@ -14742,6 +15175,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[462],
@@ -14775,6 +15209,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Campo', 'Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[463],
@@ -14808,6 +15243,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[464],
@@ -14837,6 +15273,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[465],
@@ -14866,6 +15303,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[466],
@@ -14900,6 +15338,7 @@ var names2 = [
 		ataqueEspecial: 2,
 		defensaEspecial: 1,
 	},
+	grupo: ['Hada', 'Volador'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[467],
@@ -14933,6 +15372,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[468],
@@ -14962,6 +15402,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[469],
@@ -14991,6 +15432,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[470],
@@ -15024,6 +15466,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[471],
@@ -15057,6 +15500,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[472],
@@ -15090,6 +15534,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[473],
 		aleman: namesDE[473],
@@ -15118,6 +15563,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[474],
@@ -15152,6 +15598,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 2,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[475],
@@ -15182,6 +15629,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[476],
@@ -15211,6 +15659,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Hada', 'Mineral'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[477],
@@ -15235,6 +15684,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	grupo: ['Amorfo'],
 	idiomas: {
 		frances: namesFR[478],
 		aleman: namesDE[478],
@@ -15258,6 +15708,7 @@ var names2 = [
 		defensa: 2,
 		defensaEspecial: 1,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[479],
 		aleman: namesDE[479],
@@ -15282,6 +15733,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		defensaEspecial: 1,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[480],
 		aleman: namesDE[480],
@@ -15305,6 +15757,7 @@ var names2 = [
 		ataque: 2,
 		ataqueEspecial: 1,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[481],
 		aleman: namesDE[481],
@@ -15333,6 +15786,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[482],
 		aleman: namesDE[482],
@@ -15361,6 +15815,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[483],
 		aleman: namesDE[483],
@@ -15389,6 +15844,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[484],
@@ -15412,6 +15868,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[485],
 		aleman: namesDE[485],
@@ -15444,6 +15901,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[486],
 		aleman: namesDE[486],
@@ -15466,6 +15924,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[487],
@@ -15489,6 +15948,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Hada', 'Agua 1'],
 	idiomas: {
 		frances: namesFR[488],
 		aleman: namesDE[488],
@@ -15511,6 +15971,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Hada', 'Agua 1'],
 	idiomas: {
 		frances: namesFR[489],
 		aleman: namesDE[489],
@@ -15534,6 +15995,7 @@ var names2 = [
 		ataqueEspecial: 2,
 		velocidad: 1,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[490],
 		aleman: namesDE[490],
@@ -15561,6 +16023,7 @@ var names2 = [
 		//(Solo en Shaymin forma Cielo) velocidad: 3,
 		ps: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[491],
 		aleman: namesDE[491],
@@ -15583,6 +16046,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[492],
 		aleman: namesDE[492],
@@ -15623,6 +16087,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[493],
 		aleman: namesDE[493],
@@ -15651,6 +16116,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo', 'Planta'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[494],
@@ -15680,6 +16146,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo', 'Planta'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[495],
@@ -15709,6 +16176,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 3,
 	},
+	grupo: ['Campo', 'Planta'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[496],
@@ -15738,6 +16206,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[497],
@@ -15767,6 +16236,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[498],
@@ -15796,6 +16266,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[499],
@@ -15825,6 +16296,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[500],
@@ -15854,6 +16326,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[501],
@@ -15883,6 +16356,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[502],
@@ -15916,6 +16390,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[503],
@@ -15949,6 +16424,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[504],
@@ -15982,6 +16458,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[505],
@@ -16015,6 +16492,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[506],
@@ -16048,6 +16526,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[507],
@@ -16081,6 +16560,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[508],
@@ -16114,6 +16594,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[509],
@@ -16143,6 +16624,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[510],
@@ -16172,6 +16654,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[511],
@@ -16201,6 +16684,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[512],
@@ -16230,6 +16714,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[513],
@@ -16259,6 +16744,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[514],
@@ -16288,6 +16774,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[515],
@@ -16321,6 +16808,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[516],
@@ -16354,6 +16842,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[517],
@@ -16387,6 +16876,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[518],
@@ -16420,6 +16910,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[519],
@@ -16453,6 +16944,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[520],
@@ -16486,6 +16978,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[521],
@@ -16519,6 +17012,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[522],
@@ -16548,6 +17042,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[523],
@@ -16578,6 +17073,7 @@ var names2 = [
 		ataque: 1,
 		defensa: 1,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[524],
@@ -16607,6 +17103,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[525],
@@ -16640,6 +17137,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo', 'Volador'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[526],
@@ -16673,6 +17171,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo', 'Volador'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[527],
@@ -16706,6 +17205,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[528],
@@ -16739,6 +17239,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[529],
@@ -16772,6 +17273,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[530],
@@ -16805,6 +17307,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[531],
@@ -16838,6 +17341,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[532],
@@ -16871,6 +17375,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 75,hembra: 25},
 	idiomas: {
 		frances: namesFR[533],
@@ -16904,6 +17409,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Agua 1'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[534],
@@ -16937,6 +17443,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Agua 1'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[535],
@@ -16970,6 +17477,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Agua 1'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[536],
@@ -17003,6 +17511,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[537],
@@ -17036,6 +17545,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[538],
@@ -17069,6 +17579,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[539],
@@ -17102,6 +17613,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[540],
@@ -17135,6 +17647,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[541],
@@ -17172,6 +17685,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[542],
@@ -17209,6 +17723,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[543],
@@ -17246,6 +17761,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 3,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[544],
@@ -17279,6 +17795,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Hada', 'Planta'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[545],
@@ -17312,6 +17829,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Hada', 'Planta'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[546],
@@ -17345,6 +17863,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[547],
@@ -17378,6 +17897,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[548],
@@ -17411,6 +17931,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Agua 2'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[549],
@@ -17444,6 +17965,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[550],
@@ -17477,6 +17999,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[551],
@@ -17510,6 +18033,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[552],
@@ -17539,6 +18063,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[553],
@@ -17573,6 +18098,7 @@ var names2 = [
 		//(Solo en Darmanitan modo Zen/Daruma) ataqueEspecial: 2,
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[554],
@@ -17606,6 +18132,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[555],
@@ -17639,6 +18166,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Bicho', 'Mineral'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[556],
@@ -17672,6 +18200,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Bicho', 'Mineral'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[557],
@@ -17705,6 +18234,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo', 'Dragón'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[558],
@@ -17739,6 +18269,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	grupo: ['Campo', 'Dragón'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[559],
@@ -17772,6 +18303,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[560],
@@ -17795,6 +18327,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Amorfo', 'Mineral'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[561],
@@ -17818,6 +18351,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Amorfo', 'Mineral'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[562],
@@ -17851,6 +18385,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Agua 1', 'Agua 3'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[563],
@@ -17884,6 +18419,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Agua 1', 'Agua 3'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[564],
@@ -17907,6 +18443,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Volador', 'Agua 3'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[565],
@@ -17930,6 +18467,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Volador', 'Agua 3'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[566],
@@ -17963,6 +18501,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[567],
@@ -17996,6 +18535,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[568],
@@ -18019,6 +18559,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[569],
@@ -18042,6 +18583,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[570],
@@ -18075,6 +18617,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[571],
@@ -18108,6 +18651,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[572],
@@ -18141,6 +18685,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[573],
@@ -18174,6 +18719,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[574],
@@ -18207,6 +18753,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[575],
@@ -18240,6 +18787,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[576],
@@ -18273,6 +18821,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[577],
@@ -18306,6 +18855,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[578],
@@ -18339,6 +18889,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Volador', 'Agua 1'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[579],
@@ -18372,6 +18923,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Volador', 'Agua 1'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[580],
@@ -18401,6 +18953,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[581],
@@ -18430,6 +18983,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[582],
@@ -18459,6 +19013,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[583],
@@ -18492,6 +19047,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[584],
@@ -18525,6 +19081,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[585],
@@ -18554,6 +19111,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[586],
@@ -18587,6 +19145,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[587],
@@ -18620,6 +19179,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[588],
@@ -18649,6 +19209,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[589],
@@ -18678,6 +19239,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Planta'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[590],
@@ -18711,6 +19273,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[591],
@@ -18744,6 +19307,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[592],
@@ -18777,6 +19341,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Agua 1', 'Agua 2'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[593],
@@ -18810,6 +19375,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[594],
@@ -18843,6 +19409,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[595],
@@ -18872,6 +19439,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Mineral', 'Planta'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[596],
@@ -18901,6 +19469,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Mineral', 'Planta'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[597],
@@ -18934,6 +19503,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[598],
 		aleman: namesDE[598],
@@ -18966,6 +19536,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[599],
 		aleman: namesDE[599],
@@ -18998,6 +19569,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 3,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[600],
 		aleman: namesDE[600],
@@ -19020,6 +19592,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[601],
@@ -19043,6 +19616,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[602],
@@ -19066,6 +19640,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[603],
@@ -19099,6 +19674,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[604],
@@ -19132,6 +19708,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[605],
@@ -19169,6 +19746,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[606],
@@ -19206,6 +19784,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[607],
@@ -19243,6 +19822,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[608],
@@ -19276,6 +19856,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Dragón', 'Monstruo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[609],
@@ -19309,6 +19890,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Dragón', 'Monstruo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[610],
@@ -19342,6 +19924,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Dragón', 'Monstruo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[611],
@@ -19371,6 +19954,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[612],
@@ -19400,6 +19984,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[613],
@@ -19423,6 +20008,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[614],
 		aleman: namesDE[614],
@@ -19455,6 +20041,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[615],
@@ -19488,6 +20075,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[616],
@@ -19521,6 +20109,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Amorfo', 'Agua 1'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[617],
@@ -19554,6 +20143,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo', 'Humanoide'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[618],
@@ -19587,6 +20177,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo', 'Humanoide'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[619],
@@ -19620,6 +20211,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Dragón', 'Monstruo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[620],
@@ -19653,6 +20245,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[621],
 		aleman: namesDE[621],
@@ -19685,6 +20278,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Mineral'],
 	idiomas: {
 		frances: namesFR[622],
 		aleman: namesDE[622],
@@ -19717,6 +20311,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[623],
@@ -19750,6 +20345,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[624],
@@ -19783,6 +20379,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[625],
@@ -19816,6 +20413,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[626],
@@ -19849,6 +20447,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[627],
@@ -19882,6 +20481,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[628],
@@ -19915,6 +20515,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[629],
@@ -19948,6 +20549,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[630],
@@ -19981,6 +20583,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[631],
@@ -20004,6 +20607,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Dragón'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[632],
@@ -20027,6 +20631,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Dragón'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[633],
@@ -20050,6 +20655,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Dragón'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[634],
@@ -20079,6 +20685,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[635],
@@ -20108,6 +20715,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50, hembra: 50},
 	idiomas: {
 		frances: namesFR[636],
@@ -20131,6 +20739,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[637],
 		aleman: namesDE[637],
@@ -20153,6 +20762,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[638],
 		aleman: namesDE[638],
@@ -20175,6 +20785,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[639],
 		aleman: namesDE[639],
@@ -20208,6 +20819,7 @@ var names2 = [
 		//(Solo en Tornadus forma Totem) velocidad: 3,
 		ataque: 3,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[640],
@@ -20242,6 +20854,7 @@ var names2 = [
 		//(Solo en Thundururs forma Totem) ataqueEspecial: 3,
 		ataque: 3,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[641],
@@ -20265,6 +20878,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[642],
 		aleman: namesDE[642],
@@ -20287,6 +20901,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[643],
 		aleman: namesDE[643],
@@ -20320,6 +20935,7 @@ var names2 = [
 		//(solo en Landorus forma Totem) ataque: 3,
 		ataqueEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	generos: {macho: 100,hembra: 0},
 	idiomas: {
 		frances: namesFR[644],
@@ -20355,6 +20971,7 @@ var names2 = [
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[645],
 		aleman: namesDE[645],
@@ -20377,6 +20994,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[646],
 		aleman: namesDE[646],
@@ -20404,6 +21022,7 @@ var names2 = [
 		defensaEspecial: 1,
 		velocidad: 1,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[647],
 		aleman: namesDE[647],
@@ -20428,6 +21047,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[648],
 		aleman: namesDE[648],
@@ -20468,6 +21088,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[649],
@@ -20497,6 +21118,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[650],
@@ -20526,6 +21148,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 3,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[651],
@@ -20555,6 +21178,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[652],
@@ -20584,6 +21208,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[653],
@@ -20613,6 +21238,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[654],
@@ -20642,6 +21268,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Agua 1'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[655],
@@ -20671,6 +21298,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Agua 1'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[656],
@@ -20700,6 +21328,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 3,
 	},
+	grupo: ['Agua 1'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[657],
@@ -20733,6 +21362,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[658],
@@ -20766,6 +21396,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[659],
@@ -20795,6 +21426,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[660],
@@ -20824,6 +21456,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[661],
@@ -20853,6 +21486,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 3,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[662],
@@ -20886,6 +21520,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[663],
@@ -20915,6 +21550,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[664],
@@ -20950,6 +21586,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	grupo: ['Bicho'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[665],
@@ -20983,6 +21620,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[666],
@@ -21016,6 +21654,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 25,hembra: 75},
 	idiomas: {
 		frances: namesFR[667],
@@ -21045,6 +21684,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[668],
@@ -21074,6 +21714,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[669],
@@ -21103,6 +21744,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 0, hembra: 100},
 	idiomas: {
 		frances: namesFR[670],
@@ -21132,6 +21774,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[671],
@@ -21161,6 +21804,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[672],
@@ -21194,6 +21838,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Campo', 'Humanoide'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[673],
@@ -21227,6 +21872,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Campo', 'Humanoide'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[674],
@@ -21250,6 +21896,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[675],
@@ -21283,6 +21930,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[676],
@@ -21307,6 +21955,7 @@ var names2 = [
 	valoresEsfuerzo: {
 	velocidad: 1,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[677],
@@ -21331,6 +21980,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[678],
@@ -21354,6 +22004,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[679],
@@ -21378,6 +22029,7 @@ var names2 = [
 		defensa: 2,
 		defensaEspecial: 1,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[680],
@@ -21407,6 +22059,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[681],
@@ -21436,6 +22089,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[682],
@@ -21465,6 +22119,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[683],
@@ -21494,6 +22149,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Hada'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[684],
@@ -21527,6 +22183,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Agua 1', 'Agua 2'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[685],
@@ -21560,6 +22217,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Agua 1', 'Agua 2'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[686],
@@ -21593,6 +22251,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Agua 3'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[687],
@@ -21626,6 +22285,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Agua 3'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[688],
@@ -21659,6 +22319,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Dragón', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[689],
@@ -21692,6 +22353,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Dragón', 'Agua 1'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[690],
@@ -21715,6 +22377,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
 	},
+	grupo: ['Agua 1', 'Agua 3'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[691],
@@ -21738,6 +22401,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
 	},
+	grupo: ['Agua 1', 'Agua 3'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[692],
@@ -21771,6 +22435,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Dragón', 'Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[693],
@@ -21805,6 +22470,7 @@ var names2 = [
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	grupo: ['Dragón', 'Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[694],
@@ -21834,6 +22500,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Dragón', 'Monstruo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[695],
@@ -21863,6 +22530,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Dragón', 'Monstruo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[696],
@@ -21892,6 +22560,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 1,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[697],
@@ -21921,6 +22590,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 2,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[698],
@@ -21950,6 +22620,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Campo'],
 	generos: {macho: 87.5,hembra: 12.5},
 	idiomas: {
 		frances: namesFR[699],
@@ -21983,6 +22654,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Humanoide'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[700],
@@ -22016,6 +22688,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Campo', 'Hada'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[701],
@@ -22046,6 +22719,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 1,
 	},
+	grupo: ['Hada', 'Mineral'],
 	idiomas: {
 		frances: namesFR[702],
 		aleman: namesDE[702],
@@ -22078,6 +22752,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
 	},
+	grupo: ['Dragón'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[703],
@@ -22111,6 +22786,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
 	},
+	grupo: ['Dragón'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[704],
@@ -22144,6 +22820,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
 	},
+	grupo: ['Dragón'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[705],
@@ -22173,6 +22850,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Mineral'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[706],
@@ -22206,6 +22884,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 1,
 	},
+	grupo: ['Amorfo', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[707],
@@ -22239,6 +22918,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ataque: 2,
 	},
+	grupo: ['Amorfo', 'Planta'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[708],
@@ -22272,6 +22952,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[709],
@@ -22305,6 +22986,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Amorfo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[710],
@@ -22338,6 +23020,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 1,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[711],
@@ -22371,6 +23054,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		defensa: 2,
 	},
+	grupo: ['Monstruo'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[712],
@@ -22404,6 +23088,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 1,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[713],
@@ -22437,6 +23122,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		velocidad: 2,
 	},
+	grupo: ['Volador'],
 	generos: {macho: 50,hembra: 50},
 	idiomas: {
 		frances: namesFR[714],
@@ -22460,6 +23146,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[715],
 		aleman: namesDE[715],
@@ -22482,6 +23169,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[716],
 		aleman: namesDE[716],
@@ -22504,6 +23192,7 @@ var names2 = [
 	valoresEsfuerzo: {
 		ps: 3,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[717],
 		aleman: namesDE[717],
@@ -22527,6 +23216,7 @@ var names2 = [
 		defensa: 1,
 		defensaEspecial: 2,
 	},
+	grupo: ['Desconocido'],
 	idiomas: {
 		frances: namesFR[718],
 		aleman: namesDE[718],
