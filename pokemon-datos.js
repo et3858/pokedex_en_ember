@@ -3,7 +3,7 @@ var names2 = [
 	id: '001',
 	nombre: names[0],
 	tipo: ['grass', 'poison'],
-	clasificacion: 'Pokemon Semilla',
+	clasificacion: 'Pokémon Semilla',
 	altura: [getAltura(0).pies, getAltura(0).metros], peso: [getPeso(0).libras, getPeso(0).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -30,7 +30,7 @@ var names2 = [
 	id: '002',
 	nombre: names[1],
 	tipo: ['grass', 'poison'],
-	clasificacion: 'Pokemon Semilla',
+	clasificacion: 'Pokémon Semilla',
 	altura: [getAltura(1).pies, getAltura(1).metros], peso: [getPeso(1).libras, getPeso(1).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -58,7 +58,7 @@ var names2 = [
 	id: '003',
 	nombre: names[2],
 	tipo: ['grass', 'poison'],
-	clasificacion: 'Pokemon Semilla',
+	clasificacion: 'Pokémon Semilla',
 	altura: [getAltura(2).pies, getAltura(2).metros], peso: [getPeso(2).libras, getPeso(2).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -90,7 +90,7 @@ var names2 = [
 	id: '004',
 	nombre: names[3],
 	tipo: ['fire'],
-	clasificacion: 'Pokemon Lagarto',
+	clasificacion: 'Pokémon Lagarto',
 	altura: [getAltura(3).pies, getAltura(3).metros], peso: [getPeso(3).libras, getPeso(3).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -117,7 +117,7 @@ var names2 = [
 	id: '005',
 	nombre: names[4],
 	tipo: ['fire'],
-	clasificacion: 'Pokemon Llama',
+	clasificacion: 'Pokémon Llama',
 	altura: [getAltura(4).pies, getAltura(4).metros], peso: [getPeso(4).libras, getPeso(4).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -145,7 +145,7 @@ var names2 = [
 	id: '006',
 	nombre: names[5],
 	tipo: ['fire', 'flying'],
-	clasificacion: 'Pokemon Llama',
+	clasificacion: 'Pokémon Llama',
 	altura: [getAltura(5).pies, getAltura(5).metros], peso: [getPeso(5).libras, getPeso(5).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -178,7 +178,7 @@ var names2 = [
 	id: '007',
 	nombre: names[6],
 	tipo: ['water'],
-	clasificacion: 'Pokemon Tortuguita',
+	clasificacion: 'Pokémon Tortuguita',
 	altura: [getAltura(6).pies, getAltura(6).metros], peso: [getPeso(6).libras, getPeso(6).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -210,7 +210,7 @@ var names2 = [
 	id: '008',
 	nombre: names[7],
 	tipo: ['water'],
-	clasificacion: 'Pokemon Tortuga',
+	clasificacion: 'Pokémon Tortuga',
 	altura: [getAltura(4).pies, getAltura(4).metros], peso: [getPeso(4).libras, getPeso(4).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -238,7 +238,7 @@ var names2 = [
 	id: '009',
 	nombre: names[8],
 	tipo: ['water'],
-	clasificacion: 'Pokemon Marisco',
+	clasificacion: 'Pokémon Marisco',
 	altura: [getAltura(8).pies, getAltura(8).metros], peso: [getPeso(8).libras, getPeso(8).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -272,7 +272,7 @@ var names2 = [
 	id: '010',
 	nombre: names[9],
 	tipo: ['bug'],
-	clasificacion: 'Pokemon Gusano',
+	clasificacion: 'Pokémon Gusano',
 	altura: [getAltura(9).pies, getAltura(9).metros], peso: [getPeso(9).libras, getPeso(9).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -299,7 +299,7 @@ var names2 = [
 	id: '011',
 	nombre: names[10],
 	tipo: ['bug'],
-	clasificacion: 'Pokemon Capullo',
+	clasificacion: 'Pokémon Capullo',
 	altura: [getAltura(10).pies, getAltura(10).metros], peso: [getPeso(10).libras, getPeso(10).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -323,7 +323,7 @@ var names2 = [
 	id: '012',
 	nombre: names[11],
 	tipo: ['bug','flying'],
-	clasificacion: 'Pokemon Mariposa',
+	clasificacion: 'Pokémon Mariposa',
 	altura: [getAltura(11).pies, getAltura(11).metros], peso: [getPeso(11).libras, getPeso(11).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -357,7 +357,7 @@ var names2 = [
 	id: '013',
 	nombre: names[12],
 	tipo: ['bug','poison'],
-	clasificacion: 'Pokemon Oruga',
+	clasificacion: 'Pokémon Oruga',
 	altura: [getAltura(12).pies, getAltura(12).metros], peso: [getPeso(12).libras, getPeso(12).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -384,7 +384,7 @@ var names2 = [
 	id: '014',
 	nombre: names[13],
 	tipo: ['bug','poison'],
-	clasificacion: 'Pokemon Capullo',
+	clasificacion: 'Pokémon Capullo',
 	altura: [getAltura(13).pies, getAltura(13).metros], peso: [getPeso(13).libras, getPeso(13).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -408,7 +408,7 @@ var names2 = [
 	id: '015',
 	nombre: names[14],
 	tipo: ['bug','poison'],
-	clasificacion: 'Pokemon Abeja Venenosa',
+	clasificacion: 'Pokémon Abeja Venenosa',
 	altura: [getAltura(14).pies, getAltura(14).metros], peso: [getPeso(14).libras, getPeso(14).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -450,7 +450,7 @@ var names2 = [
 	id: '016',
 	nombre: names[15],
 	tipo: ['normal','flying'],
-	clasificacion: 'Pokemon Pajarito',
+	clasificacion: 'Pokémon Pajarito',
 	altura: [getAltura(15).pies, getAltura(15).metros], peso: [getPeso(15).libras, getPeso(15).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -478,7 +478,7 @@ var names2 = [
 	id: '017',
 	nombre: names[16],
 	tipo: ['normal','flying'],
-	clasificacion: 'Pokemon Pájaro',
+	clasificacion: 'Pokémon Pájaro',
 	altura: [getAltura(16).pies, getAltura(16).metros], peso: [getPeso(16).libras, getPeso(16).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -506,7 +506,7 @@ var names2 = [
 	id: '018',
 	nombre: names[17],
 	tipo: ['normal','flying'],
-	clasificacion: 'Pokemon Pájaro',
+	clasificacion: 'Pokémon Pájaro',
 	altura: [getAltura(17).pies, getAltura(17).metros], peso: [getPeso(17).libras, getPeso(17).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -545,7 +545,7 @@ var names2 = [
 	id: '019',
 	nombre: names[18],
 	tipo: ['normal'],
-	clasificacion: 'Pokemon Ratón',
+	clasificacion: 'Pokémon Ratón',
 	altura: [getAltura(18).pies, getAltura(18).metros], peso: [getPeso(18).libras, getPeso(18).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -572,7 +572,7 @@ var names2 = [
 	id: '020',
 	nombre: names[19],
 	tipo: ['normal'],
-	clasificacion: 'Pokemon Ratón',
+	clasificacion: 'Pokémon Ratón',
 	altura: [getAltura(19).pies, getAltura(19).metros], peso: [getPeso(19).libras, getPeso(19).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -604,7 +604,7 @@ var names2 = [
 	id: '021',
 	nombre: names[20],
 	tipo: ['normal', 'flying'],
-	clasificacion: 'Pokemon Pajarito',
+	clasificacion: 'Pokémon Pajarito',
 	altura: [getAltura(20).pies, getAltura(20).metros], peso: [getPeso(20).libras, getPeso(20).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -631,7 +631,7 @@ var names2 = [
 	id: '022',
 	nombre: names[21],
 	tipo: ['normal', 'flying'],
-	clasificacion: 'Pokemon Pico',
+	clasificacion: 'Pokémon Pico',
 	altura: [getAltura(21).pies, getAltura(21).metros], peso: [getPeso(21).libras, getPeso(21).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -663,7 +663,7 @@ var names2 = [
 	id: '023',
 	nombre: names[22],
 	tipo: ['poison'],
-	clasificacion: 'Pokemon Serpiente',
+	clasificacion: 'Pokémon Serpiente',
 	altura: [getAltura(22).pies, getAltura(22).metros], peso: [getPeso(22).libras, getPeso(22).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -691,7 +691,7 @@ var names2 = [
 	id: '024',
 	nombre: names[23],
 	tipo: ['poison'],
-	clasificacion: 'Pokemon Cobra',
+	clasificacion: 'Pokémon Cobra',
 	altura: [getAltura(23).pies, getAltura(23).metros], peso: [getPeso(23).libras, getPeso(23).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -725,7 +725,7 @@ var names2 = [
 	id: '025',
 	nombre: names[24],
 	tipo: ['electric'],
-	clasificacion: 'Pokemon Ratón',
+	clasificacion: 'Pokémon Ratón',
 	altura: [getAltura(24).pies, getAltura(24).metros], peso: [getPeso(24).libras, getPeso(24).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -752,7 +752,7 @@ var names2 = [
 	id: '026',
 	nombre: names[25],
 	tipo: ['electric'],
-	clasificacion: 'Pokemon Ratón',
+	clasificacion: 'Pokémon Ratón',
 	altura: [getAltura(25).pies, getAltura(25).metros], peso: [getPeso(25).libras, getPeso(25).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -783,7 +783,7 @@ var names2 = [
 	id: '027',
 	nombre: names[26],
 	tipo: ['ground'],
-	clasificacion: 'Pokemon Ratón',
+	clasificacion: 'Pokémon Ratón',
 	altura: [getAltura(26).pies, getAltura(26).metros], peso: [getPeso(26).libras, getPeso(26).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -810,7 +810,7 @@ var names2 = [
 	id: '028',
 	nombre: names[27],
 	tipo: ['ground'],
-	clasificacion: 'Pokemon Ratón',
+	clasificacion: 'Pokémon Ratón',
 	altura: [getAltura(27).pies, getAltura(27).metros], peso: [getPeso(27).libras, getPeso(27).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -920,6 +920,7 @@ var names2 = [
 	id: '030',
 	nombre: names[29],
 	tipo: ['poison'],
+	clasificacion: 'Pokémon Pin Veneno',
 	altura: [getAltura(29).pies, getAltura(29).metros], peso: [getPeso(29).libras, getPeso(29).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -942,6 +943,7 @@ var names2 = [
 	id: '031',
 	nombre: names[30],
 	tipo: ['poison', 'ground'],
+	clasificacion: 'Pokémon Taladro',
 	altura: [getAltura(30).pies, getAltura(30).metros], peso: [getPeso(30).libras, getPeso(30).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -964,6 +966,7 @@ var names2 = [
 	id: '032',
 	nombre: names[31],
 	tipo: ['poison'],
+	clasificacion: 'Pokémon Pin Veneno',
 	altura: [getAltura(31).pies, getAltura(31).metros], peso: [getPeso(31).libras, getPeso(31).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -986,6 +989,7 @@ var names2 = [
 	id: '033',
 	nombre: names[32],
 	tipo: ['poison'],
+	clasificacion: 'Pokémon Pin Veneno',
 	altura: [getAltura(32).pies, getAltura(32).metros], peso: [getPeso(32).libras, getPeso(32).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1008,6 +1012,7 @@ var names2 = [
 	id: '034',
 	nombre: names[33],
 	tipo: ['poison', 'ground'],
+	clasificacion: 'Pokémon Taladro',
 	altura: [getAltura(33).pies, getAltura(33).metros], peso: [getPeso(33).libras, getPeso(33).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1030,6 +1035,7 @@ var names2 = [
 	id: '035',
 	nombre: names[34],
 	tipo: ['fairy'],
+	clasificacion: 'Pokémon Hada',
 	altura: [getAltura(34).pies, getAltura(34).metros], peso: [getPeso(34).libras, getPeso(34).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1052,6 +1058,7 @@ var names2 = [
 	id: '036',
 	nombre: names[35],
 	tipo: ['fairy'],
+	clasificacion: 'Pokémon Hada',
 	altura: [getAltura(35).pies, getAltura(35).metros], peso: [getPeso(35).libras, getPeso(35).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1074,6 +1081,7 @@ var names2 = [
 	id: '037',
 	nombre: names[36],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Zorro',
 	altura: [getAltura(36).pies, getAltura(36).metros], peso: [getPeso(36).libras, getPeso(36).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1095,6 +1103,7 @@ var names2 = [
 	id: '038',
 	nombre: names[37],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Zorro',
 	altura: [getAltura(37).pies, getAltura(37).metros], peso: [getPeso(37).libras, getPeso(37).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1117,6 +1126,7 @@ var names2 = [
 	id: '039',
 	nombre: names[38],
 	tipo: ['normal', 'fairy'],
+	clasificacion: 'Pokémon Globo',
 	altura: [getAltura(38).pies, getAltura(38).metros], peso: [getPeso(38).libras, getPeso(38).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1139,6 +1149,7 @@ var names2 = [
 	id: '040',
 	nombre: names[39],
 	tipo: ['normal', 'fairy'],
+	clasificacion: 'Pokémon Globo',
 	altura: [getAltura(39).pies, getAltura(39).metros], peso: [getPeso(39).libras, getPeso(39).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1161,6 +1172,7 @@ var names2 = [
 	id: '041',
 	nombre: names[40],
 	tipo: ['poison', 'flying'],
+	clasificacion: 'Pokémon Murciélago',
 	altura: [getAltura(40).pies, getAltura(40).metros], peso: [getPeso(40).libras, getPeso(40).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1182,6 +1194,7 @@ var names2 = [
 	id: '042',
 	nombre: names[41],
 	tipo: ['poison', 'flying'],
+	clasificacion: 'Pokémon Murciélago',
 	altura: [getAltura(41).pies, getAltura(41).metros], peso: [getPeso(41).libras, getPeso(41).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1203,6 +1216,7 @@ var names2 = [
 	id: '043',
 	nombre: names[42],
 	tipo: ['grass', 'poison'],
+	clasificacion: 'Pokémon Hierbajo',
 	altura: [getAltura(42).pies, getAltura(42).metros], peso: [getPeso(42).libras, getPeso(42).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1224,6 +1238,7 @@ var names2 = [
 	id: '044',
 	nombre: names[43],
 	tipo: ['grass', 'poison'],
+	clasificacion: 'Pokémon Hierbajo',
 	altura: [getAltura(43).pies, getAltura(43).metros], peso: [getPeso(43).libras, getPeso(43).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1245,6 +1260,7 @@ var names2 = [
 	id: '045',
 	nombre: names[44],
 	tipo: ['grass', 'poison'],
+	clasificacion: 'Pokémon Flor',
 	altura: [getAltura(44).pies, getAltura(44).metros], peso: [getPeso(44).libras, getPeso(44).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1266,6 +1282,7 @@ var names2 = [
 	id: '046',
 	nombre: names[45],
 	tipo: ['bug', 'grass'],
+	clasificacion: 'Pokémon Hongo',
 	altura: [getAltura(45).pies, getAltura(45).metros], peso: [getPeso(45).libras, getPeso(45).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1288,6 +1305,7 @@ var names2 = [
 	id: '047',
 	nombre: names[46],
 	tipo: ['bug', 'grass'],
+	clasificacion: 'Pokémon Hongo',
 	altura: [getAltura(46).pies, getAltura(46).metros], peso: [getPeso(46).libras, getPeso(46).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1311,6 +1329,7 @@ var names2 = [
 	id: '048',
 	nombre: names[47],
 	tipo: ['bug', 'poison'],
+	clasificacion: 'Pokémon Insecto',
 	altura: [getAltura(47).pies, getAltura(47).metros], peso: [getPeso(47).libras, getPeso(47).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1333,6 +1352,7 @@ var names2 = [
 	id: '049',
 	nombre: names[48],
 	tipo: ['bug', 'poison'],
+	clasificacion: 'Pokémon Polilla Venenosa',
 	altura: [getAltura(48).pies, getAltura(48).metros], peso: [getPeso(48).libras, getPeso(48).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1356,6 +1376,7 @@ var names2 = [
 	id: '050',
 	nombre: names[49],
 	tipo: ['ground'],
+	clasificacion: 'Pokémon Topo',
 	altura: [getAltura(49).pies, getAltura(49).metros], peso: [getPeso(49).libras, getPeso(49).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1378,6 +1399,7 @@ var names2 = [
 	id: '051',
 	nombre: names[50],
 	tipo: ['ground'],
+	clasificacion: 'Pokémon Topo',
 	altura: [getAltura(50).pies, getAltura(50).metros], peso: [getPeso(50).libras, getPeso(50).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1400,6 +1422,7 @@ var names2 = [
 	id: '052',
 	nombre: names[51],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Gato Araña',
 	altura: [getAltura(51).pies, getAltura(51).metros], peso: [getPeso(51).libras, getPeso(51).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1422,6 +1445,7 @@ var names2 = [
 	id: '053',
 	nombre: names[52],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Gato Fino',
 	altura: [getAltura(52).pies, getAltura(52).metros], peso: [getPeso(52).libras, getPeso(52).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1444,6 +1468,7 @@ var names2 = [
 	id: '054',
 	nombre: names[53],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Pato',
 	altura: [getAltura(53).pies, getAltura(53).metros], peso: [getPeso(53).libras, getPeso(53).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1466,6 +1491,7 @@ var names2 = [
 	id: '055',
 	nombre: names[54],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Pato',
 	altura: [getAltura(54).pies, getAltura(54).metros], peso: [getPeso(54).libras, getPeso(54).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1488,6 +1514,7 @@ var names2 = [
 	id: '056',
 	nombre: names[55],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Mono Cerdo',
 	altura: [getAltura(55).pies, getAltura(55).metros], peso: [getPeso(55).libras, getPeso(55).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1510,6 +1537,7 @@ var names2 = [
 	id: '057',
 	nombre: names[56],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Mono Cerdo',
 	altura: [getAltura(56).pies, getAltura(56).metros], peso: [getPeso(56).libras, getPeso(56).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1532,6 +1560,7 @@ var names2 = [
 	id: '058',
 	nombre: names[57],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Perrito',
 	altura: [getAltura(57).pies, getAltura(57).metros], peso: [getPeso(57).libras, getPeso(57).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1554,6 +1583,7 @@ var names2 = [
 	id: '059',
 	nombre: names[58],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Legendario',
 	altura: [getAltura(58).pies, getAltura(58).metros], peso: [getPeso(58).libras, getPeso(58).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1576,6 +1606,7 @@ var names2 = [
 	id: '060',
 	nombre: names[59],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Renacuajo',
 	altura: [getAltura(59).pies, getAltura(59).metros], peso: [getPeso(59).libras, getPeso(59).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1598,6 +1629,7 @@ var names2 = [
 	id: '061',
 	nombre: names[60],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Renacuajo',
 	altura: [getAltura(60).pies, getAltura(60).metros], peso: [getPeso(60).libras, getPeso(60).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1620,6 +1652,7 @@ var names2 = [
 	id: '062',
 	nombre: names[61],
 	tipo: ['water', 'fight'],
+	clasificacion: 'Pokémon Renacuajo',
 	altura: [getAltura(61).pies, getAltura(61).metros], peso: [getPeso(61).libras, getPeso(61).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1642,6 +1675,7 @@ var names2 = [
 	id: '063',
 	nombre: names[62],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Psi',
 	altura: [getAltura(62).pies, getAltura(62).metros], peso: [getPeso(62).libras, getPeso(62).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1664,6 +1698,7 @@ var names2 = [
 	id: '064',
 	nombre: names[63],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Psi',
 	altura: [getAltura(63).pies, getAltura(63).metros], peso: [getPeso(63).libras, getPeso(63).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1686,6 +1721,7 @@ var names2 = [
 	id: '065',
 	nombre: names[64],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Psi',
 	altura: [getAltura(64).pies, getAltura(64).metros], peso: [getPeso(64).libras, getPeso(64).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1708,6 +1744,7 @@ var names2 = [
 	id: '066',
 	nombre: names[65],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Superpoder',
 	altura: [getAltura(65).pies, getAltura(65).metros], peso: [getPeso(65).libras, getPeso(65).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1730,6 +1767,7 @@ var names2 = [
 	id: '067',
 	nombre: names[66],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Superpoder',
 	altura: [getAltura(66).pies, getAltura(66).metros], peso: [getPeso(66).libras, getPeso(66).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1752,6 +1790,7 @@ var names2 = [
 	id: '068',
 	nombre: names[67],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Superpoder',
 	altura: [getAltura(67).pies, getAltura(67).metros], peso: [getPeso(67).libras, getPeso(67).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1774,6 +1813,7 @@ var names2 = [
 	id: '069',
 	nombre: names[68],
 	tipo: ['grass', 'poison'],
+	clasificacion: 'Pokémon Flor',
 	altura: [getAltura(68).pies, getAltura(68).metros], peso: [getPeso(68).libras, getPeso(68).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1795,6 +1835,7 @@ var names2 = [
 	id: '070',
 	nombre: names[69],
 	tipo: ['grass', 'poison'],
+	clasificacion: 'Pokémon Matamoscas',
 	altura: [getAltura(69).pies, getAltura(69).metros], peso: [getPeso(69).libras, getPeso(69).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1816,6 +1857,7 @@ var names2 = [
 	id: '071',
 	nombre: names[70],
 	tipo: ['grass', 'poison'],
+	clasificacion: 'Pokémon Matamoscas',
 	altura: [getAltura(70).pies, getAltura(70).metros], peso: [getPeso(70).libras, getPeso(70).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1837,6 +1879,7 @@ var names2 = [
 	id: '072',
 	nombre: names[71],
 	tipo: ['water', 'poison'],
+	clasificacion: 'Pokémon Medusa',
 	altura: [getAltura(71).pies, getAltura(71).metros], peso: [getPeso(71).libras, getPeso(71).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1859,6 +1902,7 @@ var names2 = [
 	id: '073',
 	nombre: names[72],
 	tipo: ['water', 'poison'],
+	clasificacion: 'Pokémon Medusa',
 	altura: [getAltura(72).pies, getAltura(72).metros], peso: [getPeso(72).libras, getPeso(72).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1881,6 +1925,7 @@ var names2 = [
 	id: '074',
 	nombre: names[73],
 	tipo: ['rock', 'ground'],
+	clasificacion: 'Pokémon Roca',
 	altura: [getAltura(73).pies, getAltura(73).metros], peso: [getPeso(73).libras, getPeso(73).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1903,6 +1948,7 @@ var names2 = [
 	id: '075',
 	nombre: names[74],
 	tipo: ['rock', 'ground'],
+	clasificacion: 'Pokémon Roca',
 	altura: [getAltura(74).pies, getAltura(74).metros], peso: [getPeso(74).libras, getPeso(74).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1925,6 +1971,7 @@ var names2 = [
 	id: '076',
 	nombre: names[75],
 	tipo: ['rock', 'ground'],
+	clasificacion: 'Pokémon Megatón',
 	altura: [getAltura(75).pies, getAltura(75).metros], peso: [getPeso(75).libras, getPeso(75).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1947,6 +1994,7 @@ var names2 = [
 	id: '077',
 	nombre: names[76],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Caballo Fuego',
 	altura: [getAltura(76).pies, getAltura(76).metros], peso: [getPeso(76).libras, getPeso(76).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1969,6 +2017,7 @@ var names2 = [
 	id: '078',
 	nombre: names[77],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Caballo Fuego',
 	altura: [getAltura(77).pies, getAltura(77).metros], peso: [getPeso(77).libras, getPeso(77).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -1991,6 +2040,7 @@ var names2 = [
 	id: '079',
 	nombre: names[78],
 	tipo: ['water', 'poison'],
+	clasificacion: 'Pokémon Atontado',
 	altura: [getAltura(78).pies, getAltura(78).metros], peso: [getPeso(78).libras, getPeso(78).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2013,6 +2063,7 @@ var names2 = [
 	id: '080',
 	nombre: names[79],
 	tipo: ['water', 'poison'],
+	clasificacion: 'Pokémon Ermitaño',
 	altura: [getAltura(79).pies, getAltura(79).metros], peso: [getPeso(79).libras, getPeso(79).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2035,6 +2086,7 @@ var names2 = [
 	id: '081',
 	nombre: names[80],
 	tipo: ['electric', 'steel'],
+	clasificacion: 'Pokémon Imán',
 	altura: [getAltura(80).pies, getAltura(80).metros], peso: [getPeso(80).libras, getPeso(80).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2056,6 +2108,7 @@ var names2 = [
 	id: '082',
 	nombre: names[81],
 	tipo: ['electric', 'steel'],
+	clasificacion: 'Pokémon Imán',
 	altura: [getAltura(81).pies, getAltura(81).metros], peso: [getPeso(81).libras, getPeso(81).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2077,6 +2130,7 @@ var names2 = [
 	id: '083',
 	nombre: names[82],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Pato Salvaje',
 	altura: [getAltura(82).pies, getAltura(82).metros], peso: [getPeso(82).libras, getPeso(82).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2099,6 +2153,7 @@ var names2 = [
 	id: '084',
 	nombre: names[83],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Ave Gemela',
 	altura: [getAltura(83).pies, getAltura(83).metros], peso: [getPeso(83).libras, getPeso(83).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2121,6 +2176,7 @@ var names2 = [
 	id: '085',
 	nombre: names[84],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Ave Triple',
 	altura: [getAltura(84).pies, getAltura(84).metros], peso: [getPeso(84).libras, getPeso(84).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2143,6 +2199,7 @@ var names2 = [
 	id: '086',
 	nombre: names[85],
 	tipo: ['water'],
+	clasificacion: 'Pokémon León Marino',
 	altura: [getAltura(85).pies, getAltura(85).metros], peso: [getPeso(85).libras, getPeso(85).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2165,6 +2222,7 @@ var names2 = [
 	id: '087',
 	nombre: names[86],
 	tipo: ['water', 'ice'],
+	clasificacion: 'Pokémon León Marino',
 	altura: [getAltura(86).pies, getAltura(86).metros], peso: [getPeso(86).libras, getPeso(86).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2187,6 +2245,7 @@ var names2 = [
 	id: '088',
 	nombre: names[87],
 	tipo: ['poison'],
+	clasificacion: 'Pokémon Lodo',
 	altura: [getAltura(87).pies, getAltura(87).metros], peso: [getPeso(87).libras, getPeso(87).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2209,6 +2268,7 @@ var names2 = [
 	id: '089',
 	nombre: names[88],
 	tipo: ['poison'],
+	clasificacion: 'Pokémon Lodo',
 	altura: [getAltura(88).pies, getAltura(88).metros], peso: [getPeso(88).libras, getPeso(88).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2232,6 +2292,7 @@ var names2 = [
 	id: '090',
 	nombre: names[89],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Bivalvo',
 	altura: [getAltura(89).pies, getAltura(89).metros], peso: [getPeso(89).libras, getPeso(89).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2254,6 +2315,7 @@ var names2 = [
 	id: '091',
 	nombre: names[90],
 	tipo: ['water', 'ice'],
+	clasificacion: 'Pokémon Bivalvo',
 	altura: [getAltura(90).pies, getAltura(90).metros], peso: [getPeso(90).libras, getPeso(90).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2276,6 +2338,7 @@ var names2 = [
 	id: '092',
 	nombre: names[91],
 	tipo: ['ghost', 'poison'],
+	clasificacion: 'Pokémon Gas',
 	altura: [getAltura(91).pies, getAltura(91).metros], peso: [getPeso(91).libras, getPeso(91).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2294,6 +2357,7 @@ var names2 = [
 	id: '093',
 	nombre: names[92],
 	tipo: ['ghost', 'poison'],
+	clasificacion: 'Pokémon Gas',
 	altura: [getAltura(92).pies, getAltura(92).metros], peso: [getPeso(92).libras, getPeso(92).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2312,6 +2376,7 @@ var names2 = [
 	id: '094',
 	nombre: names[93],
 	tipo: ['ghost', 'poison'],
+	clasificacion: 'Pokémon Sombra',
 	altura: [getAltura(93).pies, getAltura(93).metros], peso: [getPeso(93).libras, getPeso(93).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2330,6 +2395,7 @@ var names2 = [
 	id: '095',
 	nombre: names[94],
 	tipo: ['rock', 'ground'],
+	clasificacion: 'Pokémon Serpiente Roca',
 	altura: [getAltura(94).pies, getAltura(94).metros], peso: [getPeso(94).libras, getPeso(94).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2352,6 +2418,7 @@ var names2 = [
 	id: '096',
 	nombre: names[95],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Hipnosis',
 	altura: [getAltura(95).pies, getAltura(95).metros], peso: [getPeso(95).libras, getPeso(95).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2374,6 +2441,7 @@ var names2 = [
 	id: '097',
 	nombre: names[96],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Hipnosis',
 	altura: [getAltura(96).pies, getAltura(96).metros], peso: [getPeso(96).libras, getPeso(96).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2396,6 +2464,7 @@ var names2 = [
 	id: '098',
 	nombre: names[97],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Cangrejo',
 	altura: [getAltura(97).pies, getAltura(97).metros], peso: [getPeso(97).libras, getPeso(97).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2418,6 +2487,7 @@ var names2 = [
 	id: '099',
 	nombre: names[98],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Tenaza',
 	altura: [getAltura(98).pies, getAltura(98).metros], peso: [getPeso(98).libras, getPeso(98).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2440,6 +2510,7 @@ var names2 = [
 	id: '100',
 	nombre: names[99],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Bola',
 	altura: [getAltura(99).pies, getAltura(99).metros], peso: [getPeso(99).libras, getPeso(99).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2461,6 +2532,7 @@ var names2 = [
 	id: '101',
 	nombre: names[100],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Bola',
 	altura: [getAltura(100).pies, getAltura(100).metros], peso: [getPeso(100).libras, getPeso(100).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2482,6 +2554,7 @@ var names2 = [
 	id: '102',
 	nombre: names[101],
 	tipo: ['grass', 'psychic'],
+	clasificacion: 'Pokémon Huevo',
 	altura: [getAltura(101).pies, getAltura(101).metros], peso: [getPeso(101).libras, getPeso(101).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2503,6 +2576,7 @@ var names2 = [
 	id: '103',
 	nombre: names[102],
 	tipo: ['grass', 'psychic'],
+	clasificacion: 'Pokémon Coco',
 	altura: [getAltura(102).pies, getAltura(102).metros], peso: [getPeso(102).libras, getPeso(102).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2524,6 +2598,7 @@ var names2 = [
 	id: '104',
 	nombre: names[103],
 	tipo: ['ground'],
+	clasificacion: 'Pokémon Solitario',
 	altura: [getAltura(103).pies, getAltura(103).metros], peso: [getPeso(103).libras, getPeso(103).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2546,6 +2621,7 @@ var names2 = [
 	id: '105',
 	nombre: names[104],
 	tipo: ['ground'],
+	clasificacion: 'Pokémon Apilahueso',
 	altura: [getAltura(104).pies, getAltura(104).metros], peso: [getPeso(104).libras, getPeso(104).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2568,6 +2644,7 @@ var names2 = [
 	id: '106',
 	nombre: names[105],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Patada',
 	altura: [getAltura(105).pies, getAltura(105).metros], peso: [getPeso(105).libras, getPeso(105).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2590,6 +2667,7 @@ var names2 = [
 	id: '107',
 	nombre: names[106],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Puñetazo',
 	altura: [getAltura(106).pies, getAltura(106).metros], peso: [getPeso(106).libras, getPeso(106).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2612,6 +2690,7 @@ var names2 = [
 	id: '108',
 	nombre: names[107],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Lametazo',
 	altura: [getAltura(107).pies, getAltura(107).metros], peso: [getPeso(107).libras, getPeso(107).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2634,6 +2713,7 @@ var names2 = [
 	id: '109',
 	nombre: names[108],
 	tipo: ['poison'],
+	clasificacion: 'Pokémon Gas Veneno',
 	altura: [getAltura(108).pies, getAltura(108).metros], peso: [getPeso(108).libras, getPeso(108).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2652,6 +2732,7 @@ var names2 = [
 	id: '110',
 	nombre: names[109],
 	tipo: ['poison'],
+	clasificacion: 'Pokémon Gas Veneno',
 	altura: [getAltura(109).pies, getAltura(109).metros], peso: [getPeso(109).libras, getPeso(109).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2670,6 +2751,7 @@ var names2 = [
 	id: '111',
 	nombre: names[110],
 	tipo: ['ground', 'rock'],
+	clasificacion: 'Pokémon Clavos',
 	altura: [getAltura(110).pies, getAltura(110).metros], peso: [getPeso(110).libras, getPeso(110).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2692,6 +2774,7 @@ var names2 = [
 	id: '112',
 	nombre: names[111],
 	tipo: ['ground', 'rock'],
+	clasificacion: 'Pokémon Taladro',
 	altura: [getAltura(111).pies, getAltura(111).metros], peso: [getPeso(111).libras, getPeso(111).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2714,6 +2797,7 @@ var names2 = [
 	id: '113',
 	nombre: names[112],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Huevo',
 	altura: [getAltura(112).pies, getAltura(112).metros], peso: [getPeso(112).libras, getPeso(112).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2736,6 +2820,7 @@ var names2 = [
 	id: '114',
 	nombre: names[113],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Enredadera',
 	altura: [getAltura(113).pies, getAltura(113).metros], peso: [getPeso(113).libras, getPeso(113).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2758,6 +2843,7 @@ var names2 = [
 	id: '115',
 	nombre: names[114],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Padres',
 	altura: [getAltura(114).pies, getAltura(114).metros], peso: [getPeso(114).libras, getPeso(114).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2780,6 +2866,7 @@ var names2 = [
 	id: '116',
 	nombre: names[115],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Dragón',
 	altura: [getAltura(115).pies, getAltura(115).metros], peso: [getPeso(115).libras, getPeso(115).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2802,6 +2889,7 @@ var names2 = [
 	id: '117',
 	nombre: names[116],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Dragón',
 	altura: [getAltura(116).pies, getAltura(116).metros], peso: [getPeso(116).libras, getPeso(116).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2825,6 +2913,7 @@ var names2 = [
 	id: '118',
 	nombre: names[117],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Pez Color',
 	altura: [getAltura(117).pies, getAltura(117).metros], peso: [getPeso(117).libras, getPeso(117).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2847,6 +2936,7 @@ var names2 = [
 	id: '119',
 	nombre: names[118],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Pez Color',
 	altura: [getAltura(118).pies, getAltura(118).metros], peso: [getPeso(118).libras, getPeso(118).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2869,6 +2959,7 @@ var names2 = [
 	id: '120',
 	nombre: names[119],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Estrellada',
 	altura: [getAltura(119).pies, getAltura(119).metros], peso: [getPeso(119).libras, getPeso(119).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2890,6 +2981,7 @@ var names2 = [
 	id: '121',
 	nombre: names[120],
 	tipo: ['water', 'psychic'],
+	clasificacion: 'Pokémon Misterioso',
 	altura: [getAltura(120).pies, getAltura(120).metros], peso: [getPeso(120).libras, getPeso(120).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2911,6 +3003,7 @@ var names2 = [
 	id: '122',
 	nombre: names[121],
 	tipo: ['psychic', 'fairy'],
+	clasificacion: 'Pokémon Barrera',
 	altura: [getAltura(121).pies, getAltura(121).metros], peso: [getPeso(121).libras, getPeso(121).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2933,6 +3026,7 @@ var names2 = [
 	id: '123',
 	nombre: names[122],
 	tipo: ['bug', 'flying'],
+	clasificacion: 'Pokémon Mantis',
 	altura: [getAltura(122).pies, getAltura(122).metros], peso: [getPeso(122).libras, getPeso(122).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2955,6 +3049,7 @@ var names2 = [
 	id: '124',
 	nombre: names[123],
 	tipo: ['ice', 'psychic'],
+	clasificacion: 'Pokémon Forma Humana',
 	altura: [getAltura(123).pies, getAltura(123).metros], peso: [getPeso(123).libras, getPeso(123).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2977,6 +3072,7 @@ var names2 = [
 	id: '125',
 	nombre: names[124],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Eléctrico',
 	altura: [getAltura(124).pies, getAltura(124).metros], peso: [getPeso(124).libras, getPeso(124).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2998,6 +3094,7 @@ var names2 = [
 	id: '126',
 	nombre: names[125],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Escupfuego',
 	altura: [getAltura(125).pies, getAltura(125).metros], peso: [getPeso(125).libras, getPeso(125).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3019,6 +3116,7 @@ var names2 = [
 	id: '127',
 	nombre: names[126],
 	tipo: ['bug'],
+	clasificacion: 'Pokémon Escarabajo',
 	altura: [getAltura(126).pies, getAltura(126).metros], peso: [getPeso(126).libras, getPeso(126).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3041,6 +3139,7 @@ var names2 = [
 	id: '128',
 	nombre: names[127],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Toro Bravo',
 	altura: [getAltura(127).pies, getAltura(127).metros], peso: [getPeso(127).libras, getPeso(127).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3064,6 +3163,7 @@ var names2 = [
 	id: '129',
 	nombre: names[128],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Pez',
 	altura: [getAltura(128).pies, getAltura(128).metros], peso: [getPeso(128).libras, getPeso(128).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3085,6 +3185,7 @@ var names2 = [
 	id: '130',
 	nombre: names[129],
 	tipo: ['water', 'flying'],
+	clasificacion: 'Pokémon Atrocidad',
 	altura: [getAltura(129).pies, getAltura(129).metros], peso: [getPeso(129).libras, getPeso(129).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3106,6 +3207,7 @@ var names2 = [
 	id: '131',
 	nombre: names[130],
 	tipo: ['water', 'ice'],
+	clasificacion: 'Pokémon Transporte',
 	altura: [getAltura(130).pies, getAltura(130).metros], peso: [getPeso(130).libras, getPeso(130).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3128,6 +3230,7 @@ var names2 = [
 	id: '132',
 	nombre: names[131],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Transformación',
 	altura: [getAltura(131).pies, getAltura(131).metros], peso: [getPeso(131).libras, getPeso(131).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3148,6 +3251,7 @@ var names2 = [
 	id: '133',
 	nombre: names[132],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Evolución',
 	altura: [getAltura(132).pies, getAltura(132).metros], peso: [getPeso(132).libras, getPeso(132).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3170,6 +3274,7 @@ var names2 = [
 	id: '134',
 	nombre: names[133],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Burbuja',
 	altura: [getAltura(133).pies, getAltura(133).metros], peso: [getPeso(133).libras, getPeso(133).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3191,6 +3296,7 @@ var names2 = [
 	id: '135',
 	nombre: names[134],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Relámpago',
 	altura: [getAltura(134).pies, getAltura(134).metros], peso: [getPeso(134).libras, getPeso(134).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3212,6 +3318,7 @@ var names2 = [
 	id: '136',
 	nombre: names[135],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Llama',
 	altura: [getAltura(135).pies, getAltura(135).metros], peso: [getPeso(135).libras, getPeso(135).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3233,6 +3340,7 @@ var names2 = [
 	id: '137',
 	nombre: names[136],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Virtual',
 	altura: [getAltura(136).pies, getAltura(136).metros], peso: [getPeso(136).libras, getPeso(136).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3254,6 +3362,7 @@ var names2 = [
 	id: '138',
 	nombre: names[137],
 	tipo: ['rock', 'water'],
+	clasificacion: 'Pokémon Espiral',
 	altura: [getAltura(137).pies, getAltura(137).metros], peso: [getPeso(137).libras, getPeso(137).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3276,6 +3385,7 @@ var names2 = [
 	id: '139',
 	nombre: names[138],
 	tipo: ['rock', 'water'],
+	clasificacion: 'Pokémon Espiral',
 	altura: [getAltura(138).pies, getAltura(138).metros], peso: [getPeso(138).libras, getPeso(138).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3298,6 +3408,7 @@ var names2 = [
 	id: '140',
 	nombre: names[139],
 	tipo: ['rock', 'water'],
+	clasificacion: 'Pokémon Marisco',
 	altura: [getAltura(139).pies, getAltura(139).metros], peso: [getPeso(139).libras, getPeso(139).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3320,6 +3431,7 @@ var names2 = [
 	id: '141',
 	nombre: names[140],
 	tipo: ['rock', 'water'],
+	clasificacion: 'Pokémon Marisco',
 	altura: [getAltura(140).pies, getAltura(140).metros], peso: [getPeso(140).libras, getPeso(140).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3342,6 +3454,7 @@ var names2 = [
 	id: '142',
 	nombre: names[141],
 	tipo: ['rock', 'flying'],
+	clasificacion: 'Pokémon Fósil',
 	altura: [getAltura(141).pies, getAltura(141).metros], peso: [getPeso(141).libras, getPeso(141).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3364,6 +3477,7 @@ var names2 = [
 	id: '143',
 	nombre: names[142],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Dormir',
 	altura: [getAltura(142).pies, getAltura(142).metros], peso: [getPeso(142).libras, getPeso(142).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3386,6 +3500,7 @@ var names2 = [
 	id: '144',
 	nombre: names[143],
 	tipo: ['ice', 'flying'],
+	clasificacion: 'Pokémon Congelar',
 	altura: [getAltura(143).pies, getAltura(143).metros], peso: [getPeso(143).libras, getPeso(143).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3406,6 +3521,7 @@ var names2 = [
 	id: '145',
 	nombre: names[144],
 	tipo: ['electric', 'flying'],
+	clasificacion: 'Pokémon Eléctrico',
 	altura: [getAltura(144).pies, getAltura(144).metros], peso: [getPeso(144).libras, getPeso(144).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3426,6 +3542,7 @@ var names2 = [
 	id: '146',
 	nombre: names[145],
 	tipo: ['fire', 'flying'],
+	clasificacion: 'Pokémon Llama',
 	altura: [getAltura(145).pies, getAltura(145).metros], peso: [getPeso(145).libras, getPeso(145).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3446,6 +3563,7 @@ var names2 = [
 	id: '147',
 	nombre: names[146],
 	tipo: ['dragon'],
+	clasificacion: 'Pokémon Dragón',
 	altura: [getAltura(146).pies, getAltura(146).metros], peso: [getPeso(146).libras, getPeso(146).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3467,6 +3585,7 @@ var names2 = [
 	id: '148',
 	nombre: names[147],
 	tipo: ['dragon'],
+	clasificacion: 'Pokémon Dragón',
 	altura: [getAltura(147).pies, getAltura(147).metros], peso: [getPeso(147).libras, getPeso(147).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3488,6 +3607,7 @@ var names2 = [
 	id: '149',
 	nombre: names[148],
 	tipo: ['dragon', 'flying'],
+	clasificacion: 'Pokémon Dragón',
 	altura: [getAltura(148).pies, getAltura(148).metros], peso: [getPeso(148).libras, getPeso(148).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3509,6 +3629,7 @@ var names2 = [
 	id: '150',
 	nombre: names[149],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Genético',
 	altura: [getAltura(149).pies, getAltura(149).metros], peso: [getPeso(149).libras, getPeso(149).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3529,6 +3650,7 @@ var names2 = [
 	id: '151',
 	nombre: names[150],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Nueva Especie',
 	altura: [getAltura(150).pies, getAltura(150).metros], peso: [getPeso(150).libras, getPeso(150).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3562,6 +3684,7 @@ var names2 = [
 	id: '152',
 	nombre: names[151],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Hoja',
 	altura: [getAltura(151).pies, getAltura(151).metros], peso: [getPeso(151).libras, getPeso(151).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3583,6 +3706,7 @@ var names2 = [
 	id: '153',
 	nombre: names[152],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Hoja',
 	altura: [getAltura(152).pies, getAltura(152).metros], peso: [getPeso(152).libras, getPeso(152).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3605,6 +3729,7 @@ var names2 = [
 	id: '154',
 	nombre: names[153],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Hierba',
 	altura: [getAltura(153).pies, getAltura(153).metros], peso: [getPeso(153).libras, getPeso(153).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3627,6 +3752,7 @@ var names2 = [
 	id: '155',
 	nombre: names[154],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Ratónfuego',
 	altura: [getAltura(154).pies, getAltura(154).metros], peso: [getPeso(154).libras, getPeso(154).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3648,6 +3774,7 @@ var names2 = [
 	id: '156',
 	nombre: names[155],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Volcán',
 	altura: [getAltura(155).pies, getAltura(155).metros], peso: [getPeso(155).libras, getPeso(155).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3670,6 +3797,7 @@ var names2 = [
 	id: '157',
 	nombre: names[156],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Volcán',
 	altura: [getAltura(156).pies, getAltura(156).metros], peso: [getPeso(156).libras, getPeso(156).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3691,6 +3819,7 @@ var names2 = [
 	id: '158',
 	nombre: names[157],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Gran Fauce',
 	altura: [getAltura(157).pies, getAltura(157).metros], peso: [getPeso(157).libras, getPeso(157).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3712,6 +3841,7 @@ var names2 = [
 	id: '159',
 	nombre: names[158],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Gran Fauce',
 	altura: [getAltura(158).pies, getAltura(158).metros], peso: [getPeso(158).libras, getPeso(158).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3734,6 +3864,7 @@ var names2 = [
 	id: '160',
 	nombre: names[159],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Gran Fauce',
 	altura: [getAltura(159).pies, getAltura(159).metros], peso: [getPeso(159).libras, getPeso(159).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3756,6 +3887,7 @@ var names2 = [
 	id: '161',
 	nombre: names[160],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Explorador',
 	altura: [getAltura(160).pies, getAltura(160).metros], peso: [getPeso(160).libras, getPeso(160).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3778,6 +3910,7 @@ var names2 = [
 	id: '162',
 	nombre: names[161],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Alargado',
 	altura: [getAltura(161).pies, getAltura(161).metros], peso: [getPeso(161).libras, getPeso(161).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3800,6 +3933,7 @@ var names2 = [
 	id: '163',
 	nombre: names[162],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Búho',
 	altura: [getAltura(162).pies, getAltura(162).metros], peso: [getPeso(162).libras, getPeso(162).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3822,6 +3956,7 @@ var names2 = [
 	id: '164',
 	nombre: names[163],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Búho',
 	altura: [getAltura(163).pies, getAltura(163).metros], peso: [getPeso(163).libras, getPeso(163).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3844,6 +3979,7 @@ var names2 = [
 	id: '165',
 	nombre: names[164],
 	tipo: ['bug', 'flying'],
+	clasificacion: 'Pokémon 5estrellas',
 	altura: [getAltura(164).pies, getAltura(164).metros], peso: [getPeso(164).libras, getPeso(164).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3866,6 +4002,7 @@ var names2 = [
 	id: '166',
 	nombre: names[165],
 	tipo: ['bug', 'flying'],
+	clasificacion: 'Pokémon 5estrellas',
 	altura: [getAltura(165).pies, getAltura(165).metros], peso: [getPeso(165).libras, getPeso(165).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3888,6 +4025,7 @@ var names2 = [
 	id: '167',
 	nombre: names[166],
 	tipo: ['bug', 'poison'],
+	clasificacion: 'Pokémon Escupesoga',
 	altura: [getAltura(166).pies, getAltura(166).metros], peso: [getPeso(166).libras, getPeso(166).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3910,6 +4048,7 @@ var names2 = [
 	id: '168',
 	nombre: names[167],
 	tipo: ['bug', 'poison'],
+	clasificacion: 'Pokémon Pata Larga',
 	altura: [getAltura(167).pies, getAltura(167).metros], peso: [getPeso(167).libras, getPeso(167).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3932,6 +4071,7 @@ var names2 = [
 	id: '169',
 	nombre: names[168],
 	tipo: ['poison', 'flying'],
+	clasificacion: 'Pokémon Murciélago',
 	altura: [getAltura(168).pies, getAltura(168).metros], peso: [getPeso(168).libras, getPeso(168).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3953,6 +4093,7 @@ var names2 = [
 	id: '170',
 	nombre: names[169],
 	tipo: ['water', 'electric'],
+	clasificacion: 'Pokémon Rape',
 	altura: [getAltura(169).pies, getAltura(169).metros], peso: [getPeso(169).libras, getPeso(169).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3975,6 +4116,7 @@ var names2 = [
 	id: '171',
 	nombre: names[170],
 	tipo: ['water', 'electric'],
+	clasificacion: 'Pokémon Luz',
 	altura: [getAltura(170).pies, getAltura(170).metros], peso: [getPeso(170).libras, getPeso(170).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -3997,6 +4139,7 @@ var names2 = [
 	id: '172',
 	nombre: names[171],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Ratoncito',
 	altura: [getAltura(171).pies, getAltura(171).metros], peso: [getPeso(171).libras, getPeso(171).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4018,6 +4161,7 @@ var names2 = [
 	id: '173',
 	nombre: names[172],
 	tipo: ['fairy'],
+	clasificacion: 'Pokémon Estrellada',
 	altura: [getAltura(172).pies, getAltura(172).metros], peso: [getPeso(172).libras, getPeso(172).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4040,6 +4184,7 @@ var names2 = [
 	id: '174',
 	nombre: names[173],
 	tipo: ['normal', 'fairy'],
+	clasificacion: 'Pokémon Globo',
 	altura: [getAltura(173).pies, getAltura(173).metros], peso: [getPeso(173).libras, getPeso(173).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4062,6 +4207,7 @@ var names2 = [
 	id: '175',
 	nombre: names[174],
 	tipo: ['fairy'],
+	clasificacion: 'Pokémon Bola Clavos',
 	altura: [getAltura(174).pies, getAltura(174).metros], peso: [getPeso(174).libras, getPeso(174).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4084,6 +4230,7 @@ var names2 = [
 	id: '176',
 	nombre: names[175],
 	tipo: ['fairy', 'flying'],
+	clasificacion: 'Pokémon Felicidad',
 	altura: [getAltura(175).pies, getAltura(175).metros], peso: [getPeso(175).libras, getPeso(175).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4106,6 +4253,7 @@ var names2 = [
 	id: '177',
 	nombre: names[176],
 	tipo: ['psychic', 'flying'],
+	clasificacion: 'Pokémon Pajarito',
 	altura: [getAltura(176).pies, getAltura(176).metros], peso: [getPeso(176).libras, getPeso(176).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4128,6 +4276,7 @@ var names2 = [
 	id: '178',
 	nombre: names[177],
 	tipo: ['psychic', 'flying'],
+	clasificacion: 'Pokémon Místico',
 	altura: [getAltura(177).pies, getAltura(177).metros], peso: [getPeso(177).libras, getPeso(177).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4151,6 +4300,7 @@ var names2 = [
 	id: '179',
 	nombre: names[178],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Lana',
 	altura: [getAltura(178).pies, getAltura(178).metros], peso: [getPeso(178).libras, getPeso(178).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4172,6 +4322,7 @@ var names2 = [
 	id: '180',
 	nombre: names[179],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Lana',
 	altura: [getAltura(179).pies, getAltura(179).metros], peso: [getPeso(179).libras, getPeso(179).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4193,6 +4344,7 @@ var names2 = [
 	id: '181',
 	nombre: names[180],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Luz',
 	altura: [getAltura(180).pies, getAltura(180).metros], peso: [getPeso(180).libras, getPeso(180).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4214,6 +4366,7 @@ var names2 = [
 	id: '182',
 	nombre: names[181],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Flor',
 	altura: [getAltura(181).pies, getAltura(181).metros], peso: [getPeso(181).libras, getPeso(181).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4235,6 +4388,7 @@ var names2 = [
 	id: '183',
 	nombre: names[182],
 	tipo: ['water', 'fairy'],
+	clasificacion: 'Pokémon Ratón Agua',
 	altura: [getAltura(182).pies, getAltura(182).metros], peso: [getPeso(182).libras, getPeso(182).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4257,6 +4411,7 @@ var names2 = [
 	id: '184',
 	nombre: names[183],
 	tipo: ['water', 'fairy'],
+	clasificacion: 'Pokémon Conejoagua',
 	altura: [getAltura(183).pies, getAltura(183).metros], peso: [getPeso(183).libras, getPeso(183).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4279,6 +4434,7 @@ var names2 = [
 	id: '185',
 	nombre: names[184],
 	tipo: ['rock'],
+	clasificacion: 'Pokémon Imitación',
 	altura: [getAltura(184).pies, getAltura(184).metros], peso: [getPeso(184).libras, getPeso(184).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4301,6 +4457,7 @@ var names2 = [
 	id: '186',
 	nombre: names[185],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Rana',
 	altura: [getAltura(185).pies, getAltura(185).metros], peso: [getPeso(185).libras, getPeso(185).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4323,6 +4480,7 @@ var names2 = [
 	id: '187',
 	nombre: names[186],
 	tipo: ['grass', 'flying'],
+	clasificacion: 'Pokémon Algodón',
 	altura: [getAltura(186).pies, getAltura(186).metros], peso: [getPeso(186).libras, getPeso(186).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4345,6 +4503,7 @@ var names2 = [
 	id: '188',
 	nombre: names[187],
 	tipo: ['grass', 'flying'],
+	clasificacion: 'Pokémon Algodón',
 	altura: [getAltura(187).pies, getAltura(187).metros], peso: [getPeso(187).libras, getPeso(187).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4367,6 +4526,7 @@ var names2 = [
 	id: '189',
 	nombre: names[188],
 	tipo: ['grass', 'flying'],
+	clasificacion: 'Pokémon Algodón',
 	altura: [getAltura(188).pies, getAltura(188).metros], peso: [getPeso(188).libras, getPeso(188).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4389,6 +4549,7 @@ var names2 = [
 	id: '190',
 	nombre: names[189],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Cola Larga',
 	altura: [getAltura(189).pies, getAltura(189).metros], peso: [getPeso(189).libras, getPeso(189).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4411,6 +4572,7 @@ var names2 = [
 	id: '191',
 	nombre: names[190],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Semilla',
 	altura: [getAltura(190).pies, getAltura(190).metros], peso: [getPeso(190).libras, getPeso(190).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4433,6 +4595,7 @@ var names2 = [
 	id: '192',
 	nombre: names[191],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Sol',
 	altura: [getAltura(191).pies, getAltura(191).metros], peso: [getPeso(191).libras, getPeso(191).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4455,6 +4618,7 @@ var names2 = [
 	id: '193',
 	nombre: names[192],
 	tipo: ['bug', 'flying'],
+	clasificacion: 'Pokémon Ala Clara',
 	altura: [getAltura(192).pies, getAltura(192).metros], peso: [getPeso(192).libras, getPeso(192).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4477,6 +4641,7 @@ var names2 = [
 	id: '194',
 	nombre: names[193],
 	tipo: ['water', 'ground'],
+	clasificacion: 'Pokémon Pez Agua',
 	altura: [getAltura(193).pies, getAltura(193).metros], peso: [getPeso(193).libras, getPeso(193).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4499,6 +4664,7 @@ var names2 = [
 	id: '195',
 	nombre: names[194],
 	tipo: ['water', 'ground'],
+	clasificacion: 'Pokémon Pez Agua',
 	altura: [getAltura(194).pies, getAltura(194).metros], peso: [getPeso(194).libras, getPeso(194).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4521,6 +4687,7 @@ var names2 = [
 	id: '196',
 	nombre: names[195],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Sol',
 	altura: [getAltura(195).pies, getAltura(195).metros], peso: [getPeso(195).libras, getPeso(195).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4542,6 +4709,7 @@ var names2 = [
 	id: '197',
 	nombre: names[196],
 	tipo: ['dark'],
+	clasificacion: 'Pokémon Luz Lunar',
 	altura: [getAltura(196).pies, getAltura(196).metros], peso: [getPeso(196).libras, getPeso(196).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4563,6 +4731,7 @@ var names2 = [
 	id: '198',
 	nombre: names[197],
 	tipo: ['dark', 'flying'],
+	clasificacion: 'Pokémon Oscuridad',
 	altura: [getAltura(197).pies, getAltura(197).metros], peso: [getPeso(197).libras, getPeso(197).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4585,6 +4754,7 @@ var names2 = [
 	id: '199',
 	nombre: names[198],
 	tipo: ['water', 'psychic'],
+	clasificacion: 'Pokémon Regio',
 	altura: [getAltura(198).pies, getAltura(198).metros], peso: [getPeso(198).libras, getPeso(198).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4607,6 +4777,7 @@ var names2 = [
 	id: '200',
 	nombre: names[199],
 	tipo: ['ghost'],
+	clasificacion: 'Pokémon Chirrido',
 	altura: [getAltura(199).pies, getAltura(199).metros], peso: [getPeso(199).libras, getPeso(199).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4625,6 +4796,7 @@ var names2 = [
 	id: '201',
 	nombre: names[200],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Símbolo',
 	altura: [getAltura(200).pies, getAltura(200).metros], peso: [getPeso(200).libras, getPeso(200).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4643,6 +4815,7 @@ var names2 = [
 	id: '202',
 	nombre: names[201],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Paciente',
 	altura: [getAltura(201).pies, getAltura(201).metros], peso: [getPeso(201).libras, getPeso(201).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4664,6 +4837,7 @@ var names2 = [
 	id: '203',
 	nombre: names[202],
 	tipo: ['normal', 'psychic'],
+	clasificacion: 'Pokémon Grancuello',
 	altura: [getAltura(202).pies, getAltura(202).metros], peso: [getPeso(202).libras, getPeso(202).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4686,6 +4860,7 @@ var names2 = [
 	id: '204',
 	nombre: names[203],
 	tipo: ['bug'],
+	clasificacion: 'Pokémon Larva',
 	altura: [getAltura(203).pies, getAltura(203).metros], peso: [getPeso(203).libras, getPeso(203).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4707,6 +4882,7 @@ var names2 = [
 	id: '205',
 	nombre: names[204],
 	tipo: ['bug', 'steel'],
+	clasificacion: 'Pokémon Larva',
 	altura: [getAltura(204).pies, getAltura(204).metros], peso: [getPeso(204).libras, getPeso(204).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4728,6 +4904,7 @@ var names2 = [
 	id: '206',
 	nombre: names[205],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Serptierra',
 	altura: [getAltura(205).pies, getAltura(205).metros], peso: [getPeso(205).libras, getPeso(205).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4750,6 +4927,7 @@ var names2 = [
 	id: '207',
 	nombre: names[206],
 	tipo: ['ground', 'flying'],
+	clasificacion: 'Pokémon Escorpiala',
 	altura: [getAltura(206).pies, getAltura(206).metros], peso: [getPeso(206).libras, getPeso(206).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4772,6 +4950,7 @@ var names2 = [
 	id: '208',
 	nombre: names[207],
 	tipo: ['steel', 'ground'],
+	clasificacion: 'Pokémon Serpférrea',
 	altura: [getAltura(207).pies, getAltura(207).metros], peso: [getPeso(207).libras, getPeso(207).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4794,6 +4973,7 @@ var names2 = [
 	id: '209',
 	nombre: names[208],
 	tipo: ['fairy'],
+	clasificacion: 'Pokémon Hada',
 	altura: [getAltura(208).pies, getAltura(208).metros], peso: [getPeso(208).libras, getPeso(208).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4816,6 +4996,7 @@ var names2 = [
 	id: '210',
 	nombre: names[209],
 	tipo: ['fairy'],
+	clasificacion: 'Pokémon Hada',
 	altura: [getAltura(209).pies, getAltura(209).metros], peso: [getPeso(209).libras, getPeso(209).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4838,6 +5019,7 @@ var names2 = [
 	id: '211',
 	nombre: names[210],
 	tipo: ['water', 'poison'],
+	clasificacion: 'Pokémon Globo',
 	altura: [getAltura(210).pies, getAltura(210).metros], peso: [getPeso(210).libras, getPeso(210).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4860,6 +5042,7 @@ var names2 = [
 	id: '212',
 	nombre: names[211],
 	tipo: ['bug', 'steel'],
+	clasificacion: 'Pokémon Tenaza',
 	altura: [getAltura(211).pies, getAltura(211).metros], peso: [getPeso(211).libras, getPeso(211).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4882,6 +5065,7 @@ var names2 = [
 	id: '213',
 	nombre: names[212],
 	tipo: ['bug', 'rock'],
+	clasificacion: 'Pokémon Moho',
 	altura: [getAltura(212).pies, getAltura(212).metros], peso: [getPeso(212).libras, getPeso(212).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4905,6 +5089,7 @@ var names2 = [
 	id: '214',
 	nombre: names[213],
 	tipo: ['bug', 'fight'],
+	clasificacion: 'Pokémon Unicornio',
 	altura: [getAltura(213).pies, getAltura(213).metros], peso: [getPeso(213).libras, getPeso(213).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4927,6 +5112,7 @@ var names2 = [
 	id: '215',
 	nombre: names[214],
 	tipo: ['dark', 'ice'],
+	clasificacion: 'Pokémon Garra Filo',
 	altura: [getAltura(214).pies, getAltura(214).metros], peso: [getPeso(214).libras, getPeso(214).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4949,6 +5135,7 @@ var names2 = [
 	id: '216',
 	nombre: names[215],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Osito',
 	altura: [getAltura(215).pies, getAltura(215).metros], peso: [getPeso(215).libras, getPeso(215).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4971,6 +5158,7 @@ var names2 = [
 	id: '217',
 	nombre: names[216],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Hibernante',
 	altura: [getAltura(216).pies, getAltura(216).metros], peso: [getPeso(216).libras, getPeso(216).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -4993,6 +5181,7 @@ var names2 = [
 	id: '218',
 	nombre: names[217],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Lava',
 	altura: [getAltura(217).pies, getAltura(217).metros], peso: [getPeso(217).libras, getPeso(217).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5015,6 +5204,7 @@ var names2 = [
 	id: '219',
 	nombre: names[218],
 	tipo: ['fire', 'rock'],
+	clasificacion: 'Pokémon Lava',
 	altura: [getAltura(218).pies, getAltura(218).metros], peso: [getPeso(218).libras, getPeso(218).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5037,6 +5227,7 @@ var names2 = [
 	id: '220',
 	nombre: names[219],
 	tipo: ['ice', 'ground'],
+	clasificacion: 'Pokémon Cerdo',
 	altura: [getAltura(219).pies, getAltura(219).metros], peso: [getPeso(219).libras, getPeso(219).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5059,6 +5250,7 @@ var names2 = [
 	id: '221',
 	nombre: names[220],
 	tipo: ['ice', 'ground'],
+	clasificacion: 'Pokémon Puerco',
 	altura: [getAltura(220).pies, getAltura(220).metros], peso: [getPeso(220).libras, getPeso(220).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5082,6 +5274,7 @@ var names2 = [
 	id: '222',
 	nombre: names[221],
 	tipo: ['water', 'rock'],
+	clasificacion: 'Pokémon Coral',
 	altura: [getAltura(221).pies, getAltura(221).metros], peso: [getPeso(221).libras, getPeso(221).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5105,6 +5298,7 @@ var names2 = [
 	id: '223',
 	nombre: names[222],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Reactor',
 	altura: [getAltura(222).pies, getAltura(222).metros], peso: [getPeso(222).libras, getPeso(222).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5127,6 +5321,7 @@ var names2 = [
 	id: '224',
 	nombre: names[223],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Reactor',
 	altura: [getAltura(223).pies, getAltura(223).metros], peso: [getPeso(223).libras, getPeso(223).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5150,6 +5345,7 @@ var names2 = [
 	id: '225',
 	nombre: names[224],
 	tipo: ['ice', 'flying'],
+	clasificacion: 'Pokémon Reparto',
 	altura: [getAltura(224).pies, getAltura(224).metros], peso: [getPeso(224).libras, getPeso(224).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5172,6 +5368,7 @@ var names2 = [
 	id: '226',
 	nombre: names[225],
 	tipo: ['water', 'flying'],
+	clasificacion: 'Pokémon Milano',
 	altura: [getAltura(225).pies, getAltura(225).metros], peso: [getPeso(225).libras, getPeso(225).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5194,6 +5391,7 @@ var names2 = [
 	id: '227',
 	nombre: names[226],
 	tipo: ['steel', 'flying'],
+	clasificacion: 'Pokémon Coraza Ave',
 	altura: [getAltura(226).pies, getAltura(226).metros], peso: [getPeso(226).libras, getPeso(226).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5216,6 +5414,7 @@ var names2 = [
 	id: '228',
 	nombre: names[227],
 	tipo: ['dark', 'fire'],
+	clasificacion: 'Pokémon Siniestro',
 	altura: [getAltura(227).pies, getAltura(227).metros], peso: [getPeso(227).libras, getPeso(227).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5238,6 +5437,7 @@ var names2 = [
 	id: '229',
 	nombre: names[228],
 	tipo: ['dark', 'fire'],
+	clasificacion: 'Pokémon Siniestro',
 	altura: [getAltura(228).pies, getAltura(228).metros], peso: [getPeso(228).libras, getPeso(228).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5260,6 +5460,7 @@ var names2 = [
 	id: '230',
 	nombre: names[229],
 	tipo: ['water', 'dragon'],
+	clasificacion: 'Pokémon Dragón',
 	altura: [getAltura(229).pies, getAltura(229).metros], peso: [getPeso(229).libras, getPeso(229).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5284,6 +5485,7 @@ var names2 = [
 	id: '231',
 	nombre: names[230],
 	tipo: ['ground'],
+	clasificacion: 'Pokémon Narizotas',
 	altura: [getAltura(230).pies, getAltura(230).metros], peso: [getPeso(230).libras, getPeso(230).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5305,6 +5507,7 @@ var names2 = [
 	id: '232',
 	nombre: names[231],
 	tipo: ['ground'],
+	clasificacion: 'Pokémon Elefante',
 	altura: [getAltura(231).pies, getAltura(231).metros], peso: [getPeso(231).libras, getPeso(231).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5327,6 +5530,7 @@ var names2 = [
 	id: '233',
 	nombre: names[232],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Virtual',
 	altura: [getAltura(232).pies, getAltura(232).metros], peso: [getPeso(232).libras, getPeso(232).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5348,6 +5552,7 @@ var names2 = [
 	id: '234',
 	nombre: names[233],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Grancuerno',
 	altura: [getAltura(233).pies, getAltura(233).metros], peso: [getPeso(233).libras, getPeso(233).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5370,6 +5575,7 @@ var names2 = [
 	id: '235',
 	nombre: names[234],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Pintor',
 	altura: [getAltura(234).pies, getAltura(234).metros], peso: [getPeso(234).libras, getPeso(234).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5392,6 +5598,7 @@ var names2 = [
 	id: '236',
 	nombre: names[235],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Peleón',
 	altura: [getAltura(235).pies, getAltura(235).metros], peso: [getPeso(235).libras, getPeso(235).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5414,6 +5621,7 @@ var names2 = [
 	id: '237',
 	nombre: names[236],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Boca Abajo',
 	altura: [getAltura(236).pies, getAltura(236).metros], peso: [getPeso(236).libras, getPeso(236).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5436,6 +5644,7 @@ var names2 = [
 	id: '238',
 	nombre: names[237],
 	tipo: ['ice', 'psychic'],
+	clasificacion: 'Pokémon Beso',
 	altura: [getAltura(237).pies, getAltura(237).metros], peso: [getPeso(237).libras, getPeso(237).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5458,6 +5667,7 @@ var names2 = [
 	id: '239',
 	nombre: names[238],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Eléctrico',
 	altura: [getAltura(238).pies, getAltura(238).metros], peso: [getPeso(238).libras, getPeso(238).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5479,6 +5689,7 @@ var names2 = [
 	id: '240',
 	nombre: names[239],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Ascuas',
 	altura: [getAltura(239).pies, getAltura(239).metros], peso: [getPeso(239).libras, getPeso(239).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5500,6 +5711,7 @@ var names2 = [
 	id: '241',
 	nombre: names[240],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Lechera',
 	altura: [getAltura(240).pies, getAltura(240).metros], peso: [getPeso(240).libras, getPeso(240).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5522,6 +5734,7 @@ var names2 = [
 	id: '242',
 	nombre: names[241],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Felicidad',
 	altura: [getAltura(241).pies, getAltura(241).metros], peso: [getPeso(241).libras, getPeso(241).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5544,6 +5757,7 @@ var names2 = [
 	id: '243',
 	nombre: names[242],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Trueno',
 	altura: [getAltura(242).pies, getAltura(242).metros], peso: [getPeso(242).libras, getPeso(242).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5565,6 +5779,7 @@ var names2 = [
 	id: '244',
 	nombre: names[243],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Volcán',
 	altura: [getAltura(243).pies, getAltura(243).metros], peso: [getPeso(243).libras, getPeso(243).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5586,6 +5801,7 @@ var names2 = [
 	id: '245',
 	nombre: names[244],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Aurora',
 	altura: [getAltura(244).pies, getAltura(244).metros], peso: [getPeso(244).libras, getPeso(244).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5607,6 +5823,7 @@ var names2 = [
 	id: '246',
 	nombre: names[245],
 	tipo: ['rock', 'ground'],
+	clasificacion: 'Pokémon Piel Roca',
 	altura: [getAltura(245).pies, getAltura(245).metros], peso: [getPeso(245).libras, getPeso(245).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5628,6 +5845,7 @@ var names2 = [
 	id: '247',
 	nombre: names[246],
 	tipo: ['rock', 'ground'],
+	clasificacion: 'Pokémon Caparazón',
 	altura: [getAltura(246).pies, getAltura(246).metros], peso: [getPeso(246).libras, getPeso(246).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5646,6 +5864,7 @@ var names2 = [
 	id: '248',
 	nombre: names[247],
 	tipo: ['rock', 'dark'],
+	clasificacion: 'Pokémon Coraza',
 	altura: [getAltura(247).pies, getAltura(247).metros], peso: [getPeso(247).libras, getPeso(247).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5667,6 +5886,7 @@ var names2 = [
 	id: '249',
 	nombre: names[248],
 	tipo: ['psychic', 'flying'],
+	clasificacion: 'Pokémon Buceo',
 	altura: [getAltura(248).pies, getAltura(248).metros], peso: [getPeso(248).libras, getPeso(248).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5687,6 +5907,7 @@ var names2 = [
 	id: '250',
 	nombre: names[249],
 	tipo: ['fire', 'flying'],
+	clasificacion: 'Pokémon Arco Iris',
 	altura: [getAltura(249).pies, getAltura(249).metros], peso: [getPeso(249).libras, getPeso(249).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5707,6 +5928,7 @@ var names2 = [
 	id: '251',
 	nombre: names[250],
 	tipo: ['psychic', 'grass'],
+	clasificacion: 'Pokémon Viajetiempo',
 	altura: [getAltura(250).pies, getAltura(250).metros], peso: [getPeso(250).libras, getPeso(250).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5748,6 +5970,7 @@ var names2 = [
 	id: '252',
 	nombre: names[251],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Geco Bosque',
 	altura: [getAltura(251).pies, getAltura(251).metros], peso: [getPeso(251).libras, getPeso(251).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5769,6 +5992,7 @@ var names2 = [
 	id: '253',
 	nombre: names[252],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Geco Bosque',
 	altura: [getAltura(252).pies, getAltura(252).metros], peso: [getPeso(252).libras, getPeso(252).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5790,6 +6014,7 @@ var names2 = [
 	id: '254',
 	nombre: names[253],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Monte',
 	altura: [getAltura(253).pies, getAltura(253).metros], peso: [getPeso(253).libras, getPeso(253).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5811,6 +6036,7 @@ var names2 = [
 	id: '255',
 	nombre: names[254],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Polluelo',
 	altura: [getAltura(254).pies, getAltura(254).metros], peso: [getPeso(254).libras, getPeso(254).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5832,6 +6058,7 @@ var names2 = [
 	id: '256',
 	nombre: names[255],
 	tipo: ['fire', 'fight'],
+	clasificacion: 'Pokémon Ave Corral',
 	altura: [getAltura(255).pies, getAltura(255).metros], peso: [getPeso(255).libras, getPeso(255).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5854,6 +6081,7 @@ var names2 = [
 	id: '257',
 	nombre: names[256],
 	tipo: ['fire', 'fight'],
+	clasificacion: 'Pokémon Llameante',
 	altura: [getAltura(256).pies, getAltura(256).metros], peso: [getPeso(256).libras, getPeso(256).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5875,6 +6103,7 @@ var names2 = [
 	id: '258',
 	nombre: names[257],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Pez Lodo',
 	altura: [getAltura(257).pies, getAltura(257).metros], peso: [getPeso(257).libras, getPeso(257).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5896,6 +6125,7 @@ var names2 = [
 	id: '259',
 	nombre: names[258],
 	tipo: ['water', 'ground'],
+	clasificacion: 'Pokémon Pez Lodo',
 	altura: [getAltura(258).pies, getAltura(258).metros], peso: [getPeso(258).libras, getPeso(258).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5917,6 +6147,7 @@ var names2 = [
 	id: '260',
 	nombre: names[259],
 	tipo: ['water', 'ground'],
+	clasificacion: 'Pokémon Pez Lodo',
 	altura: [getAltura(259).pies, getAltura(259).metros], peso: [getPeso(259).libras, getPeso(259).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5938,6 +6169,7 @@ var names2 = [
 	id: '261',
 	nombre: names[260],
 	tipo: ['dark'],
+	clasificacion: 'Pokémon Mordisco',
 	altura: [getAltura(260).pies, getAltura(260).metros], peso: [getPeso(260).libras, getPeso(260).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5960,6 +6192,7 @@ var names2 = [
 	id: '262',
 	nombre: names[261],
 	tipo: ['dark'],
+	clasificacion: 'Pokémon Mordisco',
 	altura: [getAltura(261).pies, getAltura(261).metros], peso: [getPeso(261).libras, getPeso(261).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -5982,6 +6215,7 @@ var names2 = [
 	id: '263',
 	nombre: names[262],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Mapachito',
 	altura: [getAltura(262).pies, getAltura(262).metros], peso: [getPeso(262).libras, getPeso(262).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6004,6 +6238,7 @@ var names2 = [
 	id: '264',
 	nombre: names[263],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Lanzado',
 	altura: [getAltura(263).pies, getAltura(263).metros], peso: [getPeso(263).libras, getPeso(263).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6026,6 +6261,7 @@ var names2 = [
 	id: '265',
 	nombre: names[264],
 	tipo: ['bug'],
+	clasificacion: 'Pokémon Gusano',
 	altura: [getAltura(264).pies, getAltura(264).metros], peso: [getPeso(264).libras, getPeso(264).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6047,6 +6283,7 @@ var names2 = [
 	id: '266',
 	nombre: names[265],
 	tipo: ['bug'],
+	clasificacion: 'Pokémon Capullo',
 	altura: [getAltura(265).pies, getAltura(265).metros], peso: [getPeso(265).libras, getPeso(265).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6065,6 +6302,7 @@ var names2 = [
 	id: '267',
 	nombre: names[266],
 	tipo: ['bug', 'flying'],
+	clasificacion: 'Pokémon Mariposa',
 	altura: [getAltura(266).pies, getAltura(266).metros], peso: [getPeso(266).libras, getPeso(266).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6086,6 +6324,7 @@ var names2 = [
 	id: '268',
 	nombre: names[267],
 	tipo: ['bug'],
+	clasificacion: 'Pokémon Capullo',
 	altura: [getAltura(267).pies, getAltura(267).metros], peso: [getPeso(267).libras, getPeso(267).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6104,6 +6343,7 @@ var names2 = [
 	id: '269',
 	nombre: names[268],
 	tipo: ['bug', 'poison'],
+	clasificacion: 'Pokémon Polilla Venenosa',
 	altura: [getAltura(268).pies, getAltura(268).metros], peso: [getPeso(268).libras, getPeso(268).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6125,6 +6365,7 @@ var names2 = [
 	id: '270',
 	nombre: names[269],
 	tipo: ['water', 'grass'],
+	clasificacion: 'Pokémon Alga',
 	altura: [getAltura(269).pies, getAltura(269).metros], peso: [getPeso(269).libras, getPeso(269).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6147,6 +6388,7 @@ var names2 = [
 	id: '271',
 	nombre: names[270],
 	tipo: ['water', 'grass'],
+	clasificacion: 'Pokémon Alegre',
 	altura: [getAltura(270).pies, getAltura(270).metros], peso: [getPeso(270).libras, getPeso(270).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6169,6 +6411,7 @@ var names2 = [
 	id: '272',
 	nombre: names[271],
 	tipo: ['water', 'grass'],
+	clasificacion: 'Pokémon Optimista',
 	altura: [getAltura(271).pies, getAltura(271).metros], peso: [getPeso(271).libras, getPeso(271).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6191,6 +6434,7 @@ var names2 = [
 	id: '273',
 	nombre: names[272],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Bellota',
 	altura: [getAltura(272).pies, getAltura(272).metros], peso: [getPeso(272).libras, getPeso(272).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6213,6 +6457,7 @@ var names2 = [
 	id: '274',
 	nombre: names[273],
 	tipo: ['grass', 'dark'],
+	clasificacion: 'Pokémon Astuto',
 	altura: [getAltura(273).pies, getAltura(273).metros], peso: [getPeso(273).libras, getPeso(273).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6235,6 +6480,7 @@ var names2 = [
 	id: '275',
 	nombre: names[274],
 	tipo: ['grass', 'dark'],
+	clasificacion: 'Pokémon Malvado',
 	altura: [getAltura(274).pies, getAltura(274).metros], peso: [getPeso(274).libras, getPeso(274).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6257,6 +6503,7 @@ var names2 = [
 	id: '276',
 	nombre: names[275],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Pequebuche',
 	altura: [getAltura(275).pies, getAltura(275).metros], peso: [getPeso(275).libras, getPeso(275).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6278,6 +6525,7 @@ var names2 = [
 	id: '277',
 	nombre: names[276],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Buche',
 	altura: [getAltura(276).pies, getAltura(276).metros], peso: [getPeso(276).libras, getPeso(276).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6299,6 +6547,7 @@ var names2 = [
 	id: '278',
 	nombre: names[277],
 	tipo: ['water', 'flying'],
+	clasificacion: 'Pokémon Gaviota',
 	altura: [getAltura(277).pies, getAltura(277).metros], peso: [getPeso(277).libras, getPeso(277).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6320,6 +6569,7 @@ var names2 = [
 	id: '279',
 	nombre: names[278],
 	tipo: ['water', 'flying'],
+	clasificacion: 'Pokémon Ave Agua',
 	altura: [getAltura(278).pies, getAltura(278).metros], peso: [getPeso(278).libras, getPeso(278).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6341,6 +6591,7 @@ var names2 = [
 	id: '280',
 	nombre: names[279],
 	tipo: ['psychic', 'fairy'],
+	clasificacion: 'Pokémon Sensible',
 	altura: [getAltura(279).pies, getAltura(279).metros], peso: [getPeso(279).libras, getPeso(279).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6363,6 +6614,7 @@ var names2 = [
 	id: '281',
 	nombre: names[280],
 	tipo: ['psychic', 'fairy'],
+	clasificacion: 'Pokémon Sensorio',
 	altura: [getAltura(280).pies, getAltura(280).metros], peso: [getPeso(280).libras, getPeso(280).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6385,6 +6637,7 @@ var names2 = [
 	id: '282',
 	nombre: names[281],
 	tipo: ['psychic', 'fairy'],
+	clasificacion: 'Pokémon Envolvente',
 	altura: [getAltura(281).pies, getAltura(281).metros], peso: [getPeso(281).libras, getPeso(281).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6407,6 +6660,7 @@ var names2 = [
 	id: '283',
 	nombre: names[282],
 	tipo: ['bug', 'water'],
+	clasificacion: 'Pokémon Zapatero',
 	altura: [getAltura(282).pies, getAltura(282).metros], peso: [getPeso(282).libras, getPeso(282).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6428,6 +6682,7 @@ var names2 = [
 	id: '284',
 	nombre: names[283],
 	tipo: ['bug', 'flying'],
+	clasificacion: 'Pokémon Globocular',
 	altura: [getAltura(283).pies, getAltura(283).metros], peso: [getPeso(283).libras, getPeso(283).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6450,6 +6705,7 @@ var names2 = [
 	id: '285',
 	nombre: names[284],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Hongo',
 	altura: [getAltura(284).pies, getAltura(284).metros], peso: [getPeso(284).libras, getPeso(284).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6472,6 +6728,7 @@ var names2 = [
 	id: '286',
 	nombre: names[285],
 	tipo: ['grass', 'fight'],
+	clasificacion: 'Pokémon Hongo',
 	altura: [getAltura(285).pies, getAltura(285).metros], peso: [getPeso(285).libras, getPeso(285).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6494,6 +6751,7 @@ var names2 = [
 	id: '287',
 	nombre: names[286],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Gandul',
 	altura: [getAltura(286).pies, getAltura(286).metros], peso: [getPeso(286).libras, getPeso(286).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6512,6 +6770,7 @@ var names2 = [
 	id: '288',
 	nombre: names[287],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Mono Feroz',
 	altura: [getAltura(287).pies, getAltura(287).metros], peso: [getPeso(287).libras, getPeso(287).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6530,6 +6789,7 @@ var names2 = [
 	id: '289',
 	nombre: names[288],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Holgazán',
 	altura: [getAltura(288).pies, getAltura(288).metros], peso: [getPeso(288).libras, getPeso(288).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6548,6 +6808,7 @@ var names2 = [
 	id: '290',
 	nombre: names[289],
 	tipo: ['bug', 'ground'],
+	clasificacion: 'Pokémon Aprendiz',
 	altura: [getAltura(289).pies, getAltura(289).metros], peso: [getPeso(289).libras, getPeso(289).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6569,6 +6830,7 @@ var names2 = [
 	id: '291',
 	nombre: names[290],
 	tipo: ['bug', 'flying'],
+	clasificacion: 'Pokémon Ninja',
 	altura: [getAltura(290).pies, getAltura(290).metros], peso: [getPeso(290).libras, getPeso(290).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6590,6 +6852,7 @@ var names2 = [
 	id: '292',
 	nombre: names[291],
 	tipo: ['bug', 'ghost'],
+	clasificacion: 'Pokémon Muda',
 	altura: [getAltura(291).pies, getAltura(291).metros], peso: [getPeso(291).libras, getPeso(291).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6607,6 +6870,7 @@ var names2 = [
 	id: '293',
 	nombre: names[292],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Susurro',
 	altura: [getAltura(292).pies, getAltura(292).metros], peso: [getPeso(292).libras, getPeso(292).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6628,6 +6892,7 @@ var names2 = [
 	id: '294',
 	nombre: names[293],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Chillón',
 	altura: [getAltura(293).pies, getAltura(293).metros], peso: [getPeso(293).libras, getPeso(293).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6649,6 +6914,7 @@ var names2 = [
 	id: '295',
 	nombre: names[294],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Escandaloso',
 	altura: [getAltura(294).pies, getAltura(294).metros], peso: [getPeso(294).libras, getPeso(294).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6670,6 +6936,7 @@ var names2 = [
 	id: '296',
 	nombre: names[295],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Valiente',
 	altura: [getAltura(295).pies, getAltura(295).metros], peso: [getPeso(295).libras, getPeso(295).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6692,6 +6959,7 @@ var names2 = [
 	id: '297',
 	nombre: names[296],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Empuje',
 	altura: [getAltura(296).pies, getAltura(296).metros], peso: [getPeso(296).libras, getPeso(296).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6714,6 +6982,7 @@ var names2 = [
 	id: '298',
 	nombre: names[297],
 	tipo: ['normal', 'fairy'],
+	clasificacion: 'Pokémon A Topos',
 	altura: [getAltura(297).pies, getAltura(297).metros], peso: [getPeso(297).libras, getPeso(297).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6736,6 +7005,7 @@ var names2 = [
 	id: '299',
 	nombre: names[298],
 	tipo: ['rock'],
+	clasificacion: 'Pokémon Brújula',
 	altura: [getAltura(298).pies, getAltura(298).metros], peso: [getPeso(298).libras, getPeso(298).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6758,6 +7028,7 @@ var names2 = [
 	id: '300',
 	nombre: names[299],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Gatito',
 	altura: [getAltura(299).pies, getAltura(299).metros], peso: [getPeso(299).libras, getPeso(299).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6780,6 +7051,7 @@ var names2 = [
 	id: '301',
 	nombre: names[300],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Cursi',
 	altura: [getAltura(300).pies, getAltura(300).metros], peso: [getPeso(300).libras, getPeso(300).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6803,6 +7075,7 @@ var names2 = [
 	id: '302',
 	nombre: names[301],
 	tipo: ['dark', 'ghost'],
+	clasificacion: 'Pokémon Oscuridad',
 	altura: [getAltura(301).pies, getAltura(301).metros], peso: [getPeso(301).libras, getPeso(301).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6826,6 +7099,7 @@ var names2 = [
 	id: '303',
 	nombre: names[302],
 	tipo: ['steel', 'fairy'],
+	clasificacion: 'Pokémon Tramposo',
 	altura: [getAltura(302).pies, getAltura(302).metros], peso: [getPeso(302).libras, getPeso(302).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6849,6 +7123,7 @@ var names2 = [
 	id: '304',
 	nombre: names[303],
 	tipo: ['steel', 'rock'],
+	clasificacion: 'Pokémon Coraza Férrea',
 	altura: [getAltura(303).pies, getAltura(303).metros], peso: [getPeso(303).libras, getPeso(303).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6871,6 +7146,7 @@ var names2 = [
 	id: '305',
 	nombre: names[304],
 	tipo: ['steel', 'rock'],
+	clasificacion: 'Pokémon Coraza Férrea',
 	altura: [getAltura(304).pies, getAltura(304).metros], peso: [getPeso(304).libras, getPeso(304).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6893,6 +7169,7 @@ var names2 = [
 	id: '306',
 	nombre: names[305],
 	tipo: ['steel', 'rock'],
+	clasificacion: 'Pokémon Coraza Férrea',
 	altura: [getAltura(305).pies, getAltura(305).metros], peso: [getPeso(305).libras, getPeso(305).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6915,6 +7192,7 @@ var names2 = [
 	id: '307',
 	nombre: names[306],
 	tipo: ['fight', 'psychic'],
+	clasificacion: 'Pokémon Meditador',
 	altura: [getAltura(306).pies, getAltura(306).metros], peso: [getPeso(306).libras, getPeso(306).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6936,6 +7214,7 @@ var names2 = [
 	id: '308',
 	nombre: names[307],
 	tipo: ['fight', 'psychic'],
+	clasificacion: 'Pokémon Meditador',
 	altura: [getAltura(307).pies, getAltura(307).metros], peso: [getPeso(307).libras, getPeso(307).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6957,6 +7236,7 @@ var names2 = [
 	id: '309',
 	nombre: names[308],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Calambre',
 	altura: [getAltura(308).pies, getAltura(308).metros], peso: [getPeso(308).libras, getPeso(308).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -6979,6 +7259,7 @@ var names2 = [
 	id: '310',
 	nombre: names[309],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Descarga',
 	altura: [getAltura(309).pies, getAltura(309).metros], peso: [getPeso(309).libras, getPeso(309).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7001,6 +7282,7 @@ var names2 = [
 	id: '311',
 	nombre: names[310],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Ánimo',
 	altura: [getAltura(310).pies, getAltura(310).metros], peso: [getPeso(310).libras, getPeso(310).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7022,6 +7304,7 @@ var names2 = [
 	id: '312',
 	nombre: names[311],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Ánimo',
 	altura: [getAltura(311).pies, getAltura(311).metros], peso: [getPeso(311).libras, getPeso(311).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7043,6 +7326,7 @@ var names2 = [
 	id: '313',
 	nombre: names[312],
 	tipo: ['bug'],
+	clasificacion: 'Pokémon Luciérnaga',
 	altura: [getAltura(312).pies, getAltura(312).metros], peso: [getPeso(312).libras, getPeso(312).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7065,6 +7349,7 @@ var names2 = [
 	id: '314',
 	nombre: names[313],
 	tipo: ['bug'],
+	clasificacion: 'Pokémon Luciérnaga',
 	altura: [getAltura(313).pies, getAltura(313).metros], peso: [getPeso(313).libras, getPeso(313).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7087,6 +7372,7 @@ var names2 = [
 	id: '315',
 	nombre: names[314],
 	tipo: ['grass', 'poison'],
+	clasificacion: 'Pokémon Espina',
 	altura: [getAltura(314).pies, getAltura(314).metros], peso: [getPeso(314).libras, getPeso(314).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7109,6 +7395,7 @@ var names2 = [
 	id: '316',
 	nombre: names[315],
 	tipo: ['poison'],
+	clasificacion: 'Pokémon Estómago',
 	altura: [getAltura(315).pies, getAltura(315).metros], peso: [getPeso(315).libras, getPeso(315).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7131,6 +7418,7 @@ var names2 = [
 	id: '317',
 	nombre: names[316],
 	tipo: ['poison'],
+	clasificacion: 'Pokémon Bolsa Veneno',
 	altura: [getAltura(316).pies, getAltura(316).metros], peso: [getPeso(316).libras, getPeso(316).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7153,6 +7441,7 @@ var names2 = [
 	id: '318',
 	nombre: names[317],
 	tipo: ['water', 'dark'],
+	clasificacion: 'Pokémon Feroz',
 	altura: [getAltura(317).pies, getAltura(317).metros], peso: [getPeso(317).libras, getPeso(317).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7174,6 +7463,7 @@ var names2 = [
 	id: '319',
 	nombre: names[318],
 	tipo: ['water', 'dark'],
+	clasificacion: 'Pokémon Voraz',
 	altura: [getAltura(318).pies, getAltura(318).metros], peso: [getPeso(318).libras, getPeso(318).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7195,6 +7485,7 @@ var names2 = [
 	id: '320',
 	nombre: names[319],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Ballenabola',
 	altura: [getAltura(319).pies, getAltura(319).metros], peso: [getPeso(319).libras, getPeso(319).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7217,6 +7508,7 @@ var names2 = [
 	id: '321',
 	nombre: names[320],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Ballenaflot',
 	altura: [getAltura(320).pies, getAltura(320).metros], peso: [getPeso(320).libras, getPeso(320).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7239,6 +7531,7 @@ var names2 = [
 	id: '322',
 	nombre: names[321],
 	tipo: ['fire', 'ground'],
+	clasificacion: 'Pokémon Torpe',
 	altura: [getAltura(321).pies, getAltura(321).metros], peso: [getPeso(321).libras, getPeso(321).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7261,6 +7554,7 @@ var names2 = [
 	id: '323',
 	nombre: names[322],
 	tipo: ['fire', 'ground'],
+	clasificacion: 'Pokémon Erupción',
 	altura: [getAltura(322).pies, getAltura(322).metros], peso: [getPeso(322).libras, getPeso(322).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7284,6 +7578,7 @@ var names2 = [
 	id: '324',
 	nombre: names[323],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Carbón',
 	altura: [getAltura(323).pies, getAltura(323).metros], peso: [getPeso(323).libras, getPeso(323).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7305,6 +7600,7 @@ var names2 = [
 	id: '325',
 	nombre: names[324],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Saltarín',
 	altura: [getAltura(324).pies, getAltura(324).metros], peso: [getPeso(324).libras, getPeso(324).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7327,6 +7623,7 @@ var names2 = [
 	id: '326',
 	nombre: names[325],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Manipulador',
 	altura: [getAltura(325).pies, getAltura(325).metros], peso: [getPeso(325).libras, getPeso(325).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7349,6 +7646,7 @@ var names2 = [
 	id: '327',
 	nombre: names[326],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Panda Topos',
 	altura: [getAltura(326).pies, getAltura(326).metros], peso: [getPeso(326).libras, getPeso(326).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7371,6 +7669,7 @@ var names2 = [
 	id: '328',
 	nombre: names[327],
 	tipo: ['ground'],
+	clasificacion: 'Pokémon Hormigaleón',
 	altura: [getAltura(327).pies, getAltura(327).metros], peso: [getPeso(327).libras, getPeso(327).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7393,6 +7692,7 @@ var names2 = [
 	id: '329',
 	nombre: names[328],
 	tipo: ['ground', 'dragon'],
+	clasificacion: 'Pokémon Vibrante',
 	altura: [getAltura(328).pies, getAltura(328).metros], peso: [getPeso(328).libras, getPeso(328).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7412,6 +7712,7 @@ var names2 = [
 	id: '330',
 	nombre: names[329],
 	tipo: ['ground', 'dragon'],
+	clasificacion: 'Pokémon Místico',
 	altura: [getAltura(329).pies, getAltura(329).metros], peso: [getPeso(329).libras, getPeso(329).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7431,6 +7732,7 @@ var names2 = [
 	id: '331',
 	nombre: names[330],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Cactus',
 	altura: [getAltura(330).pies, getAltura(330).metros], peso: [getPeso(330).libras, getPeso(330).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7452,6 +7754,7 @@ var names2 = [
 	id: '332',
 	nombre: names[331],
 	tipo: ['grass', 'dark'],
+	clasificacion: 'Pokémon Espantajo',
 	altura: [getAltura(331).pies, getAltura(331).metros], peso: [getPeso(331).libras, getPeso(331).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7474,6 +7777,7 @@ var names2 = [
 	id: '333',
 	nombre: names[332],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Ave Algodón',
 	altura: [getAltura(332).pies, getAltura(332).metros], peso: [getPeso(332).libras, getPeso(332).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7495,6 +7799,7 @@ var names2 = [
 	id: '334',
 	nombre: names[333],
 	tipo: ['dragon', 'flying'],
+	clasificacion: 'Pokémon Cantor',
 	altura: [getAltura(333).pies, getAltura(333).metros], peso: [getPeso(333).libras, getPeso(333).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7516,6 +7821,7 @@ var names2 = [
 	id: '335',
 	nombre: names[334],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Gato Hurón',
 	altura: [getAltura(334).pies, getAltura(334).metros], peso: [getPeso(334).libras, getPeso(334).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7537,6 +7843,7 @@ var names2 = [
 	id: '336',
 	nombre: names[335],
 	tipo: ['poison'],
+	clasificacion: 'Pokémon Colmillos',
 	altura: [getAltura(335).pies, getAltura(335).metros], peso: [getPeso(335).libras, getPeso(335).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7559,6 +7866,7 @@ var names2 = [
 	id: '337',
 	nombre: names[336],
 	tipo: ['rock', 'psychic'],
+	clasificacion: 'Pokémon Meteorito',
 	altura: [getAltura(336).pies, getAltura(336).metros], peso: [getPeso(336).libras, getPeso(336).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7576,6 +7884,7 @@ var names2 = [
 	id: '338',
 	nombre: names[337],
 	tipo: ['rock', 'psychic'],
+	clasificacion: 'Pokémon Meteorito',
 	altura: [getAltura(337).pies, getAltura(337).metros], peso: [getPeso(337).libras, getPeso(337).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7593,6 +7902,7 @@ var names2 = [
 	id: '339',
 	nombre: names[338],
 	tipo: ['water', 'ground'],
+	clasificacion: 'Pokémon Bigotudo',
 	altura: [getAltura(338).pies, getAltura(338).metros], peso: [getPeso(338).libras, getPeso(338).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7615,6 +7925,7 @@ var names2 = [
 	id: '340',
 	nombre: names[339],
 	tipo: ['water', 'ground'],
+	clasificacion: 'Pokémon Bigotudo',
 	altura: [getAltura(339).pies, getAltura(339).metros], peso: [getPeso(339).libras, getPeso(339).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7637,6 +7948,7 @@ var names2 = [
 	id: '341',
 	nombre: names[340],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Rufián',
 	altura: [getAltura(340).pies, getAltura(340).metros], peso: [getPeso(340).libras, getPeso(340).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7659,6 +7971,7 @@ var names2 = [
 	id: '342',
 	nombre: names[341],
 	tipo: ['water', 'dark'],
+	clasificacion: 'Pokémon Granuja',
 	altura: [getAltura(341).pies, getAltura(341).metros], peso: [getPeso(341).libras, getPeso(341).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7681,6 +7994,7 @@ var names2 = [
 	id: '343',
 	nombre: names[342],
 	tipo: ['ground', 'psychic'],
+	clasificacion: 'Pokémon Muñeco Barro',
 	altura: [getAltura(342).pies, getAltura(342).metros], peso: [getPeso(342).libras, getPeso(342).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7698,6 +8012,7 @@ var names2 = [
 	id: '344',
 	nombre: names[343],
 	tipo: ['ground', 'psychic'],
+	clasificacion: 'Pokémon Muñeco Barro',
 	altura: [getAltura(343).pies, getAltura(343).metros], peso: [getPeso(343).libras, getPeso(343).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7715,6 +8030,7 @@ var names2 = [
 	id: '345',
 	nombre: names[344],
 	tipo: ['rock', 'grass'],
+	clasificacion: 'Pokémon Lila Mar',
 	altura: [getAltura(344).pies, getAltura(344).metros], peso: [getPeso(344).libras, getPeso(344).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7736,6 +8052,7 @@ var names2 = [
 	id: '346',
 	nombre: names[345],
 	tipo: ['rock', 'grass'],
+	clasificacion: 'Pokémon Percebe',
 	altura: [getAltura(345).pies, getAltura(345).metros], peso: [getPeso(345).libras, getPeso(345).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7757,6 +8074,7 @@ var names2 = [
 	id: '347',
 	nombre: names[346],
 	tipo: ['rock', 'bug'],
+	clasificacion: 'Pokémon Camarón',
 	altura: [getAltura(346).pies, getAltura(346).metros], peso: [getPeso(346).libras, getPeso(346).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7778,6 +8096,7 @@ var names2 = [
 	id: '348',
 	nombre: names[347],
 	tipo: ['rock', 'bug'],
+	clasificacion: 'Pokémon Armadura',
 	altura: [getAltura(347).pies, getAltura(347).metros], peso: [getPeso(347).libras, getPeso(347).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7799,6 +8118,7 @@ var names2 = [
 	id: '349',
 	nombre: names[348],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Pez',
 	altura: [getAltura(348).pies, getAltura(348).metros], peso: [getPeso(348).libras, getPeso(348).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7820,6 +8140,7 @@ var names2 = [
 	id: '350',
 	nombre: names[349],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Tierno',
 	altura: [getAltura(349).pies, getAltura(349).metros], peso: [getPeso(349).libras, getPeso(349).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7842,6 +8163,7 @@ var names2 = [
 	id: '351',
 	nombre: names[350],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Clima',
 	altura: [getAltura(350).pies, getAltura(350).metros], peso: [getPeso(350).libras, getPeso(350).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7860,6 +8182,7 @@ var names2 = [
 	id: '352',
 	nombre: names[351],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Camaleónico',
 	altura: [getAltura(351).pies, getAltura(351).metros], peso: [getPeso(351).libras, getPeso(351).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7881,6 +8204,7 @@ var names2 = [
 	id: '353',
 	nombre: names[352],
 	tipo: ['ghost'],
+	clasificacion: 'Pokémon Títere',
 	altura: [getAltura(352).pies, getAltura(352).metros], peso: [getPeso(352).libras, getPeso(352).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7903,6 +8227,7 @@ var names2 = [
 	id: '354',
 	nombre: names[353],
 	tipo: ['ghost'],
+	clasificacion: 'Pokémon Marioneta',
 	altura: [getAltura(353).pies, getAltura(353).metros], peso: [getPeso(353).libras, getPeso(353).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7925,6 +8250,7 @@ var names2 = [
 	id: '355',
 	nombre: names[354],
 	tipo: ['ghost'],
+	clasificacion: 'Pokémon Réquiem',
 	altura: [getAltura(354).pies, getAltura(354).metros], peso: [getPeso(354).libras, getPeso(354).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7946,6 +8272,7 @@ var names2 = [
 	id: '356',
 	nombre: names[355],
 	tipo: ['ghost'],
+	clasificacion: 'Pokémon Atrayente',
 	altura: [getAltura(355).pies, getAltura(355).metros], peso: [getPeso(355).libras, getPeso(355).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7968,6 +8295,7 @@ var names2 = [
 	id: '357',
 	nombre: names[356],
 	tipo: ['grass', 'flying'],
+	clasificacion: 'Pokémon Fruto',
 	altura: [getAltura(356).pies, getAltura(356).metros], peso: [getPeso(356).libras, getPeso(356).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -7990,6 +8318,7 @@ var names2 = [
 	id: '358',
 	nombre: names[357],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Sonido Aire',
 	altura: [getAltura(357).pies, getAltura(357).metros], peso: [getPeso(357).libras, getPeso(357).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8009,6 +8338,7 @@ var names2 = [
 	id: '359',
 	nombre: names[358],
 	tipo: ['dark'],
+	clasificacion: 'Pokémon Catástrofe',
 	altura: [getAltura(358).pies, getAltura(358).metros], peso: [getPeso(358).libras, getPeso(358).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8031,6 +8361,7 @@ var names2 = [
 	id: '360',
 	nombre: names[359],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Radiante',
 	altura: [getAltura(359).pies, getAltura(359).metros], peso: [getPeso(359).libras, getPeso(359).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8052,6 +8383,7 @@ var names2 = [
 	id: '361',
 	nombre: names[360],
 	tipo: ['ice'],
+	clasificacion: 'Pokémon Gorro Nieve',
 	altura: [getAltura(360).pies, getAltura(360).metros], peso: [getPeso(360).libras, getPeso(360).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8074,6 +8406,7 @@ var names2 = [
 	id: '362',
 	nombre: names[361],
 	tipo: ['ice'],
+	clasificacion: 'Pokémon Cara',
 	altura: [getAltura(361).pies, getAltura(361).metros], peso: [getPeso(361).libras, getPeso(361).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8096,6 +8429,7 @@ var names2 = [
 	id: '363',
 	nombre: names[362],
 	tipo: ['ice', 'water'],
+	clasificacion: 'Pokémon Aplauso',
 	altura: [getAltura(362).pies, getAltura(362).metros], peso: [getPeso(362).libras, getPeso(362).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8118,6 +8452,7 @@ var names2 = [
 	id: '364',
 	nombre: names[363],
 	tipo: ['ice', 'water'],
+	clasificacion: 'Pokémon Rodabola',
 	altura: [getAltura(363).pies, getAltura(363).metros], peso: [getPeso(363).libras, getPeso(363).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8140,6 +8475,7 @@ var names2 = [
 	id: '365',
 	nombre: names[364],
 	tipo: ['ice', 'water'],
+	clasificacion: 'Pokémon Rompehielo',
 	altura: [getAltura(364).pies, getAltura(364).metros], peso: [getPeso(364).libras, getPeso(364).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8162,6 +8498,7 @@ var names2 = [
 	id: '366',
 	nombre: names[365],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Bivalvo',
 	altura: [getAltura(365).pies, getAltura(365).metros], peso: [getPeso(365).libras, getPeso(365).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8183,6 +8520,7 @@ var names2 = [
 	id: '367',
 	nombre: names[366],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Abisal',
 	altura: [getAltura(366).pies, getAltura(366).metros], peso: [getPeso(366).libras, getPeso(366).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8205,6 +8543,7 @@ var names2 = [
 	id: '368',
 	nombre: names[367],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Mar Del Sur',
 	altura: [getAltura(367).pies, getAltura(367).metros], peso: [getPeso(367).libras, getPeso(367).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8226,6 +8565,7 @@ var names2 = [
 	id: '369',
 	nombre: names[368],
 	tipo: ['water', 'rock'],
+	clasificacion: 'Pokémon Longevo',
 	altura: [getAltura(368).pies, getAltura(368).metros], peso: [getPeso(368).libras, getPeso(368).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8249,6 +8589,7 @@ var names2 = [
 	id: '370',
 	nombre: names[369],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Cita',
 	altura: [getAltura(369).pies, getAltura(369).metros], peso: [getPeso(369).libras, getPeso(369).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8270,6 +8611,7 @@ var names2 = [
 	id: '371',
 	nombre: names[370],
 	tipo: ['dragon'],
+	clasificacion: 'Pokémon Cabeza Roca',
 	altura: [getAltura(370).pies, getAltura(370).metros], peso: [getPeso(370).libras, getPeso(370).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8291,6 +8633,7 @@ var names2 = [
 	id: '372',
 	nombre: names[371],
 	tipo: ['dragon'],
+	clasificacion: 'Pokémon Resistencia',
 	altura: [getAltura(371).pies, getAltura(371).metros], peso: [getPeso(371).libras, getPeso(371).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8312,6 +8655,7 @@ var names2 = [
 	id: '373',
 	nombre: names[372],
 	tipo: ['dragon', 'flying'],
+	clasificacion: 'Pokémon Dragón',
 	altura: [getAltura(372).pies, getAltura(372).metros], peso: [getPeso(372).libras, getPeso(372).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8333,6 +8677,7 @@ var names2 = [
 	id: '374',
 	nombre: names[373],
 	tipo: ['steel', 'psychic'],
+	clasificacion: 'Pokémon Bola Hierro',
 	altura: [getAltura(373).pies, getAltura(373).metros], peso: [getPeso(373).libras, getPeso(373).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8353,6 +8698,7 @@ var names2 = [
 	id: '375',
 	nombre: names[374],
 	tipo: ['steel', 'psychic'],
+	clasificacion: 'Pokémon Garrahierro',
 	altura: [getAltura(374).pies, getAltura(374).metros], peso: [getPeso(374).libras, getPeso(374).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8373,6 +8719,7 @@ var names2 = [
 	id: '376',
 	nombre: names[375],
 	tipo: ['steel', 'psychic'],
+	clasificacion: 'Pokémon Pata Hierro',
 	altura: [getAltura(375).pies, getAltura(375).metros], peso: [getPeso(375).libras, getPeso(375).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8393,6 +8740,7 @@ var names2 = [
 	id: '377',
 	nombre: names[376],
 	tipo: ['rock'],
+	clasificacion: 'Pokémon Pico Roca',
 	altura: [getAltura(376).pies, getAltura(376).metros], peso: [getPeso(376).libras, getPeso(376).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8413,6 +8761,7 @@ var names2 = [
 	id: '378',
 	nombre: names[377],
 	tipo: ['ice'],
+	clasificacion: 'Pokémon Iceberg',
 	altura: [getAltura(377).pies, getAltura(377).metros], peso: [getPeso(377).libras, getPeso(377).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8433,6 +8782,7 @@ var names2 = [
 	id: '379',
 	nombre: names[378],
 	tipo: ['steel'],
+	clasificacion: 'Pokémon Hierro',
 	altura: [getAltura(378).pies, getAltura(378).metros], peso: [getPeso(378).libras, getPeso(378).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8454,6 +8804,7 @@ var names2 = [
 	id: '380',
 	nombre: names[379],
 	tipo: ['dragon', 'psychic'],
+	clasificacion: 'Pokémon Eón',
 	altura: [getAltura(379).pies, getAltura(379).metros], peso: [getPeso(379).libras, getPeso(379).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8472,6 +8823,7 @@ var names2 = [
 	id: '381',
 	nombre: names[380],
 	tipo: ['dragon', 'psychic'],
+	clasificacion: 'Pokémon Eón',
 	altura: [getAltura(380).pies, getAltura(380).metros], peso: [getPeso(380).libras, getPeso(380).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8490,6 +8842,7 @@ var names2 = [
 	id: '382',
 	nombre: names[381],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Cuenca Mar',
 	altura: [getAltura(381).pies, getAltura(381).metros], peso: [getPeso(381).libras, getPeso(381).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8507,6 +8860,7 @@ var names2 = [
 	id: '383',
 	nombre: names[382],
 	tipo: ['ground'],
+	clasificacion: 'Pokémon Continente',
 	altura: [getAltura(382).pies, getAltura(382).metros], peso: [getPeso(382).libras, getPeso(382).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8524,6 +8878,7 @@ var names2 = [
 	id: '384',
 	nombre: names[383],
 	tipo: ['dragon', 'flying'],
+	clasificacion: 'Pokémon Cielo',
 	altura: [getAltura(383).pies, getAltura(383).metros], peso: [getPeso(383).libras, getPeso(383).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8542,6 +8897,7 @@ var names2 = [
 	id: '385',
 	nombre: names[384],
 	tipo: ['steel', 'psychic'],
+	clasificacion: 'Pokémon Deseo',
 	altura: [getAltura(384).pies, getAltura(384).metros], peso: [getPeso(384).libras, getPeso(384).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8559,6 +8915,7 @@ var names2 = [
 	id: '386',
 	nombre: names[385],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon ADN',
 	altura: [getAltura(385).pies, getAltura(385).metros], peso: [getPeso(385).libras, getPeso(385).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8598,6 +8955,7 @@ var names2 = [
 	id: '387',
 	nombre: names[386],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Hojita',
 	altura: [getAltura(386).pies, getAltura(386).metros], peso: [getPeso(386).libras, getPeso(386).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8619,6 +8977,7 @@ var names2 = [
 	id: '388',
 	nombre: names[387],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Arboleda',
 	altura: [getAltura(387).pies, getAltura(387).metros], peso: [getPeso(387).libras, getPeso(387).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8641,6 +9000,7 @@ var names2 = [
 	id: '389',
 	nombre: names[388],
 	tipo: ['grass', 'ground'],
+	clasificacion: 'Pokémon Continente',
 	altura: [getAltura(388).pies, getAltura(388).metros], peso: [getPeso(388).libras, getPeso(388).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8663,6 +9023,7 @@ var names2 = [
 	id: '390',
 	nombre: names[389],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Chimpancé',
 	altura: [getAltura(389).pies, getAltura(389).metros], peso: [getPeso(389).libras, getPeso(389).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8684,6 +9045,7 @@ var names2 = [
 	id: '391',
 	nombre: names[390],
 	tipo: ['fire', 'fight'],
+	clasificacion: 'Pokémon Juguetón',
 	altura: [getAltura(390).pies, getAltura(390).metros], peso: [getPeso(390).libras, getPeso(390).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8706,6 +9068,7 @@ var names2 = [
 	id: '392',
 	nombre: names[391],
 	tipo: ['fire', 'fight'],
+	clasificacion: 'Pokémon Llama',
 	altura: [getAltura(391).pies, getAltura(391).metros], peso: [getPeso(391).libras, getPeso(391).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8729,6 +9092,7 @@ var names2 = [
 	id: '393',
 	nombre: names[392],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Pingüino',
 	altura: [getAltura(392).pies, getAltura(392).metros], peso: [getPeso(392).libras, getPeso(392).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8750,6 +9114,7 @@ var names2 = [
 	id: '394',
 	nombre: names[393],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Pingüino',
 	altura: [getAltura(393).pies, getAltura(393).metros], peso: [getPeso(393).libras, getPeso(393).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8771,6 +9136,7 @@ var names2 = [
 	id: '395',
 	nombre: names[394],
 	tipo: ['water', 'steel'],
+	clasificacion: 'Pokémon Emperador',
 	altura: [getAltura(394).pies, getAltura(394).metros], peso: [getPeso(394).libras, getPeso(394).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8792,6 +9158,7 @@ var names2 = [
 	id: '396',
 	nombre: names[395],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Estornino',
 	altura: [getAltura(395).pies, getAltura(395).metros], peso: [getPeso(395).libras, getPeso(395).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8813,6 +9180,7 @@ var names2 = [
 	id: '397',
 	nombre: names[396],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Estornino',
 	altura: [getAltura(396).pies, getAltura(396).metros], peso: [getPeso(396).libras, getPeso(396).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8834,6 +9202,7 @@ var names2 = [
 	id: '398',
 	nombre: names[397],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Depredador',
 	altura: [getAltura(397).pies, getAltura(397).metros], peso: [getPeso(397).libras, getPeso(397).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8855,6 +9224,7 @@ var names2 = [
 	id: '399',
 	nombre: names[398],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Gran Ratón',
 	altura: [getAltura(398).pies, getAltura(398).metros], peso: [getPeso(398).libras, getPeso(398).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8877,6 +9247,7 @@ var names2 = [
 	id: '400',
 	nombre: names[399],
 	tipo: ['normal', 'water'],
+	clasificacion: 'Pokémon Castor',
 	altura: [getAltura(399).pies, getAltura(399).metros], peso: [getPeso(399).libras, getPeso(399).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8899,6 +9270,7 @@ var names2 = [
 	id: '401',
 	nombre: names[400],
 	tipo: ['bug'],
+	clasificacion: 'Pokémon Grillo',
 	altura: [getAltura(400).pies, getAltura(400).metros], peso: [getPeso(400).libras, getPeso(400).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8920,6 +9292,7 @@ var names2 = [
 	id: '402',
 	nombre: names[401],
 	tipo: ['bug'],
+	clasificacion: 'Pokémon Grillo',
 	altura: [getAltura(401).pies, getAltura(401).metros], peso: [getPeso(401).libras, getPeso(401).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8941,6 +9314,7 @@ var names2 = [
 	id: '403',
 	nombre: names[402],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Flash',
 	altura: [getAltura(402).pies, getAltura(402).metros], peso: [getPeso(402).libras, getPeso(402).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8963,6 +9337,7 @@ var names2 = [
 	id: '404',
 	nombre: names[403],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Chispa',
 	altura: [getAltura(403).pies, getAltura(403).metros], peso: [getPeso(403).libras, getPeso(403).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -8985,6 +9360,7 @@ var names2 = [
 	id: '405',
 	nombre: names[404],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Chispa Ojos',
 	altura: [getAltura(404).pies, getAltura(404).metros], peso: [getPeso(404).libras, getPeso(404).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9007,6 +9383,7 @@ var names2 = [
 	id: '406',
 	nombre: names[405],
 	tipo: ['grass', 'poison'],
+	clasificacion: 'Pokémon Brote',
 	altura: [getAltura(405).pies, getAltura(405).metros], peso: [getPeso(405).libras, getPeso(405).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9029,6 +9406,7 @@ var names2 = [
 	id: '407',
 	nombre: names[406],
 	tipo: ['grass', 'poison'],
+	clasificacion: 'Pokémon Ramillete',
 	altura: [getAltura(406).pies, getAltura(406).metros], peso: [getPeso(406).libras, getPeso(406).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9051,6 +9429,7 @@ var names2 = [
 	id: '408',
 	nombre: names[407],
 	tipo: ['rock'],
+	clasificacion: 'Pokémon Cabezazo',
 	altura: [getAltura(407).pies, getAltura(407).metros], peso: [getPeso(407).libras, getPeso(407).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9072,6 +9451,7 @@ var names2 = [
 	id: '409',
 	nombre: names[408],
 	tipo: ['rock'],
+	clasificacion: 'Pokémon Cabezazo',
 	altura: [getAltura(408).pies, getAltura(408).metros], peso: [getPeso(408).libras, getPeso(408).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9093,6 +9473,7 @@ var names2 = [
 	id: '410',
 	nombre: names[409],
 	tipo: ['rock', 'steel'],
+	clasificacion: 'Pokémon Escudo',
 	altura: [getAltura(409).pies, getAltura(409).metros], peso: [getPeso(409).libras, getPeso(409).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9114,6 +9495,7 @@ var names2 = [
 	id: '411',
 	nombre: names[410],
 	tipo: ['rock', 'steel'],
+	clasificacion: 'Pokémon Escudo',
 	altura: [getAltura(410).pies, getAltura(410).metros], peso: [getPeso(410).libras, getPeso(410).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9135,6 +9517,7 @@ var names2 = [
 	id: '412',
 	nombre: names[411],
 	tipo: ['bug'],
+	clasificacion: 'Pokémon Larva',
 	altura: [getAltura(411).pies, getAltura(411).metros], peso: [getPeso(411).libras, getPeso(411).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9156,6 +9539,7 @@ var names2 = [
 	id: '413',
 	nombre: names[412],
 	tipo: ['bug', 'grass'],
+	clasificacion: 'Pokémon Larva',
 	altura: [getAltura(412).pies, getAltura(412).metros], peso: [getPeso(412).libras, getPeso(412).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9180,6 +9564,7 @@ var names2 = [
 	id: '414',
 	nombre: names[413],
 	tipo: ['bug', 'flying'],
+	clasificacion: 'Pokémon Polilla',
 	altura: [getAltura(413).pies, getAltura(413).metros], peso: [getPeso(413).libras, getPeso(413).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9202,6 +9587,7 @@ var names2 = [
 	id: '415',
 	nombre: names[414],
 	tipo: ['bug', 'flying'],
+	clasificacion: 'Pokémon Abejita',
 	altura: [getAltura(414).pies, getAltura(414).metros], peso: [getPeso(414).libras, getPeso(414).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9223,6 +9609,7 @@ var names2 = [
 	id: '416',
 	nombre: names[415],
 	tipo: ['bug', 'flying'],
+	clasificacion: 'Pokémon Colmena',
 	altura: [getAltura(415).pies, getAltura(415).metros], peso: [getPeso(415).libras, getPeso(415).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9245,6 +9632,7 @@ var names2 = [
 	id: '417',
 	nombre: names[416],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Ardillalec',
 	altura: [getAltura(416).pies, getAltura(416).metros], peso: [getPeso(416).libras, getPeso(416).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9267,6 +9655,7 @@ var names2 = [
 	id: '418',
 	nombre: names[417],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Nutria Marina',
 	altura: [getAltura(417).pies, getAltura(417).metros], peso: [getPeso(417).libras, getPeso(417).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9288,6 +9677,7 @@ var names2 = [
 	id: '419',
 	nombre: names[418],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Nutria Marina',
 	altura: [getAltura(418).pies, getAltura(418).metros], peso: [getPeso(418).libras, getPeso(418).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9309,6 +9699,7 @@ var names2 = [
 	id: '420',
 	nombre: names[419],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Cereza',
 	altura: [getAltura(419).pies, getAltura(419).metros], peso: [getPeso(419).libras, getPeso(419).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9327,6 +9718,7 @@ var names2 = [
 	id: '421',
 	nombre: names[420],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Floración',
 	altura: [getAltura(420).pies, getAltura(420).metros], peso: [getPeso(420).libras, getPeso(420).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9345,6 +9737,7 @@ var names2 = [
 	id: '422',
 	nombre: names[421],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Babosa Marina',
 	altura: [getAltura(421).pies, getAltura(421).metros], peso: [getPeso(421).libras, getPeso(421).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9367,6 +9760,7 @@ var names2 = [
 	id: '423',
 	nombre: names[422],
 	tipo: ['water', 'ground'],
+	clasificacion: 'Pokémon Babosa Marina',
 	altura: [getAltura(422).pies, getAltura(422).metros], peso: [getPeso(422).libras, getPeso(422).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9389,6 +9783,7 @@ var names2 = [
 	id: '424',
 	nombre: names[423],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Cola Larga',
 	altura: [getAltura(423).pies, getAltura(423).metros], peso: [getPeso(423).libras, getPeso(423).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9411,6 +9806,7 @@ var names2 = [
 	id: '425',
 	nombre: names[424],
 	tipo: ['ghost', 'flying'],
+	clasificacion: 'Pokémon Globo',
 	altura: [getAltura(424).pies, getAltura(424).metros], peso: [getPeso(424).libras, getPeso(424).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9433,6 +9829,7 @@ var names2 = [
 	id: '426',
 	nombre: names[425],
 	tipo: ['ghost', 'flying'],
+	clasificacion: 'Pokémon Dirigible',
 	altura: [getAltura(425).pies, getAltura(425).metros], peso: [getPeso(425).libras, getPeso(425).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9455,6 +9852,7 @@ var names2 = [
 	id: '427',
 	nombre: names[426],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Conejo',
 	altura: [getAltura(426).pies, getAltura(426).metros], peso: [getPeso(426).libras, getPeso(426).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9477,6 +9875,7 @@ var names2 = [
 	id: '428',
 	nombre: names[427],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Conejo',
 	altura: [getAltura(427).pies, getAltura(427).metros], peso: [getPeso(427).libras, getPeso(427).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9499,6 +9898,7 @@ var names2 = [
 	id: '429',
 	nombre: names[428],
 	tipo: ['ghost'],
+	clasificacion: 'Pokémon Mágico',
 	altura: [getAltura(428).pies, getAltura(428).metros], peso: [getPeso(428).libras, getPeso(428).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9518,6 +9918,7 @@ var names2 = [
 	id: '430',
 	nombre: names[429],
 	tipo: ['dark', 'flying'],
+	clasificacion: 'Pokémon Gran Jefe',
 	altura: [getAltura(429).pies, getAltura(429).metros], peso: [getPeso(429).libras, getPeso(429).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9540,6 +9941,7 @@ var names2 = [
 	id: '431',
 	nombre: names[430],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Gastuto',
 	altura: [getAltura(430).pies, getAltura(430).metros], peso: [getPeso(430).libras, getPeso(430).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9562,6 +9964,7 @@ var names2 = [
 	id: '432',
 	nombre: names[431],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Tigre Gato',
 	altura: [getAltura(431).pies, getAltura(431).metros], peso: [getPeso(431).libras, getPeso(431).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9584,6 +9987,7 @@ var names2 = [
 	id: '433',
 	nombre: names[432],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Campana',
 	altura: [getAltura(432).pies, getAltura(432).metros], peso: [getPeso(432).libras, getPeso(432).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9602,6 +10006,7 @@ var names2 = [
 	id: '434',
 	nombre: names[433],
 	tipo: ['poison', 'dark'],
+	clasificacion: 'Pokémon Mofeta',
 	altura: [getAltura(433).pies, getAltura(433).metros], peso: [getPeso(433).libras, getPeso(433).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9624,6 +10029,7 @@ var names2 = [
 	id: '435',
 	nombre: names[434],
 	tipo: ['poison', 'dark'],
+	clasificacion: 'Pokémon Mofeta',
 	altura: [getAltura(434).pies, getAltura(434).metros], peso: [getPeso(434).libras, getPeso(434).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9646,6 +10052,7 @@ var names2 = [
 	id: '436',
 	nombre: names[435],
 	tipo: ['steel', 'psychic'],
+	clasificacion: 'Pokémon Bronce',
 	altura: [getAltura(435).pies, getAltura(435).metros], peso: [getPeso(435).libras, getPeso(435).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9667,6 +10074,7 @@ var names2 = [
 	id: '437',
 	nombre: names[436],
 	tipo: ['steel', 'psychic'],
+	clasificacion: 'Pokémon Campana Bronce',
 	altura: [getAltura(436).pies, getAltura(436).metros], peso: [getPeso(436).libras, getPeso(436).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9689,6 +10097,7 @@ var names2 = [
 	id: '438',
 	nombre: names[437],
 	tipo: ['rock'],
+	clasificacion: 'Pokémon Bonsái',
 	altura: [getAltura(437).pies, getAltura(437).metros], peso: [getPeso(437).libras, getPeso(437).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9711,6 +10120,7 @@ var names2 = [
 	id: '439',
 	nombre: names[438],
 	tipo: ['psychic', 'fairy'],
+	clasificacion: 'Pokémon Mimo',
 	altura: [getAltura(438).pies, getAltura(438).metros], peso: [getPeso(438).libras, getPeso(438).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9733,6 +10143,7 @@ var names2 = [
 	id: '440',
 	nombre: names[439],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Casita',
 	altura: [getAltura(439).pies, getAltura(439).metros], peso: [getPeso(439).libras, getPeso(439).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9755,6 +10166,7 @@ var names2 = [
 	id: '441',
 	nombre: names[440],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Corchea',
 	altura: [getAltura(440).pies, getAltura(440).metros], peso: [getPeso(440).libras, getPeso(440).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9777,6 +10189,7 @@ var names2 = [
 	id: '442',
 	nombre: names[441],
 	tipo: ['ghost', 'dark'],
+	clasificacion: 'Pokémon Prohibido',
 	altura: [getAltura(441).pies, getAltura(441).metros], peso: [getPeso(441).libras, getPeso(441).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9799,6 +10212,7 @@ var names2 = [
 	id: '443',
 	nombre: names[442],
 	tipo: ['dragon', 'ground'],
+	clasificacion: 'Pokémon Terrascualo',
 	altura: [getAltura(442).pies, getAltura(442).metros], peso: [getPeso(442).libras, getPeso(442).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9820,6 +10234,7 @@ var names2 = [
 	id: '444',
 	nombre: names[443],
 	tipo: ['dragon', 'ground'],
+	clasificacion: 'Pokémon Cueva',
 	altura: [getAltura(443).pies, getAltura(443).metros], peso: [getPeso(443).libras, getPeso(443).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9841,6 +10256,7 @@ var names2 = [
 	id: '445',
 	nombre: names[444],
 	tipo: ['dragon', 'ground'],
+	clasificacion: 'Pokémon Mach',
 	altura: [getAltura(444).pies, getAltura(444).metros], peso: [getPeso(444).libras, getPeso(444).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9862,6 +10278,7 @@ var names2 = [
 	id: '446',
 	nombre: names[445],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Comilón',
 	altura: [getAltura(445).pies, getAltura(445).metros], peso: [getPeso(445).libras, getPeso(445).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9884,6 +10301,7 @@ var names2 = [
 	id: '447',
 	nombre: names[446],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Emanación',
 	altura: [getAltura(446).pies, getAltura(446).metros], peso: [getPeso(446).libras, getPeso(446).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9906,6 +10324,7 @@ var names2 = [
 	id: '448',
 	nombre: names[447],
 	tipo: ['fight', 'steel'],
+	clasificacion: 'Pokémon Aura',
 	altura: [getAltura(447).pies, getAltura(447).metros], peso: [getPeso(447).libras, getPeso(447).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9929,6 +10348,7 @@ var names2 = [
 	id: '449',
 	nombre: names[448],
 	tipo: ['ground'],
+	clasificacion: 'Pokémon Hipo',
 	altura: [getAltura(448).pies, getAltura(448).metros], peso: [getPeso(448).libras, getPeso(448).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9950,6 +10370,7 @@ var names2 = [
 	id: '450',
 	nombre: names[449],
 	tipo: ['ground'],
+	clasificacion: 'Pokémon Peso Pesado',
 	altura: [getAltura(449).pies, getAltura(449).metros], peso: [getPeso(449).libras, getPeso(449).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9971,6 +10392,7 @@ var names2 = [
 	id: '451',
 	nombre: names[450],
 	tipo: ['poison', 'bug'],
+	clasificacion: 'Pokémon Escorpión',
 	altura: [getAltura(450).pies, getAltura(450).metros], peso: [getPeso(450).libras, getPeso(450).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -9993,6 +10415,7 @@ var names2 = [
 	id: '452',
 	nombre: names[451],
 	tipo: ['poison', 'dark'],
+	clasificacion: 'Pokémon Escorpiogro',
 	altura: [getAltura(451).pies, getAltura(451).metros], peso: [getPeso(451).libras, getPeso(451).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10015,6 +10438,7 @@ var names2 = [
 	id: '453',
 	nombre: names[452],
 	tipo: ['poison', 'fight'],
+	clasificacion: 'Pokémon Boca Tóxica',
 	altura: [getAltura(452).pies, getAltura(452).metros], peso: [getPeso(452).libras, getPeso(452).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10037,6 +10461,7 @@ var names2 = [
 	id: '454',
 	nombre: names[453],
 	tipo: ['poison', 'fight'],
+	clasificacion: 'Pokémon Boca Tóxica',
 	altura: [getAltura(453).pies, getAltura(453).metros], peso: [getPeso(453).libras, getPeso(453).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10059,6 +10484,7 @@ var names2 = [
 	id: '455',
 	nombre: names[454],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Caza Bichos',
 	altura: [getAltura(454).pies, getAltura(454).metros], peso: [getPeso(454).libras, getPeso(454).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10077,6 +10503,7 @@ var names2 = [
 	id: '456',
 	nombre: names[455],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Pez Ala',
 	altura: [getAltura(455).pies, getAltura(455).metros], peso: [getPeso(455).libras, getPeso(455).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10099,6 +10526,7 @@ var names2 = [
 	id: '457',
 	nombre: names[456],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Neón',
 	altura: [getAltura(456).pies, getAltura(456).metros], peso: [getPeso(456).libras, getPeso(456).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10121,6 +10549,7 @@ var names2 = [
 	id: '458',
 	nombre: names[457],
 	tipo: ['water', 'flying'],
+	clasificacion: 'Pokémon Milano',
 	altura: [getAltura(457).pies, getAltura(457).metros], peso: [getPeso(457).libras, getPeso(457).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10143,6 +10572,7 @@ var names2 = [
 	id: '459',
 	nombre: names[458],
 	tipo: ['grass', 'ice'],
+	clasificacion: 'Pokémon Árbol Nieve',
 	altura: [getAltura(458).pies, getAltura(458).metros], peso: [getPeso(458).libras, getPeso(458).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10164,6 +10594,7 @@ var names2 = [
 	id: '460',
 	nombre: names[459],
 	tipo: ['grass', 'ice'],
+	clasificacion: 'Pokémon Árbol Nieve',
 	altura: [getAltura(459).pies, getAltura(459).metros], peso: [getPeso(459).libras, getPeso(459).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10186,6 +10617,7 @@ var names2 = [
 	id: '461',
 	nombre: names[460],
 	tipo: ['dark', 'ice'],
+	clasificacion: 'Pokémon Garra Filo',
 	altura: [getAltura(460).pies, getAltura(460).metros], peso: [getPeso(460).libras, getPeso(460).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10208,6 +10640,7 @@ var names2 = [
 	id: '462',
 	nombre: names[461],
 	tipo: ['electric', 'steel'],
+	clasificacion: 'Pokémon Magnético',
 	altura: [getAltura(461).pies, getAltura(461).metros], peso: [getPeso(461).libras, getPeso(461).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10229,6 +10662,7 @@ var names2 = [
 	id: '463',
 	nombre: names[462],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Lametazo',
 	altura: [getAltura(462).pies, getAltura(462).metros], peso: [getPeso(462).libras, getPeso(462).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10251,6 +10685,7 @@ var names2 = [
 	id: '464',
 	nombre: names[463],
 	tipo: ['ground', 'rock'],
+	clasificacion: 'Pokémon Taladro',
 	altura: [getAltura(463).pies, getAltura(463).metros], peso: [getPeso(463).libras, getPeso(463).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10273,6 +10708,7 @@ var names2 = [
 	id: '465',
 	nombre: names[464],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Enredadera',
 	altura: [getAltura(464).pies, getAltura(464).metros], peso: [getPeso(464).libras, getPeso(464).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10295,6 +10731,7 @@ var names2 = [
 	id: '466',
 	nombre: names[465],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Rayo',
 	altura: [getAltura(465).pies, getAltura(465).metros], peso: [getPeso(465).libras, getPeso(465).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10316,6 +10753,7 @@ var names2 = [
 	id: '467',
 	nombre: names[466],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Explosión',
 	altura: [getAltura(466).pies, getAltura(466).metros], peso: [getPeso(466).libras, getPeso(466).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10337,6 +10775,7 @@ var names2 = [
 	id: '468',
 	nombre: names[467],
 	tipo: ['fairy', 'flying'],
+	clasificacion: 'Pokémon Festejo',
 	altura: [getAltura(467).pies, getAltura(467).metros], peso: [getPeso(467).libras, getPeso(467).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10360,6 +10799,7 @@ var names2 = [
 	id: '469',
 	nombre: names[468],
 	tipo: ['bug', 'flying'],
+	clasificacion: 'Pokémon Libélula',
 	altura: [getAltura(468).pies, getAltura(468).metros], peso: [getPeso(468).libras, getPeso(468).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10382,6 +10822,7 @@ var names2 = [
 	id: '470',
 	nombre: names[469],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Verdor',
 	altura: [getAltura(469).pies, getAltura(469).metros], peso: [getPeso(469).libras, getPeso(469).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10403,6 +10844,7 @@ var names2 = [
 	id: '471',
 	nombre: names[470],
 	tipo: ['ice'],
+	clasificacion: 'Pokémon Nievefresca',
 	altura: [getAltura(470).pies, getAltura(470).metros], peso: [getPeso(470).libras, getPeso(470).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10424,6 +10866,7 @@ var names2 = [
 	id: '472',
 	nombre: names[471],
 	tipo: ['ground', 'flying'],
+	clasificacion: 'Pokémon Colmicorpio',
 	altura: [getAltura(471).pies, getAltura(471).metros], peso: [getPeso(471).libras, getPeso(471).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10446,6 +10889,7 @@ var names2 = [
 	id: '473',
 	nombre: names[472],
 	tipo: ['ice', 'ground'],
+	clasificacion: 'Pokémon 2colmillos',
 	altura: [getAltura(472).pies, getAltura(472).metros], peso: [getPeso(472).libras, getPeso(472).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10468,6 +10912,7 @@ var names2 = [
 	id: '474',
 	nombre: names[473],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Virtual',
 	altura: [getAltura(473).pies, getAltura(473).metros], peso: [getPeso(473).libras, getPeso(473).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10489,6 +10934,7 @@ var names2 = [
 	id: '475',
 	nombre: names[474],
 	tipo: ['psychic', 'fight'],
+	clasificacion: 'Pokémon Cuchilla',
 	altura: [getAltura(474).pies, getAltura(474).metros], peso: [getPeso(474).libras, getPeso(474).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10510,6 +10956,7 @@ var names2 = [
 	id: '476',
 	nombre: names[475],
 	tipo: ['rock', 'steel'],
+	clasificacion: 'Pokémon Brújula',
 	altura: [getAltura(475).pies, getAltura(475).metros], peso: [getPeso(475).libras, getPeso(475).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10533,6 +10980,7 @@ var names2 = [
 	id: '477',
 	nombre: names[476],
 	tipo: ['ghost'],
+	clasificacion: 'Pokémon Grilletes',
 	altura: [getAltura(476).pies, getAltura(476).metros], peso: [getPeso(476).libras, getPeso(476).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10555,6 +11003,7 @@ var names2 = [
 	id: '478',
 	nombre: names[477],
 	tipo: ['ice', 'ghost'],
+	clasificacion: 'Pokémon Tierra Fría',
 	altura: [getAltura(477).pies, getAltura(477).metros], peso: [getPeso(477).libras, getPeso(477).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10576,6 +11025,7 @@ var names2 = [
 	id: '479',
 	nombre: names[478],
 	tipo: ['electric', 'ghost'],
+	clasificacion: 'Pokémon Plasma',
 	altura: [getAltura(478).pies, getAltura(478).metros], peso: [getPeso(478).libras, getPeso(478).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10594,6 +11044,7 @@ var names2 = [
 	id: '480',
 	nombre: names[479],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Sabiduría',
 	altura: [getAltura(479).pies, getAltura(479).metros], peso: [getPeso(479).libras, getPeso(479).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10612,6 +11063,7 @@ var names2 = [
 	id: '481',
 	nombre: names[480],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Sensorio',
 	altura: [getAltura(480).pies, getAltura(480).metros], peso: [getPeso(480).libras, getPeso(480).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10631,6 +11083,7 @@ var names2 = [
 	id: '482',
 	nombre: names[481],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Voluntad',
 	altura: [getAltura(481).pies, getAltura(481).metros], peso: [getPeso(481).libras, getPeso(481).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10649,6 +11102,7 @@ var names2 = [
 	id: '483',
 	nombre: names[482],
 	tipo: ['steel', 'dragon'],
+	clasificacion: 'Pokémon Temporal',
 	altura: [getAltura(482).pies, getAltura(482).metros], peso: [getPeso(482).libras, getPeso(482).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10669,6 +11123,7 @@ var names2 = [
 	id: '484',
 	nombre: names[483],
 	tipo: ['water', 'dragon'],
+	clasificacion: 'Pokémon Espacial',
 	altura: [getAltura(483).pies, getAltura(483).metros], peso: [getPeso(483).libras, getPeso(483).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10689,6 +11144,7 @@ var names2 = [
 	id: '485',
 	nombre: names[484],
 	tipo: ['fire', 'steel'],
+	clasificacion: 'Pokémon Domo Lava',
 	altura: [getAltura(484).pies, getAltura(484).metros], peso: [getPeso(484).libras, getPeso(484).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10710,6 +11166,7 @@ var names2 = [
 	id: '486',
 	nombre: names[485],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Colosal',
 	altura: [getAltura(485).pies, getAltura(485).metros], peso: [getPeso(485).libras, getPeso(485).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10727,6 +11184,7 @@ var names2 = [
 	id: '487',
 	nombre: names[486],
 	tipo: ['ghost', 'dragon'],
+	clasificacion: 'Pokémon Renegado',
 	altura: [getAltura(486).pies, getAltura(486).metros], peso: [getPeso(486).libras, getPeso(486).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10748,6 +11206,7 @@ var names2 = [
 	id: '488',
 	nombre: names[487],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Lunar',
 	altura: [getAltura(487).pies, getAltura(487).metros], peso: [getPeso(487).libras, getPeso(487).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10766,6 +11225,7 @@ var names2 = [
 	id: '489',
 	nombre: names[488],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Marino',
 	altura: [getAltura(488).pies, getAltura(488).metros], peso: [getPeso(488).libras, getPeso(488).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10783,6 +11243,7 @@ var names2 = [
 	id: '490',
 	nombre: names[489],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Náutico',
 	altura: [getAltura(489).pies, getAltura(489).metros], peso: [getPeso(489).libras, getPeso(489).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10800,6 +11261,7 @@ var names2 = [
 	id: '491',
 	nombre: names[490],
 	tipo: ['dark'],
+	clasificacion: 'Pokémon Oscuridad',
 	altura: [getAltura(490).pies, getAltura(490).metros], peso: [getPeso(490).libras, getPeso(490).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10818,6 +11280,7 @@ var names2 = [
 	id: '492',
 	nombre: names[491],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Gratitud',
 	altura: [getAltura(491).pies, getAltura(491).metros], peso: [getPeso(491).libras, getPeso(491).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10837,6 +11300,7 @@ var names2 = [
 	id: '493',
 	nombre: names[492],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Alfa',
 	altura: [getAltura(492).pies, getAltura(492).metros], peso: [getPeso(492).libras, getPeso(492).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10872,6 +11336,7 @@ var names2 = [
 	id: '494',
 	nombre: names[493],
 	tipo: ['psychic', 'fire'],
+	clasificacion: 'Pokémon Victoria',
 	altura: [getAltura(493).pies, getAltura(493).metros], peso: [getPeso(493).libras, getPeso(493).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10889,6 +11354,7 @@ var names2 = [
 	id: '495',
 	nombre: names[494],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Serpiente Hierba',
 	altura: [getAltura(494).pies, getAltura(494).metros], peso: [getPeso(494).libras, getPeso(494).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10910,6 +11376,7 @@ var names2 = [
 	id: '496',
 	nombre: names[495],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Serpiente Hierba',
 	altura: [getAltura(495).pies, getAltura(495).metros], peso: [getPeso(495).libras, getPeso(495).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10931,6 +11398,7 @@ var names2 = [
 	id: '497',
 	nombre: names[496],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Realeza',
 	altura: [getAltura(496).pies, getAltura(496).metros], peso: [getPeso(496).libras, getPeso(496).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10952,6 +11420,7 @@ var names2 = [
 	id: '498',
 	nombre: names[497],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Cerdo Fuego',
 	altura: [getAltura(497).pies, getAltura(497).metros], peso: [getPeso(497).libras, getPeso(497).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10973,6 +11442,7 @@ var names2 = [
 	id: '499',
 	nombre: names[498],
 	tipo: ['fire', 'fight'],
+	clasificacion: 'Pokémon Cerdo Fuego',
 	altura: [getAltura(498).pies, getAltura(498).metros], peso: [getPeso(498).libras, getPeso(498).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -10994,6 +11464,7 @@ var names2 = [
 	id: '500',
 	nombre: names[499],
 	tipo: ['fire', 'fight'],
+	clasificacion: 'Pokémon Cerdo Ígneo',
 	altura: [getAltura(499).pies, getAltura(499).metros], peso: [getPeso(499).libras, getPeso(499).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11015,6 +11486,7 @@ var names2 = [
 	id: '501',
 	nombre: names[500],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Nutria',
 	altura: [getAltura(500).pies, getAltura(500).metros], peso: [getPeso(500).libras, getPeso(500).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11036,6 +11508,7 @@ var names2 = [
 	id: '502',
 	nombre: names[501],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Superación',
 	altura: [getAltura(501).pies, getAltura(501).metros], peso: [getPeso(501).libras, getPeso(501).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11057,6 +11530,7 @@ var names2 = [
 	id: '503',
 	nombre: names[502],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Majestuoso',
 	altura: [getAltura(502).pies, getAltura(502).metros], peso: [getPeso(502).libras, getPeso(502).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11078,6 +11552,7 @@ var names2 = [
 	id: '504',
 	nombre: names[503],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Explorador',
 	altura: [getAltura(503).pies, getAltura(503).metros], peso: [getPeso(503).libras, getPeso(503).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11100,6 +11575,7 @@ var names2 = [
 	id: '505',
 	nombre: names[504],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Alerta',
 	altura: [getAltura(504).pies, getAltura(504).metros], peso: [getPeso(504).libras, getPeso(504).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11122,6 +11598,7 @@ var names2 = [
 	id: '506',
 	nombre: names[505],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Perrito',
 	altura: [getAltura(505).pies, getAltura(505).metros], peso: [getPeso(505).libras, getPeso(505).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11144,6 +11621,7 @@ var names2 = [
 	id: '507',
 	nombre: names[506],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Leal',
 	altura: [getAltura(506).pies, getAltura(506).metros], peso: [getPeso(506).libras, getPeso(506).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11166,6 +11644,7 @@ var names2 = [
 	id: '508',
 	nombre: names[507],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Magnánimo',
 	altura: [getAltura(507).pies, getAltura(507).metros], peso: [getPeso(507).libras, getPeso(507).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11188,6 +11667,7 @@ var names2 = [
 	id: '509',
 	nombre: names[508],
 	tipo: ['dark'],
+	clasificacion: 'Pokémon Malicioso',
 	altura: [getAltura(508).pies, getAltura(508).metros], peso: [getPeso(508).libras, getPeso(508).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11210,6 +11690,7 @@ var names2 = [
 	id: '510',
 	nombre: names[509],
 	tipo: ['dark'],
+	clasificacion: 'Pokémon Calculador',
 	altura: [getAltura(509).pies, getAltura(509).metros], peso: [getPeso(509).libras, getPeso(509).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11232,6 +11713,7 @@ var names2 = [
 	id: '511',
 	nombre: names[510],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Mono Hierba',
 	altura: [getAltura(510).pies, getAltura(510).metros], peso: [getPeso(510).libras, getPeso(510).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11253,6 +11735,7 @@ var names2 = [
 	id: '512',
 	nombre: names[511],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Mono Pincho',
 	altura: [getAltura(511).pies, getAltura(511).metros], peso: [getPeso(511).libras, getPeso(511).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11274,6 +11757,7 @@ var names2 = [
 	id: '513',
 	nombre: names[512],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Ardiente',
 	altura: [getAltura(512).pies, getAltura(512).metros], peso: [getPeso(512).libras, getPeso(512).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11295,6 +11779,7 @@ var names2 = [
 	id: '514',
 	nombre: names[513],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Lumbre',
 	altura: [getAltura(513).pies, getAltura(513).metros], peso: [getPeso(513).libras, getPeso(513).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11316,6 +11801,7 @@ var names2 = [
 	id: '515',
 	nombre: names[514],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Salpicadura',
 	altura: [getAltura(514).pies, getAltura(514).metros], peso: [getPeso(514).libras, getPeso(514).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11337,6 +11823,7 @@ var names2 = [
 	id: '516',
 	nombre: names[515],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Drenaje',
 	altura: [getAltura(515).pies, getAltura(515).metros], peso: [getPeso(515).libras, getPeso(515).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11358,6 +11845,7 @@ var names2 = [
 	id: '517',
 	nombre: names[516],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Comesueños',
 	altura: [getAltura(516).pies, getAltura(516).metros], peso: [getPeso(516).libras, getPeso(516).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11380,6 +11868,7 @@ var names2 = [
 	id: '518',
 	nombre: names[517],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Duermevela',
 	altura: [getAltura(517).pies, getAltura(517).metros], peso: [getPeso(517).libras, getPeso(517).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11402,6 +11891,7 @@ var names2 = [
 	id: '519',
 	nombre: names[518],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Pichón',
 	altura: [getAltura(518).pies, getAltura(518).metros], peso: [getPeso(518).libras, getPeso(518).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11424,6 +11914,7 @@ var names2 = [
 	id: '520',
 	nombre: names[519],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Torcaz',
 	altura: [getAltura(519).pies, getAltura(519).metros], peso: [getPeso(519).libras, getPeso(519).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11446,6 +11937,7 @@ var names2 = [
 	id: '521',
 	nombre: names[520],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Altanero',
 	altura: [getAltura(520).pies, getAltura(520).metros], peso: [getPeso(520).libras, getPeso(520).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11468,6 +11960,7 @@ var names2 = [
 	id: '522',
 	nombre: names[521],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Electrizado',
 	altura: [getAltura(521).pies, getAltura(521).metros], peso: [getPeso(521).libras, getPeso(521).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11490,6 +11983,7 @@ var names2 = [
 	id: '523',
 	nombre: names[522],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Rayo',
 	altura: [getAltura(522).pies, getAltura(522).metros], peso: [getPeso(522).libras, getPeso(522).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11512,6 +12006,7 @@ var names2 = [
 	id: '524',
 	nombre: names[523],
 	tipo: ['rock'],
+	clasificacion: 'Pokémon Manto',
 	altura: [getAltura(523).pies, getAltura(523).metros], peso: [getPeso(523).libras, getPeso(523).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11533,6 +12028,7 @@ var names2 = [
 	id: '525',
 	nombre: names[524],
 	tipo: ['rock'],
+	clasificacion: 'Pokémon Mineral',
 	altura: [getAltura(524).pies, getAltura(524).metros], peso: [getPeso(524).libras, getPeso(524).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11555,6 +12051,7 @@ var names2 = [
 	id: '526',
 	nombre: names[525],
 	tipo: ['rock'],
+	clasificacion: 'Pokémon Presurizado',
 	altura: [getAltura(525).pies, getAltura(525).metros], peso: [getPeso(525).libras, getPeso(525).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11576,6 +12073,7 @@ var names2 = [
 	id: '527',
 	nombre: names[526],
 	tipo: ['psychic', 'flying'],
+	clasificacion: 'Pokémon Murciélago',
 	altura: [getAltura(526).pies, getAltura(526).metros], peso: [getPeso(526).libras, getPeso(526).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11598,6 +12096,7 @@ var names2 = [
 	id: '528',
 	nombre: names[527],
 	tipo: ['psychic', 'flying'],
+	clasificacion: 'Pokémon Galante',
 	altura: [getAltura(527).pies, getAltura(527).metros], peso: [getPeso(527).libras, getPeso(527).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11620,6 +12119,7 @@ var names2 = [
 	id: '529',
 	nombre: names[528],
 	tipo: ['ground'],
+	clasificacion: 'Pokémon Topo',
 	altura: [getAltura(528).pies, getAltura(528).metros], peso: [getPeso(528).libras, getPeso(528).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11642,6 +12142,7 @@ var names2 = [
 	id: '530',
 	nombre: names[529],
 	tipo: ['ground', 'steel'],
+	clasificacion: 'Pokémon Subterráneo',
 	altura: [getAltura(529).pies, getAltura(529).metros], peso: [getPeso(529).libras, getPeso(529).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11664,6 +12165,7 @@ var names2 = [
 	id: '531',
 	nombre: names[530],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Escucha',
 	altura: [getAltura(530).pies, getAltura(530).metros], peso: [getPeso(530).libras, getPeso(530).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11686,6 +12188,7 @@ var names2 = [
 	id: '532',
 	nombre: names[531],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Musculoso',
 	altura: [getAltura(531).pies, getAltura(531).metros], peso: [getPeso(531).libras, getPeso(531).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11708,6 +12211,7 @@ var names2 = [
 	id: '533',
 	nombre: names[532],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Musculoso',
 	altura: [getAltura(532).pies, getAltura(532).metros], peso: [getPeso(532).libras, getPeso(532).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11730,6 +12234,7 @@ var names2 = [
 	id: '534',
 	nombre: names[533],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Musculoso',
 	altura: [getAltura(533).pies, getAltura(533).metros], peso: [getPeso(533).libras, getPeso(533).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11752,6 +12257,7 @@ var names2 = [
 	id: '535',
 	nombre: names[534],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Renacuajo',
 	altura: [getAltura(534).pies, getAltura(534).metros], peso: [getPeso(534).libras, getPeso(534).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11774,6 +12280,7 @@ var names2 = [
 	id: '536',
 	nombre: names[535],
 	tipo: ['water', 'ground'],
+	clasificacion: 'Pokémon Vibrante',
 	altura: [getAltura(535).pies, getAltura(535).metros], peso: [getPeso(535).libras, getPeso(535).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11796,6 +12303,7 @@ var names2 = [
 	id: '537',
 	nombre: names[536],
 	tipo: ['water', 'ground'],
+	clasificacion: 'Pokémon Vibrante',
 	altura: [getAltura(536).pies, getAltura(536).metros], peso: [getPeso(536).libras, getPeso(536).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11818,6 +12326,7 @@ var names2 = [
 	id: '538',
 	nombre: names[537],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Judo',
 	altura: [getAltura(537).pies, getAltura(537).metros], peso: [getPeso(537).libras, getPeso(537).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11840,6 +12349,7 @@ var names2 = [
 	id: '539',
 	nombre: names[538],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Karate',
 	altura: [getAltura(538).pies, getAltura(538).metros], peso: [getPeso(538).libras, getPeso(538).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11862,6 +12372,7 @@ var names2 = [
 	id: '540',
 	nombre: names[539],
 	tipo: ['bug', 'grass'],
+	clasificacion: 'Pokémon Sastre',
 	altura: [getAltura(539).pies, getAltura(539).metros], peso: [getPeso(539).libras, getPeso(539).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11884,6 +12395,7 @@ var names2 = [
 	id: '541',
 	nombre: names[540],
 	tipo: ['bug', 'grass'],
+	clasificacion: 'Pokémon Arropado',
 	altura: [getAltura(540).pies, getAltura(540).metros], peso: [getPeso(540).libras, getPeso(540).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11906,6 +12418,7 @@ var names2 = [
 	id: '542',
 	nombre: names[541],
 	tipo: ['bug', 'grass'],
+	clasificacion: 'Pokémon Cuidador',
 	altura: [getAltura(541).pies, getAltura(541).metros], peso: [getPeso(541).libras, getPeso(541).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11928,6 +12441,7 @@ var names2 = [
 	id: '543',
 	nombre: names[542],
 	tipo: ['bug', 'poison'],
+	clasificacion: 'Pokémon Ciempiés',
 	altura: [getAltura(542).pies, getAltura(542).metros], peso: [getPeso(542).libras, getPeso(542).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11951,6 +12465,7 @@ var names2 = [
 	id: '544',
 	nombre: names[543],
 	tipo: ['bug', 'poison'],
+	clasificacion: 'Pokémon Pupaciempiés',
 	altura: [getAltura(543).pies, getAltura(543).metros], peso: [getPeso(543).libras, getPeso(543).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11974,6 +12489,7 @@ var names2 = [
 	id: '545',
 	nombre: names[544],
 	tipo: ['bug', 'poison'],
+	clasificacion: 'Pokémon Megaciempiés',
 	altura: [getAltura(544).pies, getAltura(544).metros], peso: [getPeso(544).libras, getPeso(544).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -11997,6 +12513,7 @@ var names2 = [
 	id: '546',
 	nombre: names[545],
 	tipo: ['grass', 'fairy'],
+	clasificacion: 'Pokémon Bolalgodón',
 	altura: [getAltura(545).pies, getAltura(545).metros], peso: [getPeso(545).libras, getPeso(545).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12019,6 +12536,7 @@ var names2 = [
 	id: '547',
 	nombre: names[546],
 	tipo: ['grass', 'fairy'],
+	clasificacion: 'Pokémon Vuelalviento',
 	altura: [getAltura(546).pies, getAltura(546).metros], peso: [getPeso(546).libras, getPeso(546).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12041,6 +12559,7 @@ var names2 = [
 	id: '548',
 	nombre: names[547],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Bulbo',
 	altura: [getAltura(547).pies, getAltura(547).metros], peso: [getPeso(547).libras, getPeso(547).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12063,6 +12582,7 @@ var names2 = [
 	id: '549',
 	nombre: names[548],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Adornofloral',
 	altura: [getAltura(548).pies, getAltura(548).metros], peso: [getPeso(548).libras, getPeso(548).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12085,6 +12605,7 @@ var names2 = [
 	id: '550',
 	nombre: names[549],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Violento',
 	altura: [getAltura(549).pies, getAltura(549).metros], peso: [getPeso(549).libras, getPeso(549).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12107,6 +12628,7 @@ var names2 = [
 	id: '551',
 	nombre: names[550],
 	tipo: ['ground', 'dark'],
+	clasificacion: 'Pokémon Desierdrilo',
 	altura: [getAltura(550).pies, getAltura(550).metros], peso: [getPeso(550).libras, getPeso(550).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12129,6 +12651,7 @@ var names2 = [
 	id: '552',
 	nombre: names[551],
 	tipo: ['ground', 'dark'],
+	clasificacion: 'Pokémon Desierdrilo',
 	altura: [getAltura(551).pies, getAltura(551).metros], peso: [getPeso(551).libras, getPeso(551).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12151,6 +12674,7 @@ var names2 = [
 	id: '553',
 	nombre: names[552],
 	tipo: ['ground', 'dark'],
+	clasificacion: 'Pokémon Amenazador',
 	altura: [getAltura(552).pies, getAltura(552).metros], peso: [getPeso(552).libras, getPeso(552).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12173,6 +12697,7 @@ var names2 = [
 	id: '554',
 	nombre: names[553],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Daruma',
 	altura: [getAltura(553).pies, getAltura(553).metros], peso: [getPeso(553).libras, getPeso(553).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12194,6 +12719,7 @@ var names2 = [
 	id: '555',
 	nombre: names[554],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Candente',
 	altura: [getAltura(554).pies, getAltura(554).metros], peso: [getPeso(554).libras, getPeso(554).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12217,6 +12743,7 @@ var names2 = [
 	id: '556',
 	nombre: names[555],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Cactus',
 	altura: [getAltura(555).pies, getAltura(555).metros], peso: [getPeso(555).libras, getPeso(555).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12239,6 +12766,7 @@ var names2 = [
 	id: '557',
 	nombre: names[556],
 	tipo: ['bug', 'rock'],
+	clasificacion: 'Pokémon Casapiedra',
 	altura: [getAltura(556).pies, getAltura(556).metros], peso: [getPeso(556).libras, getPeso(556).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12261,6 +12789,7 @@ var names2 = [
 	id: '558',
 	nombre: names[557],
 	tipo: ['bug', 'rock'],
+	clasificacion: 'Pokémon Casarroca',
 	altura: [getAltura(557).pies, getAltura(557).metros], peso: [getPeso(557).libras, getPeso(557).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12283,6 +12812,7 @@ var names2 = [
 	id: '559',
 	nombre: names[558],
 	tipo: ['dark', 'fight'],
+	clasificacion: 'Pokémon Mudapiel',
 	altura: [getAltura(558).pies, getAltura(558).metros], peso: [getPeso(558).libras, getPeso(558).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12305,6 +12835,7 @@ var names2 = [
 	id: '560',
 	nombre: names[559],
 	tipo: ['dark', 'fight'],
+	clasificacion: 'Pokémon Gamberro',
 	altura: [getAltura(559).pies, getAltura(559).metros], peso: [getPeso(559).libras, getPeso(559).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12328,6 +12859,7 @@ var names2 = [
 	id: '561',
 	nombre: names[560],
 	tipo: ['psychic', 'flying'],
+	clasificacion: 'Pokémon Pseudopájaro',
 	altura: [getAltura(560).pies, getAltura(560).metros], peso: [getPeso(560).libras, getPeso(560).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12350,6 +12882,7 @@ var names2 = [
 	id: '562',
 	nombre: names[561],
 	tipo: ['ghost'],
+	clasificacion: 'Pokémon Espíritu',
 	altura: [getAltura(561).pies, getAltura(561).metros], peso: [getPeso(561).libras, getPeso(561).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12368,6 +12901,7 @@ var names2 = [
 	id: '563',
 	nombre: names[562],
 	tipo: ['ghost'],
+	clasificacion: 'Pokémon Sepultura',
 	altura: [getAltura(562).pies, getAltura(562).metros], peso: [getPeso(562).libras, getPeso(562).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12386,6 +12920,7 @@ var names2 = [
 	id: '564',
 	nombre: names[563],
 	tipo: ['water', 'rock'],
+	clasificacion: 'Pokémon Pretortuga',
 	altura: [getAltura(563).pies, getAltura(563).metros], peso: [getPeso(563).libras, getPeso(563).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12408,6 +12943,7 @@ var names2 = [
 	id: '565',
 	nombre: names[564],
 	tipo: ['water', 'rock'],
+	clasificacion: 'Pokémon Pretortuga',
 	altura: [getAltura(564).pies, getAltura(564).metros], peso: [getPeso(564).libras, getPeso(564).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12430,6 +12966,7 @@ var names2 = [
 	id: '566',
 	nombre: names[565],
 	tipo: ['rock', 'flying'],
+	clasificacion: 'Pokémon Protopájaro',
 	altura: [getAltura(565).pies, getAltura(565).metros], peso: [getPeso(565).libras, getPeso(565).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12448,6 +12985,7 @@ var names2 = [
 	id: '567',
 	nombre: names[566],
 	tipo: ['rock', 'flying'],
+	clasificacion: 'Pokémon Protopájaro',
 	altura: [getAltura(566).pies, getAltura(566).metros], peso: [getPeso(566).libras, getPeso(566).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12466,6 +13004,7 @@ var names2 = [
 	id: '568',
 	nombre: names[567],
 	tipo: ['poison'],
+	clasificacion: 'Pokémon Bolsabasura',
 	altura: [getAltura(567).pies, getAltura(567).metros], peso: [getPeso(567).libras, getPeso(567).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12488,6 +13027,7 @@ var names2 = [
 	id: '569',
 	nombre: names[568],
 	tipo: ['poison'],
+	clasificacion: 'Pokémon Vertedero',
 	altura: [getAltura(568).pies, getAltura(568).metros], peso: [getPeso(568).libras, getPeso(568).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12510,6 +13050,7 @@ var names2 = [
 	id: '570',
 	nombre: names[569],
 	tipo: ['dark'],
+	clasificacion: 'Pokémon Zorropillo',
 	altura: [getAltura(569).pies, getAltura(569).metros], peso: [getPeso(569).libras, getPeso(569).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12528,6 +13069,7 @@ var names2 = [
 	id: '571',
 	nombre: names[570],
 	tipo: ['dark'],
+	clasificacion: 'Pokémon Disfrazorro',
 	altura: [getAltura(570).pies, getAltura(570).metros], peso: [getPeso(570).libras, getPeso(570).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12546,6 +13088,7 @@ var names2 = [
 	id: '572',
 	nombre: names[571],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Chinchilla',
 	altura: [getAltura(571).pies, getAltura(571).metros], peso: [getPeso(571).libras, getPeso(571).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12568,6 +13111,7 @@ var names2 = [
 	id: '573',
 	nombre: names[572],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Estola',
 	altura: [getAltura(572).pies, getAltura(572).metros], peso: [getPeso(572).libras, getPeso(572).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12590,6 +13134,7 @@ var names2 = [
 	id: '574',
 	nombre: names[573],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Inquisitivo',
 	altura: [getAltura(573).pies, getAltura(573).metros], peso: [getPeso(573).libras, getPeso(573).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12612,6 +13157,7 @@ var names2 = [
 	id: '575',
 	nombre: names[574],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Manipulador',
 	altura: [getAltura(574).pies, getAltura(574).metros], peso: [getPeso(574).libras, getPeso(574).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12634,6 +13180,7 @@ var names2 = [
 	id: '576',
 	nombre: names[575],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Astro',
 	altura: [getAltura(575).pies, getAltura(575).metros], peso: [getPeso(575).libras, getPeso(575).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12656,6 +13203,7 @@ var names2 = [
 	id: '577',
 	nombre: names[576],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Célula',
 	altura: [getAltura(576).pies, getAltura(576).metros], peso: [getPeso(576).libras, getPeso(576).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12678,6 +13226,7 @@ var names2 = [
 	id: '578',
 	nombre: names[577],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Mitosis',
 	altura: [getAltura(577).pies, getAltura(577).metros], peso: [getPeso(577).libras, getPeso(577).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12700,6 +13249,7 @@ var names2 = [
 	id: '579',
 	nombre: names[578],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Ampliación',
 	altura: [getAltura(578).pies, getAltura(578).metros], peso: [getPeso(578).libras, getPeso(578).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12722,6 +13272,7 @@ var names2 = [
 	id: '580',
 	nombre: names[579],
 	tipo: ['water', 'flying'],
+	clasificacion: 'Pokémon Ave Agua',
 	altura: [getAltura(579).pies, getAltura(579).metros], peso: [getPeso(579).libras, getPeso(579).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12744,6 +13295,7 @@ var names2 = [
 	id: '581',
 	nombre: names[580],
 	tipo: ['water', 'flying'],
+	clasificacion: 'Pokémon Cisne',
 	altura: [getAltura(580).pies, getAltura(580).metros], peso: [getPeso(580).libras, getPeso(580).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12766,6 +13318,7 @@ var names2 = [
 	id: '582',
 	nombre: names[581],
 	tipo: ['ice'],
+	clasificacion: 'Pokémon Nievefresca',
 	altura: [getAltura(581).pies, getAltura(581).metros], peso: [getPeso(581).libras, getPeso(581).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12787,6 +13340,7 @@ var names2 = [
 	id: '583',
 	nombre: names[582],
 	tipo: ['ice'],
+	clasificacion: 'Pokémon Nievehelada',
 	altura: [getAltura(582).pies, getAltura(582).metros], peso: [getPeso(582).libras, getPeso(582).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12808,6 +13362,7 @@ var names2 = [
 	id: '584',
 	nombre: names[583],
 	tipo: ['ice'],
+	clasificacion: 'Pokémon Nievegélida',
 	altura: [getAltura(583).pies, getAltura(583).metros], peso: [getPeso(583).libras, getPeso(583).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12829,6 +13384,7 @@ var names2 = [
 	id: '585',
 	nombre: names[584],
 	tipo: ['normal', 'grass'],
+	clasificacion: 'Pokémon Estacional',
 	altura: [getAltura(584).pies, getAltura(584).metros], peso: [getPeso(584).libras, getPeso(584).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12851,6 +13407,7 @@ var names2 = [
 	id: '586',
 	nombre: names[585],
 	tipo: ['normal', 'grass'],
+	clasificacion: 'Pokémon Estacional',
 	altura: [getAltura(585).pies, getAltura(585).metros], peso: [getPeso(585).libras, getPeso(585).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12873,6 +13430,7 @@ var names2 = [
 	id: '587',
 	nombre: names[586],
 	tipo: ['electric', 'flying'],
+	clasificacion: 'Pokémon Vuelardilla',
 	altura: [getAltura(586).pies, getAltura(586).metros], peso: [getPeso(586).libras, getPeso(586).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12894,6 +13452,7 @@ var names2 = [
 	id: '588',
 	nombre: names[587],
 	tipo: ['bug'],
+	clasificacion: 'Pokémon Bocado',
 	altura: [getAltura(587).pies, getAltura(587).metros], peso: [getPeso(587).libras, getPeso(587).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12916,6 +13475,7 @@ var names2 = [
 	id: '589',
 	nombre: names[588],
 	tipo: ['bug', 'steel'],
+	clasificacion: 'Pokémon Soldado',
 	altura: [getAltura(588).pies, getAltura(588).metros], peso: [getPeso(588).libras, getPeso(588).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12938,6 +13498,7 @@ var names2 = [
 	id: '590',
 	nombre: names[589],
 	tipo: ['grass', 'poison'],
+	clasificacion: 'Pokémon Hongo',
 	altura: [getAltura(589).pies, getAltura(589).metros], peso: [getPeso(589).libras, getPeso(589).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12959,6 +13520,7 @@ var names2 = [
 	id: '591',
 	nombre: names[590],
 	tipo: ['grass', 'poison'],
+	clasificacion: 'Pokémon Hongo',
 	altura: [getAltura(590).pies, getAltura(590).metros], peso: [getPeso(590).libras, getPeso(590).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -12980,6 +13542,7 @@ var names2 = [
 	id: '592',
 	nombre: names[591],
 	tipo: ['water', 'ghost'],
+	clasificacion: 'Pokémon Ingrávido',
 	altura: [getAltura(591).pies, getAltura(591).metros], peso: [getPeso(591).libras, getPeso(591).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13002,6 +13565,7 @@ var names2 = [
 	id: '593',
 	nombre: names[592],
 	tipo: ['water', 'ghost'],
+	clasificacion: 'Pokémon Ingrávido',
 	altura: [getAltura(592).pies, getAltura(592).metros], peso: [getPeso(592).libras, getPeso(592).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13024,6 +13588,7 @@ var names2 = [
 	id: '594',
 	nombre: names[593],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Socorrista',
 	altura: [getAltura(593).pies, getAltura(593).metros], peso: [getPeso(593).libras, getPeso(593).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13046,6 +13611,7 @@ var names2 = [
 	id: '595',
 	nombre: names[594],
 	tipo: ['bug', 'electric'],
+	clasificacion: 'Pokémon Lapa',
 	altura: [getAltura(594).pies, getAltura(594).metros], peso: [getPeso(594).libras, getPeso(594).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13068,6 +13634,7 @@ var names2 = [
 	id: '596',
 	nombre: names[595],
 	tipo: ['bug', 'electric'],
+	clasificacion: 'Pokémon Electroaraña',
 	altura: [getAltura(595).pies, getAltura(595).metros], peso: [getPeso(595).libras, getPeso(595).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13090,6 +13657,7 @@ var names2 = [
 	id: '597',
 	nombre: names[596],
 	tipo: ['grass', 'steel'],
+	clasificacion: 'Pokémon Frutoespina',
 	altura: [getAltura(596).pies, getAltura(596).metros], peso: [getPeso(596).libras, getPeso(596).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13111,6 +13679,7 @@ var names2 = [
 	id: '598',
 	nombre: names[597],
 	tipo: ['grass', 'steel'],
+	clasificacion: 'Pokémon Bolaespina',
 	altura: [getAltura(597).pies, getAltura(597).metros], peso: [getPeso(597).libras, getPeso(597).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13132,6 +13701,7 @@ var names2 = [
 	id: '599',
 	nombre: names[598],
 	tipo: ['steel'],
+	clasificacion: 'Pokémon Engranaje',
 	altura: [getAltura(598).pies, getAltura(598).metros], peso: [getPeso(598).libras, getPeso(598).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13153,6 +13723,7 @@ var names2 = [
 	id: '600',
 	nombre: names[599],
 	tipo: ['steel'],
+	clasificacion: 'Pokémon Engranaje',
 	altura: [getAltura(599).pies, getAltura(599).metros], peso: [getPeso(599).libras, getPeso(599).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13174,6 +13745,7 @@ var names2 = [
 	id: '601',
 	nombre: names[600],
 	tipo: ['steel'],
+	clasificacion: 'Pokémon Engranaje',
 	altura: [getAltura(600).pies, getAltura(600).metros], peso: [getPeso(600).libras, getPeso(600).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13195,6 +13767,7 @@ var names2 = [
 	id: '602',
 	nombre: names[601],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Electropez',
 	altura: [getAltura(601).pies, getAltura(601).metros], peso: [getPeso(601).libras, getPeso(601).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13213,6 +13786,7 @@ var names2 = [
 	id: '603',
 	nombre: names[602],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Electropez',
 	altura: [getAltura(602).pies, getAltura(602).metros], peso: [getPeso(602).libras, getPeso(602).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13231,6 +13805,7 @@ var names2 = [
 	id: '604',
 	nombre: names[603],
 	tipo: ['electric'],
+	clasificacion: 'Pokémon Electropez',
 	altura: [getAltura(603).pies, getAltura(603).metros], peso: [getPeso(603).libras, getPeso(603).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13249,6 +13824,7 @@ var names2 = [
 	id: '605',
 	nombre: names[604],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Cerebro',
 	altura: [getAltura(604).pies, getAltura(604).metros], peso: [getPeso(604).libras, getPeso(604).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13271,6 +13847,7 @@ var names2 = [
 	id: '606',
 	nombre: names[605],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Cerebro',
 	altura: [getAltura(605).pies, getAltura(605).metros], peso: [getPeso(605).libras, getPeso(605).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13293,6 +13870,7 @@ var names2 = [
 	id: '607',
 	nombre: names[606],
 	tipo: ['ghost', 'fire'],
+	clasificacion: 'Pokémon Vela',
 	altura: [getAltura(606).pies, getAltura(606).metros], peso: [getPeso(606).libras, getPeso(606).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13316,6 +13894,7 @@ var names2 = [
 	id: '608',
 	nombre: names[607],
 	tipo: ['ghost', 'fire'],
+	clasificacion: 'Pokémon Farolillo',
 	altura: [getAltura(607).pies, getAltura(607).metros], peso: [getPeso(607).libras, getPeso(607).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13339,6 +13918,7 @@ var names2 = [
 	id: '609',
 	nombre: names[608],
 	tipo: ['ghost', 'fire'],
+	clasificacion: 'Pokémon Señuelo',
 	altura: [getAltura(608).pies, getAltura(608).metros], peso: [getPeso(608).libras, getPeso(608).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13362,6 +13942,7 @@ var names2 = [
 	id: '610',
 	nombre: names[609],
 	tipo: ['dragon'],
+	clasificacion: 'Pokémon Colmillo',
 	altura: [getAltura(609).pies, getAltura(609).metros], peso: [getPeso(609).libras, getPeso(609).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13384,6 +13965,7 @@ var names2 = [
 	id: '611',
 	nombre: names[610],
 	tipo: ['dragon'],
+	clasificacion: 'Pokémon Bocahacha',
 	altura: [getAltura(610).pies, getAltura(610).metros], peso: [getPeso(610).libras, getPeso(610).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13406,6 +13988,7 @@ var names2 = [
 	id: '612',
 	nombre: names[611],
 	tipo: ['dragon'],
+	clasificacion: 'Pokémon Bocahacha',
 	altura: [getAltura(611).pies, getAltura(611).metros], peso: [getPeso(611).libras, getPeso(611).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13428,6 +14011,7 @@ var names2 = [
 	id: '613',
 	nombre: names[612],
 	tipo: ['ice'],
+	clasificacion: 'Pokémon Congelación',
 	altura: [getAltura(612).pies, getAltura(612).metros], peso: [getPeso(612).libras, getPeso(612).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13449,6 +14033,7 @@ var names2 = [
 	id: '614',
 	nombre: names[613],
 	tipo: ['ice'],
+	clasificacion: 'Pokémon Glaciación',
 	altura: [getAltura(613).pies, getAltura(613).metros], peso: [getPeso(613).libras, getPeso(613).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13470,6 +14055,7 @@ var names2 = [
 	id: '615',
 	nombre: names[614],
 	tipo: ['ice'],
+	clasificacion: 'Pokémon Cristal',
 	altura: [getAltura(614).pies, getAltura(614).metros], peso: [getPeso(614).libras, getPeso(614).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13487,6 +14073,7 @@ var names2 = [
 	id: '616',
 	nombre: names[615],
 	tipo: ['bug'],
+	clasificacion: 'Pokémon Caracol',
 	altura: [getAltura(615).pies, getAltura(615).metros], peso: [getPeso(615).libras, getPeso(615).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13509,6 +14096,7 @@ var names2 = [
 	id: '617',
 	nombre: names[616],
 	tipo: ['bug'],
+	clasificacion: 'Pokémon Sincaparazón',
 	altura: [getAltura(616).pies, getAltura(616).metros], peso: [getPeso(616).libras, getPeso(616).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13531,6 +14119,7 @@ var names2 = [
 	id: '618',
 	nombre: names[617],
 	tipo: ['ground', 'electric'],
+	clasificacion: 'Pokémon Trampa',
 	altura: [getAltura(617).pies, getAltura(617).metros], peso: [getPeso(617).libras, getPeso(617).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13553,6 +14142,7 @@ var names2 = [
 	id: '619',
 	nombre: names[618],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Artemarcial',
 	altura: [getAltura(618).pies, getAltura(618).metros], peso: [getPeso(618).libras, getPeso(618).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13575,6 +14165,7 @@ var names2 = [
 	id: '620',
 	nombre: names[619],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Artemarcial',
 	altura: [getAltura(619).pies, getAltura(619).metros], peso: [getPeso(619).libras, getPeso(619).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13597,6 +14188,7 @@ var names2 = [
 	id: '621',
 	nombre: names[620],
 	tipo: ['dragon'],
+	clasificacion: 'Pokémon Cueva',
 	altura: [getAltura(620).pies, getAltura(620).metros], peso: [getPeso(620).libras, getPeso(620).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13619,6 +14211,7 @@ var names2 = [
 	id: '622',
 	nombre: names[621],
 	tipo: ['ground', 'ghost'],
+	clasificacion: 'Pokémon Autómata',
 	altura: [getAltura(621).pies, getAltura(621).metros], peso: [getPeso(621).libras, getPeso(621).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13640,6 +14233,7 @@ var names2 = [
 	id: '623',
 	nombre: names[622],
 	tipo: ['ground', 'ghost'],
+	clasificacion: 'Pokémon Autómata',
 	altura: [getAltura(622).pies, getAltura(622).metros], peso: [getPeso(622).libras, getPeso(622).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13661,6 +14255,7 @@ var names2 = [
 	id: '624',
 	nombre: names[623],
 	tipo: ['dark', 'steel'],
+	clasificacion: 'Pokémon Tajo',
 	altura: [getAltura(623).pies, getAltura(623).metros], peso: [getPeso(623).libras, getPeso(623).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13683,6 +14278,7 @@ var names2 = [
 	id: '625',
 	nombre: names[624],
 	tipo: ['dark', 'steel'],
+	clasificacion: 'Pokémon Filo',
 	altura: [getAltura(624).pies, getAltura(624).metros], peso: [getPeso(624).libras, getPeso(624).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13705,6 +14301,7 @@ var names2 = [
 	id: '626',
 	nombre: names[625],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Torocabezazo',
 	altura: [getAltura(625).pies, getAltura(625).metros], peso: [getPeso(625).libras, getPeso(625).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13727,6 +14324,7 @@ var names2 = [
 	id: '627',
 	nombre: names[626],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Aguilucho',
 	altura: [getAltura(626).pies, getAltura(626).metros], peso: [getPeso(626).libras, getPeso(626).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13749,6 +14347,7 @@ var names2 = [
 	id: '628',
 	nombre: names[627],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Aguerrido',
 	altura: [getAltura(627).pies, getAltura(627).metros], peso: [getPeso(627).libras, getPeso(627).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13771,6 +14370,7 @@ var names2 = [
 	id: '629',
 	nombre: names[628],
 	tipo: ['dark', 'flying'],
+	clasificacion: 'Pokémon Pañal',
 	altura: [getAltura(628).pies, getAltura(628).metros], peso: [getPeso(628).libras, getPeso(628).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13793,6 +14393,7 @@ var names2 = [
 	id: '630',
 	nombre: names[629],
 	tipo: ['dark', 'flying'],
+	clasificacion: 'Pokémon Aguilahueso',
 	altura: [getAltura(629).pies, getAltura(629).metros], peso: [getPeso(629).libras, getPeso(629).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13815,6 +14416,7 @@ var names2 = [
 	id: '631',
 	nombre: names[630],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Hormiguero',
 	altura: [getAltura(630).pies, getAltura(630).metros], peso: [getPeso(630).libras, getPeso(630).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13837,6 +14439,7 @@ var names2 = [
 	id: '632',
 	nombre: names[631],
 	tipo: ['bug', 'steel'],
+	clasificacion: 'Pokémon Hormigacero',
 	altura: [getAltura(631).pies, getAltura(631).metros], peso: [getPeso(631).libras, getPeso(631).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13859,6 +14462,7 @@ var names2 = [
 	id: '633',
 	nombre: names[632],
 	tipo: ['dark', 'dragon'],
+	clasificacion: 'Pokémon Tosco',
 	altura: [getAltura(632).pies, getAltura(632).metros], peso: [getPeso(632).libras, getPeso(632).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13877,6 +14481,7 @@ var names2 = [
 	id: '634',
 	nombre: names[633],
 	tipo: ['dark', 'dragon'],
+	clasificacion: 'Pokémon Violento',
 	altura: [getAltura(633).pies, getAltura(633).metros], peso: [getPeso(633).libras, getPeso(633).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13895,6 +14500,7 @@ var names2 = [
 	id: '635',
 	nombre: names[634],
 	tipo: ['dark', 'dragon'],
+	clasificacion: 'Pokémon Voraz',
 	altura: [getAltura(634).pies, getAltura(634).metros], peso: [getPeso(634).libras, getPeso(634).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13913,6 +14519,7 @@ var names2 = [
 	id: '636',
 	nombre: names[635],
 	tipo: ['bug', 'fire'],
+	clasificacion: 'Pokémon Antorcha',
 	altura: [getAltura(635).pies, getAltura(635).metros], peso: [getPeso(635).libras, getPeso(635).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13934,6 +14541,7 @@ var names2 = [
 	id: '637',
 	nombre: names[636],
 	tipo: ['bug', 'fire'],
+	clasificacion: 'Pokémon Sol',
 	altura: [getAltura(636).pies, getAltura(636).metros], peso: [getPeso(636).libras, getPeso(636).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13955,6 +14563,7 @@ var names2 = [
 	id: '638',
 	nombre: names[637],
 	tipo: ['steel', 'fight'],
+	clasificacion: 'Pokémon Tesón Acero',
 	altura: [getAltura(637).pies, getAltura(637).metros], peso: [getPeso(637).libras, getPeso(637).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13972,6 +14581,7 @@ var names2 = [
 	id: '639',
 	nombre: names[638],
 	tipo: ['rock', 'fight'],
+	clasificacion: 'Pokémon Gruta',
 	altura: [getAltura(638).pies, getAltura(638).metros], peso: [getPeso(638).libras, getPeso(638).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -13989,6 +14599,7 @@ var names2 = [
 	id: '640',
 	nombre: names[639],
 	tipo: ['grass', 'fight'],
+	clasificacion: 'Pokémon Prado',
 	altura: [getAltura(639).pies, getAltura(639).metros], peso: [getPeso(639).libras, getPeso(639).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14006,6 +14617,7 @@ var names2 = [
 	id: '641',
 	nombre: names[640],
 	tipo: ['flying'],
+	clasificacion: 'Pokémon Torbellino',
 	altura: [getAltura(640).pies, getAltura(640).metros], peso: [getPeso(640).libras, getPeso(640).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14029,6 +14641,7 @@ var names2 = [
 	id: '642',
 	nombre: names[641],
 	tipo: ['electric', 'flying'],
+	clasificacion: 'Pokémon Centella',
 	altura: [getAltura(641).pies, getAltura(641).metros], peso: [getPeso(641).libras, getPeso(641).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14052,6 +14665,7 @@ var names2 = [
 	id: '643',
 	nombre: names[642],
 	tipo: ['dragon', 'fire'],
+	clasificacion: 'Pokémon Blanco Veraz',
 	altura: [getAltura(642).pies, getAltura(642).metros], peso: [getPeso(642).libras, getPeso(642).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14069,6 +14683,7 @@ var names2 = [
 	id: '644',
 	nombre: names[643],
 	tipo: ['dragon', 'electric'],
+	clasificacion: 'Pokémon Negro Puro',
 	altura: [getAltura(643).pies, getAltura(643).metros], peso: [getPeso(643).libras, getPeso(643).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14086,6 +14701,7 @@ var names2 = [
 	id: '645',
 	nombre: names[644],
 	tipo: ['ground', 'flying'],
+	clasificacion: 'Pokémon Fertilidad',
 	altura: [getAltura(644).pies, getAltura(644).metros], peso: [getPeso(644).libras, getPeso(644).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14109,6 +14725,7 @@ var names2 = [
 	id: '646',
 	nombre: names[645],
 	tipo: ['dragon', 'ice'],
+	clasificacion: 'Pokémon Frontera',
 	altura: [getAltura(645).pies, getAltura(645).metros], peso: [getPeso(645).libras, getPeso(645).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14132,6 +14749,7 @@ var names2 = [
 	id: '647',
 	nombre: names[646],
 	tipo: ['water', 'fight'],
+	clasificacion: 'Pokémon Potro',
 	altura: [getAltura(646).pies, getAltura(646).metros], peso: [getPeso(646).libras, getPeso(646).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14149,6 +14767,7 @@ var names2 = [
 	id: '648',
 	nombre: names[647],
 	tipo: ['normal', 'psychic'],
+	clasificacion: 'Pokémon Melodía',
 	altura: [getAltura(647).pies, getAltura(647).metros], peso: [getPeso(647).libras, getPeso(647).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14171,6 +14790,7 @@ var names2 = [
 	id: '649',
 	nombre: names[648],
 	tipo: ['bug', 'steel'],
+	clasificacion: 'Pokémon Paleozoico',
 	altura: [getAltura(648).pies, getAltura(648).metros], peso: [getPeso(648).libras, getPeso(648).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14202,6 +14822,7 @@ var names2 = [
 	id: '650',
 	nombre: names[649],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Erizo',
 	altura: [getAltura(649).pies, getAltura(649).metros], peso: [getPeso(649).libras, getPeso(649).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14223,6 +14844,7 @@ var names2 = [
 	id: '651',
 	nombre: names[650],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Corazaespín',
 	altura: [getAltura(650).pies, getAltura(650).metros], peso: [getPeso(650).libras, getPeso(650).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14244,6 +14866,7 @@ var names2 = [
 	id: '652',
 	nombre: names[651],
 	tipo: ['grass', 'fight'],
+	clasificacion: 'Pokémon Corazaespín',
 	altura: [getAltura(651).pies, getAltura(651).metros], peso: [getPeso(651).libras, getPeso(651).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14265,6 +14888,7 @@ var names2 = [
 	id: '653',
 	nombre: names[652],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Zorro',
 	altura: [getAltura(652).pies, getAltura(652).metros], peso: [getPeso(652).libras, getPeso(652).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14286,6 +14910,7 @@ var names2 = [
 	id: '654',
 	nombre: names[653],
 	tipo: ['fire'],
+	clasificacion: 'Pokémon Zorro',
 	altura: [getAltura(653).pies, getAltura(653).metros], peso: [getPeso(653).libras, getPeso(653).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14307,6 +14932,7 @@ var names2 = [
 	id: '655',
 	nombre: names[654],
 	tipo: ['fire', 'psychic'],
+	clasificacion: 'Pokémon Zorro',
 	altura: [getAltura(654).pies, getAltura(654).metros], peso: [getPeso(654).libras, getPeso(654).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14328,6 +14954,7 @@ var names2 = [
 	id: '656',
 	nombre: names[655],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Burburrana',
 	altura: [getAltura(655).pies, getAltura(655).metros], peso: [getPeso(655).libras, getPeso(655).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14349,6 +14976,7 @@ var names2 = [
 	id: '657',
 	nombre: names[656],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Burburrana',
 	altura: [getAltura(656).pies, getAltura(656).metros], peso: [getPeso(656).libras, getPeso(656).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14370,6 +14998,7 @@ var names2 = [
 	id: '658',
 	nombre: names[657],
 	tipo: ['water', 'dark'],
+	clasificacion: 'Pokémon Ninja',
 	altura: [getAltura(657).pies, getAltura(657).metros], peso: [getPeso(657).libras, getPeso(657).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14391,6 +15020,7 @@ var names2 = [
 	id: '659',
 	nombre: names[658],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Excavador',
 	altura: [getAltura(658).pies, getAltura(658).metros], peso: [getPeso(658).libras, getPeso(658).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14413,6 +15043,7 @@ var names2 = [
 	id: '660',
 	nombre: names[659],
 	tipo: ['normal', 'ground'],
+	clasificacion: 'Pokémon Excavador',
 	altura: [getAltura(659).pies, getAltura(659).metros], peso: [getPeso(659).libras, getPeso(659).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14435,6 +15066,7 @@ var names2 = [
 	id: '661',
 	nombre: names[660],
 	tipo: ['normal', 'flying'],
+	clasificacion: 'Pokémon Petirrojo',
 	altura: [getAltura(660).pies, getAltura(660).metros], peso: [getPeso(660).libras, getPeso(660).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14456,6 +15088,7 @@ var names2 = [
 	id: '662',
 	nombre: names[661],
 	tipo: ['fire', 'flying'],
+	clasificacion: 'Pokémon Petirrojo',
 	altura: [getAltura(661).pies, getAltura(661).metros], peso: [getPeso(661).libras, getPeso(661).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14477,6 +15110,7 @@ var names2 = [
 	id: '663',
 	nombre: names[662],
 	tipo: ['fire', 'flying'],
+	clasificacion: 'Pokémon Flamígero',
 	altura: [getAltura(662).pies, getAltura(662).metros], peso: [getPeso(662).libras, getPeso(662).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14498,6 +15132,7 @@ var names2 = [
 	id: '664',
 	nombre: names[663],
 	tipo: ['bug'],
+	clasificacion: 'Pokémon Tiraescamas',
 	altura: [getAltura(663).pies, getAltura(663).metros], peso: [getPeso(663).libras, getPeso(663).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14520,6 +15155,7 @@ var names2 = [
 	id: '665',
 	nombre: names[664],
 	tipo: ['bug'],
+	clasificacion: 'Pokémon Tiraescamas',
 	altura: [getAltura(664).pies, getAltura(664).metros], peso: [getPeso(664).libras, getPeso(664).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14541,6 +15177,7 @@ var names2 = [
 	id: '666',
 	nombre: names[665],
 	tipo: ['bug', 'flying'],
+	clasificacion: 'Pokémon Escamaposa',
 	altura: [getAltura(665).pies, getAltura(665).metros], peso: [getPeso(665).libras, getPeso(665).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14565,6 +15202,7 @@ var names2 = [
 	id: '667',
 	nombre: names[666],
 	tipo: ['fire', 'normal'],
+	clasificacion: 'Pokémon Leoncito',
 	altura: [getAltura(666).pies, getAltura(666).metros], peso: [getPeso(666).libras, getPeso(666).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14587,6 +15225,7 @@ var names2 = [
 	id: '668',
 	nombre: names[667],
 	tipo: ['fire', 'normal'],
+	clasificacion: 'Pokémon Regio',
 	altura: [getAltura(667).pies, getAltura(667).metros], peso: [getPeso(667).libras, getPeso(667).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14609,6 +15248,7 @@ var names2 = [
 	id: '669',
 	nombre: names[668],
 	tipo: ['fairy'],
+	clasificacion: 'Pokémon Monoflor',
 	altura: [getAltura(668).pies, getAltura(668).metros], peso: [getPeso(668).libras, getPeso(668).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14630,6 +15270,7 @@ var names2 = [
 	id: '670',
 	nombre: names[669],
 	tipo: ['fairy'],
+	clasificacion: 'Pokémon Monoflor',
 	altura: [getAltura(669).pies, getAltura(669).metros], peso: [getPeso(669).libras, getPeso(669).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14651,6 +15292,7 @@ var names2 = [
 	id: '671',
 	nombre: names[670],
 	tipo: ['fairy'],
+	clasificacion: 'Pokémon Jardín',
 	altura: [getAltura(670).pies, getAltura(670).metros], peso: [getPeso(670).libras, getPeso(670).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14672,6 +15314,7 @@ var names2 = [
 	id: '672',
 	nombre: names[671],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Montura',
 	altura: [getAltura(671).pies, getAltura(671).metros], peso: [getPeso(671).libras, getPeso(671).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14693,6 +15336,7 @@ var names2 = [
 	id: '673',
 	nombre: names[672],
 	tipo: ['grass'],
+	clasificacion: 'Pokémon Montura',
 	altura: [getAltura(672).pies, getAltura(672).metros], peso: [getPeso(672).libras, getPeso(672).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14714,6 +15358,7 @@ var names2 = [
 	id: '674',
 	nombre: names[673],
 	tipo: ['fight'],
+	clasificacion: 'Pokémon Juguetón',
 	altura: [getAltura(673).pies, getAltura(673).metros], peso: [getPeso(673).libras, getPeso(673).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14736,6 +15381,7 @@ var names2 = [
 	id: '675',
 	nombre: names[674],
 	tipo: ['fight', 'dark'],
+	clasificacion: 'Pokémon Rostro Fiero',
 	altura: [getAltura(674).pies, getAltura(674).metros], peso: [getPeso(674).libras, getPeso(674).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14758,6 +15404,7 @@ var names2 = [
 	id: '676',
 	nombre: names[675],
 	tipo: ['normal'],
+	clasificacion: 'Pokémon Caniche',
 	altura: [getAltura(675).pies, getAltura(675).metros], peso: [getPeso(675).libras, getPeso(675).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14776,6 +15423,7 @@ var names2 = [
 	id: '677',
 	nombre: names[676],
 	tipo: ['psychic'],
+	clasificacion: 'Pokémon Moderación',
 	altura: [getAltura(676).pies, getAltura(676).metros], peso: [getPeso(676).libras, getPeso(676).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14799,6 +15447,7 @@ var names2 = [
 	id: '678',
 	nombre: names[677],
 	tipo: [''],
+	clasificacion: 'Pokémon Autocontrol',
 	altura: [getAltura(677).pies, getAltura(677).metros], peso: [getPeso(677).libras, getPeso(677).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14818,6 +15467,7 @@ var names2 = [
 	id: '679',
 	nombre: names[678],
 	tipo: ['steel', 'ghost'],
+	clasificacion: 'Pokémon Tizona',
 	altura: [getAltura(678).pies, getAltura(678).metros], peso: [getPeso(678).libras, getPeso(678).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14836,6 +15486,7 @@ var names2 = [
 	id: '680',
 	nombre: names[679],
 	tipo: ['steel', 'ghost'],
+	clasificacion: 'Pokémon Tizona',
 	altura: [getAltura(679).pies, getAltura(679).metros], peso: [getPeso(679).libras, getPeso(679).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14854,6 +15505,7 @@ var names2 = [
 	id: '681',
 	nombre: names[680],
 	tipo: ['steel', 'ghost'],
+	clasificacion: 'Pokémon Espada Real',
 	altura: [getAltura(680).pies, getAltura(680).metros], peso: [getPeso(680).libras, getPeso(680).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14873,6 +15525,7 @@ var names2 = [
 	id: '682',
 	nombre: names[681],
 	tipo: ['fairy'],
+	clasificacion: 'Pokémon Aroma',
 	altura: [getAltura(681).pies, getAltura(681).metros], peso: [getPeso(681).libras, getPeso(681).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14894,6 +15547,7 @@ var names2 = [
 	id: '683',
 	nombre: names[682],
 	tipo: ['fairy'],
+	clasificacion: 'Pokémon Fragancia',
 	altura: [getAltura(682).pies, getAltura(682).metros], peso: [getPeso(682).libras, getPeso(682).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14915,6 +15569,7 @@ var names2 = [
 	id: '684',
 	nombre: names[683],
 	tipo: ['fairy'],
+	clasificacion: 'Pokémon Chuchería',
 	altura: [getAltura(683).pies, getAltura(683).metros], peso: [getPeso(683).libras, getPeso(683).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14936,6 +15591,7 @@ var names2 = [
 	id: '685',
 	nombre: names[684],
 	tipo: ['fairy'],
+	clasificacion: 'Pokémon Nata',
 	altura: [getAltura(684).pies, getAltura(684).metros], peso: [getPeso(684).libras, getPeso(684).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14957,6 +15613,7 @@ var names2 = [
 	id: '686',
 	nombre: names[685],
 	tipo: ['dark', 'psychic'],
+	clasificacion: 'Pokémon Rotación',
 	altura: [getAltura(685).pies, getAltura(685).metros], peso: [getPeso(685).libras, getPeso(685).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -14979,6 +15636,7 @@ var names2 = [
 	id: '687',
 	nombre: names[686],
 	tipo: ['dark', 'psychic'],
+	clasificacion: 'Pokémon Revolución',
 	altura: [getAltura(686).pies, getAltura(686).metros], peso: [getPeso(686).libras, getPeso(686).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15001,6 +15659,7 @@ var names2 = [
 	id: '688',
 	nombre: names[687],
 	tipo: ['rock', 'water'],
+	clasificacion: 'Pokémon Dos Manos',
 	altura: [getAltura(687).pies, getAltura(687).metros], peso: [getPeso(687).libras, getPeso(687).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15023,6 +15682,7 @@ var names2 = [
 	id: '689',
 	nombre: names[688],
 	tipo: ['rock', 'water'],
+	clasificacion: 'Pokémon Combinación',
 	altura: [getAltura(688).pies, getAltura(688).metros], peso: [getPeso(688).libras, getPeso(688).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15045,6 +15705,7 @@ var names2 = [
 	id: '690',
 	nombre: names[689],
 	tipo: ['poison', 'water'],
+	clasificacion: 'Pokémon Pseudoalga',
 	altura: [getAltura(689).pies, getAltura(689).metros], peso: [getPeso(689).libras, getPeso(689).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15067,6 +15728,7 @@ var names2 = [
 	id: '691',
 	nombre: names[690],
 	tipo: ['poison', 'dragon'],
+	clasificacion: 'Pokémon Pseudoalga',
 	altura: [getAltura(690).pies, getAltura(690).metros], peso: [getPeso(690).libras, getPeso(690).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15089,6 +15751,7 @@ var names2 = [
 	id: '692',
 	nombre: names[691],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Proyectagua',
 	altura: [getAltura(691).pies, getAltura(691).metros], peso: [getPeso(691).libras, getPeso(691).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15107,6 +15770,7 @@ var names2 = [
 	id: '693',
 	nombre: names[692],
 	tipo: ['water'],
+	clasificacion: 'Pokémon Lanzachorro',
 	altura: [getAltura(692).pies, getAltura(692).metros], peso: [getPeso(692).libras, getPeso(692).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15125,6 +15789,7 @@ var names2 = [
 	id: '694',
 	nombre: names[693],
 	tipo: ['electric', 'normal'],
+	clasificacion: 'Pokémon Generador',
 	altura: [getAltura(693).pies, getAltura(693).metros], peso: [getPeso(693).libras, getPeso(693).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15147,6 +15812,7 @@ var names2 = [
 	id: '695',
 	nombre: names[694],
 	tipo: ['electric', 'normal'],
+	clasificacion: 'Pokémon Lagarto Generador',
 	altura: [getAltura(694).pies, getAltura(694).metros], peso: [getPeso(694).libras, getPeso(694).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15170,6 +15836,7 @@ var names2 = [
 	id: '696',
 	nombre: names[695],
 	tipo: ['rock', 'dragon'],
+	clasificacion: 'Pokémon Heredero',
 	altura: [getAltura(695).pies, getAltura(695).metros], peso: [getPeso(695).libras, getPeso(695).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15191,6 +15858,7 @@ var names2 = [
 	id: '697',
 	nombre: names[696],
 	tipo: ['rock', 'dragon'],
+	clasificacion: 'Pokémon Tirano',
 	altura: [getAltura(696).pies, getAltura(696).metros], peso: [getPeso(696).libras, getPeso(696).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15212,6 +15880,7 @@ var names2 = [
 	id: '698',
 	nombre: names[697],
 	tipo: ['rock', 'ice'],
+	clasificacion: 'Pokémon Tundra',
 	altura: [getAltura(697).pies, getAltura(697).metros], peso: [getPeso(697).libras, getPeso(697).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15233,6 +15902,7 @@ var names2 = [
 	id: '699',
 	nombre: names[698],
 	tipo: ['rock', 'ice'],
+	clasificacion: 'Pokémon Tundra',
 	altura: [getAltura(698).pies, getAltura(698).metros], peso: [getPeso(698).libras, getPeso(698).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15254,6 +15924,7 @@ var names2 = [
 	id: '700',
 	nombre: names[699],
 	tipo: ['fairy'],
+	clasificacion: 'Pokémon Vínculo',
 	altura: [getAltura(699).pies, getAltura(699).metros], peso: [getPeso(699).libras, getPeso(699).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15275,6 +15946,7 @@ var names2 = [
 	id: '701',
 	nombre: names[700],
 	tipo: ['fight', 'flying'],
+	clasificacion: 'Pokémon Lucha Libre',
 	altura: [getAltura(700).pies, getAltura(700).metros], peso: [getPeso(700).libras, getPeso(700).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15297,6 +15969,7 @@ var names2 = [
 	id: '702',
 	nombre: names[701],
 	tipo: ['electric', 'fairy'],
+	clasificacion: 'Pokémon Antenas',
 	altura: [getAltura(701).pies, getAltura(701).metros], peso: [getPeso(701).libras, getPeso(701).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15319,6 +15992,7 @@ var names2 = [
 	id: '703',
 	nombre: names[702],
 	tipo: ['rock', 'fairy'],
+	clasificacion: 'Pokémon Joya',
 	altura: [getAltura(702).pies, getAltura(702).metros], peso: [getPeso(702).libras, getPeso(702).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15340,6 +16014,7 @@ var names2 = [
 	id: '704',
 	nombre: names[703],
 	tipo: ['dragon'],
+	clasificacion: 'Pokémon Molusco',
 	altura: [getAltura(703).pies, getAltura(703).metros], peso: [getPeso(703).libras, getPeso(703).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15362,6 +16037,7 @@ var names2 = [
 	id: '705',
 	nombre: names[704],
 	tipo: ['dragon'],
+	clasificacion: 'Pokémon Molusco',
 	altura: [getAltura(704).pies, getAltura(704).metros], peso: [getPeso(704).libras, getPeso(704).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15384,6 +16060,7 @@ var names2 = [
 	id: '706',
 	nombre: names[705],
 	tipo: ['dragon'],
+	clasificacion: 'Pokémon Dragón',
 	altura: [getAltura(705).pies, getAltura(705).metros], peso: [getPeso(705).libras, getPeso(705).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15406,6 +16083,7 @@ var names2 = [
 	id: '707',
 	nombre: names[706],
 	tipo: ['steel', 'fairy'],
+	clasificacion: 'Pokémon Llavero',
 	altura: [getAltura(706).pies, getAltura(706).metros], peso: [getPeso(706).libras, getPeso(706).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15427,6 +16105,7 @@ var names2 = [
 	id: '708',
 	nombre: names[707],
 	tipo: ['ghost', 'grass'],
+	clasificacion: 'Pokémon Tronco',
 	altura: [getAltura(707).pies, getAltura(707).metros], peso: [getPeso(707).libras, getPeso(707).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15449,6 +16128,7 @@ var names2 = [
 	id: '709',
 	nombre: names[708],
 	tipo: ['ghost', 'grass'],
+	clasificacion: 'Pokémon Árbol Viejo',
 	altura: [getAltura(708).pies, getAltura(708).metros], peso: [getPeso(708).libras, getPeso(708).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15471,6 +16151,7 @@ var names2 = [
 	id: '710',
 	nombre: names[709],
 	tipo: ['ghost', 'grass'],
+	clasificacion: 'Pokémon Calabaza',
 	altura: [getAltura(709).pies, getAltura(709).metros], peso: [getPeso(709).libras, getPeso(709).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15493,6 +16174,7 @@ var names2 = [
 	id: '711',
 	nombre: names[710],
 	tipo: ['ghost', 'grass'],
+	clasificacion: 'Pokémon Calabaza',
 	altura: [getAltura(710).pies, getAltura(710).metros], peso: [getPeso(710).libras, getPeso(710).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15515,6 +16197,7 @@ var names2 = [
 	id: '712',
 	nombre: names[711],
 	tipo: ['ice'],
+	clasificacion: 'Pokémon Témpano',
 	altura: [getAltura(711).pies, getAltura(711).metros], peso: [getPeso(711).libras, getPeso(711).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15537,6 +16220,7 @@ var names2 = [
 	id: '713',
 	nombre: names[712],
 	tipo: ['ice'],
+	clasificacion: 'Pokémon Iceberg',
 	altura: [getAltura(712).pies, getAltura(712).metros], peso: [getPeso(712).libras, getPeso(712).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15559,6 +16243,7 @@ var names2 = [
 	id: '714',
 	nombre: names[713],
 	tipo: ['flying', 'dragon'],
+	clasificacion: 'Pokémon Onda Sónica',
 	altura: [getAltura(713).pies, getAltura(713).metros], peso: [getPeso(713).libras, getPeso(713).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15581,6 +16266,7 @@ var names2 = [
 	id: '715',
 	nombre: names[714],
 	tipo: ['flying', 'dragon'],
+	clasificacion: 'Pokémon Onda Sónica',
 	altura: [getAltura(714).pies, getAltura(714).metros], peso: [getPeso(714).libras, getPeso(714).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15603,6 +16289,7 @@ var names2 = [
 	id: '716',
 	nombre: names[715],
 	tipo: ['fairy'],
+	clasificacion: 'Pokémon Creación',
 	altura: [getAltura(715).pies, getAltura(715).metros], peso: [getPeso(715).libras, getPeso(715).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15620,6 +16307,7 @@ var names2 = [
 	id: '717',
 	nombre: names[716],
 	tipo: ['dark', 'flying'],
+	clasificacion: 'Pokémon Destrucción',
 	altura: [getAltura(716).pies, getAltura(716).metros], peso: [getPeso(716).libras, getPeso(716).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15637,6 +16325,7 @@ var names2 = [
 	id: '718',
 	nombre: names[717],
 	tipo: ['dragon', 'ground'],
+	clasificacion: 'Pokémon Equilibrio',
 	altura: [getAltura(717).pies, getAltura(717).metros], peso: [getPeso(717).libras, getPeso(717).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15654,6 +16343,7 @@ var names2 = [
 	id: '719',
 	nombre: names[718],
 	tipo: ['rock', 'fairy'],
+	clasificacion: 'Pokémon Joya',
 	altura: [getAltura(718).pies, getAltura(718).metros], peso: [getPeso(718).libras, getPeso(718).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -15748,7 +16438,7 @@ var names2 = [
 	id: '678',
 	nombre: names[677],
 	tipo: ['psychic'],
-	clasificacion: 'Pok6mon Autocontrol',
+	clasificacion: 'Pokémon Autocontrol',
 	altura: [getAltura(677).pies, getAltura(677).metros], peso: [getPeso(677).libras, getPeso(677).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
