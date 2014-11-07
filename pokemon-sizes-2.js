@@ -790,11 +790,11 @@ function getAltura(valor){
 		if (i == valor) {
 			//console.log("Altura en pies: "+sizes[i].dimensiones[0].altura[0]);
 			//console.log("Altura en metros: "+sizes[i].dimensiones[0].altura[1]);
-			if (sizes[i].dimensiones.length > 1) {
-				console.log("Tiene formas alternativas con diferentes dimensiones");
-			}else{
-				console.log("Solo tiene una forma");
-			}
+			//if (sizes[i].dimensiones.length > 1) {
+			//	console.log("Tiene formas alternativas con diferentes dimensiones");
+			//}else{
+			//	console.log("Solo tiene una forma");
+			//}
 			return {pies: sizes[i].dimensiones[0].altura[0], metros: sizes[i].dimensiones[0].altura[1]};
 		}
 	}
@@ -805,11 +805,11 @@ function getAltura(valor){
 function getPeso(valor){
 	for (var i = 0; i < sizes.length; i++) {
 		if (i == valor) {
-			if (sizes[i].dimensiones.length > 1) {
-				console.log("Tiene formas alternativas con diferentes dimensiones");
-			}else{
-				console.log("Solo tiene una forma");
-			}
+			//if (sizes[i].dimensiones.length > 1) {
+			//	console.log("Tiene formas alternativas con diferentes dimensiones");
+			//}else{
+			//	console.log("Solo tiene una forma");
+			//}
 			return {libras: sizes[i].dimensiones[0].peso[0], kilogramos: sizes[i].dimensiones[0].peso[1]};
 		}
 	}
