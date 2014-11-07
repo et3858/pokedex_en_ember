@@ -530,8 +530,14 @@ $(document).on('ready', function(){
 			for (var i = 0; i < names.length; i++) {
 				if (buscarPorNombre(dato.displayValue, names[i], i)){
 					var indiceNumero = numbers[i];
-					urlVar = document.URL.substr(0,document.URL.length-3);
-					window.location.href = urlVar+indiceNumero;
+					//console.log(document.URL);
+					if (document.URL.indexOf("#") === -1) {
+						urlVar = document.URL+"#/pokemon/";
+						window.location.href = urlVar+indiceNumero;
+					}else{
+						urlVar = document.URL.substr(0,document.URL.length-3);
+						window.location.href = urlVar+indiceNumero;
+					}
 					break;
 				}
 			}
