@@ -97,7 +97,7 @@ header
 	position: fixed
 	top: 0
 	width: 100%
-	z-index: 1
+	z-index: 2
 	nav
 		background: green
 		margin: 0 auto
@@ -309,6 +309,128 @@ footer
 						padding-left: 10px
 					.text-align-center
 						text-align: center
+					.evolutions
+						display: block
+						.evolution-chain
+							display: block
+							//background: orange
+							.stage-1, .stage-2, .stage-3
+								display: inline-block
+								vertical-align: top
+								background: #47FA00
+								width: 100px
+								height: 100px
+								position: relative
+								border-radius: 50%
+								z-index: 1
+								img
+									//padding-top: 25px
+									position: absolute
+									top: 34px
+									left: 34px
+							.stage-current
+								background: white
+								border: 8px solid #47FA00
+								width: 84px
+								height: 84px
+								img
+									position: absolute
+									top: 26px
+									left: 26px
+							.stage-passed
+								background: #C0CBBB
+							.transition
+								display: inline-block
+								vertical-align: top
+								background: yellow
+								position: relative
+								width: 120px
+								height: 120px
+								margin-left: -10px
+								margin-right: -10px
+								z-index: 0
+								.line, .line-passed
+									display: block
+									//position: absolute
+									height: 40px
+									//background: #47FA00
+									margin-top: 30px
+									color: white
+									span
+										//background: blue
+										border-radius: 50%
+										vertical-align: middle
+										width: 28px
+										height: 28px
+										display: inline-block
+										margin-top: 5px
+										&:before
+											margin: 0
+											margin-top: 2px
+											display: block
+									.happiness
+										background: #F90844
+									.daylight
+										background: #1DBEF9
+										&:before
+											color: #F1FF23
+									.night
+										background: #190C9F
+									.location
+										background: white
+										&:before
+											color: #F71313
+									.movement
+										background: white
+										&:before
+											color: #B5AEAE
+									.trade
+										background: white
+										&:before
+											color: #13A4F2
+									.male
+										background: #2354E7
+									.female
+										background: #EB0858
+									.beautiful
+										background: white
+										&:before
+											color: #51A5EE
+									.ally
+										background: #E5081A
+									.console-upside-down
+										background: black
+										&:before
+											transform: rotate(180deg)
+									.rain
+										background: #B7DAF9
+										&:before
+											color: #3095ED
+									img
+										background: #DFE7A6
+										margin: 0
+										display: inline-block
+										vertical-align: middle
+										border-radius: 50%
+										padding: 2px
+										margin-top: 5px
+									.pokemon
+										background: white
+										position: relative
+										img
+											background: transparent
+											//margin: 0
+											margin: -2px 0 0 -2px
+											padding: 0
+											position: absolute
+											top: 0
+											left: 0
+								.line
+									background: #47FA00
+								.line-passed
+									background: #C0CBBB
+								.line-desc
+									font-size: .8em
 					.ability-general
 						//background: purple
 						color: white

@@ -182,6 +182,154 @@ Ember.Handlebars.registerHelper('ifCoreano', function(valor, options){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ember.Handlebars.registerHelper('comprobarPosicionEvolutiva', function(pre, nex, options){
+	//
+	//var preev = Ember.Handlebars.get(this, pre, options);
+	//var nex = Ember.Handlebars.get(this, nex, options);
+
+
+
+	if (Ember.Handlebars.get(this, pre, options) !== undefined && Ember.Handlebars.get(this, nex, options) !== undefined) {
+		//console.log("Evolucion media");
+		return "MID";
+	}else{
+		if (Ember.Handlebars.get(this, pre, options) !== undefined) {
+			//console.log("Evolucion maxima");
+			return "MAX";
+		}else if (Ember.Handlebars.get(this, nex, options) !== undefined) {
+			//console.log("Evolucion minima");
+			return "MIN";
+		}
+	}
+});
+
+
+Ember.Handlebars.registerHelper('comprobarEvoInicio', function(pre, nex, options){
+	//
+	if (Ember.Handlebars.get(this, nex, options) !== undefined && Ember.Handlebars.get(this, pre, options) === undefined) {
+		return options.fn(this);
+		//return "1";
+	}
+});
+Ember.Handlebars.registerHelper('comprobarEvoMedio', function(pre, nex, options){
+	//
+	if (Ember.Handlebars.get(this, pre, options) !== undefined && Ember.Handlebars.get(this, nex, options) !== undefined) {
+		return options.fn(this);
+		//return "2";
+	}
+});
+Ember.Handlebars.registerHelper('comprobarEvoFinal', function(pre, nex, options){
+	//
+	if (Ember.Handlebars.get(this, pre, options) !== undefined && Ember.Handlebars.get(this, nex, options) === undefined) {
+		return options.fn(this);
+		//return "3";
+	}
+});
+
+
+
+
+Ember.Handlebars.registerHelper('mostrarSpriteEvolucion', function(valor, options){
+	//var sprite = "<img src=\"http://www.serebii.net/pokedex-xy/icon/"+Ember.Handlebars.get(this, valor, options)+".png\" width=\"50\" height=\"50\">";
+	var sprite = "<img src=\"http://www.serebii.net/pokedex-xy/icon/"+Ember.Handlebars.get(this, valor, options)+".png\">";
+	return sprite;
+});
+
+Ember.Handlebars.registerHelper('mostrarObjetoEvolucion', function(valor, options){
+	//console.log(Ember.Handlebars.get(this, valor, options));
+	if (Ember.Handlebars.get(this, valor, options) !== undefined) {
+		return "<img src=\""+Ember.Handlebars.get(this, valor, options) +"\" width=\"24\" height=\"24\">";
+	}
+});
+
+Ember.Handlebars.registerHelper('mostrarPokemonEvolucion', function(valor, options){
+	//console.log(Ember.Handlebars.get(this, valor, options));
+	if (Ember.Handlebars.get(this, valor, options) !== undefined) {
+		var sprite = "<span class=\"pokemon\"><img src=\"http://www.serebii.net/pokedex-xy/icon/"+Ember.Handlebars.get(this, valor, options)+".png\"><\/span>";
+		return sprite;
+	}
+});
+
+
+Ember.Handlebars.registerHelper('mostrarCondicionEvolucion', function(valor, options){
+	//console.log(Ember.Handlebars.get(this, valor, options));
+	if (Ember.Handlebars.get(this, valor, options) !== undefined) {
+		var condicion = Ember.Handlebars.get(this, valor, options);
+		if (condicion == 'happiness') {
+			return "<span class=\"flaticon-heart15 happiness\"></span>";
+		}else if (condicion == 'daylight') {
+			return "<span class=\"flaticon-dark26 daylight\"></span>";
+		}else if (condicion == 'night') {
+			return "<span class=\"flaticon-camera70 night\"></span>";
+		}else if (condicion == 'location') {
+			return "<span class=\"flaticon-facebook30 location\"></span>";
+		}else if (condicion == 'movement') {
+			return "<span class=\"flaticon-compactdisc1 movement\"></span>";
+		}else if (condicion == 'trade') {
+			return "<span class=\"flaticon-two347 trade\"></span>";
+		}else if (condicion == 'male') {
+			return "<span class=\"flaticon-male201 male\"></span>";
+		}else if (condicion == 'female') {
+			return "<span class=\"flaticon-female204 female\"></span>";
+		}else if (condicion == 'beautiful') {
+			return "<span class=\"flaticon-3d64 beautiful\"></span>";
+		}else if (condicion == 'ally') {
+			return "<span class=\"flaticon-black22 ally\"></span>";
+		}else if (condicion == 'console-upside-down') {
+			return "<span class=\"flaticon-nintendo5 console-upside-down\"></span>";
+		}else if (condicion == 'rain') {
+			return "<span class=\"flaticon-raindrops2 rain\"></span>";
+		}
+	}
+});
+
+
+
+
+
+
+
+
+
+
+
+
+Ember.Handlebars.registerHelper('mostrarEvolucion', function(valor, options){
+	//
+	var evo = Ember.Handlebars.get(this, valor, options);
+	return evo.evolucion.numeroEspecie;
+	//return names2[0].id;
+	//return names2[parseInt(evo.evolucion.numeroEspecie)-1].nombre;
+});
+
+
+
+
+
+
+
 var numbers = ['001','002','003','004','005','006','007','008','009',
 '010','011','012','013','014','015','016','017','018','019',
 '020','021','022','023','024','025','026','027','028','029',
@@ -255,173 +403,6 @@ var numbers = ['001','002','003','004','005','006','007','008','009',
 '700','701','702','703','704','705','706','707','708','709',
 '710','711','712','713','714','715','716','717','718','719'
 ];
-
-
-
-
-/*
-var names2 = [
-{
-	id: '001',
-	nombre: 'Bulbasaur',
-	tipo: ['grass', 'poison'],
-	clasificacion: 'Pokemon Semilla',
-	altura: '0,7 m',
-	peso: '6,9 kg',
-	habilidades: {
-		habilidadesNormales: [
-		{
-			habilidadNombre: 'Espesura',
-			habilidadDescripcion: "Aumenta la fuerza de los movimientos tipo Planta en un 50% si los PS del pokémon están a 1/3 del máximo."
-		},
-		],
-		habilidadesOcultas: [
-		{
-			habilidadNombre: 'Clorofila',
-			habilidadDescripcion: "Aumenta al doble la Velocidad del pokémon cuando el clima es Soleado."
-		}
-		]
-	},
-	ratioCaptura: '45',
-	valoresEsfuerzo: {
-		ataqueEspecial: '1',
-	},
-	pasos: '5120',
-	grupo: ['Monstruo', 'Planta'],
-	amistad: '70',
-	generos: {
-		macho: '87.5',
-		hembra: '12.5'
-	},
-	dexRegiones: {
-		dexNacional: '001',
-		dexKanto: '001',
-		dexKalosCentral: '080'
-	},
-	idiomas: {
-		frances: 'Bulbizarre',
-		aleman: 'Bisasam',
-		japones: ['Fushigidane', 'フシギダネ'],
-		coreano: ['Isanghaessi', '이상해씨']
-	}
-},
-
-
-
-
-
-
-
-
-{
-	id: '004',
-	nombre: 'Charmander',
-	tipo: ['fire'],
-	clasificacion: 'Pokemon Lagarto',
-	altura: '0,6 m',
-	peso: '8,5 kg',
-	habilidades: {
-		habilidadesNormales: [
-		{
-			habilidadNombre: 'Mar Llamas',
-			habilidadDescripcion: "Aumenta la fuerza de los movimientos tipo Fuego en un 50% si los PS del pokémon están a 1/3 del máximo."
-		},
-		],
-		habilidadesOcultas: [
-		{
-			habilidadNombre: 'Poder Solar',
-			habilidadDescripcion: "Aumenta en 1.5 el Ataque Especial del pokémon en Día Soleado, pero baja 1/8 de sus PS máximos en cada turno."
-		}
-		]
-	},
-	ratioCaptura: '45',
-	valoresEsfuerzo: {
-		velocidad: '1'
-	},
-	pasos: '5120',
-	grupo: ['Monstruo', 'Dragón'],
-	amistad: '70',
-	generos: {
-		macho: '87.5',
-		hembra: '12.5'
-	},
-	dexRegiones: {
-		dexNacional: '004',
-		dexKanto: '004',
-		dexKalosCentral: '083'
-	},
-	idiomas: {
-		frances: 'Salamèche',
-		aleman: 'Glumanda',
-		japones: ['Hitokage', 'ヒトカゲ'],
-		coreano: ['Pairi', '파이리']
-	}
-},
-
-
-
-
-
-
-
-
-
-{
-	id: '007',
-	nombre: 'Squirtle',
-	tipo: ['water'],
-	clasificacion: 'Pokemon Tortuguita',
-	altura: '0,5 m',
-	peso: '9 kg',
-	habilidades: {
-		habilidadesNormales: [
-		{
-			habilidadNombre: 'Torrente',
-			habilidadDescripcion: "Aumenta la fuerza de los movimientos tipo Agua en un 50% si los PS del pokémon están a 1/3 del máximo."
-		},
-		],
-		habilidadesOcultas: [
-		{
-			habilidadNombre: 'Cura Lluvia',
-			habilidadDescripcion: "Recupera 1/16 de sus PS máximos al final de cada turno cuando el clima es Lluvioso"
-		}
-		]
-	},
-	ratioCaptura: '45',
-	valoresEsfuerzo: {
-		//ps: '1',
-		//ataque: '1',
-		defensa: '1',
-		//ataqueEspecial: '1',
-		//defensaEspecial: '1',
-		//velocidad: '1'
-	},
-	pasos: '5120',
-	grupo: ['Monstruo', 'Agua 1'],
-	amistad: '70',
-	generos: {
-		macho: '87.5',
-		hembra: '12.5'
-	},
-	dexRegiones: {
-		dexNacional: '007',
-		dexKanto: '007',
-		dexKalosCentral: '086'
-	},
-	idiomas: {
-		frances: 'Carapuce',
-		aleman: 'Schiggy',
-		japones: ['Zenigame', 'ゼニガメ'],
-		coreano: ['Kkobugi', '꼬부기']
-	}
-}
-];
-*/
-
-
-
-
-
 
 
 

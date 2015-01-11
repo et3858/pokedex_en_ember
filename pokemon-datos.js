@@ -11,6 +11,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Clorofila'),habilidadDescripcion: habDescripcion('Clorofila')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '002',
+			metodo: "Subiendo desde nivel 16",
+			evolucion: {
+				numeroEspecie: '003',
+				metodo: "Subiendo desde nivel 32",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -38,6 +50,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Clorofila'),habilidadDescripcion: habDescripcion('Clorofila')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '001',
+			metodo: "Subiendo desde nivel 16",
+		},
+		evolucion: {
+			numeroEspecie: '003',
+			metodo: "Subiendo desde nivel 32",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -66,6 +90,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Clorofila'),habilidadDescripcion: habDescripcion('Clorofila')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '002',
+			metodo: "Subiendo desde nivel 32",
+			preevolucion: {
+				numeroEspecie: '001',
+				metodo: "Subiendo desde nivel 16",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -98,6 +134,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Poder Solar'),habilidadDescripcion: habDescripcion('Poder Solar')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '005',
+			metodo: "Subiendo desde nivel 16",
+			evolucion: {
+				numeroEspecie: '006',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -125,6 +173,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Poder Solar'),habilidadDescripcion: habDescripcion('Poder Solar')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '004',
+			metodo: "Subiendo desde nivel 16",
+		},
+		evolucion: {
+			numeroEspecie: '006',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -153,6 +213,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Poder Solar'),habilidadDescripcion: habDescripcion('Poder Solar')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '005',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '004',
+				metodo: "Subiendo desde nivel 16",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -186,6 +258,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Cura Lluvia'),habilidadDescripcion: habDescripcion('Cura Lluvia')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '008',
+			metodo: "Subiendo desde nivel 16",
+			evolucion: {
+				numeroEspecie: '009',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		//ps: '1',
@@ -218,6 +302,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Cura Lluvia'),habilidadDescripcion: habDescripcion('Cura Lluvia')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '007',
+			metodo: "Subiendo desde nivel 16",
+		},
+		evolucion: {
+			numeroEspecie: '009',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -246,6 +342,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Cura Lluvia'),habilidadDescripcion: habDescripcion('Cura Lluvia')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '008',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '007',
+				metodo: "Subiendo desde nivel 16",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
@@ -280,6 +388,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Fuga'),habilidadDescripcion: habDescripcion('Fuga')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '011',
+			metodo: "Subiendo desde nivel 7",
+			evolucion: {
+				numeroEspecie: '012',
+				metodo: "Subiendo desde nivel 10",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -304,6 +424,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Mudar'),habilidadDescripcion: habDescripcion('Mudar')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '010',
+			metodo: "Subiendo desde nivel 7",
+		},
+		evolucion: {
+			numeroEspecie: '012',
+			metodo: "Subiendo desde nivel 10",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -331,6 +463,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Cromolente'),habilidadDescripcion: habDescripcion('Cromolente')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '011',
+			metodo: "Subiendo desde nivel 10",
+			preevolucion: {
+				numeroEspecie: '010',
+				metodo: "Subiendo desde nivel 7",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -365,6 +509,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Fuga'),habilidadDescripcion: habDescripcion('Fuga')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '014',
+			metodo: "Subiendo desde nivel 7",
+			evolucion: {
+				numeroEspecie: '015',
+				metodo: "Subiendo desde nivel 10",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -389,6 +545,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Mudar'),habilidadDescripcion: habDescripcion('Mudar')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '013',
+			metodo: "Subiendo desde nivel 7",
+		},
+		evolucion: {
+			numeroEspecie: '015',
+			metodo: "Subiendo desde nivel 10",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -416,6 +584,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Francotirador'),habilidadDescripcion: habDescripcion('Francotirador')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '014',
+			metodo: "Subiendo desde nivel 10",
+			preevolucion: {
+				numeroEspecie: '013',
+				metodo: "Subiendo desde nivel 7",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -459,6 +639,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Sacapecho'),habilidadDescripcion: habDescripcion('Sacapecho')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '017',
+			metodo: "Subiendo desde nivel 18",
+			evolucion: {
+				numeroEspecie: '018',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -487,6 +679,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Sacapecho'),habilidadDescripcion: habDescripcion('Sacapecho')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '016',
+			metodo: "Subiendo desde nivel 18",
+		},
+		evolucion: {
+			numeroEspecie: '018',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -515,6 +719,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Sacapecho'),habilidadDescripcion: habDescripcion('Sacapecho')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '017',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '016',
+				metodo: "Subiendo desde nivel 18",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 3,
@@ -554,6 +770,14 @@ var names2 = [
 		{habilidadNombre: habNombre('hustle'),habilidadDescripcion: habDescripcion('hustle')},
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '020',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -582,6 +806,14 @@ var names2 = [
 		{habilidadNombre: habNombre('hustle'),habilidadDescripcion: habDescripcion('hustle')},
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '019',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 127,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -614,6 +846,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sniper'),habilidadDescripcion: habDescripcion('sniper')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '022',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -641,6 +881,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sniper'),habilidadDescripcion: habDescripcion('sniper')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '021',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -674,6 +922,14 @@ var names2 = [
 		{habilidadNombre: habNombre('unnerve'),habilidadDescripcion: habDescripcion('unnerve')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '024',
+			metodo: "Subiendo desde nivel 22",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -702,6 +958,14 @@ var names2 = [
 		{habilidadNombre: habNombre('unnerve'),habilidadDescripcion: habDescripcion('unnerve')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '023',
+			metodo: "Subiendo desde nivel 22",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -735,6 +999,20 @@ var names2 = [
 		{habilidadNombre: habNombre('Lightningrod'),habilidadDescripcion: habDescripcion('Lightningrod')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '172',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+		},
+		evolucion: {
+			numeroEspecie: '026',
+			metodo: "Aplicando Piedra Trueno",
+			objeto: getEvolveItem('thunderstone'),
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -764,6 +1042,20 @@ var names2 = [
 		{habilidadNombre: habNombre('Lightningrod'),habilidadDescripcion: habDescripcion('Lightningrod')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '025',
+			metodo: "Aplicando Piedra Trueno",
+			objeto: getEvolveItem('thunderstone'),
+			preevolucion: {
+				numeroEspecie: '172',
+				metodo: "Felicidad máxima, subiendo de nivel",
+				condicion: ['happiness'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		velocidad: 3,
@@ -797,6 +1089,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Sand Rush'),habilidadDescripcion: habDescripcion('Sand Rush')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '028',
+			metodo: "Subiendo desde nivel 22",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -826,6 +1126,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Sand Rush'),habilidadDescripcion: habDescripcion('Sand Rush')}
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '027',
+			metodo: "Subiendo desde nivel 22",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -865,6 +1173,19 @@ var names2 = [
 		{habilidadNombre: habNombre('hustle'),habilidadDescripcion: habDescripcion('hustle')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '030',
+			metodo: "Subiendo desde nivel 16",
+			evolucion: {
+				numeroEspecie: '031',
+				metodo: "Aplicando Piedra Lunar",
+				objeto: getEvolveItem('piedra lunar'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 235,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -939,6 +1260,19 @@ var names2 = [
 		{habilidadNombre: habNombre('hustle'),habilidadDescripcion: habDescripcion('hustle')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '029',
+			metodo: "Subiendo desde nivel 16",
+		},
+		evolucion: {
+			numeroEspecie: '031',
+			metodo: "Aplicando Piedra Lunar",
+			objeto: getEvolveItem('piedra lunar'),
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -967,6 +1301,19 @@ var names2 = [
 		{habilidadNombre: habNombre('sheer force'),habilidadDescripcion: habDescripcion('sheer force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			metodo: "Aplicando Piedra Lunar",
+			objeto: getEvolveItem('piedra lunar'),
+			numeroEspecie: '030',
+			preevolucion: {
+				numeroEspecie: '029',
+				metodo: "Subiendo desde nivel 16",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ps: 3,
@@ -995,6 +1342,19 @@ var names2 = [
 		{habilidadNombre: habNombre('hustle'),habilidadDescripcion: habDescripcion('hustle')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '033',
+			metodo: "Subiendo desde nivel 16",
+			evolucion: {
+				numeroEspecie: '034',
+				metodo: "Aplicando Piedra Lunar",
+				objeto: getEvolveItem('piedra lunar'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 235,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -1023,6 +1383,19 @@ var names2 = [
 		{habilidadNombre: habNombre('hustle'),habilidadDescripcion: habDescripcion('hustle')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '032',
+			metodo: "Subiendo desde nivel 16",
+		},
+		evolucion: {
+			numeroEspecie: '034',
+			metodo: "Aplicando Piedra Lunar",
+			objeto: getEvolveItem('piedra lunar'),
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -1051,6 +1424,19 @@ var names2 = [
 		{habilidadNombre: habNombre('sheer force'),habilidadDescripcion: habDescripcion('sheer force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '033',
+			metodo: "Aplicando Piedra Lunar",
+			objeto: getEvolveItem('piedra lunar'),
+			preevolucion: {
+				numeroEspecie: '032',
+				metodo: "Subiendo desde nivel 16",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -1079,6 +1465,20 @@ var names2 = [
 		{habilidadNombre: habNombre('friend guard'),habilidadDescripcion: habDescripcion('friend guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '173',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+		},
+		evolucion: {
+			numeroEspecie: '036',
+			metodo: "Aplicando Piedra Lunar",
+			objeto: getEvolveItem('piedra lunar'),
+		},
+	},
+	],
 	ratioCaptura: 150,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -1108,6 +1508,20 @@ var names2 = [
 		{habilidadNombre: habNombre('unaware'),habilidadDescripcion: habDescripcion('unaware')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '035',
+			metodo: "Aplicando Piedra Lunar",
+			objeto: getEvolveItem('piedra lunar'),
+			preevolucion: {
+				numeroEspecie: '173',
+				metodo: "Felicidad máxima, subiendo de nivel",
+				condicion: ['happiness'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 25,
 	valoresEsfuerzo: {
 		ps: 3,
@@ -1136,6 +1550,15 @@ var names2 = [
 		{habilidadNombre: habNombre('drought'),habilidadDescripcion: habDescripcion('drought')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '038',
+			metodo: "Aplicando Piedra Fuego",
+			objeto: getEvolveItem('firestone'),
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -1164,6 +1587,15 @@ var names2 = [
 		{habilidadNombre: habNombre('drought'),habilidadDescripcion: habDescripcion('drought')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '037',
+			metodo: "Aplicando Piedra Fuego",
+			objeto: getEvolveItem('firestone'),
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -1194,6 +1626,20 @@ var names2 = [
 		{habilidadNombre: habNombre('friend guard'),habilidadDescripcion: habDescripcion('friend guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '174',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+		},
+		evolucion: {
+			numeroEspecie: '040',
+			metodo: "Aplicando Piedra Lunar",
+			objeto: getEvolveItem('piedra lunar'),
+		},
+	},
+	],
 	ratioCaptura: 170,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -1224,6 +1670,20 @@ var names2 = [
 		{habilidadNombre: habNombre('frisk'),habilidadDescripcion: habDescripcion('frisk')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '039',
+			metodo: "Aplicando Piedra Lunar",
+			objeto: getEvolveItem('piedra lunar'),
+			preevolucion: {
+				numeroEspecie: '174',
+				metodo: "Felicidad máxima, subiendo de nivel",
+				condicion: ['happiness'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 50,
 	valoresEsfuerzo: {
 		ps: 3,
@@ -1253,6 +1713,19 @@ var names2 = [
 		{habilidadNombre: habNombre('Allanamiento'),habilidadDescripcion: habDescripcion('Allanamiento')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '042',
+			metodo: "Subiendo desde nivel 22",
+			evolucion: {
+				numeroEspecie: '169',
+				metodo: "Felicidad máxima, subiendo de nivel",
+				condicion: ['happiness'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -1283,6 +1756,19 @@ var names2 = [
 		{habilidadNombre: habNombre('Allanamiento'),habilidadDescripcion: habDescripcion('Allanamiento')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '042',
+			metodo: "Subiendo desde nivel 22",
+		},
+		evolucion: {
+			numeroEspecie: '169',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -1313,6 +1799,30 @@ var names2 = [
 		{habilidadNombre: habNombre('Fuga'),habilidadDescripcion: habDescripcion('Fuga')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '044',
+			metodo: "Subiendo desde nivel 21",
+			evolucion: {
+				numeroEspecie: '045',
+				metodo: "Aplicando Piedra Hoja",
+				objeto: getEvolveItem('piedra hoja'),
+			},
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '044',
+			metodo: "Subiendo desde nivel 21",
+			evolucion: {
+				numeroEspecie: '182',
+				metodo: "Aplicando Piedra Solar",
+				objeto: getEvolveItem('piedra solar'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -1341,6 +1851,30 @@ var names2 = [
 		{habilidadNombre: habNombre('hedor'),habilidadDescripcion: habDescripcion('hedor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '043',
+			metodo: "Subiendo desde nivel 21",
+		},
+		evolucion: {
+			numeroEspecie: '045',
+			metodo: "Aplicando Piedra Hoja",
+			objeto: getEvolveItem('piedra hoja'),
+		},
+	},
+		{
+		preevolucion: {
+			numeroEspecie: '043',
+			metodo: "Subiendo desde nivel 21",
+		},
+		evolucion: {
+			numeroEspecie: '182',
+			metodo: "Aplicando Piedra Solar",
+			objeto: getEvolveItem('piedra solar'),
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -1369,6 +1903,33 @@ var names2 = [
 		{habilidadNombre: habNombre('effect spore'),habilidadDescripcion: habDescripcion('effect spore')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '044',
+			metodo: "Aplicando Piedra Hoja",
+			objeto: getEvolveItem('piedra hoja'),
+			preevolucion: {
+				numeroEspecie: '043',
+				metodo: "Subiendo desde nivel 21",
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '044',
+			otraEvolucion: {
+				numeroEspecie: '182',
+				metodo: "Aplicando Piedra Solar",
+				objeto: getEvolveItem('piedra solar'),
+			},
+			preevolucion: {
+				numeroEspecie: '043',
+				metodo: "Subiendo desde nivel 21",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -1398,6 +1959,14 @@ var names2 = [
 		{habilidadNombre: habNombre('damp'),habilidadDescripcion: habDescripcion('damp')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '047',
+			metodo: "Subiendo desde nivel 24",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -1425,6 +1994,14 @@ var names2 = [
 		{habilidadNombre: habNombre('damp'),habilidadDescripcion: habDescripcion('damp')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '046',
+			metodo: "Subiendo desde nivel 24",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -1453,6 +2030,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Fuga'),habilidadDescripcion: habDescripcion('Fuga')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '049',
+			metodo: "Subiendo desde nivel 31",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -1480,6 +2065,14 @@ var names2 = [
 		{habilidadNombre: habNombre('wonder skin'),habilidadDescripcion: habDescripcion('wonder skin')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '048',
+			metodo: "Subiendo desde nivel 31",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -1508,6 +2101,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sand force'),habilidadDescripcion: habDescripcion('sand force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '051',
+			metodo: "Subiendo desde nivel 26",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -1536,6 +2137,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sand force'),habilidadDescripcion: habDescripcion('sand force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '050',
+			metodo: "Subiendo desde nivel 26",
+		},
+	},
+	],
 	ratioCaptura: 50,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -1564,6 +2173,14 @@ var names2 = [
 		{habilidadNombre: habNombre('unnerve'),habilidadDescripcion: habDescripcion('unnerve')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '053',
+			metodo: "Subiendo desde nivel 28",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -1591,6 +2208,14 @@ var names2 = [
 		{habilidadNombre: habNombre('unnerve'),habilidadDescripcion: habDescripcion('unnerve')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '052',
+			metodo: "Subiendo desde nivel 28",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -1618,6 +2243,14 @@ var names2 = [
 		{habilidadNombre: habNombre('swift swim'),habilidadDescripcion: habDescripcion('swift swim')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '055',
+			metodo: "Subiendo desde nivel 33",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -1649,6 +2282,14 @@ var names2 = [
 		{habilidadNombre: habNombre('swift swim'),habilidadDescripcion: habDescripcion('swift swim')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '054',
+			metodo: "Subiendo desde nivel 33",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -1680,6 +2321,14 @@ var names2 = [
 		{habilidadNombre: habNombre('defiant'),habilidadDescripcion: habDescripcion('defiant')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '057',
+			metodo: "Subiendo desde nivel 28",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -1707,6 +2356,14 @@ var names2 = [
 		{habilidadNombre: habNombre('defiant'),habilidadDescripcion: habDescripcion('defiant')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '056',
+			metodo: "Subiendo desde nivel 28",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -1734,6 +2391,15 @@ var names2 = [
 		{habilidadNombre: habNombre('justified'),habilidadDescripcion: habDescripcion('justified')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '059',
+			metodo: "Aplicando Piedra Fuego",
+			objeto: getEvolveItem('firestone'),
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -1762,6 +2428,15 @@ var names2 = [
 		{habilidadNombre: habNombre('justified'),habilidadDescripcion: habDescripcion('justified')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '058',
+			metodo: "Aplicando Piedra Fuego",
+			objeto: getEvolveItem('firestone'),
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -1790,6 +2465,31 @@ var names2 = [
 		{habilidadNombre: habNombre('swift swim'),habilidadDescripcion: habDescripcion('swift swim')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '061',
+			metodo: "Subiendo desde nivel 25",
+			evolucion: {
+				numeroEspecie: '062',
+				metodo: "Aplicando Piedra Agua",
+				objeto: getEvolveItem('waterstone'),
+			},
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '061',
+			metodo: "Subiendo desde nivel 25",
+			evolucion: {
+				numeroEspecie: '186',
+				metodo: "Intercambio con objeto Roca del Rey",
+				condicion: ['trade'],
+				objeto: getEvolveItem('roca del rey'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -1818,6 +2518,31 @@ var names2 = [
 		{habilidadNombre: habNombre('swift swim'),habilidadDescripcion: habDescripcion('swift swim')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '061',
+			metodo: "Subiendo desde nivel 25",
+		},
+		evolucion: {
+			numeroEspecie: '062',
+			metodo: "Aplicando Piedra Agua",
+			objeto: getEvolveItem('waterstone'),
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '060',
+			metodo: "Subiendo desde nivel 25",
+		},
+		evolucion: {
+			numeroEspecie: '186',
+			metodo: "Intercambio con objeto Roca del Rey",
+			condicion: ['trade'],
+			objeto: getEvolveItem('roca del rey'),
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -1846,6 +2571,34 @@ var names2 = [
 		{habilidadNombre: habNombre('swift swim'),habilidadDescripcion: habDescripcion('swift swim')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '061',
+			metodo: "Aplicando Piedra Agua",
+			objeto: getEvolveItem('waterstone'),
+			preevolucion: {
+				numeroEspecie: '060',
+				metodo: "Subiendo desde nivel 25",
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '061',
+			otraEvolucion: {
+				numeroEspecie: '186',
+				metodo: "Intercambio con objeto Roca del Rey",
+				condicion: ['trade'],
+				objeto: getEvolveItem('roca del rey'),
+			},
+			preevolucion: {
+				numeroEspecie: '060',
+				metodo: "Subiendo desde nivel 25",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 3,
@@ -1874,6 +2627,19 @@ var names2 = [
 		{habilidadNombre: habNombre('magic guard'),habilidadDescripcion: habDescripcion('magic guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '064',
+			metodo: "Subiendo desde nivel 16",
+			evolucion: {
+				numeroEspecie: '065',
+				metodo: "Intercambio",
+				condicion: ['trade'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 200,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -1904,6 +2670,19 @@ var names2 = [
 		{habilidadNombre: habNombre('magic guard'),habilidadDescripcion: habDescripcion('magic guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '063',
+			metodo: "Subiendo desde nivel 16",
+		},
+		evolucion: {
+			numeroEspecie: '065',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+		},
+	},
+	],
 	ratioCaptura: 100,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -1934,6 +2713,19 @@ var names2 = [
 		{habilidadNombre: habNombre('magic guard'),habilidadDescripcion: habDescripcion('magic guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '064',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+			preevolucion: {
+				numeroEspecie: '063',
+				metodo: "Subiendo desde nivel 16",
+			},
+		},
+	},
+	],
 	ratioCaptura: 50,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -1964,6 +2756,19 @@ var names2 = [
 		{habilidadNombre: habNombre('impasible'),habilidadDescripcion: habDescripcion('impasible')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '067',
+			metodo: "Subiendo desde nivel 28",
+			evolucion: {
+				numeroEspecie: '068',
+				metodo: "Intercambio",
+				condicion: ['trade'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 180,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -1994,6 +2799,19 @@ var names2 = [
 		{habilidadNombre: habNombre('impasible'),habilidadDescripcion: habDescripcion('impasible')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '066',
+			metodo: "Subiendo desde nivel 28",
+		},
+		evolucion: {
+			numeroEspecie: '068',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -2024,6 +2842,19 @@ var names2 = [
 		{habilidadNombre: habNombre('impasible'),habilidadDescripcion: habDescripcion('impasible')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '067',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+			preevolucion: {
+				numeroEspecie: '066',
+				metodo: "Subiendo desde nivel 28",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -2053,6 +2884,19 @@ var names2 = [
 		{habilidadNombre: habNombre('gula'),habilidadDescripcion: habDescripcion('gula')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '070',
+			metodo: "Subiendo desde nivel 21",
+			evolucion: {
+				numeroEspecie: '071',
+				metodo: "Aplicando Piedra Hoja",
+				objeto: getEvolveItem('piedra hoja'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -2080,6 +2924,19 @@ var names2 = [
 		{habilidadNombre: habNombre('gula'),habilidadDescripcion: habDescripcion('gula')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '069',
+			metodo: "Subiendo desde nivel 21",
+		},
+		evolucion: {
+			numeroEspecie: '071',
+			metodo: "Aplicando Piedra Hoja",
+			objeto: getEvolveItem('piedra hoja'),
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -2107,6 +2964,19 @@ var names2 = [
 		{habilidadNombre: habNombre('gula'),habilidadDescripcion: habDescripcion('gula')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '070',
+			metodo: "Aplicando Piedra Hoja",
+			objeto: getEvolveItem('piedra hoja'),
+			preevolucion: {
+				numeroEspecie: '069',
+				metodo: "Subiendo desde nivel 21",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -2135,6 +3005,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Cura Lluvia'),habilidadDescripcion: habDescripcion('Cura Lluvia')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '073',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -2165,6 +3043,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Cura Lluvia'),habilidadDescripcion: habDescripcion('Cura Lluvia')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '072',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -2195,6 +3081,19 @@ var names2 = [
 		{habilidadNombre: habNombre('Sand Veil'),habilidadDescripcion: habDescripcion('Sand Veil')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '075',
+			metodo: "Subiendo desde nivel 25",
+			evolucion: {
+				numeroEspecie: '076',
+				metodo: "Intercambio",
+				condicion: ['trade'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -2225,6 +3124,19 @@ var names2 = [
 		{habilidadNombre: habNombre('Sand Veil'),habilidadDescripcion: habDescripcion('Sand Veil')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '074',
+			metodo: "Subiendo desde nivel 25",
+		},
+		evolucion: {
+			numeroEspecie: '076',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -2255,6 +3167,19 @@ var names2 = [
 		{habilidadNombre: habNombre('Sand Veil'),habilidadDescripcion: habDescripcion('Sand Veil')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '075',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+			preevolucion: {
+				numeroEspecie: '074',
+				metodo: "Subiendo desde nivel 25",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 3,
@@ -2285,6 +3210,14 @@ var names2 = [
 		{habilidadNombre: habNombre('flame body'),habilidadDescripcion: habDescripcion('flame body')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '078',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -2313,6 +3246,14 @@ var names2 = [
 		{habilidadNombre: habNombre('flame body'),habilidadDescripcion: habDescripcion('flame body')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '077',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -2330,7 +3271,7 @@ var names2 = [
 },
 {
 	id: '079',
-	nombre: names[78], tipo: ['water', 'poison'], clasificacion: 'Pokémon Atontado',
+	nombre: names[78], tipo: ['water', 'psychic'], clasificacion: 'Pokémon Atontado',
 	altura: [getAltura(78).pies, getAltura(78).metros], peso: [getPeso(78).libras, getPeso(78).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2341,6 +3282,22 @@ var names2 = [
 		{habilidadNombre: habNombre('regenerator'),habilidadDescripcion: habDescripcion('regenerator')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '080',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '199',
+			metodo: "Intercambio con objeto Roca del Rey",
+			condicion: ['trade'],
+			objeto: getEvolveItem('roca del rey'),
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -2358,7 +3315,7 @@ var names2 = [
 },
 {
 	id: '080',
-	nombre: names[79], tipo: ['water', 'poison'], clasificacion: 'Pokémon Ermitaño',
+	nombre: names[79], tipo: ['water', 'psychic'], clasificacion: 'Pokémon Ermitaño',
 	altura: [getAltura(79).pies, getAltura(79).metros], peso: [getPeso(79).libras, getPeso(79).kilogramos],
 	habilidades: {
 		habilidadesNormales: [
@@ -2369,6 +3326,25 @@ var names2 = [
 		{habilidadNombre: habNombre('regenerator'),habilidadDescripcion: habDescripcion('regenerator')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '079',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '079',
+			otraEvolucion: {
+				numeroEspecie: '199',
+				metodo: "Intercambio con objeto Roca del Rey",
+				condicion: ['trade'],
+				objeto: getEvolveItem('roca del rey'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -2397,6 +3373,19 @@ var names2 = [
 		{habilidadNombre: habNombre('analytic'),habilidadDescripcion: habDescripcion('analytic')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '082',
+			metodo: "Subiendo desde nivel 30",
+			evolucion: {
+				numeroEspecie: '462',
+				metodo: "Subiendo de nivel en Monte Corona, Cueva Electroroca o Ruta 13 (Región Kalos)",
+				condicion: ['location'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -2427,6 +3416,19 @@ var names2 = [
 		{habilidadNombre: habNombre('analytic'),habilidadDescripcion: habDescripcion('analytic')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '081',
+			metodo: "Subiendo desde nivel 30",
+		},
+		evolucion: {
+			numeroEspecie: '462',
+			metodo: "Subiendo de nivel en Monte Corona, Cueva Electroroca o Ruta 13 (Región Kalos)",
+			condicion: ['location'],
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -2485,6 +3487,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Tumbos'),habilidadDescripcion: habDescripcion('Tumbos')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '085',
+			metodo: "Subiendo desde nivel 31",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -2514,6 +3524,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Tumbos'),habilidadDescripcion: habDescripcion('Tumbos')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '084',
+			metodo: "Subiendo desde nivel 31",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -2543,6 +3561,14 @@ var names2 = [
 		{habilidadNombre: habNombre('ice body'),habilidadDescripcion: habDescripcion('ice body')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '087',
+			metodo: "Subiendo desde nivel 34",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -2571,6 +3597,14 @@ var names2 = [
 		{habilidadNombre: habNombre('ice body'),habilidadDescripcion: habDescripcion('ice body')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '086',
+			metodo: "Subiendo desde nivel 34",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -2599,6 +3633,14 @@ var names2 = [
 		{habilidadNombre: habNombre('poison touch'),habilidadDescripcion: habDescripcion('poison touch')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '089',
+			metodo: "Subiendo desde nivel 38",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -2628,6 +3670,14 @@ var names2 = [
 		{habilidadNombre: habNombre('poison touch'),habilidadDescripcion: habDescripcion('poison touch')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '088',
+			metodo: "Subiendo desde nivel 38",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -2658,6 +3708,15 @@ var names2 = [
 		{habilidadNombre: habNombre('funda'),habilidadDescripcion: habDescripcion('funda')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '091',
+			metodo: "Aplicando Piedra Agua",
+			objeto: getEvolveItem('waterstone'),
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -2686,6 +3745,15 @@ var names2 = [
 		{habilidadNombre: habNombre('funda'),habilidadDescripcion: habDescripcion('funda')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '090',
+			metodo: "Aplicando Piedra Agua",
+			objeto: getEvolveItem('waterstone'),
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -2710,6 +3778,19 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '093',
+			metodo: "Subiendo desde nivel 25",
+			evolucion: {
+				numeroEspecie: '094',
+				metodo: "Intercambio",
+				condicion: ['trade'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -2735,6 +3816,19 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '092',
+			metodo: "Subiendo desde nivel 25",
+		},
+		evolucion: {
+			numeroEspecie: '094',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -2760,6 +3854,19 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '093',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+			preevolucion: {
+				numeroEspecie: '092',
+				metodo: "Subiendo desde nivel 25",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -2789,6 +3896,16 @@ var names2 = [
 		{habilidadNombre: habNombre('weak armor'),habilidadDescripcion: habDescripcion('weak armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '208',
+			metodo: "Intercambio con objeto Revestimiento Metálico",
+			condicion: ['trade'],
+			objeto: getEvolveItem('metal coat'),
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -2819,6 +3936,14 @@ var names2 = [
 		{habilidadNombre: habNombre('inner focus'),habilidadDescripcion: habDescripcion('inner focus')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '097',
+			metodo: "Subiendo desde nivel 26",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -2846,6 +3971,14 @@ var names2 = [
 		{habilidadNombre: habNombre('inner focus'),habilidadDescripcion: habDescripcion('inner focus')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '096',
+			metodo: "Subiendo desde nivel 26",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -2873,6 +4006,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sheer force'),habilidadDescripcion: habDescripcion('sheer force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '099',
+			metodo: "Subiendo desde nivel 28",
+		},
+	},
+	],
 	ratioCaptura: 225,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -2900,6 +4041,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sheer force'),habilidadDescripcion: habDescripcion('sheer force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '098',
+			metodo: "Subiendo desde nivel 28",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -2927,6 +4076,14 @@ var names2 = [
 		{habilidadNombre: habNombre('resquicio'),habilidadDescripcion: habDescripcion('resquicio')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '101',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -2955,6 +4112,14 @@ var names2 = [
 		{habilidadNombre: habNombre('resquicio'),habilidadDescripcion: habDescripcion('resquicio')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '100',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -2982,6 +4147,15 @@ var names2 = [
 		{habilidadNombre: habNombre('cosecha'),habilidadDescripcion: habDescripcion('cosecha')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '103',
+			metodo: "Aplicando Piedra Hoja",
+			objeto: getEvolveItem('piedra hoja'),
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -3009,6 +4183,15 @@ var names2 = [
 		{habilidadNombre: habNombre('cosecha'),habilidadDescripcion: habDescripcion('cosecha')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '102',
+			metodo: "Aplicando Piedra Hoja",
+			objeto: getEvolveItem('piedra hoja'),
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -3037,6 +4220,14 @@ var names2 = [
 		{habilidadNombre: habNombre('battle armor'),habilidadDescripcion: habDescripcion('battle armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '105',
+			metodo: "Subiendo desde nivel 28",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -3065,6 +4256,14 @@ var names2 = [
 		{habilidadNombre: habNombre('battle armor'),habilidadDescripcion: habDescripcion('battle armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '104',
+			metodo: "Subiendo desde nivel 28",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -3093,6 +4292,32 @@ var names2 = [
 		{habilidadNombre: habNombre('liviano'),habilidadDescripcion: habDescripcion('liviano')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '236',
+			metodo: "Subiendo desde nivel 20, sólo si su Ataque es mayor que su Defensa",
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '236',
+			otraEvolucion: {
+				numeroEspecie: '107',
+				metodo: "Subiendo desde nivel 20, sólo si su Ataque es menor que su Defensa",
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '236',
+			otraEvolucion: {
+				numeroEspecie: '237',
+				metodo: "Subiendo desde nivel 20, sólo si su Ataque es igual que su Defensa",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -3120,6 +4345,32 @@ var names2 = [
 		{habilidadNombre: habNombre('inner focus'),habilidadDescripcion: habDescripcion('inner focus')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '236',
+			otraEvolucion: {
+				numeroEspecie: '106',
+				metodo: "Subiendo desde nivel 20, sólo si su Ataque es mayor que su Defensa",
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '236',
+			metodo: "Subiendo desde nivel 20, sólo si su Ataque es menor que su Defensa",
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '236',
+			otraEvolucion: {
+				numeroEspecie: '237',
+				metodo: "Subiendo desde nivel 20, sólo si su Ataque es igual que su Defensa",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -3147,6 +4398,15 @@ var names2 = [
 		{habilidadNombre: habNombre('cloud nine'),habilidadDescripcion: habDescripcion('cloud nine')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '463',
+			metodo: "Subiendo de nivel con movimiento Desenrrollar",
+			condicion: ['movement'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -3173,6 +4433,14 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '110',
+			metodo: "Subiendo desde nivel 35",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -3198,6 +4466,14 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '109',
+			metodo: "Subiendo desde nivel 35",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -3227,6 +4503,20 @@ var names2 = [
 		{habilidadNombre: habNombre('reckless'),habilidadDescripcion: habDescripcion('reckless')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '112',
+			metodo: "Subiendo desde nivel 42",
+			evolucion: {
+				numeroEspecie: '464',
+				metodo: "Intercambio con objeto Protector",
+				condicion: ['trade'],
+				objeto: getEvolveItem('protector'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -3257,6 +4547,20 @@ var names2 = [
 		{habilidadNombre: habNombre('reckless'),habilidadDescripcion: habDescripcion('reckless')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '111',
+			metodo: "Subiendo desde nivel 42",
+		},
+		evolucion: {
+			numeroEspecie: '464',
+			metodo: "Intercambio con objeto Protector",
+			condicion: ['trade'],
+			objeto: getEvolveItem('protector'),
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -3287,6 +4591,20 @@ var names2 = [
 		{habilidadNombre: habNombre('healer'),habilidadDescripcion: habDescripcion('healer')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '440',
+			metodo: "Subiendo de nivel con objeto Piedra Oval",
+			objeto: getEvolveItem('oval stone'),
+		},
+		evolucion: {
+			numeroEspecie: '242',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -3315,6 +4633,15 @@ var names2 = [
 		{habilidadNombre: habNombre('regenerator'),habilidadDescripcion: habDescripcion('regenerator')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '465',
+			metodo: "Subiendo de nivel con movimiento Poder Pasado",
+			condicion: ['movement'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -3372,6 +4699,20 @@ var names2 = [
 		{habilidadNombre: habNombre('damp'),habilidadDescripcion: habDescripcion('damp')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '117',
+			metodo: "Subiendo desde nivel 32",
+			evolucion: {
+				numeroEspecie: '230',
+				metodo: "Intercambio con objeto Escama Dragón",
+				condicion: ['trade'],
+				objeto: getEvolveItem('dragon scale'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 225,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -3401,6 +4742,20 @@ var names2 = [
 		{habilidadNombre: habNombre('damp'),habilidadDescripcion: habDescripcion('damp')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '116',
+			metodo: "Subiendo desde nivel 32",
+		},
+		evolucion: {
+			numeroEspecie: '230',
+			metodo: "Intercambio con objeto Escama Dragón",
+			condicion: ['trade'],
+			objeto: getEvolveItem('dragon scale'),
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -3431,6 +4786,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Lightningrod'),habilidadDescripcion: habDescripcion('Lightningrod')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '119',
+			metodo: "Subiendo desde nivel 33",
+		},
+	},
+	],
 	ratioCaptura: 225,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -3461,6 +4824,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Lightningrod'),habilidadDescripcion: habDescripcion('Lightningrod')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '118',
+			metodo: "Subiendo desde nivel 33",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -3491,6 +4862,15 @@ var names2 = [
 		{habilidadNombre: habNombre('analytic'),habilidadDescripcion: habDescripcion('analytic')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '121',
+			metodo: "Aplicando Piedra Agua",
+			objeto: getEvolveItem('waterstone'),
+		},
+	},
+	],
 	ratioCaptura: 225,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -3520,6 +4900,15 @@ var names2 = [
 		{habilidadNombre: habNombre('analytic'),habilidadDescripcion: habDescripcion('analytic')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '120',
+			metodo: "Aplicando Piedra Agua",
+			objeto: getEvolveItem('waterstone'),
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -3549,6 +4938,15 @@ var names2 = [
 		{habilidadNombre: habNombre('experto'),habilidadDescripcion: habDescripcion('experto')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '439',
+			metodo: "Subiendo de nivel con movimiento Mimético",
+			condicion: ['movement'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -3578,6 +4976,16 @@ var names2 = [
 		{habilidadNombre: habNombre('impasible'),habilidadDescripcion: habDescripcion('impasible')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '212',
+			metodo: "Intercambio con objeto Revestimiento Metálico",
+			condicion: ['trade'],
+			objeto: getEvolveItem('metal coat'),
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -3607,6 +5015,14 @@ var names2 = [
 		{habilidadNombre: habNombre('dry skin'),habilidadDescripcion: habDescripcion('dry skin')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '238',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -3634,6 +5050,20 @@ var names2 = [
 		{habilidadNombre: habNombre('vital spirit'),habilidadDescripcion: habDescripcion('vital spirit')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '239',
+			metodo: "Subiendo desde nivel 30",
+		},
+		evolucion: {
+			numeroEspecie: '466',
+			metodo: "Intercambio con objeto Electrizador",
+			condicion: ['trade'],
+			objeto: getEvolveItem('electirizer'),
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -3662,6 +5092,20 @@ var names2 = [
 		{habilidadNombre: habNombre('vital spirit'),habilidadDescripcion: habDescripcion('vital spirit')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '240',
+			metodo: "Subiendo desde nivel 30",
+		},
+		evolucion: {
+			numeroEspecie: '467',
+			metodo: "Intercambio con objeto Magmatizador",
+			condicion: ['trade'],
+			objeto: getEvolveItem('magmarizer'),
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -3749,6 +5193,14 @@ var names2 = [
 		{habilidadNombre: habNombre('rattled'),habilidadDescripcion: habDescripcion('rattled')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '130',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -3778,6 +5230,14 @@ var names2 = [
 		{habilidadNombre: habNombre('moxie'),habilidadDescripcion: habDescripcion('moxie')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '129',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -3864,6 +5324,64 @@ var names2 = [
 		{habilidadNombre: habNombre('anticipation'),habilidadDescripcion: habDescripcion('anticipation')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '134',
+			metodo: "Aplicando Piedra Agua",
+			objeto: getEvolveItem('waterstone'),
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '135',
+			metodo: "Aplicando Piedra Trueno",
+			objeto: getEvolveItem('thunderstone'),
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '136',
+			metodo: "Aplicando Piedra Fuego",
+			objeto: getEvolveItem('firestone'),
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '196',
+			metodo: "Felicidad máxima, subiendo de nivel en el día",
+			condicion: ['happiness', 'daylight'],
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '197',
+			metodo: "Felicidad máxima, subiendo de nivel en la noche",
+			condicion: ['happiness', 'night'],
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '470',
+			metodo: "Subiendo de nivel cerca de la Roca Musgo",
+			condicion: ['location'],
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '471',
+			metodo: "Subiendo de nivel cerca de la Roca Helada",
+			condicion: ['location'],
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '700',
+			metodo: "Felicidad máxima, subiendo de nivel con movimiento de tipo Hada",
+			condicion: ['happiness', 'movement'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -3893,6 +5411,85 @@ var names2 = [
 		{habilidadNombre: habNombre('hydration'),habilidadDescripcion: habDescripcion('hydration')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			metodo: "Aplicando Piedra Agua",
+			objeto: getEvolveItem('waterstone'),
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '135',
+				metodo: "Aplicando Piedra Trueno",
+				objeto: getEvolveItem('thunderstone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '136',
+				metodo: "Aplicando Piedra Fuego",
+				objeto: getEvolveItem('firestone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '196',
+				metodo: "Felicidad máxima, subiendo de nivel en el día",
+				condicion: ['happiness', 'daylight'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '197',
+				metodo: "Felicidad máxima, subiendo de nivel en la noche",
+				condicion: ['happiness', 'night'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '470',
+				metodo: "Subiendo de nivel cerca de la Roca Musgo",
+				condicion: ['location'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '471',
+				metodo: "Subiendo de nivel cerca de la Roca Helada",
+				condicion: ['location'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '700',
+				metodo: "Felicidad máxima, subiendo de nivel con movimiento de tipo Hada",
+				condicion: ['happiness', 'movement'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -3922,6 +5519,85 @@ var names2 = [
 		{habilidadNombre: habNombre('quick feet'),habilidadDescripcion: habDescripcion('quick feet')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '134',
+				metodo: "Aplicando Piedra Agua",
+				objeto: getEvolveItem('waterstone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			metodo: "Aplicando Piedra Trueno",
+			objeto: getEvolveItem('thunderstone'),
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '136',
+				metodo: "Aplicando Piedra Fuego",
+				objeto: getEvolveItem('firestone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '196',
+				metodo: "Felicidad máxima, subiendo de nivel en el día",
+				condicion: ['happiness', 'daylight'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '197',
+				metodo: "Felicidad máxima, subiendo de nivel en la noche",
+				condicion: ['happiness', 'night'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '470',
+				metodo: "Subiendo de nivel cerca de la Roca Musgo",
+				condicion: ['location'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '471',
+				metodo: "Subiendo de nivel cerca de la Roca Helada",
+				condicion: ['location'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '700',
+				metodo: "Felicidad máxima, subiendo de nivel con movimiento de tipo Hada",
+				condicion: ['happiness', 'movement'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -3951,6 +5627,85 @@ var names2 = [
 		{habilidadNombre: habNombre('Agallas'),habilidadDescripcion: habDescripcion('Agallas')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '134',
+				metodo: "Aplicando Piedra Agua",
+				objeto: getEvolveItem('waterstone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '135',
+				metodo: "Aplicando Piedra Trueno",
+				objeto: getEvolveItem('thunderstone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			metodo: "Aplicando Piedra Fuego",
+			objeto: getEvolveItem('firestone'),
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '196',
+				metodo: "Felicidad máxima, subiendo de nivel en el día",
+				condicion: ['happiness', 'daylight'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '197',
+				metodo: "Felicidad máxima, subiendo de nivel en la noche",
+				condicion: ['happiness', 'night'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '470',
+				metodo: "Subiendo de nivel cerca de la Roca Musgo",
+				condicion: ['location'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '471',
+				metodo: "Subiendo de nivel cerca de la Roca Helada",
+				condicion: ['location'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '700',
+				metodo: "Felicidad máxima, subiendo de nivel con movimiento de tipo Hada",
+				condicion: ['happiness', 'movement'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -3981,6 +5736,22 @@ var names2 = [
 		{habilidadNombre: habNombre('analytic'),habilidadDescripcion: habDescripcion('analytic')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '233',
+			metodo: "Intercambio con objeto Mejora",
+			condicion: ['trade'],
+			objeto: getEvolveItem('mejora'),
+			evolucion: {
+				numeroEspecie: '474',
+				metodo: "Intercambio con objeto Discoxtraño",
+				condicion: ['trade'],
+				objeto: getEvolveItem('dubiousdisc'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -4008,6 +5779,14 @@ var names2 = [
 		{habilidadNombre: habNombre('weak armor'),habilidadDescripcion: habDescripcion('weak armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '139',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -4035,6 +5814,14 @@ var names2 = [
 		{habilidadNombre: habNombre('weak armor'),habilidadDescripcion: habDescripcion('weak armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '138',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -4062,6 +5849,14 @@ var names2 = [
 		{habilidadNombre: habNombre('weak armor'),habilidadDescripcion: habDescripcion('weak armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '141',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -4089,6 +5884,14 @@ var names2 = [
 		{habilidadNombre: habNombre('weak armor'),habilidadDescripcion: habDescripcion('weak armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '140',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -4144,6 +5947,15 @@ var names2 = [
 		{habilidadNombre: habNombre('gula'),habilidadDescripcion: habDescripcion('gula')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '446',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+		},
+	},
+	],
 	ratioCaptura: 25,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -4250,6 +6062,18 @@ var names2 = [
 		{habilidadNombre: habNombre('marvel scale'),habilidadDescripcion: habDescripcion('marvel scale')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '148',
+			metodo: "Subiendo desde nivel 30",
+			evolucion: {
+				numeroEspecie: '149',
+				metodo: "Subiendo desde nivel 55",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -4277,6 +6101,18 @@ var names2 = [
 		{habilidadNombre: habNombre('marvel scale'),habilidadDescripcion: habDescripcion('marvel scale')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '147',
+			metodo: "Subiendo desde nivel 30",
+		},
+		evolucion: {
+			numeroEspecie: '149',
+			metodo: "Subiendo desde nivel 55",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -4304,6 +6140,18 @@ var names2 = [
 		{habilidadNombre: habNombre('multiscale'),habilidadDescripcion: habDescripcion('multiscale')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '148',
+			metodo: "Subiendo desde nivel 55",
+			preevolucion: {
+				numeroEspecie: '147',
+				metodo: "Subiendo desde nivel 30",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -4395,6 +6243,18 @@ var names2 = [
 		{habilidadNombre: habNombre('leaf guard'),habilidadDescripcion: habDescripcion('leaf guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '153',
+			metodo: "Subiendo desde nivel 16",
+			evolucion: {
+				numeroEspecie: '154',
+				metodo: "Subiendo desde nivel 32",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -4420,6 +6280,18 @@ var names2 = [
 		{habilidadNombre: habNombre('leaf guard'),habilidadDescripcion: habDescripcion('leaf guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '152',
+			metodo: "Subiendo desde nivel 16",
+		},
+		evolucion: {
+			numeroEspecie: '154',
+			metodo: "Subiendo desde nivel 32",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -4446,6 +6318,18 @@ var names2 = [
 		{habilidadNombre: habNombre('leaf guard'),habilidadDescripcion: habDescripcion('leaf guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '153',
+			metodo: "Subiendo desde nivel 32",
+			preevolucion: {
+				numeroEspecie: '152',
+				metodo: "Subiendo desde nivel 16",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -4472,6 +6356,18 @@ var names2 = [
 		{habilidadNombre: habNombre('flash fire'),habilidadDescripcion: habDescripcion('flash fire')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '156',
+			metodo: "Subiendo desde nivel 14",
+			evolucion: {
+				numeroEspecie: '157',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -4497,6 +6393,18 @@ var names2 = [
 		{habilidadNombre: habNombre('flash fire'),habilidadDescripcion: habDescripcion('flash fire')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '155',
+			metodo: "Subiendo desde nivel 14",
+		},
+		evolucion: {
+			numeroEspecie: '157',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -4523,6 +6431,18 @@ var names2 = [
 		{habilidadNombre: habNombre('flash fire'),habilidadDescripcion: habDescripcion('flash fire')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '156',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '155',
+				metodo: "Subiendo desde nivel 14",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -4548,6 +6468,18 @@ var names2 = [
 		{habilidadNombre: habNombre('sheer force'),habilidadDescripcion: habDescripcion('sheer force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '159',
+			metodo: "Subiendo desde nivel 18",
+			evolucion: {
+				numeroEspecie: '160',
+				metodo: "Subiendo desde nivel 30",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -4573,6 +6505,18 @@ var names2 = [
 		{habilidadNombre: habNombre('sheer force'),habilidadDescripcion: habDescripcion('sheer force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '158',
+			metodo: "Subiendo desde nivel 18",
+		},
+		evolucion: {
+			numeroEspecie: '160',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -4599,6 +6543,18 @@ var names2 = [
 		{habilidadNombre: habNombre('sheer force'),habilidadDescripcion: habDescripcion('sheer force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '159',
+			metodo: "Subiendo desde nivel 30",
+			preevolucion: {
+				numeroEspecie: '158',
+				metodo: "Subiendo desde nivel 18",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -4626,6 +6582,14 @@ var names2 = [
 		{habilidadNombre: habNombre('frisk'),habilidadDescripcion: habDescripcion('frisk')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '162',
+			metodo: "Subiendo desde nivel 15",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -4653,6 +6617,14 @@ var names2 = [
 		{habilidadNombre: habNombre('frisk'),habilidadDescripcion: habDescripcion('frisk')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '161',
+			metodo: "Subiendo desde nivel 15",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -4680,6 +6652,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Cromolente'),habilidadDescripcion: habDescripcion('Cromolente')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '164',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -4708,6 +6688,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Cromolente'),habilidadDescripcion: habDescripcion('Cromolente')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '163',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -4736,6 +6724,14 @@ var names2 = [
 		{habilidadNombre: habNombre('rattled'),habilidadDescripcion: habDescripcion('rattled')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '166',
+			metodo: "Subiendo desde nivel 18",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -4763,6 +6759,14 @@ var names2 = [
 		{habilidadNombre: habNombre('iron fist'),habilidadDescripcion: habDescripcion('iron fist')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '165',
+			metodo: "Subiendo desde nivel 18",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -4790,6 +6794,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sniper'),habilidadDescripcion: habDescripcion('sniper')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '168',
+			metodo: "Subiendo desde nivel 22",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -4817,6 +6829,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sniper'),habilidadDescripcion: habDescripcion('sniper')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '167',
+			metodo: "Subiendo desde nivel 22",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -4843,6 +6863,19 @@ var names2 = [
 		{habilidadNombre: habNombre('Allanamiento'),habilidadDescripcion: habDescripcion('Allanamiento')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '042',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+			preevolucion: {
+				numeroEspecie: '041',
+				metodo: "Subiendo desde nivel 22",
+			},
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		velocidad: 3,
@@ -4873,6 +6906,14 @@ var names2 = [
 		{habilidadNombre: habNombre('water absorb'),habilidadDescripcion: habDescripcion('water absorb')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '171',
+			metodo: "Subiendo desde nivel 27",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -4901,6 +6942,14 @@ var names2 = [
 		{habilidadNombre: habNombre('water absorb'),habilidadDescripcion: habDescripcion('water absorb')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '170',
+			metodo: "Subiendo desde nivel 27",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -4928,6 +6977,20 @@ var names2 = [
 		{habilidadNombre: habNombre('Lightningrod'),habilidadDescripcion: habDescripcion('Lightningrod')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '025',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+			evolucion: {
+				numeroEspecie: '026',
+				metodo: "Aplicando Piedra Trueno",
+				objeto: getEvolveItem('thunderstone'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -4957,6 +7020,20 @@ var names2 = [
 		{habilidadNombre: habNombre('friend guard'),habilidadDescripcion: habDescripcion('friend guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '035',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+			evolucion: {
+				numeroEspecie: '036',
+				metodo: "Aplicando Piedra Lunar",
+				objeto: getEvolveItem('piedra lunar'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 150,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -4985,6 +7062,20 @@ var names2 = [
 		{habilidadNombre: habNombre('friend guard'),habilidadDescripcion: habDescripcion('friend guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '039',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+			evolucion: {
+				numeroEspecie: '040',
+				metodo: "Aplicando Piedra Lunar",
+				objeto: getEvolveItem('piedra lunar'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 170,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -5014,6 +7105,20 @@ var names2 = [
 		{habilidadNombre: habNombre('afortunado'),habilidadDescripcion: habDescripcion('afortunado')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '176',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+			evolucion: {
+				numeroEspecie: '468',
+				metodo: "Aplicando Piedra Día",
+				objeto: getEvolveItem('shiny stone'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -5041,6 +7146,20 @@ var names2 = [
 		{habilidadNombre: habNombre('afortunado'),habilidadDescripcion: habDescripcion('afortunado')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '175',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+		},
+		evolucion: {
+			numeroEspecie: '468',
+			metodo: "Aplicando Piedra Día",
+			objeto: getEvolveItem('shiny stone'),
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -5068,6 +7187,14 @@ var names2 = [
 		{habilidadNombre: habNombre('magic bounce'),habilidadDescripcion: habDescripcion('magic bounce')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '178',
+			metodo: "Subiendo desde nivel 25",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -5095,6 +7222,14 @@ var names2 = [
 		{habilidadNombre: habNombre('magic bounce'),habilidadDescripcion: habDescripcion('magic bounce')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '177',
+			metodo: "Subiendo desde nivel 25",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -5122,6 +7257,18 @@ var names2 = [
 		{habilidadNombre: habNombre('plus'),habilidadDescripcion: habDescripcion('plus')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '180',
+			metodo: "Subiendo desde nivel 15",
+			evolucion: {
+				numeroEspecie: '181',
+				metodo: "Subiendo desde nivel 30",
+			},
+		},
+	},
+	],
 	ratioCaptura: 235,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -5149,6 +7296,18 @@ var names2 = [
 		{habilidadNombre: habNombre('plus'),habilidadDescripcion: habDescripcion('plus')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '179',
+			metodo: "Subiendo desde nivel 15",
+		},
+		evolucion: {
+			numeroEspecie: '181',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -5176,6 +7335,18 @@ var names2 = [
 		{habilidadNombre: habNombre('plus'),habilidadDescripcion: habDescripcion('plus')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '180',
+			metodo: "Subiendo desde nivel 30",
+			preevolucion: {
+				numeroEspecie: '179',
+				metodo: "Subiendo desde nivel 15",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -5203,6 +7374,33 @@ var names2 = [
 		{habilidadNombre: habNombre('healer'),habilidadDescripcion: habDescripcion('healer')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '044',
+			otraEvolucion: {
+				numeroEspecie: '045',
+				metodo: "Aplicando Piedra Hoja",
+				objeto: getEvolveItem('piedra hoja'),
+			},
+			preevolucion: {
+				numeroEspecie: '043',
+				metodo: "Subiendo desde nivel 21",
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '044',
+			metodo: "Aplicando Piedra Solar",
+			objeto: getEvolveItem('piedra solar'),
+			preevolucion: {
+				numeroEspecie: '043',
+				metodo: "Subiendo desde nivel 21",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
@@ -5231,6 +7429,19 @@ var names2 = [
 		{habilidadNombre: habNombre('sap sipper'),habilidadDescripcion: habDescripcion('sap sipper')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '298',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+		},
+		evolucion: {
+			numeroEspecie: '184',
+			metodo: "Subiendo desde nivel 18",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -5261,6 +7472,19 @@ var names2 = [
 		{habilidadNombre: habNombre('sap sipper'),habilidadDescripcion: habDescripcion('sap sipper')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '183',
+			metodo: "Subiendo desde nivel 18",
+			preevolucion: {
+				numeroEspecie: '298',
+				metodo: "Felicidad máxima, subiendo de nivel",
+				condicion: ['happiness'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ps: 3,
@@ -5291,6 +7515,15 @@ var names2 = [
 		{habilidadNombre: habNombre('rattled'),habilidadDescripcion: habDescripcion('rattled')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '438',
+			metodo: "Subiendo de nivel con movimiento Mimético",
+			condicion: ['movement'],
+		},
+	},
+	],
 	ratioCaptura: 65,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -5319,6 +7552,34 @@ var names2 = [
 		{habilidadNombre: habNombre('drizzle'),habilidadDescripcion: habDescripcion('drizzle')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '061',
+			otraEvolucion: {
+				numeroEspecie: '062',
+				metodo: "Aplicando Piedra Agua",
+				objeto: getEvolveItem('waterstone'),
+			},
+			preevolucion: {
+				numeroEspecie: '060',
+				metodo: "Subiendo desde nivel 25",
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '061',
+			metodo: "Intercambio con objeto Roca del Rey",
+			condicion: ['trade'],
+			objeto: getEvolveItem('roca del rey'),
+			preevolucion: {
+				numeroEspecie: '060',
+				metodo: "Subiendo desde nivel 25",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
@@ -5346,6 +7607,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Allanamiento'),habilidadDescripcion: habDescripcion('Allanamiento')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '188',
+			metodo: "Subiendo desde nivel 18",
+			evolucion: {
+				numeroEspecie: '189',
+				metodo: "Subiendo desde nivel 27",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -5373,6 +7646,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Allanamiento'),habilidadDescripcion: habDescripcion('Allanamiento')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '187',
+			metodo: "Subiendo desde nivel 18",
+		},
+		evolucion: {
+			numeroEspecie: '189',
+			metodo: "Subiendo desde nivel 27",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -5400,6 +7685,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Allanamiento'),habilidadDescripcion: habDescripcion('Allanamiento')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '188',
+			metodo: "Subiendo desde nivel 27",
+			preevolucion: {
+				numeroEspecie: '187',
+				metodo: "Subiendo desde nivel 18",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 3,
@@ -5427,6 +7724,15 @@ var names2 = [
 		{habilidadNombre: habNombre('encadenado'),habilidadDescripcion: habDescripcion('encadenado')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '424',
+			metodo: "Subiendo de nivel con movimiento Doble Golpe",
+			condicion: ['movement'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -5454,6 +7760,15 @@ var names2 = [
 		{habilidadNombre: habNombre('madrugar'),habilidadDescripcion: habDescripcion('madrugar')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '192',
+			metodo: "Aplicando Piedra Solar",
+			objeto: getEvolveItem('sun stone'),
+		},
+	},
+	],
 	ratioCaptura: 235,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -5481,6 +7796,15 @@ var names2 = [
 		{habilidadNombre: habNombre('madrugar'),habilidadDescripcion: habDescripcion('madrugar')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '191',
+			metodo: "Aplicando Piedra Solar",
+			objeto: getEvolveItem('sun stone'),
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -5508,6 +7832,15 @@ var names2 = [
 		{habilidadNombre: habNombre('frisk'),habilidadDescripcion: habDescripcion('frisk')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '469',
+			metodo: "Subiendo de nivel con movimiento Poder Pasado",
+			condicion: ['movement'],
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -5537,6 +7870,14 @@ var names2 = [
 		{habilidadNombre: habNombre('unaware'),habilidadDescripcion: habDescripcion('unaware')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '195',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -5565,6 +7906,14 @@ var names2 = [
 		{habilidadNombre: habNombre('unaware'),habilidadDescripcion: habDescripcion('unaware')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '194',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -5592,6 +7941,85 @@ var names2 = [
 		{habilidadNombre: habNombre('magic bounce'),habilidadDescripcion: habDescripcion('magic bounce')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '134',
+				metodo: "Aplicando Piedra Agua",
+				objeto: getEvolveItem('waterstone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '135',
+				metodo: "Aplicando Piedra Trueno",
+				objeto: getEvolveItem('thunderstone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '136',
+				metodo: "Aplicando Piedra Fuego",
+				objeto: getEvolveItem('firestone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			metodo: "Felicidad máxima, subiendo de nivel en el día",
+			condicion: ['happiness', 'daylight'],
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '197',
+				metodo: "Felicidad máxima, subiendo de nivel en la noche",
+				condicion: ['happiness', 'night'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '470',
+				metodo: "Subiendo de nivel cerca de la Roca Musgo",
+				condicion: ['location'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '471',
+				metodo: "Subiendo de nivel cerca de la Roca Helada",
+				condicion: ['location'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '700',
+				metodo: "Felicidad máxima, subiendo de nivel con movimiento de tipo Hada",
+				condicion: ['happiness', 'movement'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -5620,6 +8048,85 @@ var names2 = [
 		{habilidadNombre: habNombre('inner focus'),habilidadDescripcion: habDescripcion('inner focus')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '134',
+				metodo: "Aplicando Piedra Agua",
+				objeto: getEvolveItem('waterstone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '135',
+				metodo: "Aplicando Piedra Trueno",
+				objeto: getEvolveItem('thunderstone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '136',
+				metodo: "Aplicando Piedra Fuego",
+				objeto: getEvolveItem('firestone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '196',
+				metodo: "Felicidad máxima, subiendo de nivel en el día",
+				condicion: ['happiness', 'daylight'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			metodo: "Felicidad máxima, subiendo de nivel en la noche",
+			condicion: ['happiness', 'night'],
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '470',
+				metodo: "Subiendo de nivel cerca de la Roca Musgo",
+				condicion: ['location'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '471',
+				metodo: "Subiendo de nivel cerca de la Roca Helada",
+				condicion: ['location'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '700',
+				metodo: "Felicidad máxima, subiendo de nivel con movimiento de tipo Hada",
+				condicion: ['happiness', 'movement'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -5649,6 +8156,15 @@ var names2 = [
 		{habilidadNombre: habNombre('Bromista'),habilidadDescripcion: habDescripcion('Bromista')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '430',
+			metodo: "Aplicando Piedra Noche",
+			objeto: getEvolveItem('dusk stone'),
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -5677,6 +8193,25 @@ var names2 = [
 		{habilidadNombre: habNombre('regenerator'),habilidadDescripcion: habDescripcion('regenerator')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '079',
+			otraEvolucion: {
+				numeroEspecie: '080',
+				metodo: "Subiendo desde nivel 37",
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '079',
+			metodo: "Intercambio con objeto Roca del Rey",
+			condicion: ['trade'],
+			objeto: getEvolveItem('roca del rey'),
+		},
+	},
+	],
 	ratioCaptura: 70,
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
@@ -5700,6 +8235,15 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '429',
+			metodo: "Aplicando Piedra Noche",
+			objeto: getEvolveItem('dusk stone'),
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -5749,6 +8293,14 @@ var names2 = [
 		{habilidadNombre: habNombre('telepathy'),habilidadDescripcion: habDescripcion('telepathy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '360',
+			metodo: "Subiendo desde nivel 15",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -5804,6 +8356,14 @@ var names2 = [
 		{habilidadNombre: habNombre('funda'),habilidadDescripcion: habDescripcion('funda')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '205',
+			metodo: "Subiendo desde nivel 31",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -5829,6 +8389,14 @@ var names2 = [
 		{habilidadNombre: habNombre('funda'),habilidadDescripcion: habDescripcion('funda')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '204',
+			metodo: "Subiendo desde nivel 31",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -5883,6 +8451,16 @@ var names2 = [
 		{habilidadNombre: habNombre('inmunidad'),habilidadDescripcion: habDescripcion('inmunidad')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '472',
+			metodo: "Subiendo de nivel con objeto Colmillo Agudo en la noche",
+			condicion: ['night'],
+			objeto: getEvolveItem('razor fang'),
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -5912,6 +8490,16 @@ var names2 = [
 		{habilidadNombre: habNombre('sheer force'),habilidadDescripcion: habDescripcion('sheer force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '095',
+			metodo: "Intercambio con objeto Revestimiento Metálico",
+			condicion: ['trade'],
+			objeto: getEvolveItem('metal coat'),
+		},
+	},
+	],
 	ratioCaptura: 25,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -5941,6 +8529,14 @@ var names2 = [
 		{habilidadNombre: habNombre('rattled'),habilidadDescripcion: habDescripcion('rattled')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '210',
+			metodo: "Subiendo desde nivel 23",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -5968,6 +8564,14 @@ var names2 = [
 		{habilidadNombre: habNombre('rattled'),habilidadDescripcion: habDescripcion('rattled')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '209',
+			metodo: "Subiendo desde nivel 23",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -6022,6 +8626,16 @@ var names2 = [
 		{habilidadNombre: habNombre('light metal'),habilidadDescripcion: habDescripcion('light metal')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '123',
+			metodo: "Intercambio con objeto Revestimiento Metálico",
+			condicion: ['trade'],
+			objeto: getEvolveItem('metal coat'),
+		},
+	},
+	],
 	ratioCaptura: 25,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -6109,6 +8723,16 @@ var names2 = [
 		{habilidadNombre: habNombre('hurto'),habilidadDescripcion: habDescripcion('hurto')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '461',
+			metodo: "Subiendo de nivel con objeto Garrafilada en la noche",
+			condicion: ['night'],
+			objeto: getEvolveItem('razor claw'),
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -6138,6 +8762,14 @@ var names2 = [
 		{habilidadNombre: habNombre('honey gather'),habilidadDescripcion: habDescripcion('honey gather')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '217',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -6165,6 +8797,14 @@ var names2 = [
 		{habilidadNombre: habNombre('unnerve'),habilidadDescripcion: habDescripcion('unnerve')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '216',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -6192,6 +8832,14 @@ var names2 = [
 		{habilidadNombre: habNombre('weak armor'),habilidadDescripcion: habDescripcion('weak armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '219',
+			metodo: "Subiendo desde nivel 38",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -6220,6 +8868,14 @@ var names2 = [
 		{habilidadNombre: habNombre('weak armor'),habilidadDescripcion: habDescripcion('weak armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '218',
+			metodo: "Subiendo desde nivel 38",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -6248,6 +8904,19 @@ var names2 = [
 		{habilidadNombre: habNombre('sebo'),habilidadDescripcion: habDescripcion('sebo')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '221',
+			metodo: "Subiendo desde nivel 33",
+			evolucion: {
+				numeroEspecie: '473',
+				metodo: "Subiendo de nivel con movimiento Poder Pasado",
+				condicion: ['movement'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 225,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -6277,6 +8946,19 @@ var names2 = [
 		{habilidadNombre: habNombre('sebo'),habilidadDescripcion: habDescripcion('sebo')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '220',
+			metodo: "Subiendo desde nivel 33",
+		},
+		evolucion: {
+			numeroEspecie: '473',
+			metodo: "Subiendo de nivel con movimiento Poder Pasado",
+			condicion: ['movement'],
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -6337,6 +9019,14 @@ var names2 = [
 		{habilidadNombre: habNombre('moody'),habilidadDescripcion: habDescripcion('moody')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '224',
+			metodo: "Subiendo desde nivel 25",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -6366,6 +9056,14 @@ var names2 = [
 		{habilidadNombre: habNombre('moody'),habilidadDescripcion: habDescripcion('moody')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '223',
+			metodo: "Subiendo desde nivel 25",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -6424,6 +9122,15 @@ var names2 = [
 		{habilidadNombre: habNombre('Water Veil'),habilidadDescripcion: habDescripcion('Water Veil')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '458',
+			metodo: "Subiendo de nivel con un Remoraid en el equipo",
+			pokemon: '223',
+		},
+	},
+	],
 	ratioCaptura: 25,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -6482,6 +9189,14 @@ var names2 = [
 		{habilidadNombre: habNombre('unnerve'),habilidadDescripcion: habDescripcion('unnerve')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '229',
+			metodo: "Subiendo desde nivel 24",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -6510,6 +9225,14 @@ var names2 = [
 		{habilidadNombre: habNombre('unnerve'),habilidadDescripcion: habDescripcion('unnerve')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '228',
+			metodo: "Subiendo desde nivel 24",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -6538,6 +9261,20 @@ var names2 = [
 		{habilidadNombre: habNombre('damp'),habilidadDescripcion: habDescripcion('damp')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '117',
+			metodo: "Intercambio con objeto Escama Dragón",
+			condicion: ['trade'],
+			objeto: getEvolveItem('dragon scale'),
+			preevolucion: {
+				numeroEspecie: '116',
+				metodo: "Subiendo desde nivel 32",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -6567,6 +9304,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Sand Veil'),habilidadDescripcion: habDescripcion('Sand Veil')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '232',
+			metodo: "Subiendo desde nivel 25",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -6593,6 +9338,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Sand Veil'),habilidadDescripcion: habDescripcion('Sand Veil')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '231',
+			metodo: "Subiendo desde nivel 25",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -6621,6 +9374,22 @@ var names2 = [
 		{habilidadNombre: habNombre('analytic'),habilidadDescripcion: habDescripcion('analytic')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '137',
+			metodo: "Intercambio con objeto Mejora",
+			condicion: ['trade'],
+			objeto: getEvolveItem('mejora'),
+		},
+		evolucion: {
+			numeroEspecie: '474',
+			metodo: "Intercambio con objeto Discoxtraño",
+			condicion: ['trade'],
+			objeto: getEvolveItem('dubiousdisc'),
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -6700,6 +9469,26 @@ var names2 = [
 		{habilidadNombre: habNombre('vital spirit'),habilidadDescripcion: habDescripcion('vital spirit')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '106',
+			metodo: "Subiendo desde nivel 20, sólo si su Ataque es mayor que su Defensa",
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '107',
+			metodo: "Subiendo desde nivel 20, sólo si su Ataque es menor que su Defensa",
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '237',
+			metodo: "Subiendo desde nivel 20, sólo si su Ataque es igual que su Defensa",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -6726,6 +9515,32 @@ var names2 = [
 		{habilidadNombre: habNombre('impasible'),habilidadDescripcion: habDescripcion('impasible')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '236',
+			otraEvolucion: {
+				numeroEspecie: '106',
+				metodo: "Subiendo desde nivel 20, sólo si su Ataque es mayor que su Defensa",
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '236',
+			otraEvolucion: {
+				numeroEspecie: '107',
+				metodo: "Subiendo desde nivel 20, sólo si su Ataque es menor que su Defensa",
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '236',
+			metodo: "Subiendo desde nivel 20, sólo si su Ataque es igual que su Defensa",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -6752,6 +9567,14 @@ var names2 = [
 		{habilidadNombre: habNombre('hydration'),habilidadDescripcion: habDescripcion('hydration')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '124',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -6778,6 +9601,20 @@ var names2 = [
 		{habilidadNombre: habNombre('vital spirit'),habilidadDescripcion: habDescripcion('vital spirit')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '125',
+			metodo: "Subiendo desde nivel 30",
+			evolucion: {
+				numeroEspecie: '466',
+				metodo: "Intercambio con objeto Electrizador",
+				condicion: ['trade'],
+				objeto: getEvolveItem('electirizer'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -6805,6 +9642,20 @@ var names2 = [
 		{habilidadNombre: habNombre('vital spirit'),habilidadDescripcion: habDescripcion('vital spirit')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '126',
+			metodo: "Subiendo desde nivel 30",
+			evolucion: {
+				numeroEspecie: '467',
+				metodo: "Intercambio con objeto Magmatizador",
+				condicion: ['trade'],
+				objeto: getEvolveItem('magmarizer'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -6860,6 +9711,20 @@ var names2 = [
 		{habilidadNombre: habNombre('healer'),habilidadDescripcion: habDescripcion('healer')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '113',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+			preevolucion: {
+				numeroEspecie: '440',
+				metodo: "Subiendo de nivel con objeto Piedra Oval",
+				objeto: getEvolveItem('oval stone'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		ps: 3,
@@ -6961,6 +9826,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Sand Veil'),habilidadDescripcion: habDescripcion('Sand Veil')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '247',
+			metodo: "Subiendo desde nivel 30",
+			evolucion: {
+				numeroEspecie: '248',
+				metodo: "Subiendo desde nivel 55",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -6985,6 +9862,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Mudar'),habilidadDescripcion: habDescripcion('Mudar')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '246',
+			metodo: "Subiendo desde nivel 30",
+		},
+		evolucion: {
+			numeroEspecie: '248',
+			metodo: "Subiendo desde nivel 55",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -7012,6 +9901,18 @@ var names2 = [
 		{habilidadNombre: habNombre('unnerve'),habilidadDescripcion: habDescripcion('unnerve')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '247',
+			metodo: "Subiendo desde nivel 55",
+			preevolucion: {
+				numeroEspecie: '246',
+				metodo: "Subiendo desde nivel 30",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -7132,6 +10033,18 @@ var names2 = [
 		{habilidadNombre: habNombre('liviano'),habilidadDescripcion: habDescripcion('liviano')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '253',
+			metodo: "Subiendo desde nivel 16",
+			evolucion: {
+				numeroEspecie: '254',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -7156,6 +10069,18 @@ var names2 = [
 		{habilidadNombre: habNombre('liviano'),habilidadDescripcion: habDescripcion('liviano')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '252',
+			metodo: "Subiendo desde nivel 16",
+		},
+		evolucion: {
+			numeroEspecie: '254',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -7180,6 +10105,18 @@ var names2 = [
 		{habilidadNombre: habNombre('liviano'),habilidadDescripcion: habDescripcion('liviano')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '253',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '252',
+				metodo: "Subiendo desde nivel 16",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 3,
@@ -7204,6 +10141,18 @@ var names2 = [
 		{habilidadNombre: habNombre('impulso'),habilidadDescripcion: habDescripcion('impulso')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '256',
+			metodo: "Subiendo desde nivel 16",
+			evolucion: {
+				numeroEspecie: '257',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -7228,6 +10177,18 @@ var names2 = [
 		{habilidadNombre: habNombre('impulso'),habilidadDescripcion: habDescripcion('impulso')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '255',
+			metodo: "Subiendo desde nivel 16",
+		},
+		evolucion: {
+			numeroEspecie: '257',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -7253,6 +10214,18 @@ var names2 = [
 		{habilidadNombre: habNombre('impulso'),habilidadDescripcion: habDescripcion('impulso')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '256',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '255',
+				metodo: "Subiendo desde nivel 16",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -7277,6 +10250,18 @@ var names2 = [
 		{habilidadNombre: habNombre('damp'),habilidadDescripcion: habDescripcion('damp')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '259',
+			metodo: "Subiendo desde nivel 16",
+			evolucion: {
+				numeroEspecie: '260',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -7301,6 +10286,18 @@ var names2 = [
 		{habilidadNombre: habNombre('damp'),habilidadDescripcion: habDescripcion('damp')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '258',
+			metodo: "Subiendo desde nivel 16",
+		},
+		evolucion: {
+			numeroEspecie: '260',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -7325,6 +10322,18 @@ var names2 = [
 		{habilidadNombre: habNombre('damp'),habilidadDescripcion: habDescripcion('damp')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '259',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '258',
+				metodo: "Subiendo desde nivel 16",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -7350,6 +10359,14 @@ var names2 = [
 		{habilidadNombre: habNombre('rattled'),habilidadDescripcion: habDescripcion('rattled')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '262',
+			metodo: "Subiendo desde nivel 18",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -7376,6 +10393,14 @@ var names2 = [
 		{habilidadNombre: habNombre('moxie'),habilidadDescripcion: habDescripcion('moxie')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '261',
+			metodo: "Subiendo desde nivel 18",
+		},
+	},
+	],
 	ratioCaptura: 127,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -7402,6 +10427,14 @@ var names2 = [
 		{habilidadNombre: habNombre('quick feet'),habilidadDescripcion: habDescripcion('quick feet')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '264',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -7428,6 +10461,14 @@ var names2 = [
 		{habilidadNombre: habNombre('quick feet'),habilidadDescripcion: habDescripcion('quick feet')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '263',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -7453,6 +10494,28 @@ var names2 = [
 		{habilidadNombre: habNombre('Fuga'),habilidadDescripcion: habDescripcion('Fuga')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '266',
+			metodo: "Subiendo desde nivel 7 (Evolución aleatoria)",
+			evolucion: {
+				numeroEspecie: '267',
+				metodo: "Subiendo desde nivel 10",
+			},
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '268',
+			metodo: "Subiendo desde nivel 7 (Evolución aleatoria)",
+			evolucion: {
+				numeroEspecie: '269',
+				metodo: "Subiendo desde nivel 10",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -7475,6 +10538,31 @@ var names2 = [
 		{habilidadNombre: habNombre('Mudar'),habilidadDescripcion: habDescripcion('Mudar')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '265',
+			metodo: "Subiendo desde nivel 7 (Evolución aleatoria)",
+		},
+		evolucion: {
+			numeroEspecie: '267',
+			metodo: "Subiendo desde nivel 10",
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '265',
+			otraEvolucion: {
+				metodo: "Subiendo desde nivel 7 (Evolución aleatoria)",
+				numeroEspecie: '268',
+				evolucion: {
+					numeroEspecie: '269',
+					metodo: "Subiendo desde nivel 10",
+				},
+			},
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -7500,6 +10588,31 @@ var names2 = [
 		{habilidadNombre: habNombre('rivalry'),habilidadDescripcion: habDescripcion('rivalry')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '266',
+			metodo: "Subiendo desde nivel 10",
+			preevolucion: {
+				numeroEspecie: '265',
+				metodo: "Subiendo desde nivel 7 (Evolución aleatoria)",
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '265',
+			otraEvolucion: {
+				numeroEspecie: '268',
+				metodo: "Subiendo desde nivel 7 (Evolución aleatoria)",
+				evolucion: {
+					numeroEspecie: '269',
+					metodo: "Subiendo desde nivel 10",
+				},
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -7522,6 +10635,31 @@ var names2 = [
 		{habilidadNombre: habNombre('Mudar'),habilidadDescripcion: habDescripcion('Mudar')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '265',
+			otraEvolucion: {
+				metodo: "Subiendo desde nivel 7 (Evolución aleatoria)",
+				numeroEspecie: '266',
+				evolucion: {
+					numeroEspecie: '267',
+					metodo: "Subiendo desde nivel 10",
+				},
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '265',
+			metodo: "Subiendo desde nivel 7 (Evolución aleatoria)",
+		},
+		evolucion: {
+			numeroEspecie: '269',
+			metodo: "Subiendo desde nivel 10",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -7547,6 +10685,31 @@ var names2 = [
 		{habilidadNombre: habNombre('Ojo Compuesto'),habilidadDescripcion: habDescripcion('Ojo Compuesto')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '265',
+			otraEvolucion: {
+				numeroEspecie: '266',
+				metodo: "Subiendo desde nivel 7 (Evolución aleatoria)",
+				evolucion: {
+					numeroEspecie: '267',
+					metodo: "Subiendo desde nivel 10",
+				},
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '268',
+			metodo: "Subiendo desde nivel 10",
+			preevolucion: {
+				numeroEspecie: '265',
+				metodo: "Subiendo desde nivel 7 (Evolución aleatoria)",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
@@ -7573,6 +10736,19 @@ var names2 = [
 		{habilidadNombre: habNombre('own tempo'),habilidadDescripcion: habDescripcion('own tempo')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '271',
+			metodo: "Subiendo desde nivel 14",
+			evolucion: {
+				numeroEspecie: '272',
+				metodo: "Aplicando Piedra Agua",
+				objeto: getEvolveItem('waterstone'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -7599,6 +10775,19 @@ var names2 = [
 		{habilidadNombre: habNombre('own tempo'),habilidadDescripcion: habDescripcion('own tempo')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '270',
+			metodo: "Subiendo desde nivel 14",
+		},
+		evolucion: {
+			numeroEspecie: '272',
+			metodo: "Aplicando Piedra Agua",
+			objeto: getEvolveItem('waterstone'),
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -7625,6 +10814,19 @@ var names2 = [
 		{habilidadNombre: habNombre('own tempo'),habilidadDescripcion: habDescripcion('own tempo')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '271',
+			metodo: "Aplicando Piedra Agua",
+			objeto: getEvolveItem('waterstone'),
+			preevolucion: {
+				numeroEspecie: '270',
+				metodo: "Subiendo desde nivel 14",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
@@ -7651,6 +10853,19 @@ var names2 = [
 		{habilidadNombre: habNombre('hurto'),habilidadDescripcion: habDescripcion('hurto')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '274',
+			metodo: "Subiendo desde nivel 14",
+			evolucion: {
+				numeroEspecie: '275',
+				metodo: "Aplicando Piedra Hoja",
+				objeto: getEvolveItem('piedra hoja'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -7676,6 +10891,19 @@ var names2 = [
 		{habilidadNombre: habNombre('hurto'),habilidadDescripcion: habDescripcion('hurto')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '273',
+			metodo: "Subiendo desde nivel 14",
+		},
+		evolucion: {
+			numeroEspecie: '275',
+			metodo: "Aplicando Piedra Hoja",
+			objeto: getEvolveItem('piedra hoja'),
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -7701,6 +10929,19 @@ var names2 = [
 		{habilidadNombre: habNombre('hurto'),habilidadDescripcion: habDescripcion('hurto')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '274',
+			metodo: "Aplicando Piedra Hoja",
+			objeto: getEvolveItem('piedra hoja'),
+			preevolucion: {
+				numeroEspecie: '273',
+				metodo: "Subiendo desde nivel 14",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -7725,6 +10966,14 @@ var names2 = [
 		{habilidadNombre: habNombre('scrappy'),habilidadDescripcion: habDescripcion('scrappy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '277',
+			metodo: "Subiendo desde nivel 22",
+		},
+	},
+	],
 	ratioCaptura: 200,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -7750,6 +10999,14 @@ var names2 = [
 		{habilidadNombre: habNombre('scrappy'),habilidadDescripcion: habDescripcion('scrappy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '276',
+			metodo: "Subiendo desde nivel 22",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -7775,6 +11032,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Cura Lluvia'),habilidadDescripcion: habDescripcion('Cura Lluvia')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '279',
+			metodo: "Subiendo desde nivel 25",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -7802,6 +11067,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Cura Lluvia'),habilidadDescripcion: habDescripcion('Cura Lluvia')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '278',
+			metodo: "Subiendo desde nivel 25",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -7830,6 +11103,30 @@ var names2 = [
 		{habilidadNombre: habNombre('telepathy'),habilidadDescripcion: habDescripcion('telepathy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '281',
+			metodo: "Subiendo desde nivel 20",
+			evolucion: {
+				numeroEspecie: '282',
+				metodo: "Subiendo desde nivel 30",
+			},
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '281',
+			metodo: "Subiendo desde nivel 20",
+			evolucion: {
+				numeroEspecie: '475',
+				metodo: "Aplicando Piedra Alba sólo si es Macho",
+				condicion: ['male'],
+				objeto: getEvolveItem('dawn stone'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 235,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -7857,6 +11154,30 @@ var names2 = [
 		{habilidadNombre: habNombre('telepathy'),habilidadDescripcion: habDescripcion('telepathy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '280',
+			metodo: "Subiendo desde nivel 20",
+		},
+		evolucion: {
+			numeroEspecie: '282',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '280',
+			metodo: "Subiendo desde nivel 20",
+		},
+		evolucion: {
+			numeroEspecie: '475',
+			metodo: "Aplicando Piedra Alba sólo si es Macho",
+			condicion: ['male'],
+			objeto: getEvolveItem('dawn stone'),
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -7884,6 +11205,33 @@ var names2 = [
 		{habilidadNombre: habNombre('telepathy'),habilidadDescripcion: habDescripcion('telepathy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '281',
+			metodo: "Subiendo desde nivel 30",
+			preevolucion: {
+				numeroEspecie: '280',
+				metodo: "Subiendo desde nivel 20",
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '281',
+			otraEvolucion: {
+				numeroEspecie: '475',
+				metodo: "Aplicando Piedra Alba sólo si es Macho",
+				condicion: ['male'],
+				objeto: getEvolveItem('dawn stone'),
+			},
+			preevolucion: {
+				numeroEspecie: '280',
+				metodo: "Subiendo desde nivel 20",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -7910,6 +11258,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Cura Lluvia'),habilidadDescripcion: habDescripcion('Cura Lluvia')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '284',
+			metodo: "Subiendo desde nivel 22",
+		},
+	},
+	],
 	ratioCaptura: 200,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -7935,6 +11291,14 @@ var names2 = [
 		{habilidadNombre: habNombre('unnerve'),habilidadDescripcion: habDescripcion('unnerve')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '283',
+			metodo: "Subiendo desde nivel 22",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -7962,6 +11326,14 @@ var names2 = [
 		{habilidadNombre: habNombre('quick feet'),habilidadDescripcion: habDescripcion('quick feet')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '286',
+			metodo: "Subiendo desde nivel 23",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -7987,6 +11359,14 @@ var names2 = [
 		{habilidadNombre: habNombre('experto'),habilidadDescripcion: habDescripcion('experto')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '285',
+			metodo: "Subiendo desde nivel 23",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -8008,6 +11388,18 @@ var names2 = [
 		{habilidadNombre: habNombre('truant'),habilidadDescripcion: habDescripcion('truant')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '288',
+			metodo: "Subiendo desde nivel 18",
+			evolucion: {
+				numeroEspecie: '289',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -8030,6 +11422,18 @@ var names2 = [
 		{habilidadNombre: habNombre('vital spirit'),habilidadDescripcion: habDescripcion('vital spirit')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '287',
+			metodo: "Subiendo desde nivel 18",
+		},
+		evolucion: {
+			numeroEspecie: '289',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -8052,6 +11456,18 @@ var names2 = [
 		{habilidadNombre: habNombre('truant'),habilidadDescripcion: habDescripcion('truant')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '288',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '287',
+				metodo: "Subiendo desde nivel 18",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ps: 3,
@@ -8077,6 +11493,20 @@ var names2 = [
 		{habilidadNombre: habNombre('Fuga'),habilidadDescripcion: habDescripcion('Fuga')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '291',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '292',
+			metodo: "Dejar un espacio libre en el equipo cuando evolucione a Ninjask",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -8102,6 +11532,23 @@ var names2 = [
 		{habilidadNombre: habNombre('Allanamiento'),habilidadDescripcion: habDescripcion('Allanamiento')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '290',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '290',
+			otraEvolucion: {
+				numeroEspecie: '292',
+				metodo: "Dejar un espacio libre en el equipo cuando evolucione a Ninjask",
+			},
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -8124,6 +11571,23 @@ var names2 = [
 		{habilidadNombre: habNombre('superguarda'),habilidadDescripcion: habDescripcion('superguarda')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '290',
+			otraEvolucion: {
+				numeroEspecie: '291',
+				metodo: "Subiendo desde nivel 20",
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '290',
+			metodo: "Dejar un espacio libre en el equipo cuando evolucione a Ninjask",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -8148,6 +11612,18 @@ var names2 = [
 		{habilidadNombre: habNombre('rattled'),habilidadDescripcion: habDescripcion('rattled')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '294',
+			metodo: "Subiendo desde nivel 20",
+			evolucion: {
+				numeroEspecie: '295',
+				metodo: "Subiendo desde nivel 40",
+			},
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -8173,6 +11649,18 @@ var names2 = [
 		{habilidadNombre: habNombre('scrappy'),habilidadDescripcion: habDescripcion('scrappy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '293',
+			metodo: "Subiendo desde nivel 20",
+		},
+		evolucion: {
+			numeroEspecie: '295',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -8198,6 +11686,18 @@ var names2 = [
 		{habilidadNombre: habNombre('scrappy'),habilidadDescripcion: habDescripcion('scrappy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '294',
+			metodo: "Subiendo desde nivel 40",
+			preevolucion: {
+				numeroEspecie: '293',
+				metodo: "Subiendo desde nivel 20",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ps: 3,
@@ -8224,6 +11724,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sheer force'),habilidadDescripcion: habDescripcion('sheer force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '297',
+			metodo: "Subiendo desde nivel 24",
+		},
+	},
+	],
 	ratioCaptura: 180,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -8250,6 +11758,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sheer force'),habilidadDescripcion: habDescripcion('sheer force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '296',
+			metodo: "Subiendo desde nivel 24",
+		},
+	},
+	],
 	ratioCaptura: 200,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -8276,6 +11792,19 @@ var names2 = [
 		{habilidadNombre: habNombre('sap sipper'),habilidadDescripcion: habDescripcion('sap sipper')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '183',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+			evolucion: {
+				numeroEspecie: '184',
+				metodo: "Subiendo desde nivel 18",
+			},
+		},
+	},
+	],
 	ratioCaptura: 150,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -8304,6 +11833,15 @@ var names2 = [
 		{habilidadNombre: habNombre('sand force'),habilidadDescripcion: habDescripcion('sand force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '476',
+			metodo: "Subiendo de nivel en Monte Corona, Cueva Electroroca o Ruta 13 (Región Kalos)",
+			condicion: ['location'],
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -8332,6 +11870,15 @@ var names2 = [
 		{habilidadNombre: habNombre('wonder skin'),habilidadDescripcion: habDescripcion('wonder skin')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '301',
+			metodo: "Aplicando Piedra Lunar",
+			objeto: getEvolveItem('piedra lunar'),
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -8359,6 +11906,15 @@ var names2 = [
 		{habilidadNombre: habNombre('wonder skin'),habilidadDescripcion: habDescripcion('wonder skin')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '300',
+			metodo: "Aplicando Piedra Lunar",
+			objeto: getEvolveItem('piedra lunar'),
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -8441,6 +11997,18 @@ var names2 = [
 		{habilidadNombre: habNombre('heavy metal'),habilidadDescripcion: habDescripcion('heavy metal')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '305',
+			metodo: "Subiendo desde nivel 32",
+			evolucion: {
+				numeroEspecie: '306',
+				metodo: "Subiendo desde nivel 42",
+			},
+		},
+	},
+	],
 	ratioCaptura: 180,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -8468,6 +12036,18 @@ var names2 = [
 		{habilidadNombre: habNombre('heavy metal'),habilidadDescripcion: habDescripcion('heavy metal')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '304',
+			metodo: "Subiendo desde nivel 32",
+		},
+		evolucion: {
+			numeroEspecie: '306',
+			metodo: "Subiendo desde nivel 42",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -8495,6 +12075,18 @@ var names2 = [
 		{habilidadNombre: habNombre('heavy metal'),habilidadDescripcion: habDescripcion('heavy metal')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '305',
+			metodo: "Subiendo desde nivel 42",
+			preevolucion: {
+				numeroEspecie: '304',
+				metodo: "Subiendo desde nivel 32",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 3,
@@ -8521,6 +12113,14 @@ var names2 = [
 		{habilidadNombre: habNombre('telepathy'),habilidadDescripcion: habDescripcion('telepathy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '308',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 180,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -8547,6 +12147,14 @@ var names2 = [
 		{habilidadNombre: habNombre('telepathy'),habilidadDescripcion: habDescripcion('telepathy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '307',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -8574,6 +12182,14 @@ var names2 = [
 		{habilidadNombre: habNombre('minus'),habilidadDescripcion: habDescripcion('minus')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '310',
+			metodo: "Subiendo desde nivel 26",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -8600,6 +12216,14 @@ var names2 = [
 		{habilidadNombre: habNombre('minus'),habilidadDescripcion: habDescripcion('minus')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '309',
+			metodo: "Subiendo desde nivel 26",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -8728,6 +12352,20 @@ var names2 = [
 		{habilidadNombre: habNombre('leaf guard'),habilidadDescripcion: habDescripcion('leaf guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '406',
+			metodo: "Felicidad máxima, subiendo de nivel en el día",
+			condicion: ['happiness', 'daylight'],
+		},
+		evolucion: {
+			numeroEspecie: '407',
+			metodo: "Aplicando Piedra Día",
+			objeto: getEvolveItem('shiny stone'),
+		},
+	},
+	],
 	ratioCaptura: 150,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -8756,6 +12394,14 @@ var names2 = [
 		{habilidadNombre: habNombre('gula'),habilidadDescripcion: habDescripcion('gula')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '317',
+			metodo: "Subiendo desde nivel 26",
+		},
+	},
+	],
 	ratioCaptura: 225,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -8782,6 +12428,14 @@ var names2 = [
 		{habilidadNombre: habNombre('gula'),habilidadDescripcion: habDescripcion('gula')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '316',
+			metodo: "Subiendo desde nivel 26",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -8807,6 +12461,14 @@ var names2 = [
 		{habilidadNombre: habNombre('impulso'),habilidadDescripcion: habDescripcion('impulso')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '319',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 225,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -8832,6 +12494,14 @@ var names2 = [
 		{habilidadNombre: habNombre('impulso'),habilidadDescripcion: habDescripcion('impulso')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '318',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -8858,6 +12528,14 @@ var names2 = [
 		{habilidadNombre: habNombre('pressure'),habilidadDescripcion: habDescripcion('pressure')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '321',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 125,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -8885,6 +12563,14 @@ var names2 = [
 		{habilidadNombre: habNombre('pressure'),habilidadDescripcion: habDescripcion('pressure')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '320',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -8912,6 +12598,14 @@ var names2 = [
 		{habilidadNombre: habNombre('own tempo'),habilidadDescripcion: habDescripcion('own tempo')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '323',
+			metodo: "Subiendo desde nivel 33",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -8938,6 +12632,14 @@ var names2 = [
 		{habilidadNombre: habNombre('punto ira'),habilidadDescripcion: habDescripcion('punto ira')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '322',
+			metodo: "Subiendo desde nivel 33",
+		},
+	},
+	],
 	ratioCaptura: 150,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -8990,6 +12692,14 @@ var names2 = [
 		{habilidadNombre: habNombre('gula'),habilidadDescripcion: habDescripcion('gula')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '326',
+			metodo: "Subiendo desde nivel 32",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -9017,6 +12727,14 @@ var names2 = [
 		{habilidadNombre: habNombre('gula'),habilidadDescripcion: habDescripcion('gula')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '325',
+			metodo: "Subiendo desde nivel 32",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -9070,6 +12788,18 @@ var names2 = [
 		{habilidadNombre: habNombre('sheer force'),habilidadDescripcion: habDescripcion('sheer force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '329',
+			metodo: "Subiendo desde nivel 35",
+			evolucion: {
+				numeroEspecie: '330',
+				metodo: "Subiendo desde nivel 45",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -9093,6 +12823,18 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '328',
+			metodo: "Subiendo desde nivel 35",
+		},
+		evolucion: {
+			numeroEspecie: '330',
+			metodo: "Subiendo desde nivel 45",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -9117,6 +12859,18 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '329',
+			metodo: "Subiendo desde nivel 45",
+			preevolucion: {
+				numeroEspecie: '328',
+				metodo: "Subiendo desde nivel 35",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -9144,6 +12898,14 @@ var names2 = [
 		{habilidadNombre: habNombre('water absorb'),habilidadDescripcion: habDescripcion('water absorb')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '332',
+			metodo: "Subiendo desde nivel 32",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -9168,6 +12930,14 @@ var names2 = [
 		{habilidadNombre: habNombre('water absorb'),habilidadDescripcion: habDescripcion('water absorb')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '331',
+			metodo: "Subiendo desde nivel 32",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -9193,6 +12963,14 @@ var names2 = [
 		{habilidadNombre: habNombre('cloud nine'),habilidadDescripcion: habDescripcion('cloud nine')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '334',
+			metodo: "Subiendo desde nivel 35",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -9220,6 +12998,14 @@ var names2 = [
 		{habilidadNombre: habNombre('cloud nine'),habilidadDescripcion: habDescripcion('cloud nine')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '333',
+			metodo: "Subiendo desde nivel 35",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -9345,6 +13131,14 @@ var names2 = [
 		{habilidadNombre: habNombre('hydration'),habilidadDescripcion: habDescripcion('hydration')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '340',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -9372,6 +13166,14 @@ var names2 = [
 		{habilidadNombre: habNombre('hydration'),habilidadDescripcion: habDescripcion('hydration')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '339',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -9399,6 +13201,14 @@ var names2 = [
 		{habilidadNombre: habNombre('adaptable'),habilidadDescripcion: habDescripcion('adaptable')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '342',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 205,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -9426,6 +13236,14 @@ var names2 = [
 		{habilidadNombre: habNombre('adaptable'),habilidadDescripcion: habDescripcion('adaptable')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '341',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 155,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -9449,6 +13267,14 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '344',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -9470,6 +13296,14 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '343',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -9494,6 +13328,14 @@ var names2 = [
 		{habilidadNombre: habNombre('colector'),habilidadDescripcion: habDescripcion('colector')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '346',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -9518,6 +13360,14 @@ var names2 = [
 		{habilidadNombre: habNombre('colector'),habilidadDescripcion: habDescripcion('colector')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '345',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -9542,6 +13392,14 @@ var names2 = [
 		{habilidadNombre: habNombre('swift swim'),habilidadDescripcion: habDescripcion('swift swim')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '348',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -9566,6 +13424,14 @@ var names2 = [
 		{habilidadNombre: habNombre('swift swim'),habilidadDescripcion: habDescripcion('swift swim')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '347',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -9590,6 +13456,23 @@ var names2 = [
 		{habilidadNombre: habNombre('adaptable'),habilidadDescripcion: habDescripcion('adaptable')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '350',
+			metodo: "Belleza al máximo, subiendo de nivel (RSE, DPPt, ORAS)",
+			condicion: ['beautiful'],
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '350',
+			metodo: "Intercambio con objeto Escama Bella (BW, B2W2, XY)",
+			condicion: ['trade'],
+			objeto: getEvolveItem('prism scale'),
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -9616,6 +13499,23 @@ var names2 = [
 		{habilidadNombre: habNombre('cute charm'),habilidadDescripcion: habDescripcion('cute charm')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '349',
+			metodo: "Belleza al máximo, subiendo de nivel (RSE, DPPt, ORAS)",
+			condicion: ['beautiful'],
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '349',
+			metodo: "Intercambio con objeto Escama Bella (BW, B2W2, XY)",
+			condicion: ['trade'],
+			objeto: getEvolveItem('prism scale'),
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -9689,6 +13589,14 @@ var names2 = [
 		{habilidadNombre: habNombre('cursed body'),habilidadDescripcion: habDescripcion('cursed body')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '354',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 225,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -9716,6 +13624,14 @@ var names2 = [
 		{habilidadNombre: habNombre('cursed body'),habilidadDescripcion: habDescripcion('cursed body')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '353',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -9742,6 +13658,20 @@ var names2 = [
 		{habilidadNombre: habNombre('frisk'),habilidadDescripcion: habDescripcion('frisk')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '356',
+			metodo: "Subiendo desde nivel 37",
+			evolucion: {
+				numeroEspecie: '477',
+				metodo: "Intercambio con objeto Telaterrible",
+				condicion: ['trade'],
+				objeto: getEvolveItem('reaper cloth'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -9767,6 +13697,20 @@ var names2 = [
 		{habilidadNombre: habNombre('frisk'),habilidadDescripcion: habDescripcion('frisk')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '355',
+			metodo: "Subiendo desde nivel 37",
+		},
+		evolucion: {
+			numeroEspecie: '477',
+			metodo: "Intercambio con objeto Telaterrible",
+			condicion: ['trade'],
+			objeto: getEvolveItem('reaper cloth'),
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -9817,6 +13761,15 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '433',
+			metodo: "Felicidad máxima, subiendo de nivel en la noche",
+			condicion: ['happiness', 'night'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -9872,6 +13825,14 @@ var names2 = [
 		{habilidadNombre: habNombre('telepathy'),habilidadDescripcion: habDescripcion('telepathy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '202',
+			metodo: "Subiendo desde nivel 15",
+		},
+	},
+	],
 	ratioCaptura: 125,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -9898,6 +13859,22 @@ var names2 = [
 		{habilidadNombre: habNombre('moody'),habilidadDescripcion: habDescripcion('moody')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '362',
+			metodo: "Subiendo desde nivel 42",
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '478',
+			metodo: "Aplicando Piedra Alba sólo si es Hembra",
+			condicion: ['female'],
+			objeto: getEvolveItem('dawn stone'),
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -9924,6 +13901,25 @@ var names2 = [
 		{habilidadNombre: habNombre('moody'),habilidadDescripcion: habDescripcion('moody')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '361',
+			metodo: "Subiendo desde nivel 42",
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '361',
+			otraEvolucion: {
+				numeroEspecie: '478',
+				metodo: "Aplicando Piedra Alba sólo si es Hembra",
+				condicion: ['female'],
+				objeto: getEvolveItem('dawn stone'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -9950,6 +13946,18 @@ var names2 = [
 		{habilidadNombre: habNombre('despiste'),habilidadDescripcion: habDescripcion('despiste')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '364',
+			metodo: "Subiendo desde nivel 32",
+			evolucion: {
+				numeroEspecie: '365',
+				metodo: "Subiendo desde nivel 44",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -9976,6 +13984,18 @@ var names2 = [
 		{habilidadNombre: habNombre('despiste'),habilidadDescripcion: habDescripcion('despiste')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '363',
+			metodo: "Subiendo desde nivel 32",
+		},
+		evolucion: {
+			numeroEspecie: '365',
+			metodo: "Subiendo desde nivel 44",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -10002,6 +14022,18 @@ var names2 = [
 		{habilidadNombre: habNombre('despiste'),habilidadDescripcion: habDescripcion('despiste')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '364',
+			metodo: "Subiendo desde nivel 44",
+			preevolucion: {
+				numeroEspecie: '363',
+				metodo: "Subiendo desde nivel 32",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ps: 3,
@@ -10027,6 +14059,24 @@ var names2 = [
 		{habilidadNombre: habNombre('rattled'),habilidadDescripcion: habDescripcion('rattled')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '367',
+			metodo: "Intercambio con objeto Diente Marino",
+			condicion: ['trade'],
+			objeto: getEvolveItem('deep sea tooth'),
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '368',
+			metodo: "Intercambio con objeto Escama Marina",
+			condicion: ['trade'],
+			objeto: getEvolveItem('deep sea scale'),
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -10052,6 +14102,27 @@ var names2 = [
 		{habilidadNombre: habNombre('Water Veil'),habilidadDescripcion: habDescripcion('Water Veil')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '366',
+			metodo: "Intercambio con objeto Diente Marino",
+			condicion: ['trade'],
+			objeto: getEvolveItem('deep sea tooth'),
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '366',
+			otraEvolucion: {
+				numeroEspecie: '368',
+				metodo: "Intercambio con objeto Escama Marina",
+				condicion: ['trade'],
+				objeto: getEvolveItem('deep sea scale'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -10078,6 +14149,27 @@ var names2 = [
 		{habilidadNombre: habNombre('hydration'),habilidadDescripcion: habDescripcion('hydration')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '366',
+			otraEvolucion: {
+				numeroEspecie: '367',
+				metodo: "Intercambio con objeto Diente Marino",
+				condicion: ['trade'],
+				objeto: getEvolveItem('deep sea tooth'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '366',
+			metodo: "Intercambio con objeto Escama Marina",
+			condicion: ['trade'],
+			objeto: getEvolveItem('deep sea scale'),
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -10155,6 +14247,18 @@ var names2 = [
 		{habilidadNombre: habNombre('sheer force'),habilidadDescripcion: habDescripcion('sheer force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '372',
+			metodo: "Subiendo desde nivel 30",
+			evolucion: {
+				numeroEspecie: '373',
+				metodo: "Subiendo desde nivel 50",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -10180,6 +14284,18 @@ var names2 = [
 		{habilidadNombre: habNombre('funda'),habilidadDescripcion: habDescripcion('funda')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '371',
+			metodo: "Subiendo desde nivel 30",
+		},
+		evolucion: {
+			numeroEspecie: '373',
+			metodo: "Subiendo desde nivel 50",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -10205,6 +14321,18 @@ var names2 = [
 		{habilidadNombre: habNombre('moxie'),habilidadDescripcion: habDescripcion('moxie')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '372',
+			metodo: "Subiendo desde nivel 50",
+			preevolucion: {
+				numeroEspecie: '371',
+				metodo: "Subiendo desde nivel 30",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -10230,6 +14358,18 @@ var names2 = [
 		{habilidadNombre: habNombre('light metal'),habilidadDescripcion: habDescripcion('light metal')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '375',
+			metodo: "Subiendo desde nivel 20",
+			evolucion: {
+				numeroEspecie: '376',
+				metodo: "Subiendo desde nivel 45",
+			},
+		},
+	},
+	],
 	ratioCaptura: 3,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -10254,6 +14394,18 @@ var names2 = [
 		{habilidadNombre: habNombre('light metal'),habilidadDescripcion: habDescripcion('light metal')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '374',
+			metodo: "Subiendo desde nivel 20",
+		},
+		evolucion: {
+			numeroEspecie: '376',
+			metodo: "Subiendo desde nivel 45",
+		},
+	},
+	],
 	ratioCaptura: 3,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -10278,6 +14430,18 @@ var names2 = [
 		{habilidadNombre: habNombre('light metal'),habilidadDescripcion: habDescripcion('light metal')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '375',
+			metodo: "Subiendo desde nivel 45",
+			preevolucion: {
+				numeroEspecie: '374',
+				metodo: "Subiendo desde nivel 20",
+			},
+		},
+	},
+	],
 	ratioCaptura: 3,
 	valoresEsfuerzo: {
 		defensa: 3,
@@ -10537,6 +14701,18 @@ var names2 = [
 		{habilidadNombre: habNombre('shell armor'),habilidadDescripcion: habDescripcion('shell armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '388',
+			metodo: "Subiendo desde nivel 18",
+			evolucion: {
+				numeroEspecie: '389',
+				metodo: "Subiendo desde nivel 32",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -10561,6 +14737,18 @@ var names2 = [
 		{habilidadNombre: habNombre('shell armor'),habilidadDescripcion: habDescripcion('shell armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '387',
+			metodo: "Subiendo desde nivel 18",
+		},
+		evolucion: {
+			numeroEspecie: '389',
+			metodo: "Subiendo desde nivel 32",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -10586,6 +14774,18 @@ var names2 = [
 		{habilidadNombre: habNombre('shell armor'),habilidadDescripcion: habDescripcion('shell armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '388',
+			metodo: "Subiendo desde nivel 32",
+			preevolucion: {
+				numeroEspecie: '387',
+				metodo: "Subiendo desde nivel 18",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -10611,6 +14811,18 @@ var names2 = [
 		{habilidadNombre: habNombre('iron fist'),habilidadDescripcion: habDescripcion('iron fist')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '391',
+			metodo: "Subiendo desde nivel 14",
+			evolucion: {
+				numeroEspecie: '392',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -10635,6 +14847,18 @@ var names2 = [
 		{habilidadNombre: habNombre('iron fist'),habilidadDescripcion: habDescripcion('iron fist')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '390',
+			metodo: "Subiendo desde nivel 14",
+		},
+		evolucion: {
+			numeroEspecie: '392',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -10660,6 +14884,18 @@ var names2 = [
 		{habilidadNombre: habNombre('iron fist'),habilidadDescripcion: habDescripcion('iron fist')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '391',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '390',
+				metodo: "Subiendo desde nivel 14",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -10686,6 +14922,18 @@ var names2 = [
 		{habilidadNombre: habNombre('defiant'),habilidadDescripcion: habDescripcion('defiant')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '394',
+			metodo: "Subiendo desde nivel 16",
+			evolucion: {
+				numeroEspecie: '395',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -10710,6 +14958,18 @@ var names2 = [
 		{habilidadNombre: habNombre('defiant'),habilidadDescripcion: habDescripcion('defiant')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '393',
+			metodo: "Subiendo desde nivel 16",
+		},
+		evolucion: {
+			numeroEspecie: '395',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -10734,6 +14994,18 @@ var names2 = [
 		{habilidadNombre: habNombre('defiant'),habilidadDescripcion: habDescripcion('defiant')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '394',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '393',
+				metodo: "Subiendo desde nivel 16",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -10758,6 +15030,18 @@ var names2 = [
 		{habilidadNombre: habNombre('reckless'),habilidadDescripcion: habDescripcion('reckless')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '397',
+			metodo: "Subiendo desde nivel 14",
+			evolucion: {
+				numeroEspecie: '398',
+				metodo: "Subiendo desde nivel 34",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -10783,6 +15067,18 @@ var names2 = [
 		{habilidadNombre: habNombre('reckless'),habilidadDescripcion: habDescripcion('reckless')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '396',
+			metodo: "Subiendo desde nivel 14",
+		},
+		evolucion: {
+			numeroEspecie: '398',
+			metodo: "Subiendo desde nivel 34",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -10808,6 +15104,18 @@ var names2 = [
 		{habilidadNombre: habNombre('reckless'),habilidadDescripcion: habDescripcion('reckless')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '397',
+			metodo: "Subiendo desde nivel 34",
+			preevolucion: {
+				numeroEspecie: '396',
+				metodo: "Subiendo desde nivel 14",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -10834,6 +15142,14 @@ var names2 = [
 		{habilidadNombre: habNombre('moody'),habilidadDescripcion: habDescripcion('moody')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '400',
+			metodo: "Subiendo desde nivel 15",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -10860,6 +15176,14 @@ var names2 = [
 		{habilidadNombre: habNombre('moody'),habilidadDescripcion: habDescripcion('moody')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '399',
+			metodo: "Subiendo desde nivel 15",
+		},
+	},
+	],
 	ratioCaptura: 127,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -10885,6 +15209,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Fuga'),habilidadDescripcion: habDescripcion('Fuga')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '402',
+			metodo: "Subiendo desde nivel 10",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -10909,6 +15241,14 @@ var names2 = [
 		{habilidadNombre: habNombre('experto'),habilidadDescripcion: habDescripcion('experto')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '401',
+			metodo: "Subiendo desde nivel 10",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -10934,6 +15274,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Agallas'),habilidadDescripcion: habDescripcion('Agallas')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '404',
+			metodo: "Subiendo desde nivel 15",
+			evolucion: {
+				numeroEspecie: '405',
+				metodo: "Subiendo desde nivel 30",
+			},
+		},
+	},
+	],
 	ratioCaptura: 235,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -10959,6 +15311,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Agallas'),habilidadDescripcion: habDescripcion('Agallas')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '403',
+			metodo: "Subiendo desde nivel 15",
+		},
+		evolucion: {
+			numeroEspecie: '405',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -10984,6 +15348,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Agallas'),habilidadDescripcion: habDescripcion('Agallas')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '404',
+			metodo: "Subiendo desde nivel 30",
+			preevolucion: {
+				numeroEspecie: '403',
+				metodo: "Subiendo desde nivel 15",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -11009,6 +15385,20 @@ var names2 = [
 		{habilidadNombre: habNombre('leaf guard'),habilidadDescripcion: habDescripcion('leaf guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '315',
+			metodo: "Felicidad máxima, subiendo de nivel en el día",
+			condicion: ['happiness', 'daylight'],
+			evolucion: {
+				numeroEspecie: '407',
+				metodo: "Aplicando Piedra Día",
+				objeto: getEvolveItem('shiny stone'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -11036,6 +15426,20 @@ var names2 = [
 		{habilidadNombre: habNombre('experto'),habilidadDescripcion: habDescripcion('experto')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '315',
+			metodo: "Aplicando Piedra Día",
+			objeto: getEvolveItem('shiny stone'),
+			preevolucion: {
+				numeroEspecie: '406',
+				metodo: "Felicidad máxima, subiendo de nivel en el día",
+				condicion: ['happiness', 'daylight'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -11062,6 +15466,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sheer force'),habilidadDescripcion: habDescripcion('sheer force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '409',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -11086,6 +15498,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sheer force'),habilidadDescripcion: habDescripcion('sheer force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '408',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -11110,6 +15530,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Soundproof'),habilidadDescripcion: habDescripcion('Soundproof')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '411',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -11134,6 +15562,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Soundproof'),habilidadDescripcion: habDescripcion('Soundproof')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '410',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -11158,6 +15594,22 @@ var names2 = [
 		{habilidadNombre: habNombre('funda'),habilidadDescripcion: habDescripcion('funda')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '413',
+			metodo: "Subiendo desde nivel 20, sólo si es Hembra",
+			condicion: ['female'],
+		},
+	},
+	{
+		evolucion: {
+			numeroEspecie: '414',
+			metodo: "Subiendo desde nivel 20, sólo si es Macho",
+			condicion: ['male'],
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -11183,6 +15635,25 @@ var names2 = [
 		{habilidadNombre: habNombre('funda'),habilidadDescripcion: habDescripcion('funda')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '412',
+			metodo: "Subiendo desde nivel 20, sólo si es Hembra",
+			condicion: ['female'],
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '412',
+			otraEvolucion: {
+				numeroEspecie: '414',
+				metodo: "Subiendo desde nivel 20, sólo si es Macho",
+				condicion: ['male'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		//(Solo en Wormadam forma Arena) defensa: 2,
@@ -11211,6 +15682,25 @@ var names2 = [
 		{habilidadNombre: habNombre('Cromolente'),habilidadDescripcion: habDescripcion('Cromolente')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '412',
+			otraEvolucion: {
+				numeroEspecie: '413',
+				metodo: "Subiendo desde nivel 20, sólo si es Hembra",
+				condicion: ['female'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '412',
+			metodo: "Subiendo desde nivel 20, sólo si es Macho",
+			condicion: ['male'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -11237,6 +15727,15 @@ var names2 = [
 		{habilidadNombre: habNombre('hustle'),habilidadDescripcion: habDescripcion('hustle')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '416',
+			metodo: "Subiendo desde nivel 21, sólo si es Hembra",
+			condicion: ['female'],
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -11263,6 +15762,15 @@ var names2 = [
 		{habilidadNombre: habNombre('unnerve'),habilidadDescripcion: habDescripcion('unnerve')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '415',
+			metodo: "Subiendo desde nivel 21, sólo si es Hembra",
+			condicion: ['female'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -11316,6 +15824,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Water Veil'),habilidadDescripcion: habDescripcion('Water Veil')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '419',
+			metodo: "Subiendo desde nivel 26",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -11342,6 +15858,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Water Veil'),habilidadDescripcion: habDescripcion('Water Veil')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '418',
+			metodo: "Subiendo desde nivel 26",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -11365,6 +15889,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Chlorophyll'),habilidadDescripcion: habDescripcion('Chlorophyll')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '421',
+			metodo: "Subiendo desde nivel 25",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -11386,6 +15918,14 @@ var names2 = [
 		{habilidadNombre: habNombre('don floral'),habilidadDescripcion: habDescripcion('don floral')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '420',
+			metodo: "Subiendo desde nivel 25",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -11411,6 +15951,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sand force'),habilidadDescripcion: habDescripcion('sand force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '423',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -11436,6 +15984,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sand force'),habilidadDescripcion: habDescripcion('sand force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '422',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -11461,6 +16017,15 @@ var names2 = [
 		{habilidadNombre: habNombre('encadenado'),habilidadDescripcion: habDescripcion('encadenado')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '190',
+			metodo: "Subiendo de nivel con movimiento Doble Golpe",
+			condicion: ['movement'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -11487,6 +16052,14 @@ var names2 = [
 		{habilidadNombre: habNombre('flare boost'),habilidadDescripcion: habDescripcion('flare boost')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '426',
+			metodo: "Subiendo desde nivel 28",
+		},
+	},
+	],
 	ratioCaptura: 125,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -11514,6 +16087,14 @@ var names2 = [
 		{habilidadNombre: habNombre('flare boost'),habilidadDescripcion: habDescripcion('flare boost')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '425',
+			metodo: "Subiendo desde nivel 28",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -11541,6 +16122,15 @@ var names2 = [
 		{habilidadNombre: habNombre('limber'),habilidadDescripcion: habDescripcion('limber')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '428',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -11567,6 +16157,15 @@ var names2 = [
 		{habilidadNombre: habNombre('limber'),habilidadDescripcion: habDescripcion('limber')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '427',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -11589,6 +16188,15 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '200',
+			metodo: "Aplicando Piedra Noche",
+			objeto: getEvolveItem('dusk stone'),
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -11615,6 +16223,15 @@ var names2 = [
 		{habilidadNombre: habNombre('moxie'),habilidadDescripcion: habDescripcion('moxie')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '198',
+			metodo: "Aplicando Piedra Noche",
+			objeto: getEvolveItem('dusk stone'),
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -11641,6 +16258,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Vista Lince'),habilidadDescripcion: habDescripcion('Vista Lince')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '432',
+			metodo: "Subiendo desde nivel 38",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -11666,6 +16291,14 @@ var names2 = [
 		{habilidadNombre: habNombre('defiant'),habilidadDescripcion: habDescripcion('defiant')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '431',
+			metodo: "Subiendo desde nivel 38",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -11687,6 +16320,15 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '358',
+			metodo: "Felicidad máxima, subiendo de nivel en la noche",
+			condicion: ['happiness', 'night'],
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -11713,6 +16355,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Vista Lince'),habilidadDescripcion: habDescripcion('Vista Lince')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '435',
+			metodo: "Subiendo desde nivel 34",
+		},
+	},
+	],
 	ratioCaptura: 225,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -11739,6 +16389,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Vista Lince'),habilidadDescripcion: habDescripcion('Vista Lince')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '434',
+			metodo: "Subiendo desde nivel 34",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -11765,6 +16423,14 @@ var names2 = [
 		{habilidadNombre: habNombre('heavy metal'),habilidadDescripcion: habDescripcion('heavy metal')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '437',
+			metodo: "Subiendo desde nivel 33",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -11790,6 +16456,14 @@ var names2 = [
 		{habilidadNombre: habNombre('heavy metal'),habilidadDescripcion: habDescripcion('heavy metal')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '436',
+			metodo: "Subiendo desde nivel 33",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -11816,6 +16490,15 @@ var names2 = [
 		{habilidadNombre: habNombre('rattled'),habilidadDescripcion: habDescripcion('rattled')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '185',
+			metodo: "Subiendo de nivel con movimiento Mimético",
+			condicion: ['movement'],
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -11842,6 +16525,15 @@ var names2 = [
 		{habilidadNombre: habNombre('experto'),habilidadDescripcion: habDescripcion('experto')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '122',
+			metodo: "Subiendo de nivel con movimiento Mimético",
+			condicion: ['movement'],
+		},
+	},
+	],
 	ratioCaptura: 145,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -11868,6 +16560,20 @@ var names2 = [
 		{habilidadNombre: habNombre('friend guard'),habilidadDescripcion: habDescripcion('friend guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '113',
+			metodo: "Subiendo de nivel con objeto Piedra Oval",
+			objeto: getEvolveItem('oval stone'),
+			evolucion: {
+				numeroEspecie: '242',
+				metodo: "Felicidad máxima, subiendo de nivel",
+				condicion: ['happiness'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 130,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -11943,6 +16649,18 @@ var names2 = [
 		{habilidadNombre: habNombre('piel tosca'),habilidadDescripcion: habDescripcion('piel tosca')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '444',
+			metodo: "Subiendo desde nivel 24",
+			evolucion: {
+				numeroEspecie: '445',
+				metodo: "Subiendo desde nivel 48",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -11968,6 +16686,18 @@ var names2 = [
 		{habilidadNombre: habNombre('piel tosca'),habilidadDescripcion: habDescripcion('piel tosca')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '443',
+			metodo: "Subiendo desde nivel 24",
+		},
+		evolucion: {
+			numeroEspecie: '445',
+			metodo: "Subiendo desde nivel 48",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -11993,6 +16723,18 @@ var names2 = [
 		{habilidadNombre: habNombre('piel tosca'),habilidadDescripcion: habDescripcion('piel tosca')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '444',
+			metodo: "Subiendo desde nivel 48",
+			preevolucion: {
+				numeroEspecie: '443',
+				metodo: "Subiendo desde nivel 24",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -12019,6 +16761,15 @@ var names2 = [
 		{habilidadNombre: habNombre('gula'),habilidadDescripcion: habDescripcion('gula')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '143',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+		},
+	},
+	],
 	ratioCaptura: 50,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -12045,6 +16796,15 @@ var names2 = [
 		{habilidadNombre: habNombre('Bromista'),habilidadDescripcion: habDescripcion('Bromista')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '448',
+			metodo: "Felicidad máxima, subiendo desde nivel en el día",
+			condicion: ['happiness', 'daylight'],
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -12072,6 +16832,15 @@ var names2 = [
 		{habilidadNombre: habNombre('justified'),habilidadDescripcion: habDescripcion('justified')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '447',
+			metodo: "Felicidad máxima, subiendo desde nivel en el día",
+			condicion: ['happiness', 'daylight'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -12099,6 +16868,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sand force'),habilidadDescripcion: habDescripcion('sand force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '450',
+			metodo: "Subiendo desde nivel 34",
+		},
+	},
+	],
 	ratioCaptura: 140,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -12124,6 +16901,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sand force'),habilidadDescripcion: habDescripcion('sand force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '449',
+			metodo: "Subiendo desde nivel 34",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -12150,6 +16935,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Vista Lince'),habilidadDescripcion: habDescripcion('Vista Lince')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '452',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -12177,6 +16970,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Vista Lince'),habilidadDescripcion: habDescripcion('Vista Lince')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '451',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -12204,6 +17005,14 @@ var names2 = [
 		{habilidadNombre: habNombre('poison touch'),habilidadDescripcion: habDescripcion('poison touch')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '454',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 140,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -12231,6 +17040,14 @@ var names2 = [
 		{habilidadNombre: habNombre('poison touch'),habilidadDescripcion: habDescripcion('poison touch')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '453',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -12281,6 +17098,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Water Veil'),habilidadDescripcion: habDescripcion('Water Veil')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '457',
+			metodo: "Subiendo desde nivel 31",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -12306,6 +17131,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Water Veil'),habilidadDescripcion: habDescripcion('Water Veil')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '456',
+			metodo: "Subiendo desde nivel 31",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -12331,6 +17164,15 @@ var names2 = [
 		{habilidadNombre: habNombre('Water Veil'),habilidadDescripcion: habDescripcion('Water Veil')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '226',
+			metodo: "Subiendo de nivel con un Remoraid en el equipo",
+			pokemon: '223',
+		},
+	},
+	],
 	ratioCaptura: 25,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -12357,6 +17199,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Soundproof'),habilidadDescripcion: habDescripcion('Soundproof')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '460',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -12382,6 +17232,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Soundproof'),habilidadDescripcion: habDescripcion('Soundproof')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '459',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -12408,6 +17266,16 @@ var names2 = [
 		{habilidadNombre: habNombre('hurto'),habilidadDescripcion: habDescripcion('hurto')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '215',
+			metodo: "Subiendo de nivel con objeto Garrafilada en la noche",
+			condicion: ['night'],
+			objeto: getEvolveItem('razor claw'),
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -12436,6 +17304,19 @@ var names2 = [
 		{habilidadNombre: habNombre('analytic'),habilidadDescripcion: habDescripcion('analytic')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '082',
+			metodo: "Subiendo de nivel en Monte Corona, Cueva Electroroca o Ruta 13 (Región Kalos)",
+			condicion: ['location'],
+			preevolucion: {
+				numeroEspecie: '081',
+				metodo: "Subiendo desde nivel 30",
+			},
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -12462,6 +17343,15 @@ var names2 = [
 		{habilidadNombre: habNombre('cloud nine'),habilidadDescripcion: habDescripcion('cloud nine')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '108',
+			metodo: "Subiendo de nivel con movimiento Desenrrollar",
+			condicion: ['movement'],
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		ps: 3,
@@ -12490,6 +17380,20 @@ var names2 = [
 		{habilidadNombre: habNombre('reckless'),habilidadDescripcion: habDescripcion('reckless')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '112',
+			metodo: "Intercambio con objeto Protector",
+			condicion: ['trade'],
+			objeto: getEvolveItem('protector'),
+			preevolucion: {
+				numeroEspecie: '111',
+				metodo: "Subiendo desde nivel 42",
+			},
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -12516,6 +17420,15 @@ var names2 = [
 		{habilidadNombre: habNombre('regenerator'),habilidadDescripcion: habDescripcion('regenerator')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '114',
+			metodo: "Subiendo de nivel con movimiento Poder Pasado",
+			condicion: ['movement'],
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -12542,6 +17455,20 @@ var names2 = [
 		{habilidadNombre: habNombre('vital spirit'),habilidadDescripcion: habDescripcion('vital spirit')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '125',
+			metodo: "Intercambio con objeto Electrizador",
+			condicion: ['trade'],
+			objeto: getEvolveItem('electirizer'),
+			preevolucion: {
+				numeroEspecie: '239',
+				metodo: "Subiendo desde nivel 30",
+			},
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -12567,6 +17494,20 @@ var names2 = [
 		{habilidadNombre: habNombre('vital spirit'),habilidadDescripcion: habDescripcion('vital spirit')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '126',
+			metodo: "Intercambio con objeto Magmatizador",
+			condicion: ['trade'],
+			objeto: getEvolveItem('magmarizer'),
+			preevolucion: {
+				numeroEspecie: '240',
+				metodo: "Subiendo desde nivel 30",
+			},
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -12593,6 +17534,20 @@ var names2 = [
 		{habilidadNombre: habNombre('afortunado'),habilidadDescripcion: habDescripcion('afortunado')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '176',
+			metodo: "Aplicando Piedra Día",
+			objeto: getEvolveItem('shiny stone'),
+			preevolucion: {
+				numeroEspecie: '175',
+				metodo: "Felicidad máxima, subiendo de nivel",
+				condicion: ['happiness'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -12619,6 +17574,15 @@ var names2 = [
 		{habilidadNombre: habNombre('frisk'),habilidadDescripcion: habDescripcion('frisk')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '193',
+			metodo: "Subiendo de nivel con movimiento Poder Pasado",
+			condicion: ['movement'],
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -12646,6 +17610,85 @@ var names2 = [
 		{habilidadNombre: habNombre('Chlorophyll'),habilidadDescripcion: habDescripcion('Chlorophyll')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '134',
+				metodo: "Aplicando Piedra Agua",
+				objeto: getEvolveItem('waterstone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '135',
+				metodo: "Aplicando Piedra Trueno",
+				objeto: getEvolveItem('thunderstone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '136',
+				metodo: "Aplicando Piedra Fuego",
+				objeto: getEvolveItem('firestone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '196',
+				metodo: "Felicidad máxima, subiendo de nivel en el día",
+				condicion: ['happiness', 'daylight'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '197',
+				metodo: "Felicidad máxima, subiendo de nivel en la noche",
+				condicion: ['happiness', 'night'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			metodo: "Subiendo de nivel cerca de la Roca Musgo",
+			condicion: ['location'],
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '471',
+				metodo: "Subiendo de nivel cerca de la Roca Helada",
+				condicion: ['location'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '700',
+				metodo: "Felicidad máxima, subiendo de nivel con movimiento de tipo Hada",
+				condicion: ['happiness', 'movement'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -12672,6 +17715,85 @@ var names2 = [
 		{habilidadNombre: habNombre('ice body'),habilidadDescripcion: habDescripcion('ice body')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '134',
+				metodo: "Aplicando Piedra Agua",
+				objeto: getEvolveItem('waterstone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '135',
+				metodo: "Aplicando Piedra Trueno",
+				objeto: getEvolveItem('thunderstone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '136',
+				metodo: "Aplicando Piedra Fuego",
+				objeto: getEvolveItem('firestone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '196',
+				metodo: "Felicidad máxima, subiendo de nivel en el día",
+				condicion: ['happiness', 'daylight'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '197',
+				metodo: "Felicidad máxima, subiendo de nivel en la noche",
+				condicion: ['happiness', 'night'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '470',
+				metodo: "Subiendo de nivel cerca de la Roca Musgo",
+				condicion: ['location'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			metodo: "Subiendo de nivel cerca de la Roca Helada",
+			condicion: ['location'],
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '700',
+				metodo: "Felicidad máxima, subiendo de nivel con movimiento de tipo Hada",
+				condicion: ['happiness', 'movement'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -12699,6 +17821,16 @@ var names2 = [
 		{habilidadNombre: habNombre('poison heal'),habilidadDescripcion: habDescripcion('poison heal')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '207',
+			metodo: "Subiendo de nivel con objeto Colmillo Agudo en la noche",
+			condicion: ['night'],
+			objeto: getEvolveItem('razor fang'),
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -12726,6 +17858,19 @@ var names2 = [
 		{habilidadNombre: habNombre('sebo'),habilidadDescripcion: habDescripcion('sebo')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '221',
+			metodo: "Subiendo de nivel con movimiento Poder Pasado",
+			condicion: ['movement'],
+			preevolucion: {
+				numeroEspecie: '220',
+				metodo: "Subiendo desde nivel 33",
+			},
+		},
+	},
+	],
 	ratioCaptura: 50,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -12754,6 +17899,22 @@ var names2 = [
 		{habilidadNombre: habNombre('analytic'),habilidadDescripcion: habDescripcion('analytic')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '233',
+			metodo: "Intercambio con objeto Discoxtraño",
+			condicion: ['trade'],
+			objeto: getEvolveItem('dubiousdisc'),
+			preevolucion: {
+				numeroEspecie: '137',
+				metodo: "Intercambio con objeto Mejora",
+				condicion: ['trade'],
+				objeto: getEvolveItem('mejora'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -12777,6 +17938,33 @@ var names2 = [
 		{habilidadNombre: habNombre('justified'),habilidadDescripcion: habDescripcion('justified')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '281',
+			otraEvolucion: {
+				numeroEspecie: '282',
+				metodo: "Subiendo desde nivel 30",
+			},
+			preevolucion: {
+				numeroEspecie: '280',
+				metodo: "Subiendo desde nivel 20",
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '281',
+			metodo: "Aplicando Piedra Alba sólo si es Macho",
+			condicion: ['male'],
+			objeto: getEvolveItem('dawn stone'),
+			preevolucion: {
+				numeroEspecie: '280',
+				metodo: "Subiendo desde nivel 20",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -12803,6 +17991,15 @@ var names2 = [
 		{habilidadNombre: habNombre('sand force'),habilidadDescripcion: habDescripcion('sand force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '299',
+			metodo: "Subiendo de nivel en Monte Corona, Cueva Electroroca o Ruta 13 (Región Kalos)",
+			condicion: ['location'],
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -12830,6 +18027,20 @@ var names2 = [
 		{habilidadNombre: habNombre('frisk'),habilidadDescripcion: habDescripcion('frisk')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '356',
+			metodo: "Intercambio con objeto Telaterrible",
+			condicion: ['trade'],
+			objeto: getEvolveItem('reaper cloth'),
+			preevolucion: {
+				numeroEspecie: '355',
+				metodo: "Subiendo desde nivel 37",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -12855,6 +18066,25 @@ var names2 = [
 		{habilidadNombre: habNombre('cursed body'),habilidadDescripcion: habDescripcion('cursed body')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '361',
+			otraEvolucion: {
+				numeroEspecie: '362',
+				metodo: "Subiendo desde nivel 42",
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '478',
+			metodo: "Aplicando Piedra Alba sólo si es Hembra",
+			condicion: ['female'],
+			objeto: getEvolveItem('dawn stone'),
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -13235,6 +18465,18 @@ var names2 = [
 		{habilidadNombre: habNombre('contrary'),habilidadDescripcion: habDescripcion('contrary')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '496',
+			metodo: "Subiendo desde nivel 17",
+			evolucion: {
+				numeroEspecie: '497',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -13260,6 +18502,18 @@ var names2 = [
 		{habilidadNombre: habNombre('contrary'),habilidadDescripcion: habDescripcion('contrary')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '495',
+			metodo: "Subiendo desde nivel 17",
+		},
+		evolucion: {
+			numeroEspecie: '497',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -13285,6 +18539,18 @@ var names2 = [
 		{habilidadNombre: habNombre('contrary'),habilidadDescripcion: habDescripcion('contrary')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '496',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '495',
+				metodo: "Subiendo desde nivel 17",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 3,
@@ -13310,6 +18576,18 @@ var names2 = [
 		{habilidadNombre: habNombre('sebo'),habilidadDescripcion: habDescripcion('sebo')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '499',
+			metodo: "Subiendo desde nivel 17",
+			evolucion: {
+				numeroEspecie: '500',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -13335,6 +18613,18 @@ var names2 = [
 		{habilidadNombre: habNombre('sebo'),habilidadDescripcion: habDescripcion('sebo')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '498',
+			metodo: "Subiendo desde nivel 17",
+		},
+		evolucion: {
+			numeroEspecie: '500',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -13360,6 +18650,18 @@ var names2 = [
 		{habilidadNombre: habNombre('reckless'),habilidadDescripcion: habDescripcion('reckless')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '499',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '498',
+				metodo: "Subiendo desde nivel 17",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -13385,6 +18687,18 @@ var names2 = [
 		{habilidadNombre: habNombre('shell armor'),habilidadDescripcion: habDescripcion('shell armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '502',
+			metodo: "Subiendo desde nivel 17",
+			evolucion: {
+				numeroEspecie: '503',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -13410,6 +18724,18 @@ var names2 = [
 		{habilidadNombre: habNombre('shell armor'),habilidadDescripcion: habDescripcion('shell armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '501',
+			metodo: "Subiendo desde nivel 17",
+		},
+		evolucion: {
+			numeroEspecie: '503',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -13435,6 +18761,18 @@ var names2 = [
 		{habilidadNombre: habNombre('shell armor'),habilidadDescripcion: habDescripcion('shell armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '502',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '501',
+				metodo: "Subiendo desde nivel 17",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -13461,6 +18799,14 @@ var names2 = [
 		{habilidadNombre: habNombre('analytic'),habilidadDescripcion: habDescripcion('analytic')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '505',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -13488,6 +18834,14 @@ var names2 = [
 		{habilidadNombre: habNombre('analytic'),habilidadDescripcion: habDescripcion('analytic')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '504',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -13515,6 +18869,18 @@ var names2 = [
 		{habilidadNombre: habNombre('Fuga'),habilidadDescripcion: habDescripcion('Fuga')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '507',
+			metodo: "Subiendo desde nivel 16",
+			evolucion: {
+				numeroEspecie: '508',
+				metodo: "Subiendo desde nivel 32",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -13541,6 +18907,18 @@ var names2 = [
 		{habilidadNombre: habNombre('scrappy'),habilidadDescripcion: habDescripcion('scrappy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '506',
+			metodo: "Subiendo desde nivel 16",
+		},
+		evolucion: {
+			numeroEspecie: '508',
+			metodo: "Subiendo desde nivel 32",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -13567,6 +18945,18 @@ var names2 = [
 		{habilidadNombre: habNombre('scrappy'),habilidadDescripcion: habDescripcion('scrappy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '507',
+			metodo: "Subiendo desde nivel 32",
+			preevolucion: {
+				numeroEspecie: '506',
+				metodo: "Subiendo desde nivel 16",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -13593,6 +18983,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Bromista'),habilidadDescripcion: habDescripcion('Bromista')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '510',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -13620,6 +19018,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Bromista'),habilidadDescripcion: habDescripcion('Bromista')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '509',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -13646,6 +19052,15 @@ var names2 = [
 		{habilidadNombre: habNombre('Espesura'),habilidadDescripcion: habDescripcion('Espesura')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '512',
+			metodo: "Aplicando Piedra Hoja",
+			objeto: getEvolveItem('piedra hoja'),
+		},
+	},
+	],
 	ratioCaptura: 65,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -13672,6 +19087,15 @@ var names2 = [
 		{habilidadNombre: habNombre('Espesura'),habilidadDescripcion: habDescripcion('Espesura')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '511',
+			metodo: "Aplicando Piedra Hoja",
+			objeto: getEvolveItem('piedra hoja'),
+		},
+	},
+	],
 	ratioCaptura: 65,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -13698,6 +19122,15 @@ var names2 = [
 		{habilidadNombre: habNombre('Mar Llamas'),habilidadDescripcion: habDescripcion('Mar Llamas')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '514',
+			metodo: "Aplicando Piedra Fuego",
+			objeto: getEvolveItem('firestone'),
+		},
+	},
+	],
 	ratioCaptura: 65,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -13724,6 +19157,15 @@ var names2 = [
 		{habilidadNombre: habNombre('Mar Llamas'),habilidadDescripcion: habDescripcion('Mar Llamas')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '513',
+			metodo: "Aplicando Piedra Fuego",
+			objeto: getEvolveItem('firestone'),
+		},
+	},
+	],
 	ratioCaptura: 65,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -13750,6 +19192,15 @@ var names2 = [
 		{habilidadNombre: habNombre('Torrente'),habilidadDescripcion: habDescripcion('Torrente')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '516',
+			metodo: "Aplicando Piedra Agua",
+			objeto: getEvolveItem('waterstone'),
+		},
+	},
+	],
 	ratioCaptura: 65,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -13776,6 +19227,15 @@ var names2 = [
 		{habilidadNombre: habNombre('Torrente'),habilidadDescripcion: habDescripcion('Torrente')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '515',
+			metodo: "Aplicando Piedra Agua",
+			objeto: getEvolveItem('waterstone'),
+		},
+	},
+	],
 	ratioCaptura: 65,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -13803,6 +19263,15 @@ var names2 = [
 		{habilidadNombre: habNombre('telepathy'),habilidadDescripcion: habDescripcion('telepathy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '518',
+			metodo: "Aplicando Piedra Lunar",
+			objeto: getEvolveItem('piedra lunar'),
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -13829,6 +19298,15 @@ var names2 = [
 		{habilidadNombre: habNombre('telepathy'),habilidadDescripcion: habDescripcion('telepathy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '517',
+			metodo: "Aplicando Piedra Lunar",
+			objeto: getEvolveItem('piedra lunar'),
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -13855,6 +19333,18 @@ var names2 = [
 		{habilidadNombre: habNombre('rivalry'),habilidadDescripcion: habDescripcion('rivalry')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '520',
+			metodo: "Subiendo desde nivel 21",
+			evolucion: {
+				numeroEspecie: '521',
+				metodo: "Subiendo desde nivel 32",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -13881,6 +19371,18 @@ var names2 = [
 		{habilidadNombre: habNombre('rivalry'),habilidadDescripcion: habDescripcion('rivalry')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '519',
+			metodo: "Subiendo desde nivel 21",
+		},
+		evolucion: {
+			numeroEspecie: '521',
+			metodo: "Subiendo desde nivel 32",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -13907,6 +19409,18 @@ var names2 = [
 		{habilidadNombre: habNombre('rivalry'),habilidadDescripcion: habDescripcion('rivalry')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '520',
+			metodo: "Subiendo desde nivel 32",
+			preevolucion: {
+				numeroEspecie: '519',
+				metodo: "Subiendo desde nivel 21",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -13933,6 +19447,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sap sipper'),habilidadDescripcion: habDescripcion('sap sipper')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '523',
+			metodo: "Subiendo desde nivel 27",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -13959,6 +19481,14 @@ var names2 = [
 		{habilidadNombre: habNombre('sap sipper'),habilidadDescripcion: habDescripcion('sap sipper')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '522',
+			metodo: "Subiendo desde nivel 27",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -13984,6 +19514,19 @@ var names2 = [
 		{habilidadNombre: habNombre('sand force'),habilidadDescripcion: habDescripcion('sand force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '525',
+			metodo: "Subiendo desde nivel 25",
+			evolucion: {
+				numeroEspecie: '526',
+				metodo: "Intercambio",
+				condicion: ['trade'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -14010,6 +19553,19 @@ var names2 = [
 		{habilidadNombre: habNombre('sand force'),habilidadDescripcion: habDescripcion('sand force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '524',
+			metodo: "Subiendo desde nivel 25",
+		},
+		evolucion: {
+			numeroEspecie: '526',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -14037,6 +19593,19 @@ var names2 = [
 		{habilidadNombre: habNombre('sand force'),habilidadDescripcion: habDescripcion('sand force')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '525',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+			preevolucion: {
+				numeroEspecie: '524',
+				metodo: "Subiendo desde nivel 25",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -14064,6 +19633,15 @@ var names2 = [
 		{habilidadNombre: habNombre('simple'),habilidadDescripcion: habDescripcion('simple')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '528',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -14091,6 +19669,15 @@ var names2 = [
 		{habilidadNombre: habNombre('simple'),habilidadDescripcion: habDescripcion('simple')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '527',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -14118,6 +19705,14 @@ var names2 = [
 		{habilidadNombre: habNombre('mold breaker'),habilidadDescripcion: habDescripcion('mold breaker')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '530',
+			metodo: "Subiendo desde nivel 31",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -14144,6 +19739,14 @@ var names2 = [
 		{habilidadNombre: habNombre('mold breaker'),habilidadDescripcion: habDescripcion('mold breaker')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '529',
+			metodo: "Subiendo desde nivel 31",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -14197,6 +19800,19 @@ var names2 = [
 		{habilidadNombre: habNombre('iron fist'),habilidadDescripcion: habDescripcion('iron fist')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '533',
+			metodo: "Subiendo desde nivel 25",
+			evolucion: {
+				numeroEspecie: '534',
+				metodo: "Intercambio",
+				condicion: ['trade'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 180,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -14224,6 +19840,19 @@ var names2 = [
 		{habilidadNombre: habNombre('iron fist'),habilidadDescripcion: habDescripcion('iron fist')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '532',
+			metodo: "Subiendo desde nivel 25",
+		},
+		evolucion: {
+			numeroEspecie: '534',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -14251,6 +19880,19 @@ var names2 = [
 		{habilidadNombre: habNombre('iron fist'),habilidadDescripcion: habDescripcion('iron fist')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '533',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+			preevolucion: {
+				numeroEspecie: '532',
+				metodo: "Subiendo desde nivel 25",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -14278,6 +19920,18 @@ var names2 = [
 		{habilidadNombre: habNombre('water absorb'),habilidadDescripcion: habDescripcion('water absorb')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '536',
+			metodo: "Subiendo desde nivel 25",
+			evolucion: {
+				numeroEspecie: '537',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -14304,6 +19958,18 @@ var names2 = [
 		{habilidadNombre: habNombre('water absorb'),habilidadDescripcion: habDescripcion('water absorb')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '535',
+			metodo: "Subiendo desde nivel 25",
+		},
+		evolucion: {
+			numeroEspecie: '537',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -14330,6 +19996,18 @@ var names2 = [
 		{habilidadNombre: habNombre('water absorb'),habilidadDescripcion: habDescripcion('water absorb')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '536',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '535',
+				metodo: "Subiendo desde nivel 25",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ps: 3,
@@ -14410,6 +20088,19 @@ var names2 = [
 		{habilidadNombre: habNombre('funda'),habilidadDescripcion: habDescripcion('funda')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '541',
+			metodo: "Subiendo desde nivel 20",
+			evolucion: {
+				numeroEspecie: '542',
+				metodo: "Felicidad máxima, subiendo de nivel",
+				condicion: ['happiness'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -14436,6 +20127,19 @@ var names2 = [
 		{habilidadNombre: habNombre('funda'),habilidadDescripcion: habDescripcion('funda')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '540',
+			metodo: "Subiendo desde nivel 20",
+		},
+		evolucion: {
+			numeroEspecie: '542',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -14462,6 +20166,19 @@ var names2 = [
 		{habilidadNombre: habNombre('funda'),habilidadDescripcion: habDescripcion('funda')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '541',
+			metodo: "Felicidad máxima, subiendo de nivel",
+			condicion: ['happiness'],
+			preevolucion: {
+				numeroEspecie: '540',
+				metodo: "Subiendo desde nivel 20",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -14489,6 +20206,18 @@ var names2 = [
 		{habilidadNombre: habNombre('impulso'),habilidadDescripcion: habDescripcion('impulso')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '544',
+			metodo: "Subiendo desde nivel 22",
+			evolucion: {
+				numeroEspecie: '545',
+				metodo: "Subiendo desde nivel 30",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -14517,6 +20246,18 @@ var names2 = [
 		{habilidadNombre: habNombre('impulso'),habilidadDescripcion: habDescripcion('impulso')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '543',
+			metodo: "Subiendo desde nivel 22",
+		},
+		evolucion: {
+			numeroEspecie: '545',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -14545,6 +20286,18 @@ var names2 = [
 		{habilidadNombre: habNombre('impulso'),habilidadDescripcion: habDescripcion('impulso')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '544',
+			metodo: "Subiendo desde nivel 30",
+			preevolucion: {
+				numeroEspecie: '543',
+				metodo: "Subiendo desde nivel 22",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 3,
@@ -14572,6 +20325,15 @@ var names2 = [
 		{habilidadNombre: habNombre('Chlorophyll'),habilidadDescripcion: habDescripcion('Chlorophyll')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '547',
+			metodo: "Aplicando Piedra Solar",
+			objeto: getEvolveItem('piedra solar'),
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -14598,6 +20360,15 @@ var names2 = [
 		{habilidadNombre: habNombre('Chlorophyll'),habilidadDescripcion: habDescripcion('Chlorophyll')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '546',
+			metodo: "Aplicando Piedra Solar",
+			objeto: getEvolveItem('piedra solar'),
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -14624,6 +20395,15 @@ var names2 = [
 		{habilidadNombre: habNombre('leaf guard'),habilidadDescripcion: habDescripcion('leaf guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '549',
+			metodo: "Aplicando Piedra Solar",
+			objeto: getEvolveItem('piedra solar'),
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -14650,6 +20430,15 @@ var names2 = [
 		{habilidadNombre: habNombre('leaf guard'),habilidadDescripcion: habDescripcion('leaf guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '548',
+			metodo: "Aplicando Piedra Solar",
+			objeto: getEvolveItem('piedra solar'),
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -14703,6 +20492,18 @@ var names2 = [
 		{habilidadNombre: habNombre('punto ira'),habilidadDescripcion: habDescripcion('punto ira')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '552',
+			metodo: "Subiendo desde nivel 29",
+			evolucion: {
+				numeroEspecie: '553',
+				metodo: "Subiendo desde nivel 40",
+			},
+		},
+	},
+	],
 	ratioCaptura: 180,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -14730,6 +20531,18 @@ var names2 = [
 		{habilidadNombre: habNombre('punto ira'),habilidadDescripcion: habDescripcion('punto ira')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '551',
+			metodo: "Subiendo desde nivel 29",
+		},
+		evolucion: {
+			numeroEspecie: '553',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -14757,6 +20570,18 @@ var names2 = [
 		{habilidadNombre: habNombre('punto ira'),habilidadDescripcion: habDescripcion('punto ira')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '552',
+			metodo: "Subiendo desde nivel 40",
+			preevolucion: {
+				numeroEspecie: '551',
+				metodo: "Subiendo desde nivel 29",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -14783,6 +20608,14 @@ var names2 = [
 		{habilidadNombre: habNombre('inner focus'),habilidadDescripcion: habDescripcion('inner focus')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '555',
+			metodo: "Subiendo desde nivel 35",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -14809,6 +20642,14 @@ var names2 = [
 		{habilidadNombre: habNombre('zen mode'),habilidadDescripcion: "(Sólo en Darmanitan modo Normal) "+habDescripcion('zen mode')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '554',
+			metodo: "Subiendo desde nivel 35",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		//(Solo en Darmanitan modo Zen/Daruma) ataqueEspecial: 2,
@@ -14862,6 +20703,14 @@ var names2 = [
 		{habilidadNombre: habNombre('weak armor'),habilidadDescripcion: habDescripcion('weak armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '558',
+			metodo: "Subiendo desde nivel 34",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -14889,6 +20738,14 @@ var names2 = [
 		{habilidadNombre: habNombre('weak armor'),habilidadDescripcion: habDescripcion('weak armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '557',
+			metodo: "Subiendo desde nivel 34",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -14916,6 +20773,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Intimidate'),habilidadDescripcion: habDescripcion('Intimidate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '560',
+			metodo: "Subiendo desde nivel 39",
+		},
+	},
+	],
 	ratioCaptura: 180,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -14943,6 +20808,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Intimidate'),habilidadDescripcion: habDescripcion('Intimidate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '559',
+			metodo: "Subiendo desde nivel 39",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -14994,6 +20867,14 @@ var names2 = [
 		{habilidadNombre: habNombre('mummy'),habilidadDescripcion: habDescripcion('mummy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '563',
+			metodo: "Subiendo desde nivel 34",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -15016,6 +20897,14 @@ var names2 = [
 		{habilidadNombre: habNombre('mummy'),habilidadDescripcion: habDescripcion('mummy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '562',
+			metodo: "Subiendo desde nivel 34",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -15042,6 +20931,14 @@ var names2 = [
 		{habilidadNombre: habNombre('swift swim'),habilidadDescripcion: habDescripcion('swift swim')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '565',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -15068,6 +20965,14 @@ var names2 = [
 		{habilidadNombre: habNombre('swift swim'),habilidadDescripcion: habDescripcion('swift swim')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '564',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -15090,6 +20995,14 @@ var names2 = [
 		{habilidadNombre: habNombre('flaqueza'),habilidadDescripcion: habDescripcion('flaqueza')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '567',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -15112,6 +21025,14 @@ var names2 = [
 		{habilidadNombre: habNombre('flaqueza'),habilidadDescripcion: habDescripcion('flaqueza')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '566',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -15138,6 +21059,14 @@ var names2 = [
 		{habilidadNombre: habNombre('resquicio'),habilidadDescripcion: habDescripcion('resquicio')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '569',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -15165,6 +21094,14 @@ var names2 = [
 		{habilidadNombre: habNombre('resquicio'),habilidadDescripcion: habDescripcion('resquicio')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '568',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -15188,6 +21125,14 @@ var names2 = [
 		{habilidadNombre: habNombre('illusion'),habilidadDescripcion: habDescripcion('illusion')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '571',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -15211,6 +21156,14 @@ var names2 = [
 		{habilidadNombre: habNombre('illusion'),habilidadDescripcion: habDescripcion('illusion')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '570',
+			metodo: "Subiendo desde nivel 30",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -15238,6 +21191,15 @@ var names2 = [
 		{habilidadNombre: habNombre('encadenado'),habilidadDescripcion: habDescripcion('encadenado')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '573',
+			metodo: "Aplicando Piedra Día",
+			objeto: getEvolveItem('shiny stone'),
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -15264,6 +21226,15 @@ var names2 = [
 		{habilidadNombre: habNombre('encadenado'),habilidadDescripcion: habDescripcion('encadenado')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '572',
+			metodo: "Aplicando Piedra Día",
+			objeto: getEvolveItem('shiny stone'),
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -15290,6 +21261,18 @@ var names2 = [
 		{habilidadNombre: habNombre('sombratrampa'),habilidadDescripcion: habDescripcion('sombratrampa')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '575',
+			metodo: "Subiendo desde nivel 32",
+			evolucion: {
+				numeroEspecie: '576',
+				metodo: "Subiendo desde nivel 41",
+			},
+		},
+	},
+	],
 	ratioCaptura: 200,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -15317,6 +21300,18 @@ var names2 = [
 		{habilidadNombre: habNombre('sombratrampa'),habilidadDescripcion: habDescripcion('sombratrampa')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '574',
+			metodo: "Subiendo desde nivel 32",
+		},
+		evolucion: {
+			numeroEspecie: '576',
+			metodo: "Subiendo desde nivel 41",
+		},
+	},
+	],
 	ratioCaptura: 100,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -15344,6 +21339,18 @@ var names2 = [
 		{habilidadNombre: habNombre('sombratrampa'),habilidadDescripcion: habDescripcion('sombratrampa')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '575',
+			metodo: "Subiendo desde nivel 41",
+			preevolucion: {
+				numeroEspecie: '574',
+				metodo: "Subiendo desde nivel 32",
+			},
+		},
+	},
+	],
 	ratioCaptura: 50,
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
@@ -15371,6 +21378,18 @@ var names2 = [
 		{habilidadNombre: habNombre('regenerator'),habilidadDescripcion: habDescripcion('regenerator')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '578',
+			metodo: "Subiendo desde nivel 32",
+			evolucion: {
+				numeroEspecie: '579',
+				metodo: "Subiendo desde nivel 41",
+			},
+		},
+	},
+	],
 	ratioCaptura: 200,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -15398,6 +21417,18 @@ var names2 = [
 		{habilidadNombre: habNombre('regenerator'),habilidadDescripcion: habDescripcion('regenerator')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '577',
+			metodo: "Subiendo desde nivel 32",
+		},
+		evolucion: {
+			numeroEspecie: '579',
+			metodo: "Subiendo desde nivel 41",
+		},
+	},
+	],
 	ratioCaptura: 100,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -15425,6 +21456,18 @@ var names2 = [
 		{habilidadNombre: habNombre('regenerator'),habilidadDescripcion: habDescripcion('regenerator')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '578',
+			metodo: "Subiendo desde nivel 41",
+			preevolucion: {
+				numeroEspecie: '577',
+				metodo: "Subiendo desde nivel 32",
+			},
+		},
+	},
+	],
 	ratioCaptura: 50,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -15452,6 +21495,14 @@ var names2 = [
 		{habilidadNombre: habNombre('hydration'),habilidadDescripcion: habDescripcion('hydration')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '581',
+			metodo: "Subiendo desde nivel 35",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -15479,6 +21530,14 @@ var names2 = [
 		{habilidadNombre: habNombre('hydration'),habilidadDescripcion: habDescripcion('hydration')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '580',
+			metodo: "Subiendo desde nivel 35",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -15505,6 +21564,18 @@ var names2 = [
 		{habilidadNombre: habNombre('weak armor'),habilidadDescripcion: habDescripcion('weak armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '583',
+			metodo: "Subiendo desde nivel 35",
+			evolucion: {
+				numeroEspecie: '584',
+				metodo: "Subiendo desde nivel 47",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -15531,6 +21602,18 @@ var names2 = [
 		{habilidadNombre: habNombre('weak armor'),habilidadDescripcion: habDescripcion('weak armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '582',
+			metodo: "Subiendo desde nivel 35",
+		},
+		evolucion: {
+			numeroEspecie: '584',
+			metodo: "Subiendo desde nivel 47",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -15557,6 +21640,18 @@ var names2 = [
 		{habilidadNombre: habNombre('weak armor'),habilidadDescripcion: habDescripcion('weak armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '583',
+			metodo: "Subiendo desde nivel 47",
+			preevolucion: {
+				numeroEspecie: '582',
+				metodo: "Subiendo desde nivel 35",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -15584,6 +21679,14 @@ var names2 = [
 		{habilidadNombre: habNombre('dicha'),habilidadDescripcion: habDescripcion('dicha')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '586',
+			metodo: "Subiendo desde nivel 34",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -15610,6 +21713,14 @@ var names2 = [
 		{habilidadNombre: habNombre('dicha'),habilidadDescripcion: habDescripcion('dicha')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '585',
+			metodo: "Subiendo desde nivel 34",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -15662,6 +21773,16 @@ var names2 = [
 		{habilidadNombre: habNombre('indefenso'),habilidadDescripcion: habDescripcion('indefenso')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '589',
+			metodo: "Intercambio con Shelmet",
+			condicion: ['trade'],
+			pokemon: '616',
+		},
+	},
+	],
 	ratioCaptura: 200,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -15689,6 +21810,16 @@ var names2 = [
 		{habilidadNombre: habNombre('funda'),habilidadDescripcion: habDescripcion('funda')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '588',
+			metodo: "Intercambio con Shelmet",
+			condicion: ['trade'],
+			pokemon: '616',
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -15715,6 +21846,14 @@ var names2 = [
 		{habilidadNombre: habNombre('regenerator'),habilidadDescripcion: habDescripcion('regenerator')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '591',
+			metodo: "Subiendo desde nivel 39",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -15741,6 +21880,14 @@ var names2 = [
 		{habilidadNombre: habNombre('regenerator'),habilidadDescripcion: habDescripcion('regenerator')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '590',
+			metodo: "Subiendo desde nivel 39",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -15768,6 +21915,14 @@ var names2 = [
 		{habilidadNombre: habNombre('damp'),habilidadDescripcion: habDescripcion('damp')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '593',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -15794,6 +21949,14 @@ var names2 = [
 		{habilidadNombre: habNombre('damp'),habilidadDescripcion: habDescripcion('damp')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '592',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -15847,6 +22010,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Enjambre'),habilidadDescripcion: habDescripcion('Enjambre')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '596',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -15873,6 +22044,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Enjambre'),habilidadDescripcion: habDescripcion('Enjambre')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '595',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -15898,6 +22077,14 @@ var names2 = [
 		{habilidadNombre: habNombre('anticipation'),habilidadDescripcion: habDescripcion('anticipation')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '598',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -15924,6 +22111,14 @@ var names2 = [
 		{habilidadNombre: habNombre('anticipation'),habilidadDescripcion: habDescripcion('anticipation')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '597',
+			metodo: "Subiendo desde nivel 40",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -15951,6 +22146,18 @@ var names2 = [
 		{habilidadNombre: habNombre('clear body'),habilidadDescripcion: habDescripcion('clear body')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '600',
+			metodo: "Subiendo desde nivel 38",
+			evolucion: {
+				numeroEspecie: '601',
+				metodo: "Subiendo desde nivel 49",
+			},
+		},
+	},
+	],
 	ratioCaptura: 130,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -15976,6 +22183,18 @@ var names2 = [
 		{habilidadNombre: habNombre('clear body'),habilidadDescripcion: habDescripcion('clear body')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '599',
+			metodo: "Subiendo desde nivel 38",
+		},
+		evolucion: {
+			numeroEspecie: '601',
+			metodo: "Subiendo desde nivel 49",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -16001,6 +22220,18 @@ var names2 = [
 		{habilidadNombre: habNombre('clear body'),habilidadDescripcion: habDescripcion('clear body')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '600',
+			metodo: "Subiendo desde nivel 49",
+			preevolucion: {
+				numeroEspecie: '599',
+				metodo: "Subiendo desde nivel 38",
+			},
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		defensa: 3,
@@ -16022,6 +22253,19 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '603',
+			metodo: "Subiendo desde nivel 39",
+			evolucion: {
+				numeroEspecie: '604',
+				metodo: "Aplicando Piedra Trueno",
+				objeto: getEvolveItem('thunderstone'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -16044,6 +22288,19 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '602',
+			metodo: "Subiendo desde nivel 39",
+		},
+		evolucion: {
+			numeroEspecie: '604',
+			metodo: "Aplicando Piedra Trueno",
+			objeto: getEvolveItem('thunderstone'),
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -16066,6 +22323,19 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '603',
+			metodo: "Aplicando Piedra Trueno",
+			objeto: getEvolveItem('thunderstone'),
+			preevolucion: {
+				numeroEspecie: '602',
+				metodo: "Subiendo desde nivel 39",
+			},
+		},
+	},
+	],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -16092,6 +22362,14 @@ var names2 = [
 		{habilidadNombre: habNombre('analytic'),habilidadDescripcion: habDescripcion('analytic')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '606',
+			metodo: "Subiendo desde nivel 42",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -16118,6 +22396,14 @@ var names2 = [
 		{habilidadNombre: habNombre('analytic'),habilidadDescripcion: habDescripcion('analytic')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '605',
+			metodo: "Subiendo desde nivel 42",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -16145,6 +22431,19 @@ var names2 = [
 		{habilidadNombre: habNombre('sombratrampa'),habilidadDescripcion: habDescripcion('sombratrampa')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '608',
+			metodo: "Subiendo desde nivel 41",
+			evolucion: {
+				numeroEspecie: '609',
+				metodo: "Aplicando Piedra Noche",
+				objeto: getEvolveItem('dusk stone'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -16173,6 +22472,19 @@ var names2 = [
 		{habilidadNombre: habNombre('sombratrampa'),habilidadDescripcion: habDescripcion('sombratrampa')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '607',
+			metodo: "Subiendo desde nivel 41",
+		},
+		evolucion: {
+			numeroEspecie: '609',
+			metodo: "Aplicando Piedra Noche",
+			objeto: getEvolveItem('dusk stone'),
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -16201,6 +22513,19 @@ var names2 = [
 		{habilidadNombre: habNombre('sombratrampa'),habilidadDescripcion: habDescripcion('sombratrampa')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '608',
+			metodo: "Aplicando Piedra Noche",
+			objeto: getEvolveItem('dusk stone'),
+			preevolucion: {
+				numeroEspecie: '607',
+				metodo: "Subiendo desde nivel 41",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -16228,6 +22553,18 @@ var names2 = [
 		{habilidadNombre: habNombre('unnerve'),habilidadDescripcion: habDescripcion('unnerve')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '611',
+			metodo: "Subiendo desde nivel 38",
+			evolucion: {
+				numeroEspecie: '612',
+				metodo: "Subiendo desde nivel 48",
+			},
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -16255,6 +22592,18 @@ var names2 = [
 		{habilidadNombre: habNombre('unnerve'),habilidadDescripcion: habDescripcion('unnerve')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '610',
+			metodo: "Subiendo desde nivel 38",
+		},
+		evolucion: {
+			numeroEspecie: '612',
+			metodo: "Subiendo desde nivel 48",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -16282,6 +22631,18 @@ var names2 = [
 		{habilidadNombre: habNombre('unnerve'),habilidadDescripcion: habDescripcion('unnerve')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '611',
+			metodo: "Subiendo desde nivel 48",
+			preevolucion: {
+				numeroEspecie: '610',
+				metodo: "Subiendo desde nivel 38",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -16308,6 +22669,14 @@ var names2 = [
 		{habilidadNombre: habNombre('rattled'),habilidadDescripcion: habDescripcion('rattled')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '614',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -16334,6 +22703,14 @@ var names2 = [
 		{habilidadNombre: habNombre('swift swim'),habilidadDescripcion: habDescripcion('swift swim')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '613',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -16383,6 +22760,16 @@ var names2 = [
 		{habilidadNombre: habNombre('funda'),habilidadDescripcion: habDescripcion('funda')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '617',
+			metodo: "Intercambio con Karrablast",
+			condicion: ['trade'],
+			pokemon: '588',
+		},
+	},
+	],
 	ratioCaptura: 200,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -16410,6 +22797,16 @@ var names2 = [
 		{habilidadNombre: habNombre('liviano'),habilidadDescripcion: habDescripcion('liviano')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '616',
+			metodo: "Intercambio con Karrablast",
+			condicion: ['trade'],
+			pokemon: '588',
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -16464,6 +22861,14 @@ var names2 = [
 		{habilidadNombre: habNombre('reckless'),habilidadDescripcion: habDescripcion('reckless')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '620',
+			metodo: "Subiendo desde nivel 50",
+		},
+	},
+	],
 	ratioCaptura: 180,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -16491,6 +22896,14 @@ var names2 = [
 		{habilidadNombre: habNombre('reckless'),habilidadDescripcion: habDescripcion('reckless')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '619',
+			metodo: "Subiendo desde nivel 50",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -16545,6 +22958,14 @@ var names2 = [
 		{habilidadNombre: habNombre('indefenso'),habilidadDescripcion: habDescripcion('indefenso')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '623',
+			metodo: "Subiendo desde nivel 43",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -16571,6 +22992,14 @@ var names2 = [
 		{habilidadNombre: habNombre('indefenso'),habilidadDescripcion: habDescripcion('indefenso')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '622',
+			metodo: "Subiendo desde nivel 43",
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -16597,6 +23026,14 @@ var names2 = [
 		{habilidadNombre: habNombre('pressure'),habilidadDescripcion: habDescripcion('pressure')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '625',
+			metodo: "Subiendo desde nivel 52",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -16624,6 +23061,14 @@ var names2 = [
 		{habilidadNombre: habNombre('pressure'),habilidadDescripcion: habDescripcion('pressure')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '624',
+			metodo: "Subiendo desde nivel 52",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -16677,6 +23122,14 @@ var names2 = [
 		{habilidadNombre: habNombre('hustle'),habilidadDescripcion: habDescripcion('hustle')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '628',
+			metodo: "Subiendo desde nivel 54",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -16703,6 +23156,14 @@ var names2 = [
 		{habilidadNombre: habNombre('defiant'),habilidadDescripcion: habDescripcion('defiant')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '627',
+			metodo: "Subiendo desde nivel 54",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -16729,6 +23190,14 @@ var names2 = [
 		{habilidadNombre: habNombre('weak armor'),habilidadDescripcion: habDescripcion('weak armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '630',
+			metodo: "Subiendo desde nivel 54",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -16755,6 +23224,14 @@ var names2 = [
 		{habilidadNombre: habNombre('weak armor'),habilidadDescripcion: habDescripcion('weak armor')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '629',
+			metodo: "Subiendo desde nivel 54",
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -16831,6 +23308,18 @@ var names2 = [
 		{habilidadNombre: habNombre('hustle'),habilidadDescripcion: habDescripcion('hustle')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '634',
+			metodo: "Subiendo desde nivel 50",
+			evolucion: {
+				numeroEspecie: '635',
+				metodo: "Subiendo desde nivel 64",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -16854,6 +23343,18 @@ var names2 = [
 		{habilidadNombre: habNombre('hustle'),habilidadDescripcion: habDescripcion('hustle')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '633',
+			metodo: "Subiendo desde nivel 50",
+		},
+		evolucion: {
+			numeroEspecie: '635',
+			metodo: "Subiendo desde nivel 64",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -16877,6 +23378,18 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '634',
+			metodo: "Subiendo desde nivel 64",
+			preevolucion: {
+				numeroEspecie: '633',
+				metodo: "Subiendo desde nivel 50",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -16903,6 +23416,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Enjambre'),habilidadDescripcion: habDescripcion('Enjambre')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '637',
+			metodo: "Subiendo desde nivel 59",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -16928,6 +23449,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Enjambre'),habilidadDescripcion: habDescripcion('Enjambre')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '636',
+			metodo: "Subiendo desde nivel 59",
+		},
+	},
+	],
 	ratioCaptura: 15,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -17248,6 +23777,18 @@ var names2 = [
 		{habilidadNombre: habNombre('antibalas'),habilidadDescripcion: habDescripcion('antibalas')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '651',
+			metodo: "Subiendo desde nivel 16",
+			evolucion: {
+				numeroEspecie: '652',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -17272,6 +23813,18 @@ var names2 = [
 		{habilidadNombre: habNombre('antibalas'),habilidadDescripcion: habDescripcion('antibalas')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '650',
+			metodo: "Subiendo desde nivel 16",
+		},
+		evolucion: {
+			numeroEspecie: '652',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -17296,6 +23849,18 @@ var names2 = [
 		{habilidadNombre: habNombre('antibalas'),habilidadDescripcion: habDescripcion('antibalas')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '651',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '650',
+				metodo: "Subiendo desde nivel 16",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 3,
@@ -17320,6 +23885,18 @@ var names2 = [
 		{habilidadNombre: habNombre('magician'),habilidadDescripcion: habDescripcion('magician')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '654',
+			metodo: "Subiendo desde nivel 16",
+			evolucion: {
+				numeroEspecie: '655',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -17344,6 +23921,18 @@ var names2 = [
 		{habilidadNombre: habNombre('magician'),habilidadDescripcion: habDescripcion('magician')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '653',
+			metodo: "Subiendo desde nivel 16",
+		},
+		evolucion: {
+			numeroEspecie: '655',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -17368,6 +23957,18 @@ var names2 = [
 		{habilidadNombre: habNombre('magician'),habilidadDescripcion: habDescripcion('magician')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '654',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '653',
+				metodo: "Subiendo desde nivel 16",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -17392,6 +23993,18 @@ var names2 = [
 		{habilidadNombre: habNombre('protean'),habilidadDescripcion: habDescripcion('protean')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '657',
+			metodo: "Subiendo desde nivel 16",
+			evolucion: {
+				numeroEspecie: '658',
+				metodo: "Subiendo desde nivel 36",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -17416,6 +24029,18 @@ var names2 = [
 		{habilidadNombre: habNombre('protean'),habilidadDescripcion: habDescripcion('protean')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '656',
+			metodo: "Subiendo desde nivel 16",
+		},
+		evolucion: {
+			numeroEspecie: '658',
+			metodo: "Subiendo desde nivel 36",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -17440,6 +24065,18 @@ var names2 = [
 		{habilidadNombre: habNombre('protean'),habilidadDescripcion: habDescripcion('protean')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '657',
+			metodo: "Subiendo desde nivel 36",
+			preevolucion: {
+				numeroEspecie: '656',
+				metodo: "Subiendo desde nivel 16",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 3,
@@ -17465,6 +24102,14 @@ var names2 = [
 		{habilidadNombre: habNombre('potencia'),habilidadDescripcion: habDescripcion('potencia')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '660',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -17490,6 +24135,14 @@ var names2 = [
 		{habilidadNombre: habNombre('potencia'),habilidadDescripcion: habDescripcion('potencia')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '659',
+			metodo: "Subiendo desde nivel 20",
+		},
+	},
+	],
 	ratioCaptura: 127,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -17514,6 +24167,18 @@ var names2 = [
 		{habilidadNombre: habNombre('gale wings'),habilidadDescripcion: habDescripcion('gale wings')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '662',
+			metodo: "Subiendo desde nivel 17",
+			evolucion: {
+				numeroEspecie: '663',
+				metodo: "Subiendo desde nivel 35",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -17538,6 +24203,18 @@ var names2 = [
 		{habilidadNombre: habNombre('gale wings'),habilidadDescripcion: habDescripcion('gale wings')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '661',
+			metodo: "Subiendo desde nivel 17",
+		},
+		evolucion: {
+			numeroEspecie: '663',
+			metodo: "Subiendo desde nivel 35",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -17562,6 +24239,18 @@ var names2 = [
 		{habilidadNombre: habNombre('gale wings'),habilidadDescripcion: habDescripcion('gale wings')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '662',
+			metodo: "Subiendo desde nivel 35",
+			preevolucion: {
+				numeroEspecie: '661',
+				metodo: "Subiendo desde nivel 17",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 3,
@@ -17587,6 +24276,18 @@ var names2 = [
 		{habilidadNombre: habNombre('friend guard'),habilidadDescripcion: habDescripcion('friend guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '665',
+			metodo: "Subiendo desde nivel 9",
+			evolucion: {
+				numeroEspecie: '666',
+				metodo: "Subiendo desde nivel 12",
+			},
+		},
+	},
+	],
 	ratioCaptura: 255,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -17611,6 +24312,18 @@ var names2 = [
 		{habilidadNombre: habNombre('friend guard'),habilidadDescripcion: habDescripcion('friend guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '664',
+			metodo: "Subiendo desde nivel 9",
+		},
+		evolucion: {
+			numeroEspecie: '666',
+			metodo: "Subiendo desde nivel 12",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -17636,6 +24349,18 @@ var names2 = [
 		{habilidadNombre: habNombre('friend guard'),habilidadDescripcion: habDescripcion('friend guard')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '665',
+			metodo: "Subiendo desde nivel 12",
+			preevolucion: {
+				numeroEspecie: '664',
+				metodo: "Subiendo desde nivel 9",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -17663,6 +24388,14 @@ var names2 = [
 		{habilidadNombre: habNombre('moxie'),habilidadDescripcion: habDescripcion('moxie')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '668',
+			metodo: "Subiendo desde nivel 35",
+		},
+	},
+	],
 	ratioCaptura: 220,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -17688,6 +24421,14 @@ var names2 = [
 		{habilidadNombre: habNombre('moxie'),habilidadDescripcion: habDescripcion('moxie')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '667',
+			metodo: "Subiendo desde nivel 35",
+		},
+	},
+	],
 	ratioCaptura: 65,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -17712,6 +24453,19 @@ var names2 = [
 		{habilidadNombre: habNombre('symbiosis'),habilidadDescripcion: habDescripcion('symbiosis')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '670',
+			metodo: "Subiendo desde nivel 19",
+			evolucion: {
+				numeroEspecie: '671',
+				metodo: "Aplicando Piedra Día",
+				objeto: getEvolveItem('shiny stone'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 225,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -17736,6 +24490,19 @@ var names2 = [
 		{habilidadNombre: habNombre('symbiosis'),habilidadDescripcion: habDescripcion('symbiosis')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '669',
+			metodo: "Subiendo desde nivel 19",
+		},
+		evolucion: {
+			numeroEspecie: '671',
+			metodo: "Aplicando Piedra Día",
+			objeto: getEvolveItem('shiny stone'),
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -17760,6 +24527,19 @@ var names2 = [
 		{habilidadNombre: habNombre('symbiosis'),habilidadDescripcion: habDescripcion('symbiosis')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '670',
+			metodo: "Aplicando Piedra Día",
+			objeto: getEvolveItem('shiny stone'),
+			preevolucion: {
+				numeroEspecie: '669',
+				metodo: "Subiendo desde nivel 19",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
@@ -17784,6 +24564,14 @@ var names2 = [
 		{habilidadNombre: habNombre('grass pelt'),habilidadDescripcion: habDescripcion('grass pelt')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '673',
+			metodo: "Subiendo desde nivel 32",
+		},
+	},
+	],
 	ratioCaptura: 200,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -17808,6 +24596,14 @@ var names2 = [
 		{habilidadNombre: habNombre('grass pelt'),habilidadDescripcion: habDescripcion('grass pelt')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '672',
+			metodo: "Subiendo desde nivel 32",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -17833,6 +24629,15 @@ var names2 = [
 		{habilidadNombre: habNombre('scrappy'),habilidadDescripcion: habDescripcion('scrappy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '675',
+			metodo: "Subiendo desde nivel 32 con un Pokémon tipo Siniestro en el equipo",
+			condicion: ['ally'],
+		},
+	},
+	],
 	ratioCaptura: 220,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -17858,6 +24663,15 @@ var names2 = [
 		{habilidadNombre: habNombre('scrappy'),habilidadDescripcion: habDescripcion('scrappy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '674',
+			metodo: "Subiendo desde nivel 32 con un Pokémon tipo Siniestro en el equipo",
+			condicion: ['ally'],
+		},
+	},
+	],
 	ratioCaptura: 65,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -17904,6 +24718,14 @@ var names2 = [
 		{habilidadNombre: habNombre('own tempo'),habilidadDescripcion: habDescripcion('own tempo')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '678',
+			metodo: "Subiendo desde nivel 25",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -17948,6 +24770,19 @@ var names2 = [
 		{habilidadNombre: habNombre('indefenso'),habilidadDescripcion: habDescripcion('indefenso')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '680',
+			metodo: "Subiendo desde nivel 35",
+			evolucion: {
+				numeroEspecie: '681',
+				metodo: "Aplicando Piedra Noche",
+				objeto: getEvolveItem('dusk stone'),
+			},
+		},
+	},
+	],
 	ratioCaptura: 180,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -17969,6 +24804,19 @@ var names2 = [
 		{habilidadNombre: habNombre('indefenso'),habilidadDescripcion: habDescripcion('indefenso')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '679',
+			metodo: "Subiendo desde nivel 35",
+		},
+		evolucion: {
+			numeroEspecie: '681',
+			metodo: "Aplicando Piedra Noche",
+			objeto: getEvolveItem('dusk stone'),
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -17990,6 +24838,19 @@ var names2 = [
 		{habilidadNombre: habNombre('stance change'),habilidadDescripcion: habDescripcion('stance change')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '680',
+			metodo: "Aplicando Piedra Noche",
+			objeto: getEvolveItem('dusk stone'),
+			preevolucion: {
+				numeroEspecie: '679',
+				metodo: "Subiendo desde nivel 35",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -18015,6 +24876,16 @@ var names2 = [
 		{habilidadNombre: habNombre('aroma veil'),habilidadDescripcion: habDescripcion('aroma veil')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '683',
+			metodo: "Intercambio con objeto Saquito Fragante",
+			condicion: ['trade'],
+			objeto: getEvolveItem('sachet'),
+		},
+	},
+	],
 	ratioCaptura: 200,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -18039,6 +24910,16 @@ var names2 = [
 		{habilidadNombre: habNombre('aroma veil'),habilidadDescripcion: habDescripcion('aroma veil')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '682',
+			metodo: "Intercambio con objeto Saquito Fragante",
+			condicion: ['trade'],
+			objeto: getEvolveItem('sachet'),
+		},
+	},
+	],
 	ratioCaptura: 140,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -18063,6 +24944,16 @@ var names2 = [
 		{habilidadNombre: habNombre('liviano'),habilidadDescripcion: habDescripcion('liviano')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '685',
+			metodo: "Intercambio con objeto Dulce de Nata",
+			condicion: ['trade'],
+			objeto: getEvolveItem('whipped dream'),
+		},
+	},
+	],
 	ratioCaptura: 200,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -18087,6 +24978,16 @@ var names2 = [
 		{habilidadNombre: habNombre('liviano'),habilidadDescripcion: habDescripcion('liviano')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '684',
+			metodo: "Intercambio con objeto Dulce de Nata",
+			condicion: ['trade'],
+			objeto: getEvolveItem('whipped dream'),
+		},
+	},
+	],
 	ratioCaptura: 140,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -18112,6 +25013,15 @@ var names2 = [
 		{habilidadNombre: habNombre('Allanamiento'),habilidadDescripcion: habDescripcion('Allanamiento')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '687',
+			metodo: "Subiendo desde nivel 30 manteniendo la consola 3DS cabeza abajo",
+			condicion: ['console-upside-down'],
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -18137,6 +25047,15 @@ var names2 = [
 		{habilidadNombre: habNombre('Allanamiento'),habilidadDescripcion: habDescripcion('Allanamiento')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '686',
+			metodo: "Subiendo desde nivel 30 manteniendo la consola 3DS cabeza abajo",
+			condicion: ['console-upside-down'],
+		},
+	},
+	],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -18162,6 +25081,14 @@ var names2 = [
 		{habilidadNombre: habNombre('hurto'),habilidadDescripcion: habDescripcion('hurto')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '689',
+			metodo: "Subiendo desde nivel 39",
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -18187,6 +25114,14 @@ var names2 = [
 		{habilidadNombre: habNombre('hurto'),habilidadDescripcion: habDescripcion('hurto')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '688',
+			metodo: "Subiendo desde nivel 39",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -18212,6 +25147,14 @@ var names2 = [
 		{habilidadNombre: habNombre('adaptable'),habilidadDescripcion: habDescripcion('adaptable')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '691',
+			metodo: "Subiendo desde nivel 48",
+		},
+	},
+	],
 	ratioCaptura: 225,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -18237,6 +25180,14 @@ var names2 = [
 		{habilidadNombre: habNombre('adaptable'),habilidadDescripcion: habDescripcion('adaptable')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '690',
+			metodo: "Subiendo desde nivel 48",
+		},
+	},
+	],
 	ratioCaptura: 55,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -18258,6 +25209,14 @@ var names2 = [
 		{habilidadNombre: habNombre('mega launcher'),habilidadDescripcion: habDescripcion('mega launcher')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '693',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 225,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -18279,6 +25238,14 @@ var names2 = [
 		{habilidadNombre: habNombre('mega launcher'),habilidadDescripcion: habDescripcion('mega launcher')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '692',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 55,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -18304,6 +25271,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Poder Solar'),habilidadDescripcion: habDescripcion('Poder Solar')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '695',
+			metodo: "Aplicando Piedra Solar",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -18329,6 +25304,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Poder Solar'),habilidadDescripcion: habDescripcion('Poder Solar')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '694',
+			metodo: "Aplicando Piedra Solar",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -18354,6 +25337,15 @@ var names2 = [
 		{habilidadNombre: habNombre('rock head'),habilidadDescripcion: habDescripcion('rock head')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '697',
+			metodo: "Subiendo desde nivel 39 en el día",
+			condicion: ['daylight'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -18378,6 +25370,15 @@ var names2 = [
 		{habilidadNombre: habNombre('rock head'),habilidadDescripcion: habDescripcion('rock head')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '696',
+			metodo: "Subiendo desde nivel 39 en el día",
+			condicion: ['daylight'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -18402,6 +25403,15 @@ var names2 = [
 		{habilidadNombre: habNombre('nevada'),habilidadDescripcion: habDescripcion('nevada')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '699',
+			metodo: "Subiendo desde nivel 39 en la noche",
+			condicion: ['night'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ps: 1,
@@ -18426,6 +25436,15 @@ var names2 = [
 		{habilidadNombre: habNombre('nevada'),habilidadDescripcion: habDescripcion('nevada')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '698',
+			metodo: "Subiendo desde nivel 39 en la noche",
+			condicion: ['night'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -18450,6 +25469,85 @@ var names2 = [
 		{habilidadNombre: habNombre('pixilate'),habilidadDescripcion: habDescripcion('pixilate')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '134',
+				metodo: "Aplicando Piedra Agua",
+				objeto: getEvolveItem('waterstone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '135',
+				metodo: "Aplicando Piedra Trueno",
+				objeto: getEvolveItem('thunderstone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '136',
+				metodo: "Aplicando Piedra Fuego",
+				objeto: getEvolveItem('firestone'),
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '196',
+				metodo: "Felicidad máxima, subiendo de nivel en el día",
+				condicion: ['happiness', 'daylight'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '197',
+				metodo: "Felicidad máxima, subiendo de nivel en la noche",
+				condicion: ['happiness', 'night'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '470',
+				metodo: "Subiendo de nivel cerca de la Roca Musgo",
+				condicion: ['location'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			otraEvolucion: {
+				numeroEspecie: '471',
+				metodo: "Subiendo de nivel cerca de la Roca Helada",
+				condicion: ['location'],
+			},
+		},
+	},
+	{
+		preevolucion: {
+			numeroEspecie: '133',
+			metodo: "Felicidad máxima, subiendo de nivel con movimiento de tipo Hada",
+			condicion: ['happiness', 'movement'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -18549,6 +25647,19 @@ var names2 = [
 		{habilidadNombre: habNombre('gooey'),habilidadDescripcion: habDescripcion('gooey')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '705',
+			metodo: "Subiendo desde nivel 40",
+			evolucion: {
+				numeroEspecie: '706',
+				metodo: 'Subiendo desde nivel 50 en la Lluvia',
+				condicion: ['rain'],
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 1,
@@ -18574,6 +25685,19 @@ var names2 = [
 		{habilidadNombre: habNombre('gooey'),habilidadDescripcion: habDescripcion('gooey')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '704',
+			metodo: "Subiendo desde nivel 40",
+		},
+		evolucion: {
+			numeroEspecie: '706',
+			metodo: 'Subiendo desde nivel 50 en la Lluvia',
+			condicion: ['rain'],
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 2,
@@ -18599,6 +25723,19 @@ var names2 = [
 		{habilidadNombre: habNombre('gooey'),habilidadDescripcion: habDescripcion('gooey')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '705',
+			metodo: 'Subiendo desde nivel 50 en la Lluvia',
+			condicion: ['rain'],
+			preevolucion: {
+				numeroEspecie: '704',
+				metodo: "Subiendo desde nivel 40",
+			},
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
@@ -18648,6 +25785,15 @@ var names2 = [
 		{habilidadNombre: habNombre('cosecha'),habilidadDescripcion: habDescripcion('cosecha')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '709',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -18673,6 +25819,15 @@ var names2 = [
 		{habilidadNombre: habNombre('cosecha'),habilidadDescripcion: habDescripcion('cosecha')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '708',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -18698,6 +25853,15 @@ var names2 = [
 		{habilidadNombre: habNombre('insomnio'),habilidadDescripcion: habDescripcion('insomnio')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '711',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+		},
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -18723,6 +25887,15 @@ var names2 = [
 		{habilidadNombre: habNombre('insomnio'),habilidadDescripcion: habDescripcion('insomnio')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '710',
+			metodo: "Intercambio",
+			condicion: ['trade'],
+		},
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -18748,6 +25921,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Sturdy'),habilidadDescripcion: habDescripcion('Sturdy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '713',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -18773,6 +25954,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Sturdy'),habilidadDescripcion: habDescripcion('Sturdy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '712',
+			metodo: "Subiendo desde nivel 37",
+		},
+	},
+	],
 	ratioCaptura: 55,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -18798,6 +25987,14 @@ var names2 = [
 		{habilidadNombre: habNombre('telepathy'),habilidadDescripcion: habDescripcion('telepathy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		evolucion: {
+			numeroEspecie: '715',
+			metodo: "Subiendo desde nivel 48",
+		},
+	},
+	],
 	ratioCaptura: 190,
 	valoresEsfuerzo: {
 		velocidad: 1,
@@ -18823,6 +26020,14 @@ var names2 = [
 		{habilidadNombre: habNombre('telepathy'),habilidadDescripcion: habDescripcion('telepathy')},
 		],
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '714',
+			metodo: "Subiendo desde nivel 48",
+		},
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -19006,6 +26211,14 @@ var names2 = [
 		{habilidadNombre: habNombre('Tenacidad'),habilidadDescripcion: "(Sólo en hembras) "+habDescripcion('Tenacidad')},
 		]
 	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '677',
+			metodo: "Subiendo desde nivel 25",
+		},
+	},
+	],
 	ratioCaptura: 75,
 	valoresEsfuerzo: {
 		velocidad: 2,

@@ -14,27 +14,63 @@
         font-size: 20px;
 font-style: normal;
 margin-left: 20px;
-}.flaticon-cross9:before {
+}.flaticon-3d64:before {
 	content: "\e000";
 }
-.flaticon-female204:before {
+.flaticon-ascending11:before {
 	content: "\e001";
 }
-.flaticon-heart15:before {
+.flaticon-black22:before {
 	content: "\e002";
 }
-.flaticon-male201:before {
+.flaticon-camera70:before {
 	content: "\e003";
 }
-.flaticon-question30:before {
+.flaticon-compactdisc1:before {
 	content: "\e004";
 }
-.flaticon-right86:before {
+.flaticon-cross9:before {
 	content: "\e005";
 }
-.flaticon-shield15:before {
+.flaticon-dark26:before {
 	content: "\e006";
 }
-.flaticon-star83:before {
+.flaticon-facebook30:before {
 	content: "\e007";
+}
+.flaticon-female204:before {
+	content: "\e008";
+}
+.flaticon-heart15:before {
+	content: "\e009";
+}
+.flaticon-level:before {
+	content: "\e00a";
+}
+.flaticon-male201:before {
+	content: "\e00b";
+}
+.flaticon-nintendo5:before {
+	content: "\e00c";
+}
+.flaticon-question30:before {
+	content: "\e00d";
+}
+.flaticon-raindrops2:before {
+	content: "\e00e";
+}
+.flaticon-right86:before {
+	content: "\e00f";
+}
+.flaticon-shield15:before {
+	content: "\e010";
+}
+.flaticon-star83:before {
+	content: "\e011";
+}
+.flaticon-two347:before {
+	content: "\e012";
+}
+.flaticon-up51:before {
+	content: "\e013";
 }

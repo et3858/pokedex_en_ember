@@ -1092,7 +1092,28 @@ var abilities = [
 ['Aura Feérica', 'Fairy Aura', "Aumenta el poder de todos los movimientos de tipo Hada."],
 ['Rompeaura', 'Aura Break', "Invierte los efectos de las habilidades basadas en aura."],
 
+
+
+
+['Mar del Albor', 'Primordial Sea', "Produce una clima poderosamente Lluvioso y perpetuo al entrar en batalla, impide los movimientos de tipo Fuego y anula los efectos de clima provocados por movimientos y habilidades del mismo."],
+['Tierra del Ocaso', 'Desolate Land', "Produce una clima abrasadoramente Soleado y perpetuo al entrar en batalla, impide los movimientos de tipo Agua y anula los efectos de clima provocados por movimientos y habilidades del mismo."],
+['Ráfaga Delta', 'Delta Stream', "Produce una clima muy Turbulento y perpetuo al entrar en batalla, debilita la efectividad de los movimientos que sean efectivos contra los pokémon de tipo Volador y anula los efectos de clima provocados por movimientos y habilidades del mismo."],
+
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1126,6 +1147,71 @@ function habDescripcion(valor){
 				encontrado = "";
 				//encontrado = abilities[i][j];
 				encontrado = abilities[i][abilities[i].length-1];
+				break;
+			}
+		}
+	}
+	return encontrado;
+}
+
+
+
+
+
+
+
+
+
+var evolveItems = [
+
+['Piedra Fuego', 'Fire Stone', "http://www.serebii.net/itemdex/sprites/firestone.png"],
+['Piedra Trueno', 'Thunder Stone', "http://www.serebii.net/itemdex/sprites/thunderstone.png"],
+['Piedra Agua', 'Water Stone', "http://www.serebii.net/itemdex/sprites/waterstone.png"],
+['Piedra Hoja', 'Leaf Stone', "http://www.serebii.net/itemdex/sprites/leafstone.png"],
+['Piedra Alba', 'Dawn Stone', "http://www.serebii.net/itemdex/sprites/dawnstone.png"],
+['Piedra Día', 'Shiny Stone', "http://www.serebii.net/itemdex/sprites/shinystone.png"],
+['Piedra Noche', 'Dusk Stone', "http://www.serebii.net/itemdex/sprites/duskstone.png"],
+['Piedra Solar', 'Sun Stone', "http://www.serebii.net/itemdex/sprites/sunstone.png"],
+['Piedra Lunar', 'Moon Stone', "http://www.serebii.net/itemdex/sprites/moonstone.png"],
+
+
+['Mejora', 'Up-grade', "http://www.serebii.net/itemdex/sprites/up-grade.png"],
+['Discoxtraño', 'Dubious Disc', "http://www.serebii.net/itemdex/sprites/dubiousdisc.png"],
+
+['Escama Marina', 'Deep Sea Scale', "http://www.serebii.net/itemdex/sprites/deepseascale.png"],
+['Diente Marino', 'Deep Sea Tooth', "http://www.serebii.net/itemdex/sprites/deepseatooth.png"],
+
+['Escamadragón', 'Dragon Scale', "http://www.serebii.net/itemdex/sprites/dragonscale.png"],
+['Escama Bella', 'Prism Scale', "http://www.serebii.net/itemdex/sprites/prismscale.png"],
+['Electrizador', 'Electirizer', "http://www.serebii.net/itemdex/sprites/electirizer.png"],
+['Magmatizador', 'Magmarizer', "http://www.serebii.net/itemdex/sprites/magmarizer.png"],
+['Roca del Rey', 'King\'s Rock', "http://www.serebii.net/itemdex/sprites/king'srock.png"],
+['Revestimiento Metálico', 'Metal Coat', "http://www.serebii.net/itemdex/sprites/metalcoat.png"],
+['Piedra Oval', 'Oval Stone', "http://www.serebii.net/itemdex/sprites/ovalstone.png"],
+['Protector', 'Protector', "http://www.serebii.net/itemdex/sprites/protector.png"],
+['Telaterrible', 'Reaper Cloth', "http://www.serebii.net/itemdex/sprites/reapercloth.png"],
+['Saquito Fragante', 'Sachet', "http://www.serebii.net/itemdex/sprites/sachet.png"],
+['Dulce de Nata', 'Whipped Dream', "http://www.serebii.net/itemdex/sprites/whippeddream.png"],
+
+['Garrafilada', 'Razor Claw', "http://www.serebii.net/itemdex/sprites/razorclaw.png"],
+['Colmillo Agudo', 'Razor Fang', "http://www.serebii.net/itemdex/sprites/razorfang.png"],
+
+];
+
+
+
+
+
+
+
+
+function getEvolveItem(valor){
+	var encontrado = "(N/A)";
+	for(var i = 0; i < evolveItems.length; i++){
+		for(var j = 0; j < evolveItems[i].length-1; j++){
+			if (evolveItems[i][j].replace(/ /g, '').toLowerCase() == valor.trim().replace(/ /g, '').toLowerCase()) {
+				encontrado = "";
+				encontrado = evolveItems[i][evolveItems[i].length-1];
 				break;
 			}
 		}

@@ -173,6 +173,84 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<section class="secSecond">
+					<div class="thirdTitle">Cadena evolutiva</div>
+					<div class="thirdContent">
+						<div class="evolutions text-align-center">
+							<div class="evolution-chain">
+								<div class="stage-1"><img src="" width="50" height="50"></div>
+								<div class="transition">
+									<div class="line">
+										<!--<span class="flaticon-up51"></span>30-->
+										<!--<img src="" width="20" height="20">-->
+									</div>
+									<span class="line-desc">Ascenso desde el nivel 30</span>
+								</div>
+								<div class="stage-2"><img src="" width="50" height="50"></div>
+								<div class="transition">
+									<div class="line">
+										<!--
+										<img src="" width="20" height="20">
+										-->
+									</div>
+									<span class="line-desc">Método de evolución a seguir</span>
+								</div>
+								<div class="stage-3"><img src="" width="50" height="50"></div>
+							</div>
+							<!--
+							<div class="evolution-chain">
+								Otra cadena evolutiva
+							</div>
+							-->
+						</div>
+					</div>
+				</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				<section class="secSecond">
 					<div class="thirdTitle" id="points-menu">Captura y puntajes</div>
 					<div class="thirdContent"  id="points-cont">
@@ -551,6 +629,351 @@
 						</article>
 					</div>
 				</section>
+
+
+
+
+
+
+
+
+
+
+
+
+				<section class="secSecond">
+					<div class="thirdTitle">Cadena evolutiva</div>
+					<div class="thirdContent">
+						<div class="evolutions text-align-center">
+
+
+							{{#if cadenaEvolutiva}}
+
+
+							{{#each evol in cadenaEvolutiva}}
+
+
+							<div class="evolution-chain">
+
+
+
+
+
+								{{#comprobarEvoMedio evol.preevolucion evol.evolucion}}
+
+								<!--<div class="stage-1"><img src="" width="50" height="50"></div>-->
+								<div class="stage-1 stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+
+								<div class="transition">
+									<div class="line-passed">
+										<!--<span class="flaticon-up51"></span>30-->
+										{{#if evol.preevolucion.condicion}}
+										{{#each cond in evol.preevolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+										<!--<img src="" width="20" height="20">-->
+										{{#mostrarObjetoEvolucion evol.preevolucion.objeto}}{{/mostrarObjetoEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.preevolucion.metodo}}</span>
+								</div>
+
+								<!--<div class="stage-2"><img src="" width="50" height="50"></div>-->
+								<div class="stage-2 stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
+
+								<div class="transition">
+									<div class="line">
+										<!--<span class="flaticon-up51"></span>30-->
+										{{#if evol.evolucion.condicion}}
+										{{#each cond in evol.evolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+										<!--<img src="" width="20" height="20">-->
+										{{#mostrarObjetoEvolucion evol.evolucion.objeto}}{{/mostrarObjetoEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.evolucion.metodo}}</span>
+								</div>
+
+								<!--<div class="stage-3"><img src="" width="50" height="50"></div>-->
+								<div class="stage-3">{{#mostrarSpriteEvolucion evol.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+
+								{{/comprobarEvoMedio}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								{{#comprobarEvoInicio evol.preevolucion evol.evolucion}}
+								{{#if evol.evolucion.evolucion}}
+								<!--Tiene dos evoluciones-->
+
+								<div class="stage-1 stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
+
+								<div class="transition">
+									<div class="line">
+										<!--<span class="flaticon-up51"></span>30-->
+										{{#if evol.evolucion.condicion}}
+										{{#each cond in evol.evolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+										<!--<img src="" width="20" height="20">-->
+										{{#mostrarObjetoEvolucion evol.evolucion.objeto}}{{/mostrarObjetoEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.evolucion.metodo}}</span>
+								</div>
+
+								<div class="stage-2">{{#mostrarSpriteEvolucion evol.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+
+								<div class="transition">
+									<div class="line">
+										<!--<span class="flaticon-up51"></span>30-->
+										{{#if evol.evolucion.evolucion.condicion}}
+										{{#each cond in evol.evolucion.evolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+										<!--<img src="" width="20" height="20">-->
+										{{#mostrarObjetoEvolucion evol.evolucion.evolucion.objeto}}{{/mostrarObjetoEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.evolucion.evolucion.metodo}}</span>
+								</div>
+
+								<div class="stage-3">{{#mostrarSpriteEvolucion evol.evolucion.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+
+								{{else}}
+								<!--Tiene solo una evolucion-->
+
+								<!--<div class="stage-1"><img src="" width="50" height="50"></div>-->
+								<div class="stage-1 stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
+
+								<div class="transition">
+									<div class="line">
+										<!--<span class="flaticon-up51"></span>30-->
+										{{#if evol.evolucion.condicion}}
+										{{#each cond in evol.evolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+										<!--<img src="" width="20" height="20">-->
+										{{#mostrarObjetoEvolucion evol.evolucion.objeto}}{{/mostrarObjetoEvolucion}}
+										{{#mostrarPokemonEvolucion evol.evolucion.pokemon}}{{/mostrarPokemonEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.evolucion.metodo}}</span>
+								</div>
+
+								<!--<div class="stage-2"><img src="" width="50" height="50"></div>-->
+								<div class="stage-2">{{#mostrarSpriteEvolucion evol.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+
+								{{/if}}
+								{{/comprobarEvoInicio}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								{{#comprobarEvoFinal evol.preevolucion evol.evolucion}}
+								{{#if evol.preevolucion.preevolucion}}
+								<!--Tiene DOS PREEVOLUCIONES-->
+
+								<!--<div class="stage-1"><img src="" width="50" height="50"></div>-->
+								<div class="stage-1 stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.preevolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+
+								<div class="transition">
+									<div class="line-passed">
+										<!--<span class="flaticon-up51"></span>30-->
+										{{#if evol.preevolucion.preevolucion.condicion}}
+										{{#each cond in evol.preevolucion.preevolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+										<!--<img src="" width="20" height="20">-->
+										{{#mostrarObjetoEvolucion evol.preevolucion.preevolucion.objeto}}{{/mostrarObjetoEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.preevolucion.preevolucion.metodo}}</span>
+								</div>
+
+								<!--<div class="stage-2"><img src="" width="50" height="50"></div>-->
+								<div class="stage-2 stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+
+								{{#if evol.preevolucion.otraEvolucion}}
+
+								<div class="transition">
+									<div class="line-passed">
+										<!--<span class="flaticon-up51"></span>30-->
+										{{#if evol.preevolucion.otraEvolucion.condicion}}
+										{{#each cond in evol.preevolucion.otraEvolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+
+										{{#mostrarObjetoEvolucion evol.preevolucion.otraEvolucion.objeto}}{{/mostrarObjetoEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.preevolucion.otraEvolucion.metodo}}</span>
+								</div>
+
+								<div class="stage-3 stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.otraEvolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+
+								{{else}}
+
+								<div class="transition">
+									<div class="line-passed">
+										<!--<span class="flaticon-up51"></span>30-->
+										{{#if evol.preevolucion.condicion}}
+										{{#each cond in evol.preevolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+										<!--<img src="" width="20" height="20">-->
+										{{#mostrarObjetoEvolucion evol.preevolucion.objeto}}{{/mostrarObjetoEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.preevolucion.metodo}}</span>
+								</div>
+
+								<div class="stage-3 stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
+								
+								{{/if}}
+
+								{{else}}
+								<!--Tiene solo una PREEVOLUCION-->
+
+								<!--<div class="stage-1"><img src="" width="50" height="50"></div>-->
+								<div class="stage-1 stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+
+								{{#if evol.preevolucion.otraEvolucion}}
+
+								<div class="transition">
+									<div class="line-passed">
+
+										{{#if evol.preevolucion.otraEvolucion.condicion}}
+										{{#each cond in evol.preevolucion.otraEvolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+
+										{{#mostrarObjetoEvolucion evol.preevolucion.otraEvolucion.objeto}}{{/mostrarObjetoEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.preevolucion.otraEvolucion.metodo}}</span>
+								</div>
+
+								<div class="stage-2 stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.otraEvolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+
+								{{#if evol.preevolucion.otraEvolucion.evolucion}}
+
+								<div class="transition">
+									<div class="line-passed">
+
+										{{#if evol.preevolucion.otraEvolucion.evolucion.condicion}}
+										{{#each cond in evol.preevolucion.otraEvolucion.evolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+
+										{{#mostrarObjetoEvolucion evol.preevolucion.otraEvolucion.evolucion.objeto}}{{/mostrarObjetoEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.preevolucion.otraEvolucion.evolucion.metodo}}</span>
+								</div>
+
+								<div class="stage-3 stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.otraEvolucion.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+
+								{{/if}}
+
+								{{else}}
+
+								<div class="transition">
+									<div class="line-passed">
+										<!--<span class="flaticon-up51"></span>30-->
+										{{#if evol.preevolucion.condicion}}
+										{{#each cond in evol.preevolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+										<!--<img src="" width="20" height="20">-->
+										{{#mostrarObjetoEvolucion evol.preevolucion.objeto}}{{/mostrarObjetoEvolucion}}
+										{{#mostrarPokemonEvolucion evol.preevolucion.pokemon}}{{/mostrarPokemonEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.preevolucion.metodo}}</span>
+								</div>
+
+								<div class="stage-2 stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
+								{{/if}}
+
+								{{/if}}
+								{{/comprobarEvoFinal}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							</div>
+
+							{{/each}}
+							<!--
+							<div class="evolution-chain">
+								Otra cadena evolutiva
+							</div>
+							-->
+
+							{{else}}
+							No tiene cadena evolutiva
+							{{/if}}
+						</div>
+					</div>
+				</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
