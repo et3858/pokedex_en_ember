@@ -102,6 +102,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['003'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -225,6 +226,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['006x', '006y'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -354,6 +356,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['009'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensaEspecial: 3,
@@ -2726,6 +2729,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['065'],
 	ratioCaptura: 50,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -3380,7 +3384,7 @@ var names2 = [
 			metodo: "Subiendo desde nivel 30",
 			evolucion: {
 				numeroEspecie: '462',
-				metodo: "Subiendo de nivel en Monte Corona, Cueva Electroroca o Ruta 13 (Región Kalos)",
+				metodo: "Subiendo de nivel en Monte Corona (D/P/Pt), Cueva Electroroca (B/W/B2/W2), Ruta 13 (X/Y) o Malvalanova (OR/AS)",
 				condicion: ['location'],
 			},
 		},
@@ -3424,7 +3428,7 @@ var names2 = [
 		},
 		evolucion: {
 			numeroEspecie: '462',
-			metodo: "Subiendo de nivel en Monte Corona, Cueva Electroroca o Ruta 13 (Región Kalos)",
+			metodo: "Subiendo de nivel en Monte Corona (D/P/Pt), Cueva Electroroca (B/W/B2/W2), Ruta 13 (X/Y) o Malvalanova (OR/AS)",
 			condicion: ['location'],
 		},
 	},
@@ -3867,6 +3871,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['094'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -4671,6 +4676,7 @@ var names2 = [
 		{habilidadNombre: habNombre('inner focus'),habilidadDescripcion: habDescripcion('inner focus')},
 		],
 	},
+	megaEvolucion: ['115'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ps: 2,
@@ -5135,6 +5141,7 @@ var names2 = [
 		{habilidadNombre: habNombre('moxie'),habilidadDescripcion: habDescripcion('moxie')},
 		],
 	},
+	megaEvolucion: ['127'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -5238,6 +5245,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['130'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -5919,6 +5927,7 @@ var names2 = [
 		{habilidadNombre: habNombre('unnerve'),habilidadDescripcion: habDescripcion('unnerve')},
 		],
 	},
+	megaEvolucion: ['142'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -6179,6 +6188,7 @@ var names2 = [
 		{habilidadNombre: habNombre('unnerve'),habilidadDescripcion: habDescripcion('unnerve')},
 		],
 	},
+	megaEvolucion: ['150x', '150y'],
 	ratioCaptura: 3,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -11837,7 +11847,7 @@ var names2 = [
 	{
 		evolucion: {
 			numeroEspecie: '476',
-			metodo: "Subiendo de nivel en Monte Corona, Cueva Electroroca o Ruta 13 (Región Kalos)",
+			metodo: "Subiendo de nivel en Monte Corona (D/P/Pt), Cueva Electroroca (B/W/B2/W2), Ruta 13 (X/Y) o Malvalanova (OR/AS)",
 			condicion: ['location'],
 		},
 	},
@@ -17308,7 +17318,7 @@ var names2 = [
 	{
 		preevolucion: {
 			numeroEspecie: '082',
-			metodo: "Subiendo de nivel en Monte Corona, Cueva Electroroca o Ruta 13 (Región Kalos)",
+			metodo: "Subiendo de nivel en Monte Corona (D/P/Pt), Cueva Electroroca (B/W/B2/W2), Ruta 13 (X/Y) o Malvalanova (OR/AS)",
 			condicion: ['location'],
 			preevolucion: {
 				numeroEspecie: '081',
@@ -17995,7 +18005,7 @@ var names2 = [
 	{
 		preevolucion: {
 			numeroEspecie: '299',
-			metodo: "Subiendo de nivel en Monte Corona, Cueva Electroroca o Ruta 13 (Región Kalos)",
+			metodo: "Subiendo de nivel en Monte Corona (D/P/Pt), Cueva Electroroca (B/W/B2/W2), Ruta 13 (X/Y) o Malvalanova (OR/AS)",
 			condicion: ['location'],
 		},
 	},
@@ -26120,6 +26130,26 @@ var names2 = [
 		dexKalosCentral: '151',
 	},
 	idiomas: {frances: namesFR[718],aleman: namesDE[718],japones: [namesJP[718][1], namesJP[718][0]],coreano: [namesKO[718][1], namesKO[718][0]]}
+},
+{
+	id: '720',
+	nombre: names[719], tipo: ['psychic', 'ghost'], clasificacion: 'Pokémon Travesura',
+	altura: [getAltura(719).pies, getAltura(719).metros], peso: [getPeso(719).libras, getPeso(719).kilogramos],
+	habilidades: {
+		habilidadesNormales: [
+		{habilidadNombre: habNombre('magician'),habilidadDescripcion: habDescripcion('magician')},
+		],
+	},
+	ratioCaptura: 3,
+	valoresEsfuerzo: {
+		ataqueEspecial: 3,
+	},
+	pasos: 255 * 121, grupo: ['Desconocido'], amistad: 100,
+	dexRegiones: {
+		dexNacional: '720',
+		dexKalosCentral: '152',
+	},
+	idiomas: {frances: namesFR[719],aleman: namesDE[719],japones: [namesJP[719][1], namesJP[719][0]],coreano: [namesKO[719][1], namesKO[719][0]]}
 },
 
 

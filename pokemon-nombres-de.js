@@ -758,7 +758,7 @@ var namesDE = [
 "Yveltal",
 "Zygarde",
 "Diancie",
-
+"Hoopa",
 
 ];
 

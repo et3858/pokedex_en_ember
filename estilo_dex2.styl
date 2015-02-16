@@ -1,4 +1,6 @@
 @import url('http://fonts.googleapis.com/css?family=Cabin+Condensed')
+@import url('http://fonts.googleapis.com/css?family=Roboto')
+@import url('http://fonts.googleapis.com/css?family=Noto+Sans')
 @import 'nib/gradients'
 @import 'nib/vendor'
 
@@ -20,7 +22,7 @@ vendor-prefixes = o ms moz webkit official
 	text-align: center
 	text-shadow: 0 0 10px black
 	width: 100px
-	box-shadow: 0px 1px 5px black
+	box-shadow: 0px 1px 5px gray
 	//z-index: 1
 
 
@@ -80,7 +82,8 @@ vendor-prefixes = o ms moz webkit official
 
 body, html
 	//font-family: "Cabin Condensed", Helvetica neue, Helvetica, Arial, Sans-serif
-	font-family: "RobotoDraft", Helvetica neue, Helvetica, Arial, Sans-serif
+	//font-family: "RobotoDraft", Helvetica neue, Helvetica, Arial, Sans-serif
+	font-family: "Roboto", "Noto Sans", Helvetica neue, Helvetica, Arial, Sans-serif
 	margin: 0
 	padding: 0
 	position: relative
@@ -98,6 +101,7 @@ header
 	top: 0
 	width: 100%
 	z-index: 2
+	box-shadow: 0px 1px 5px gray
 	nav
 		background: green
 		margin: 0 auto
@@ -129,9 +133,12 @@ footer
 
 #secGeneral
 	//background: yellow
+	background: #e2e2e2
 	display: block
 	min-height: 500px
-	margin-top: 10px
+	//margin-top: 10px
+	padding-top: 64px
+	padding-bottom: 1px
 	#secPrincipal
 		//background: #f2f2f2
 		display: block
@@ -147,6 +154,7 @@ footer
 		#secFirstLook
 			//background: blue
 			display: block
+			position: relative
 			section
 				display: inline-block
 				vertical-align: top
@@ -154,6 +162,8 @@ footer
 				margin-left: 0
 			
 			#secImage
+				background: white
+				box-shadow: 0px 3px 10px gray
 				width: 300px
 				height: 300px
 				position: relative
@@ -177,7 +187,7 @@ footer
 				display: inline-block
 				margin-bottom: 1px
 				//padding: 8px 0 0 10px
-				padding: 8px 0 0 0
+				padding: 10px 0 0 0
 				//vertical-align: top
 				font-size: .6em
 				vertical-align: middle
@@ -186,12 +196,17 @@ footer
 				.blcSpec
 					cursor: default
 					display: block
-					padding: 3px 0 0 10px
-					transition: all .1s ease-in
-					&:hover
-						background: #a2a2a2
-						color: white
-						transition: all .1s ease-out
+					padding: 0 0 0 10px
+					margin-bottom: 10px
+					//transition: all .1s ease-in
+					//&:hover
+					//	background: #a2a2a2
+					//	color: white
+					//	transition: all .1s ease-out
+					span
+						color: gray
+						display: block
+						font-size: .9em
 				//#secBasicInfo
 				//width: 210px
 				//width: 788px
@@ -286,38 +301,50 @@ footer
 			min-height: 20px
 			.secSecond
 				display: block
+				box-shadow: 0px 2px 5px gray
 				.thirdTitle, .thirdContent
 					//display: block
-					color: white
+					//color: white
+					//background: #e2e2e2
+					background: white
+					color: #323035
 				.thirdTitle
 					display: block
-					background: red
+					//background: red
 					font-size: .7em
-					padding: 4px 0 3px 10px
+					padding: 10px 0 8px 10px
 					margin-top: 3px
-					&:hover
-						background: #E73131
+					//&:hover
+					//	background: #E73131
 				.thirdContent
 					//display: none
 					display: block
-					background: #e2e2e2
-					color: #323035
+					//background: #e2e2e2
+					//color: #323035
 					font-size: .6em
 					margin-bottom: 50px
-					padding: 5px 0
+					padding: 5px 0 10px 0
 					.blcSpec
 						padding-left: 10px
+						padding-bottom: 10px
+						span
+							font-size: .9em
+							color: gray
+							display: block
 					.text-align-center
 						text-align: center
 					.evolutions
 						display: block
 						.evolution-chain
 							display: block
+							padding-bottom: 20px
 							//background: orange
-							.stage-1, .stage-2, .stage-3
+							//.stage-1, .stage-2, .stage-3
+							.stage-current, .stage-passed, .stage-next
 								display: inline-block
 								vertical-align: top
-								background: #47FA00
+								//background: #47FA00
+								//background: #009587
 								width: 100px
 								height: 100px
 								position: relative
@@ -330,7 +357,7 @@ footer
 									left: 34px
 							.stage-current
 								background: white
-								border: 8px solid #47FA00
+								border: 8px solid #16B2A3
 								width: 84px
 								height: 84px
 								img
@@ -339,12 +366,22 @@ footer
 									left: 26px
 							.stage-passed
 								background: #C0CBBB
+								transition: box-shadow .5s ease
+								&:hover
+									box-shadow: 0px 3px 10px gray
+							.stage-next
+								background: #16B2A3
+								transition: box-shadow .5s ease
+								&:hover
+									box-shadow: 0px 3px 10px gray
 							.transition
 								display: inline-block
 								vertical-align: top
-								background: yellow
+								//background: yellow
+								background: white
 								position: relative
-								width: 120px
+								//width: 120px
+								width: 250px
 								height: 120px
 								margin-left: -10px
 								margin-right: -10px
@@ -426,17 +463,84 @@ footer
 											top: 0
 											left: 0
 								.line
-									background: #47FA00
+									//background: #47FA00
+									background: #16B2A3
 								.line-passed
 									background: #C0CBBB
 								.line-desc
-									font-size: .8em
+									font-size: .7em
+						.mega-evolution-chain
+							display: block
+							.evolution-init, .mega-evolution-list
+								display: inline-block
+								vertical-align: middle
+								.mega-evolution-option
+									display: inline-block
+									background: white
+									margin: 5px 0 0 5px
+									box-shadow: 0px 1px 5px gray
+							.stage-padding, .transition, .mega-specifications
+								display: inline-block
+								vertical-align: middle
+							.stage-padding
+								background: white
+								//background: linear-gradient(top, rgba(248,53,206,1) 0%, rgba(248,53,206,1) 4%, rgba(245,20,185,1) 14%, rgba(6,54,244,1) 24%, rgba(15,219,255,1) 35%, rgba(52,244,129,1) 45%, rgba(0,240,64,1) 53%, rgba(128,240,0,1) 62%, rgba(255,243,20,1) 71%, rgba(255,208,20,1) 80%, rgba(255,161,20,1) 88%, rgba(255,83,20,1) 97%, rgba(255,83,20,1) 100%)
+								//background: -webkit-linear-gradient(top, rgba(248,53,206,1) 0%, rgba(248,53,206,1) 4%, rgba(245,20,185,1) 14%, rgba(6,54,244,1) 24%, rgba(15,219,255,1) 35%, rgba(52,244,129,1) 45%, rgba(0,240,64,1) 53%, rgba(128,240,0,1) 62%, rgba(255,243,20,1) 71%, rgba(255,208,20,1) 80%, rgba(255,161,20,1) 88%, rgba(255,83,20,1) 97%, rgba(255,83,20,1) 100%);
+								width: 160px
+								height: 160px
+								//border: 7px solid red
+								border-radius: 50%
+								//border-image: linear-gradient(top, rgba(248,53,206,1) 0%, rgba(248,53,206,1) 4%, rgba(245,20,185,1) 14%, rgba(6,54,244,1) 24%, rgba(15,219,255,1) 35%, rgba(52,244,129,1) 45%, rgba(0,240,64,1) 53%, rgba(128,240,0,1) 62%, rgba(255,243,20,1) 71%, rgba(255,208,20,1) 80%, rgba(255,161,20,1) 88%, rgba(255,83,20,1) 97%, rgba(255,83,20,1) 100%)
+								.stage-simple
+									//display: inline-block
+									//vertical-align: top
+									background: transparent
+									width: 110px
+									height: 110px
+									position: relative
+									//border-radius: 50%
+									z-index: 1
+									top: 50%
+									left: 50%
+									margin-right: -50%
+									transform: translate(-50%, -50%)
+									img
+										max-width: 100%
+										max-height: 100%
+										position:absolute
+										margin: auto
+										top: 0
+										bottom: 0
+										left: 0
+										right: 0
+							.transition
+								.line
+									background: gray
+									display: block
+							.mega-specifications
+								text-align: left
+								//width: 170px
+								padding-right: 20px
+								div
+									font-size: .9em
+									margin-top: 10px
+									span
+										font-size: .8em
+										color: gray
+										display: block
+										position: relative
+										img
+											position: absolute
+											top: 0
+											right: 100%
+											margin-top: -5px
 					.ability-general
 						//background: purple
 						color: white
+						padding: 0 10px 0 10px
 						.ability-normal, .ability-hidden
 							border-radius: 20px
-							//box-shadow: 0px 1px 3px black
+							box-shadow: 0px 1px 5px gray
 							display: block
 							padding: 5px 8px 5px 10px
 							span
@@ -478,6 +582,7 @@ footer
 					.stats
 						//background: purple
 						display: inline-block
+						font-size: .9em
 						width: 170px
 						height: 130px
 						text-align: center
@@ -487,13 +592,14 @@ footer
 							color: white
 							display: block
 							margin: auto
+							margin-bottom: 5px
 							width: 100px
 							height: 100px
 							border-radius: 50%
 							&:before
 								margin: 0
 								display: block
-								padding-top: 30px
+								padding-top: 25px
 								font-size: 50px//No se tocan los tamanos, dejarlo asi
 						.spn-HP
 							background: #0BD20B
@@ -511,6 +617,7 @@ footer
 						display: inline-block
 						vertical-align: top
 						width: 150px
+						font-size: .9em
 						span
 							background: blue
 							border-radius: 50%
@@ -521,12 +628,14 @@ footer
 							display: block
 							line-height: 100px
 							margin: 0 auto
+							margin-bottom: 5px
 							//box-shadow: 0px 5px 1px black
 						//.spn-red-green-ver
 						//	background: linear-gradient(to right, red 50%, blue 50%)
 					.flags
 						//background: purple
 						display: inline-block
+						font-size: .9em
 						width: 120px
 						height: 130px
 						text-align: center
@@ -539,6 +648,7 @@ footer
 							//background: red
 						.flag-portrait
 							box-shadow: 0px 1px 5px black
+							margin-bottom: 5px
 						.french
 							background: linear-gradient(to right, blue 33%, white 33%, white 67%, red 67%)
 							//background: linear-gradient(to right, blue 33.33%, white 33.33%, white 66.66%, red 66.66%)
@@ -686,6 +796,58 @@ footer
 						background: blue
 					.spn-gender-female
 						background: pink
+					.graph-gender
+						//background: gray
+						border-left: 2px solid #BDBDBD
+						border-bottom: 2px solid #BDBDBD
+						display: block
+						margin-left: 70px
+						margin-right: 70px
+						margin-bottom: 10px
+						text-align: left
+						font-size: .9em
+						padding-top: 4px
+						padding-bottom: 4px
+						ul
+							list-style-type: none
+							padding: 0
+							margin: 0
+							li
+								padding: 4px 0
+								.gender-label
+									display: inline-block
+									//background: blue
+									width: 56px
+									margin-left: -62px
+								.female-bar, .male-bar
+									display: inline-block
+									//width: 100%
+									height: 40px
+									vertical-align: middle
+									position: relative
+									&:after
+										content: attr(data-value)
+										position: absolute
+										top: 9px
+										left: 100%
+										margin-left: 5px
+										font-weight: 900
+								.female-bar
+									background: #F50057
+									border-left: 2px solid #D50000
+									&:after
+										color: #F50057
+									&:hover
+										box-shadow: 0px 0px 10px #F50057
+								.male-bar
+									background: #1565C0
+									border-left: 2px solid #1A237E
+									&:after
+										color: #1565C0
+									&:hover
+										box-shadow: 0px 0px 10px #1565C0
+								//.percentage-label
+								//	background: yellow
 
 
 
@@ -872,6 +1034,13 @@ p
 	#secStartInfo
 		//background: orange
 		max-width: 464px
+	.evolutions
+		.evolution-chain
+			.transition
+				max-width: 150px
+				//		.line
+				//			background: red
+				//			//width: 100px
 
 
 
@@ -931,6 +1100,10 @@ p
 
 	#secStartInfo
 		max-width: 362px
+	.evolutions
+		.evolution-chain
+			.transition
+				max-width: 100px
 
 
 
@@ -952,7 +1125,7 @@ p
 	#secStartInfo
 		//background: orange
 		max-width: 377px
-		max-height: 142px
+		//max-height: 142px
 
 
 
@@ -972,6 +1145,10 @@ p
 	.stats
 		max-width: 150px
 		min-height: 150px
+	.evolutions
+		.evolution-chain
+			.transition
+				max-width: 90px
 		
 
 
@@ -997,10 +1174,48 @@ p
 		text-align: center
 		#secStartInfo
 			text-align: left
-			max-height: 130px
+			//max-height: 130px
 			//max-width: 100%
 			max-width: 398px
 			//margin-left: -2px
+	.evolutions
+		.evolution-chain
+			text-align: left
+			padding-left: 10px
+			.stage-current, .stage-passed, .stage-next
+				display: block !important
+				//margin-right: 60px
+			.transition
+				display: block !important
+				margin: 0
+				//max-width: 100%
+				text-align: center
+				margin-left: 0px !important
+				margin-right: 0px !important
+				margin-top: -8px
+				margin-bottom: -8px
+				max-width: 100px
+				max-height: 100px
+				.line, .line-passed
+					margin-top: 0px !important
+					//background: red
+					transform: rotate(90deg)
+					top: 30%
+					position: relative
+					//width: 40px
+					//min-height: 100%
+					span, img, .pokemon
+						transform: rotate(-90deg)
+						//vertical-align: middle
+				.line-desc
+					position: absolute
+					top: 30%
+					text-align: left
+					left: 100%
+					width: 120px
+					font-size: .8em !important
+					
+			//	max-width: 150px
 
 
 

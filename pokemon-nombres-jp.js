@@ -768,5 +768,6 @@ var namesJP = [
 ["イベルタル","Yveltal"],
 ["ジガルデ","Zygarde"],
 ["ディアンシー","Diancie"],
+["フーパ","Hoopa"],
 
 ];

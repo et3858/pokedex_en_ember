@@ -1,10 +1,20 @@
+
+
 App = Ember.Application.create();
 
 App.Router.map(function(){
 	//this.resource
 	this.resource('index', {path: '/'});
 	this.resource('pokemon', { path: 'pokemon/:post_id' });
+	//this.resource('pokemon', { path: 'pokemon/:post_id' }, function(){
+	//	this.route('mega', { path: '/mega/:mega_id' });
+	//});
+	//this.resource('mega');
+	this.resource('mega', { path: 'pokemon/mega/:mega_id' });
+	//this.resource('mega', { path: 'pokemon/mega/:mega_id' });
+	//this.route('notfound', {path: '/*path'});
 });
+
 
 
 
@@ -17,6 +27,14 @@ App.IndexRoute = Ember.Route.extend({
     return ['red', 'yellow', 'blue'];
   }
 });
+
+
+//App.NotfoundRoute = Ember.Route.extend({
+//	redirect: function(){
+//		Ember.debug('404 :: redirect to index');
+//		this.transitionTo('not-found');
+//	}
+//});
 
 
 
@@ -32,6 +50,28 @@ App.PokemonRoute = Ember.Route.extend({
 	}
 });
 
+
+
+
+App.MegaRoute = Ember.Route.extend({
+	model: function(params){
+		//console.log(namesM.findBy('id', params.mega_id));
+		//if (namesM.findBy('id', params.mega_id) !== undefined) {
+		//	console.log('Mega encontrado');
+		//	return namesM.findBy('id', params.mega_id);
+		//}else{
+		//	console.log('No encontrado');
+		//	this.transitionTo('not-found');
+		//}
+		return namesM.findBy('id', params.mega_id);
+	},
+	renderTemplate: function(){
+		this.render('mega', {path: '007'});
+	}
+});
+
+
+
 App.PokemonController = Ember.ObjectController.extend({
 	//esPlanta: function(){
 	//	return this.get('valor') === 'grass';
@@ -39,6 +79,18 @@ App.PokemonController = Ember.ObjectController.extend({
 	//.property('tipo')
 	//esFuego: Ember.computed.equal('valor', 'fire')
 });
+
+App.MegaController = Ember.ObjectController.extend({
+	//esPlanta: function(){
+	//	return this.get('valor') === 'grass';
+	//}.property('valor'),
+	//.property('tipo')
+	//esFuego: Ember.computed.equal('valor', 'fire')
+});
+
+
+
+
 
 Ember.Handlebars.registerHelper('ifTipo', function(valor, fire, options){
 	if (arguments.length < 3) {
@@ -137,6 +189,59 @@ Ember.Handlebars.registerHelper('imagenPorNombre', function(valor, options){
 	//return options.fn(this);
 });
 
+Ember.Handlebars.registerHelper('imagenPorNombreMega', function(valor, nombrePkmn, options){
+	var id = Ember.Handlebars.get(this, valor, options);
+	var nombreImg = Ember.Handlebars.get(this, nombrePkmn, options);
+	//return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase().substr(0,nombreImg.length-1)+".jpg\" border=\"0\">";
+	if (id == '006x' || id == '150x') {
+		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-mega-x.jpg\" border=\"0\">";
+	}else if (id == '006y' || id == '150y') {
+		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-mega-y.jpg\" border=\"0\">";
+	}else{
+		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-mega.jpg\" border=\"0\">";
+	}
+});
+
+
+Ember.Handlebars.registerHelper('tituloMega', function(valor, nombrePkmn, options){
+	var id = Ember.Handlebars.get(this, valor, options);
+	var nombreImg = Ember.Handlebars.get(this, nombrePkmn, options);
+	//return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase().substr(0,nombreImg.length-1)+".jpg\" border=\"0\">";
+	if (id == '006x' || id == '150x') {
+		return "<h1 id=\"secName\">#"+id.substr(0,id.length-1)+" Mega "+nombreImg+" X</h1>";
+	}else if (id == '006y' || id == '150y') {
+		return "<h1 id=\"secName\">#"+id.substr(0,id.length-1)+" Mega "+nombreImg+" Y</h1>";
+	}else{
+		return "<h1 id=\"secName\">#"+id+" Mega "+nombreImg+"</h1>";
+	}
+	//<h1 id="secName">#{{id}} Mega {{nombre}}</h1>
+});
+
+Ember.Handlebars.registerHelper('mostrarMegaPiedra', function(valor, options){
+	//console.log(namesM.length);
+	var megaImg = "";
+	for(var m = 0; m < namesM.length; m++){
+		if (namesM[m].id == Ember.Handlebars.get(this, valor, options)) {
+			//megaImg += "<div class=\"line\"><img src=\""+namesM[m].megaPiedra.imagen+"\" width=\"24\" height=\"24\"></div>";
+			//megaImg += "<span class=\"line-desc\">"+namesM[m].megaPiedra.nombre+"</span>";
+			//break;
+			megaImg += "<img src=\""+namesM[m].megaPiedra.imagen+"\" width=\"24\" height=\"24\">"+namesM[m].megaPiedra.nombre;
+			break;
+		}
+	}
+	return megaImg;
+});
+
+
+
+
+
+
+
+
+
+
+
 
 Ember.Handlebars.registerHelper('generosTortaPoncentaje', function(vMacho, vHembra, options){
 	var macho = Ember.Handlebars.get(this, vMacho, options);
@@ -158,6 +263,24 @@ Ember.Handlebars.registerHelper('generosTortaPoncentaje', function(vMacho, vHemb
 		return pBackground+pSlice+pCake;
 	}
 });
+
+
+
+Ember.Handlebars.registerHelper('hembraBarraPoncentaje', function(vHembra, options){
+	var hembra = Ember.Handlebars.get(this, vHembra, options);
+	return "<div class=\"female-bar\" style=\"width: "+hembra+"%;\" data-value=\""+hembra+"%\"></div>";
+});
+
+Ember.Handlebars.registerHelper('machoBarraPoncentaje', function(vMacho, options){
+	var macho = Ember.Handlebars.get(this, vMacho, options);
+	return "<div class=\"male-bar\" style=\"width: "+macho+"%;\" data-value=\""+macho+"%\"></div>";
+});
+
+
+
+
+
+
 
 Ember.Handlebars.registerHelper('mostrarNumRealesGenero', function(valor, options){
 	var pGenero = Ember.Handlebars.get(this, valor, options);
@@ -401,7 +524,8 @@ var numbers = ['001','002','003','004','005','006','007','008','009',
 '680','681','682','683','684','685','686','687','688','689',
 '690','691','692','693','694','695','696','697','698','699',
 '700','701','702','703','704','705','706','707','708','709',
-'710','711','712','713','714','715','716','717','718','719'
+'710','711','712','713','714','715','716','717','718','719',
+'720'
 ];
 
 
@@ -469,7 +593,7 @@ $(document).on('ready', function(){
 		*/
 
 		//local: $.map(numbers, function (name) {
-		local: $.map(names, function (name) {
+		local: $.map(names.concat(namesFR).concat(namesDE), function (name) {
 			// Normalize the name - use this for searching
 			var normalized = normalize(name);
 			return {
@@ -508,8 +632,43 @@ $(document).on('ready', function(){
 
 
 		if (isNaN(dato.displayValue)) {
+			//Primera busqueda de pokemon por su nombre en ingles (utilizado internacionalmente)
 			for (var i = 0; i < names.length; i++) {
 				if (buscarPorNombre(dato.displayValue, names[i], i)){
+					var indiceNumero = numbers[i];
+					//console.log(document.URL);
+					if (document.URL.indexOf("#") === -1) {
+						urlVar = document.URL+"#/pokemon/";
+						window.location.href = urlVar+indiceNumero;
+					}else{
+						urlVar = document.URL.substr(0,document.URL.length-3);
+						window.location.href = urlVar+indiceNumero;
+					}
+					break;
+				}
+			}
+
+
+			//Busqueda de pokemon en nombre frances
+			for (var i = 0; i < namesFR.length; i++) {
+				if (buscarPorNombre(dato.displayValue, namesFR[i], i)){
+					var indiceNumero = numbers[i];
+					//console.log(document.URL);
+					if (document.URL.indexOf("#") === -1) {
+						urlVar = document.URL+"#/pokemon/";
+						window.location.href = urlVar+indiceNumero;
+					}else{
+						urlVar = document.URL.substr(0,document.URL.length-3);
+						window.location.href = urlVar+indiceNumero;
+					}
+					break;
+				}
+			}
+
+
+			//Busqueda de pokemon en nombre aleman
+			for (var i = 0; i < namesDE.length; i++) {
+				if (buscarPorNombre(dato.displayValue, namesDE[i], i)){
 					var indiceNumero = numbers[i];
 					//console.log(document.URL);
 					if (document.URL.indexOf("#") === -1) {
@@ -535,7 +694,8 @@ $(document).on('ready', function(){
 	});
 
 
-	inicio();
+	//inicio();
+	heredarPropiedadesEnMegas();
 
 });
 
@@ -642,4 +802,47 @@ function mostrarIdiomas(){
 	}else if (visible.style.display == "block") {
 		visible.style.display = "none";
 	}
+}
+
+
+
+
+
+
+
+function heredarPropiedadesEnMegas(){
+	console.log("nueva propiedad");
+	//namesM[0].prop = "0";
+
+	//for(var i = 0; i < namesM.length; i++){
+	//	//
+	//	for(var j = 0; j < names2.length; j++){
+	//		//
+	//		if(names2[j].hasOwnProperty('megaEvolucion')){
+	//			//
+	//			console.log(names2[j].nombre+" tiene mega");
+	//		}
+	//		//if (namesM[i].id == names2[j].id) {
+	//		//	console.log("Mega "+names2[j].nombre);
+	//		//}
+	//	}
+	//}
+
+
+
+	for(var i = 0; i < names2.length; i++){
+		//
+		if (names2[i].hasOwnProperty('megaEvolucion')) {
+			//console.log(names2[i].nombre+" tiene mega");
+			for(var m = 0; m < names2[i].megaEvolucion.length; m++){
+				//console.log(names2[i].megaEvolucion[m]);
+				for(var n = 0; n < namesM.length; n++){
+					if (namesM[n].id == names2[i].megaEvolucion[m]) {
+						//console.log("Mega "+names2[i].nombre);
+						namesM[n].ratioCaptura = names2[i].ratioCaptura;
+					}
+				}
+			}
+		}
+	};
 }

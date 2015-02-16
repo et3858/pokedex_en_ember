@@ -728,6 +728,7 @@ var names = [
 "Yveltal",
 "Zygarde",
 "Diancie",
+"Hoopa",
 
 ];
 
@@ -1218,3 +1219,15 @@ function getEvolveItem(valor){
 	}
 	return encontrado;
 }
+
+
+
+
+
+
+
+
+
+
+
+

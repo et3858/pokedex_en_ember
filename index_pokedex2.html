@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimun-scale=1, maximun-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<!--<meta http-equiv="X-UA-Compatible" content="IE=10" />-->
 	<title>Index</title>
 
 
@@ -35,6 +37,7 @@
 	<script src="pokemon-sizes-2.js"></script>
 
 	<script src="pokemon-datos.js"></script>
+	<script src="pokemon-megas.js"></script>
 	<script src="funcionesDex.js"></script>
 	
 
@@ -99,17 +102,20 @@
 					<span class="spnType spnTypeFairy">Hada</span><br>
 					-->
 					<div class="blcSpec">
-						Tipo(s): <span class="spnType spnTypeGrass">Planta</span>
-						<span class="spnType spnTypePoison">Veneno</span>
+						<!--Tipo(s): --><div class="spnType spnTypeGrass">Planta</div>
+						<div class="spnType spnTypePoison">Veneno</div>
 					</div>
 					<div class="blcSpec">
-						Clasificaci&oacute;n: Pok&eacute;mon Semilla
+						Clasificaci&oacute;n
+						<span>Pok&eacute;mon Semilla</span>
 					</div>
 					<div class="blcSpec">
-						Altura: 0,7 m
+						Altura
+						<span>0,7 m</span>
 					</div>
 					<div class="blcSpec">
-						Peso: 6,9 kg
+						Peso
+						<span>6,9 kg</span>
 					</div>
 					
 				</section>
@@ -195,7 +201,7 @@
 					<div class="thirdContent">
 						<div class="evolutions text-align-center">
 							<div class="evolution-chain">
-								<div class="stage-1"><img src="" width="50" height="50"></div>
+								<div class="stage-current"><img src="" width="50" height="50"></div>
 								<div class="transition">
 									<div class="line">
 										<!--<span class="flaticon-up51"></span>30-->
@@ -203,7 +209,7 @@
 									</div>
 									<span class="line-desc">Ascenso desde el nivel 30</span>
 								</div>
-								<div class="stage-2"><img src="" width="50" height="50"></div>
+								<div class="stage-next"><img src="" width="50" height="50"></div>
 								<div class="transition">
 									<div class="line">
 										<!--
@@ -212,7 +218,7 @@
 									</div>
 									<span class="line-desc">Método de evolución a seguir</span>
 								</div>
-								<div class="stage-3"><img src="" width="50" height="50"></div>
+								<div class="stage-next"><img src="" width="50" height="50"></div>
 							</div>
 							<!--
 							<div class="evolution-chain">
@@ -252,14 +258,10 @@
 
 
 				<section class="secSecond">
-					<div class="thirdTitle" id="points-menu">Captura y puntajes</div>
+					<!--<div class="thirdTitle" id="points-menu">Captura y puntajes</div>-->
+					<div class="thirdTitle" id="points-menu">Valores de esfuerzo en batalla</div>
 					<div class="thirdContent"  id="points-cont">
-						<div class="blcSpec">
-							Ratio captura: 45	
-						</div>
-						<div class="blcSpec">
-							Valores:
-						</div>
+						
 						<div class="text-align-center">
 							<div class="stats">
 								<span class="flaticon-heart15 spn-HP"></span>
@@ -296,19 +298,10 @@
 				</section>
 
 
-
 				<section class="secSecond">
-					<div class="thirdTitle" id="breeding-menu">Crianza</div>
+					<!--<div class="thirdTitle" id="breeding-menu">Crianza</div>-->
+					<div class="thirdTitle" id="breeding-menu">Distribución de géneros</div>
 					<div class="thirdContent" id="breeding-cont">
-						<div class="blcSpec">
-							Pasos: 5120
-						</div>
-						<div class="blcSpec">
-							Grupo(s): Monstruo / Planta
-						</div>
-						<div class="blcSpec">
-							Amistad: 70
-						</div>
 						<!--
 						<div class="blcSpec">
 							<div class="blcGend">
@@ -331,12 +324,15 @@
 						<div class="pie" data-start="60" data-value="40"></div>
 						<div class="pie big" data-start="100" data-value="260"></div>
 						-->
+
+						<!--
 						<div class="text-align-center">
 							<div class="pieGenderContainer">
 								<div class="pieBackground"></div>
 								<div id="pieSlice1" class="hold">
 									<div class="pie"></div>
 								</div>
+								-->
 								<!--
 								<div id="pieSlice2" class="hold">
 									<div class="pie"></div>
@@ -346,11 +342,66 @@
 									<div class="pie"></div>
 								</div>
 								-->
+							<!--
 							</div>
 							<span class="spn-gender-male flaticon-male201"></span>Macho: 87,5%
 							<span class="spn-gender-female flaticon-female204"></span>Hembra: 12,5%
 						</div>
+						-->
 
+
+
+						<div class="text-align-center">
+							<div class="graph-gender">
+								<ul>
+									<li>
+										<span class="gender-label">Hembra</span>
+										<div class="female-bar" style="width: 12.5%;" data-value="87.5">
+											
+											<!--<span class="percentage-label">87,5%</span>-->
+										</div>
+									</li>
+									<li>
+										<span class="gender-label">Macho</span>
+										<div class="male-bar" style="width: 87.5%;" data-value="87.5">
+											
+											<!--<span class="percentage-label">12,5%</span>-->
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</section>
+
+
+
+				<section class="secSecond">
+					<!--<div class="thirdTitle" id="breeding-menu">Crianza</div>-->
+					<div class="thirdTitle" id="breeding-menu">Otros datos</div>
+					<div class="thirdContent" id="breeding-cont">
+						<div class="blcSpec">
+							Ratio captura
+							<span>45</span>
+						</div>
+						<!--
+						<div class="blcSpec">
+							Valores
+						</div>
+						-->
+						<div class="blcSpec">
+							Pasos
+							<span>5120</span>
+						</div>
+						<div class="blcSpec">
+							Grupo(s)
+							<span>Monstruo / Planta</span>
+						</div>
+						<div class="blcSpec">
+							Amistad
+							<span>70</span>
+						</div>
 					</div>
 				</section>
 
@@ -661,8 +712,9 @@
 
 								{{#comprobarEvoMedio evol.preevolucion evol.evolucion}}
 
-								<!--<div class="stage-1"><img src="" width="50" height="50"></div>-->
-								<div class="stage-1 stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{#link-to 'pokemon' evol.preevolucion.numeroEspecie}}
+								<div class="stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
 
 								<div class="transition">
 									<div class="line-passed">
@@ -678,8 +730,7 @@
 									<span class="line-desc">{{evol.preevolucion.metodo}}</span>
 								</div>
 
-								<!--<div class="stage-2"><img src="" width="50" height="50"></div>-->
-								<div class="stage-2 stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
+								<div class="stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
 
 								<div class="transition">
 									<div class="line">
@@ -695,8 +746,9 @@
 									<span class="line-desc">{{evol.evolucion.metodo}}</span>
 								</div>
 
-								<!--<div class="stage-3"><img src="" width="50" height="50"></div>-->
-								<div class="stage-3">{{#mostrarSpriteEvolucion evol.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{#link-to 'pokemon' evol.evolucion.numeroEspecie}}
+								<div class="stage-next">{{#mostrarSpriteEvolucion evol.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
 
 								{{/comprobarEvoMedio}}
 
@@ -720,7 +772,7 @@
 								{{#if evol.evolucion.evolucion}}
 								<!--Tiene dos evoluciones-->
 
-								<div class="stage-1 stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
+								<div class="stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
 
 								<div class="transition">
 									<div class="line">
@@ -736,7 +788,9 @@
 									<span class="line-desc">{{evol.evolucion.metodo}}</span>
 								</div>
 
-								<div class="stage-2">{{#mostrarSpriteEvolucion evol.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{#link-to 'pokemon' evol.evolucion.numeroEspecie}}
+								<div class="stage-next">{{#mostrarSpriteEvolucion evol.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
 
 								<div class="transition">
 									<div class="line">
@@ -752,13 +806,14 @@
 									<span class="line-desc">{{evol.evolucion.evolucion.metodo}}</span>
 								</div>
 
-								<div class="stage-3">{{#mostrarSpriteEvolucion evol.evolucion.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{#link-to 'pokemon' evol.evolucion.evolucion.numeroEspecie}}
+								<div class="stage-next">{{#mostrarSpriteEvolucion evol.evolucion.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
 
 								{{else}}
 								<!--Tiene solo una evolucion-->
 
-								<!--<div class="stage-1"><img src="" width="50" height="50"></div>-->
-								<div class="stage-1 stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
+								<div class="stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
 
 								<div class="transition">
 									<div class="line">
@@ -775,8 +830,9 @@
 									<span class="line-desc">{{evol.evolucion.metodo}}</span>
 								</div>
 
-								<!--<div class="stage-2"><img src="" width="50" height="50"></div>-->
-								<div class="stage-2">{{#mostrarSpriteEvolucion evol.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{#link-to 'pokemon' evol.evolucion.numeroEspecie}}
+								<div class="stage-next">{{#mostrarSpriteEvolucion evol.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
 
 								{{/if}}
 								{{/comprobarEvoInicio}}
@@ -806,8 +862,9 @@
 								{{#if evol.preevolucion.preevolucion}}
 								<!--Tiene DOS PREEVOLUCIONES-->
 
-								<!--<div class="stage-1"><img src="" width="50" height="50"></div>-->
-								<div class="stage-1 stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.preevolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{#link-to 'pokemon' evol.preevolucion.preevolucion.numeroEspecie}}
+								<div class="stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.preevolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
 
 								<div class="transition">
 									<div class="line-passed">
@@ -823,8 +880,9 @@
 									<span class="line-desc">{{evol.preevolucion.preevolucion.metodo}}</span>
 								</div>
 
-								<!--<div class="stage-2"><img src="" width="50" height="50"></div>-->
-								<div class="stage-2 stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{#link-to 'pokemon' evol.preevolucion.numeroEspecie}}
+								<div class="stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
 
 								{{#if evol.preevolucion.otraEvolucion}}
 
@@ -842,7 +900,9 @@
 									<span class="line-desc">{{evol.preevolucion.otraEvolucion.metodo}}</span>
 								</div>
 
-								<div class="stage-3 stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.otraEvolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{#link-to 'pokemon' evol.preevolucion.otraEvolucion.numeroEspecie}}
+								<div class="stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.otraEvolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
 
 								{{else}}
 
@@ -860,15 +920,16 @@
 									<span class="line-desc">{{evol.preevolucion.metodo}}</span>
 								</div>
 
-								<div class="stage-3 stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
+								<div class="stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
 								
 								{{/if}}
 
 								{{else}}
 								<!--Tiene solo una PREEVOLUCION-->
 
-								<!--<div class="stage-1"><img src="" width="50" height="50"></div>-->
-								<div class="stage-1 stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{#link-to 'pokemon' evol.preevolucion.numeroEspecie}}
+								<div class="stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
 
 								{{#if evol.preevolucion.otraEvolucion}}
 
@@ -886,7 +947,9 @@
 									<span class="line-desc">{{evol.preevolucion.otraEvolucion.metodo}}</span>
 								</div>
 
-								<div class="stage-2 stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.otraEvolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{#link-to 'pokemon' evol.preevolucion.otraEvolucion.numeroEspecie}}
+								<div class="stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.otraEvolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
 
 								{{#if evol.preevolucion.otraEvolucion.evolucion}}
 
@@ -904,7 +967,9 @@
 									<span class="line-desc">{{evol.preevolucion.otraEvolucion.evolucion.metodo}}</span>
 								</div>
 
-								<div class="stage-3 stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.otraEvolucion.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{#link-to 'pokemon' evol.preevolucion.otraEvolucion.evolucion.numeroEspecie}}
+								<div class="stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.otraEvolucion.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
 
 								{{/if}}
 
@@ -925,7 +990,690 @@
 									<span class="line-desc">{{evol.preevolucion.metodo}}</span>
 								</div>
 
-								<div class="stage-2 stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
+								<div class="stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
+								{{/if}}
+
+								{{/if}}
+								{{/comprobarEvoFinal}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							</div>
+
+							{{/each}}
+							<!--
+							<div class="evolution-chain">
+								Otra cadena evolutiva
+							</div>
+							-->
+
+							{{else}}
+							No tiene cadena evolutiva
+							{{/if}}
+						</div>
+					</div>
+				</section>
+
+
+
+				<section class="secSecond">
+					<div class="thirdTitle">Mega evolución</div>
+					<div class="thirdContent">
+						<div class="evolutions text-align-center">
+							<div class="mega-evolution-chain">
+								<!--
+								<div class="evolution-init">
+									<div class="stage-padding">
+										<div class="stage-simple diy-slideshow">{{#imagenPorNombre nombre}}{{/imagenPorNombre}}</div>
+									</div>
+								</div>
+								-->
+
+
+								
+								<div class="mega-evolution-list">
+								{{#each mega in megaEvolucion}}
+								<div class="mega-evolution-option">
+									<!--
+									<div class="transition">
+										<div class="line">
+											<img src="http://www.serebii.net/itemdex/sprites/charizarditex.png" width="24" height="24">
+										</div>
+										<span class="line-desc">Charizardita X</span>
+									</div>
+									-->
+									<div class="stage-padding">
+										<div class="stage-simple diy-slideshow">{{#imagenPorNombreMega mega nombre}}{{/imagenPorNombreMega}}</div>
+									</div>
+									<article class="mega-specifications">
+										Mega Charizard
+										<div>
+											Piedra
+											<span>
+												<!--
+												<img src="http://www.serebii.net/itemdex/sprites/charizarditex.png" width="24" height="24">
+												Charizardita
+												-->
+												{{#mostrarMegaPiedra mega}}{{/mostrarMegaPiedra}}
+											</span>
+										</div>
+									</article>
+								</div>
+								{{/each}}
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<section class="secSecond">
+					<div class="thirdTitle" id="points-menu">Captura y puntajes</div>
+					<div class="thirdContent"  id="points-cont">
+						<div class="text-align-center">
+							{{#if valoresEsfuerzo.ps}}
+							<div class="stats">
+								<span class="flaticon-heart15 spn-HP"></span>
+								PS +{{valoresEsfuerzo.ps}}
+							</div>
+							{{/if}}
+							
+							{{#if valoresEsfuerzo.ataque}}
+							<div class="stats">
+								<span class="flaticon-cross9 spn-Atk"></span>
+								Ataque +{{valoresEsfuerzo.ataque}}
+							</div>
+							{{/if}}
+							
+							{{#if valoresEsfuerzo.defensa}}
+							<div class="stats">
+								<span class="flaticon-shield15 spn-Def"></span>
+								Defensa +{{valoresEsfuerzo.defensa}}
+							</div>
+							{{/if}}
+							
+							{{#if valoresEsfuerzo.ataqueEspecial}}
+							<div class="stats">
+								<span class="flaticon-cross9 spn-Special-Atk"></span>
+								Ataque especial +{{valoresEsfuerzo.ataqueEspecial}}
+							</div>
+							{{/if}}
+							
+							{{#if valoresEsfuerzo.defensaEspecial}}
+							<div class="stats">
+								<span class="flaticon-shield15 spn-Special-Def"></span>
+								Defensa especial +{{valoresEsfuerzo.defensaEspecial}}
+							</div>
+							{{/if}}
+							
+							{{#if valoresEsfuerzo.velocidad}}
+							<div class="stats">
+								<span class="flaticon-right86 spn-Spd"></span>
+								Velocidad +{{valoresEsfuerzo.velocidad}}
+							</div>
+							{{/if}}
+							
+						</div>
+					</div>
+				</section>
+
+
+
+
+
+				<section class="secSecond">
+					<div class="thirdTitle" id="breeding-menu">Crianza</div>
+					<div class="thirdContent" id="breeding-cont">
+
+						<div class="text-align-center">
+							<div class="graph-gender">
+								{{#if generos}}
+								<ul>
+									<li>
+										<span class="gender-label">Hembra</span>
+										<!--<div class="female-bar" style="width: 12.5%;"></div>-->
+										{{#hembraBarraPoncentaje generos.hembra}}{{/hembraBarraPoncentaje}}
+										<!--<span class="percentage-label">{{generos.hembra}}%</span>-->
+									</li>
+									<li>
+										<span class="gender-label">Macho</span>
+										<!--<div class="male-bar" style="width: 87.5%;"></div>-->
+										{{#machoBarraPoncentaje generos.macho}}{{/machoBarraPoncentaje}}
+										<!--<span class="percentage-label">{{generos.macho}}%</span>-->
+									</li>
+								</ul>
+								{{else}}
+								<ul>
+									<li>
+										<span class="gender-label">Hembra</span>
+										<div class="female-bar" style="width: 0%;"></div>
+									</li>
+									<li>
+										<span class="gender-label">Macho</span>
+										<div class="male-bar" style="width: 0%;"></div>
+									</li>
+								</ul>
+								{{/if}}
+							</div>
+						</div>
+
+					</div>
+				</section>
+
+
+
+
+
+
+
+
+				<section class="secSecond">
+					<div class="thirdTitle" id="breeding-menu">Crianza</div>
+					<div class="thirdContent" id="breeding-cont">
+						<div class="blcSpec">
+							Ratio captura
+							<span>{{ratioCaptura}}</span>
+						</div>
+						<!--
+						<div class="blcSpec">
+							Valores:
+						</div>
+						-->
+						<div class="blcSpec">
+							Pasos
+							<span>{{pasos}}</span>	
+						</div>
+						<div class="blcSpec">
+							<!--Grupo(s): Monstruo / Planta-->
+							Grupo(s)
+							<span>{{grupo}}</span>							
+						</div>
+						<div class="blcSpec">
+							Amistad
+							<span>{{amistad}}</span>
+						</div>
+
+					</div>
+				</section>
+
+
+
+
+
+
+
+				<section class="secSecond">
+					<div class="thirdTitle" id="regions-dex-menu">Pokedex regionales</div>
+					<div class="thirdContent" id="regions-dex-cont">
+						<div class="text-align-center">
+							{{#if dexRegiones.dexNacional}}
+							<div class="pokedex-regions">
+								<span class="pokedex-number">#{{dexRegiones.dexNacional}}</span>Dex nacional
+							</div>
+							{{/if}}
+
+
+							{{#if dexRegiones.dexKanto}}
+							<div class="pokedex-regions">
+								<span class="pokedex-number spn-red-green-ver">#{{dexRegiones.dexKanto}}</span>Dex Kanto
+							</div>
+							{{/if}}
+
+
+							{{#if dexRegiones.dexJohtoGSC}}
+							<div class="pokedex-regions">
+								<span class="pokedex-number">#{{dexRegiones.dexJohtoGSC}}</span>Dex Johto (GSC)
+							</div>
+							{{/if}}
+
+
+							{{#if dexRegiones.dexJohtoHGSS}}
+							<div class="pokedex-regions">
+								<span class="pokedex-number">#{{dexRegiones.dexJohtoHGSS}}</span>Dex Johto (HGSS)
+							</div>
+							{{/if}}
+
+
+							{{#if dexRegiones.dexHoennRSE}}
+							<div class="pokedex-regions">
+								<span class="pokedex-number">#{{dexRegiones.dexHoennRSE}}</span>Dex Hoenn (RSE)
+							</div>
+							{{/if}}
+
+
+							{{#if dexRegiones.dexSinnohDPPt}}
+							<div class="pokedex-regions">
+								<span class="pokedex-number">#{{dexRegiones.dexSinnohDPPt}}</span>Dex Sinnoh (DPPt)
+							</div>
+							{{/if}}
+
+
+							{{#if dexRegiones.dexSinnohPt}}
+							<div class="pokedex-regions">
+								<span class="pokedex-number">#{{dexRegiones.dexSinnohPt}}</span>Dex Sinnoh (Pt)
+							</div>
+							{{/if}}
+
+
+							{{#if dexRegiones.dexUnovaBW}}
+							<div class="pokedex-regions">
+								<span class="pokedex-number">#{{dexRegiones.dexUnovaBW}}</span>Dex Unova / Teselia (BW)
+							</div>
+							{{/if}}
+
+
+							{{#if dexRegiones.dexUnovaB2W2}}
+							<div class="pokedex-regions">
+								<span class="pokedex-number">#{{dexRegiones.dexUnovaB2W2}}</span>Dex Unova / Teselia (B2W2)
+							</div>
+							{{/if}}
+
+
+
+
+
+
+
+
+
+
+
+
+							{{#if dexRegiones.dexKalosCentral}}
+							<div class="pokedex-regions">
+								<span class="pokedex-number">#{{dexRegiones.dexKalosCentral}}</span>Dex Kalos Central
+							</div>
+							{{/if}}
+
+
+							{{#if dexRegiones.dexKalosCosta}}
+							<div class="pokedex-regions">
+								<span class="pokedex-number">#{{dexRegiones.dexKalosCosta}}</span>Dex Kalos Costa
+							</div>
+							{{/if}}
+
+
+							{{#if dexRegiones.dexKalosMontana}}
+							<div class="pokedex-regions">
+								<span class="pokedex-number">#{{dexRegiones.dexKalosMontana}}</span>Dex Kalos Montaña
+							</div>
+							{{/if}}
+						</div>
+					</div>
+				</section>
+
+
+
+
+
+				<section class="secSecond">
+					<div class="thirdTitle" id="languages-menu">Otros idiomas</div>
+					<div class="thirdContent" id="languages-cont">
+
+						<div class="text-align-center">
+							<div class="flags">
+								<div class="flag-portrait french"></div>
+								{{idiomas.frances}}
+							</div>
+							<div class="flags">
+								<div class="flag-portrait german"></div>
+								{{idiomas.aleman}}
+							</div>
+
+							<div class="flags">
+								<div class="flag-portrait japanese"></div>
+								{{#ifJapones idiomas.japones}}
+								{{/ifJapones}}
+							</div>
+
+
+
+
+							<div class="flags">
+								<div class="flag-portrait korean">
+									<div class="geon trigram"></div>
+									<div class="ri trigram"></div>
+									<div class="taegeukgi"></div>
+									<div class="gam trigram"></div>
+									<div class="gon trigram"></div>
+								</div>
+								{{#ifCoreano idiomas.coreano}}
+								{{/ifCoreano}}
+							</div>
+
+
+
+						</div>
+					</div>
+				</section>
+			</section>
+		</section>
+	</section>
+
+
+	<footer>
+	</footer>
+
+
+
+	
+	</script>
+
+
+
+
+
+
+
+
+
+	<!--Slides para imagenes-->
+	<!--<script src="simple-slideshow.js"></script>-->
+	<!--<script src="https://github.com/leemark/simple-slideshow/blob/gh-pages/js/simple-slideshow.js"></script>-->
+	<!--<script src="https://raw.githubusercontent.com/leemark/simple-slideshow/gh-pages/js/simple-slideshow-jquery.js" type="text/javascript"></script>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/x-handlebars" id="mega">
+	<h1>Mega evolucion</h1>
+
+
+
+	<section id="secGeneral">
+		<section id="secPrincipal">
+			<!--<h1 id="secName">#{{id}} Mega {{nombre}}</h1>-->
+			{{#tituloMega id nombre}}{{/tituloMega}}
+			<section id="secFirstLook">
+				<section id="secImage" class="diy-slideshow">
+					<!--<img {{bind-attr src=img-pokemon/id.png}} width="300" height="300" border="0">-->
+					<!--{{#imagenPrincipal id}}-->
+					<!--{{/imagenPrincipal}}-->
+					{{#imagenPorNombreMega id nombre}}
+					{{/imagenPorNombreMega}}
+					<!--
+					<span class="prev">&laquo;</span>
+					<span class="next">&raquo;</span>
+					-->
+					<!--<img {{bind-attr src=logoUrl}} alt="Logo">-->
+				</section>
+				<section id="secStartInfo">
+					<div class="blcSpec">
+						Tipo(s):
+						{{#each valor in tipo}}
+						{{#ifTipo valor fire}}
+						{{/ifTipo}}
+						{{/each}}
+					</div>
+					<!--<div class="blcSpec">
+						Tipo(s):
+						<span class="spnType spnTypeGrass">Planta</span>
+						<span class="spnType spnTypePoison">Veneno</span>
+					</div>-->
+					<div class="blcSpec">
+						Clasificaci&oacute;n: {{clasificacion}}
+					</div>
+					<div class="blcSpec">
+						Altura: {{altura}} m
+					</div>
+					<div class="blcSpec">
+						Peso: {{peso}} kg
+					</div>					
+				</section>
+			</section>
+
+
+
+
+
+			<section id="secOtherSpecifications">
+				<section class="secSecond">
+					<div class="thirdTitle" id="abilities-menu">Habilidades</div>
+					<div class="thirdContent" id="abilities-cont">
+						<article class="ability-general">
+
+							{{#each hN in habilidades.habilidadesNormales}}
+							<p class="ability-normal">
+								<span class="flaticon-star83"></span>
+								<b>{{hN.habilidadNombre}}</b>: {{hN.habilidadDescripcion}}
+							</p>
+							{{/each}}
+
+
+							{{#each hO in habilidades.habilidadesOcultas}}
+							<p class="ability-hidden">	
+								<span class="flaticon-question30"></span>
+								<b>{{hO.habilidadNombre}}</b>: {{hO.habilidadDescripcion}}
+							</p>
+							{{/each}}
+
+						</article>
+					</div>
+				</section>
+
+
+
+
+
+
+
+
+
+
+
+
+				<section class="secSecond">
+					<div class="thirdTitle">Cadena evolutiva</div>
+					<div class="thirdContent">
+						<div class="evolutions text-align-center">
+
+
+							{{#if cadenaEvolutiva}}
+
+
+							{{#each evol in cadenaEvolutiva}}
+
+
+							<div class="evolution-chain">
+
+
+
+
+
+
+
+								{{#comprobarEvoFinal evol.preevolucion evol.evolucion}}
+								{{#if evol.preevolucion.preevolucion}}
+								<!--Tiene DOS PREEVOLUCIONES-->
+
+								{{#link-to 'pokemon' evol.preevolucion.preevolucion.numeroEspecie}}
+								<div class="stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.preevolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
+
+								<div class="transition">
+									<div class="line-passed">
+										<!--<span class="flaticon-up51"></span>30-->
+										{{#if evol.preevolucion.preevolucion.condicion}}
+										{{#each cond in evol.preevolucion.preevolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+										<!--<img src="" width="20" height="20">-->
+										{{#mostrarObjetoEvolucion evol.preevolucion.preevolucion.objeto}}{{/mostrarObjetoEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.preevolucion.preevolucion.metodo}}</span>
+								</div>
+
+								{{#link-to 'pokemon' evol.preevolucion.numeroEspecie}}
+								<div class="stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
+
+								{{#if evol.preevolucion.otraEvolucion}}
+
+								<div class="transition">
+									<div class="line-passed">
+										<!--<span class="flaticon-up51"></span>30-->
+										{{#if evol.preevolucion.otraEvolucion.condicion}}
+										{{#each cond in evol.preevolucion.otraEvolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+
+										{{#mostrarObjetoEvolucion evol.preevolucion.otraEvolucion.objeto}}{{/mostrarObjetoEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.preevolucion.otraEvolucion.metodo}}</span>
+								</div>
+
+								{{#link-to 'pokemon' evol.preevolucion.otraEvolucion.numeroEspecie}}
+								<div class="stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.otraEvolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
+
+								{{else}}
+
+								<div class="transition">
+									<div class="line-passed">
+										<!--<span class="flaticon-up51"></span>30-->
+										{{#if evol.preevolucion.condicion}}
+										{{#each cond in evol.preevolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+										<!--<img src="" width="20" height="20">-->
+										{{#mostrarObjetoEvolucion evol.preevolucion.objeto}}{{/mostrarObjetoEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.preevolucion.metodo}}</span>
+								</div>
+
+								<div class="stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
+								
+								{{/if}}
+
+								{{else}}
+								<!--Tiene solo una PREEVOLUCION-->
+
+								{{#link-to 'pokemon' evol.preevolucion.numeroEspecie}}
+								<div class="stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
+
+								{{#if evol.preevolucion.otraEvolucion}}
+
+								<div class="transition">
+									<div class="line-passed">
+
+										{{#if evol.preevolucion.otraEvolucion.condicion}}
+										{{#each cond in evol.preevolucion.otraEvolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+
+										{{#mostrarObjetoEvolucion evol.preevolucion.otraEvolucion.objeto}}{{/mostrarObjetoEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.preevolucion.otraEvolucion.metodo}}</span>
+								</div>
+
+								{{#link-to 'pokemon' evol.preevolucion.otraEvolucion.numeroEspecie}}
+								<div class="stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.otraEvolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
+
+								{{#if evol.preevolucion.otraEvolucion.evolucion}}
+
+								<div class="transition">
+									<div class="line-passed">
+
+										{{#if evol.preevolucion.otraEvolucion.evolucion.condicion}}
+										{{#each cond in evol.preevolucion.otraEvolucion.evolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+
+										{{#mostrarObjetoEvolucion evol.preevolucion.otraEvolucion.evolucion.objeto}}{{/mostrarObjetoEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.preevolucion.otraEvolucion.evolucion.metodo}}</span>
+								</div>
+
+								{{#link-to 'pokemon' evol.preevolucion.otraEvolucion.evolucion.numeroEspecie}}
+								<div class="stage-passed">{{#mostrarSpriteEvolucion evol.preevolucion.otraEvolucion.evolucion.numeroEspecie}}{{/mostrarSpriteEvolucion}}</div>
+								{{/link-to}}
+
+								{{/if}}
+
+								{{else}}
+
+								<div class="transition">
+									<div class="line-passed">
+										<!--<span class="flaticon-up51"></span>30-->
+										{{#if evol.preevolucion.condicion}}
+										{{#each cond in evol.preevolucion.condicion}}
+										{{#mostrarCondicionEvolucion cond}}{{/mostrarCondicionEvolucion}}
+										{{/each}}
+										{{/if}}
+										<!--<img src="" width="20" height="20">-->
+										{{#mostrarObjetoEvolucion evol.preevolucion.objeto}}{{/mostrarObjetoEvolucion}}
+										{{#mostrarPokemonEvolucion evol.preevolucion.pokemon}}{{/mostrarPokemonEvolucion}}
+									</div>
+									<span class="line-desc">{{evol.preevolucion.metodo}}</span>
+								</div>
+
+								<div class="stage-current">{{#mostrarSpriteEvolucion id}}{{/mostrarSpriteEvolucion}}</div>
 								{{/if}}
 
 								{{/if}}
@@ -1237,10 +1985,6 @@
 
 	<footer>
 	</footer>
-
-
-
-	
 	</script>
 
 
@@ -1248,13 +1992,12 @@
 
 
 
+	<script type="text/x-handlebars" id="notfound">
+	<h1>Not found</h1>
+	<footer>
+	</footer>
+	</script>
 
-
-
-	<!--Slides para imagenes-->
-	<!--<script src="simple-slideshow.js"></script>-->
-	<!--<script src="https://github.com/leemark/simple-slideshow/blob/gh-pages/js/simple-slideshow.js"></script>-->
-	<!--<script src="https://raw.githubusercontent.com/leemark/simple-slideshow/gh-pages/js/simple-slideshow-jquery.js" type="text/javascript"></script>-->
 
 
 </body>

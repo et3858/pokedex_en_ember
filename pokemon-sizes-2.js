@@ -775,6 +775,12 @@ var sizes = [
 {id: 719,	dimensiones:	[{altura: ["2′4″", 0.71],	peso: [19.4, 8.8],},],},
 
 
+
+
+{id: 720,	dimensiones:	[{altura: ["1′8″", 0.51],	peso: [19.8, 9.0], descripcion: "Confined Forme"},
+							 {altura: ["21′04″", 6.5],	peso: [1080.3, 490.0], descripcion: "Unbound Forme"},],},
+
+
 ];
 
 

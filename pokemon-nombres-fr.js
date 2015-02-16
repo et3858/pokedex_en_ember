@@ -757,6 +757,7 @@ var namesFR = [
 "Yveltal",
 "Zygarde",
 "Diancie",
+"Hoopa",
 
 ];
 
