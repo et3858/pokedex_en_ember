@@ -115,7 +115,7 @@ header
 			//border: 1px solid orange
 			//margin: 0 auto
 			border: 0
-			border-radius: 10px
+			//border-radius: 10px
 			display: block
 			font-size: 20px
 			outline: none
@@ -152,22 +152,23 @@ footer
 			margin: 0
 			padding: 5px 0 5px 10px
 		#secFirstLook
-			//background: blue
+			background: white
 			display: block
 			position: relative
+			box-shadow: 0px 3px 10px gray
 			section
 				display: inline-block
 				vertical-align: top
 				margin-right: -2px
 				margin-left: 0
-			
 			#secImage
 				background: white
-				box-shadow: 0px 3px 10px gray
+				//box-shadow: 0px 3px 10px gray
 				width: 300px
 				height: 300px
 				position: relative
 				text-align: center
+				margin: 5px
 				img
 					max-width: 100%
 					max-height: 100%
@@ -181,15 +182,17 @@ footer
 			#secStartInfo
 				//background: orange
 				//min-width: 300px
-				width: 790px
+				//width: 790px
 				//section
-				background: #e2e2e2
+				//background: #e2e2e2
+				//background: pink
 				display: inline-block
 				margin-bottom: 1px
 				//padding: 8px 0 0 10px
 				padding: 10px 0 0 0
 				//vertical-align: top
 				font-size: .6em
+				
 				vertical-align: middle
 				//height: 150px
 				height: 290px
@@ -982,9 +985,8 @@ p
 	header nav .text
 		width: 1000px
 
-	#secStartInfo
-		//background: orange
-		max-width: 718px
+	//#secStartInfo
+	//	max-width: 718px
 		
 
 
@@ -1000,9 +1002,8 @@ p
 	header nav .text
 		width: 740px
 
-	#secStartInfo
-		//background: orange
-		max-width: 654px
+	//#secStartInfo
+	//	max-width: 654px
 
 
 
@@ -1017,9 +1018,8 @@ p
 	header nav .text
 		width: 740px
 
-	#secStartInfo
-		//background: orange
-		max-width: 494px
+	//#secStartInfo
+	//	max-width: 494px
 
 
 
@@ -1031,9 +1031,8 @@ p
 	header nav .text
 		width: 740px
 
-	#secStartInfo
-		//background: orange
-		max-width: 464px
+	//#secStartInfo
+	//	max-width: 464px
 	.evolutions
 		.evolution-chain
 			.transition
@@ -1060,7 +1059,7 @@ p
 		max-width: 200px
 		max-height: 200px
 	#secStartInfo
-		max-width: 434px
+	//	max-width: 434px
 		max-height: 192px
 
 	.ability-general
@@ -1084,8 +1083,8 @@ p
 	header nav .text
 		width: 548px
 
-	#secStartInfo
-		max-width: 394px			
+	//#secStartInfo
+	//	max-width: 394px			
 
 
 
@@ -1098,8 +1097,8 @@ p
 	header nav .text
 		width: 548px
 
-	#secStartInfo
-		max-width: 362px
+	//#secStartInfo
+	//	max-width: 362px
 	.evolutions
 		.evolution-chain
 			.transition
@@ -1120,12 +1119,14 @@ p
 	//	width: 150px
 	//	height: 150px
 	#secImage
-		max-width: 150px
-		max-height: 150px
-	#secStartInfo
-		//background: orange
-		max-width: 377px
-		//max-height: 142px
+		//max-width: 150px
+		//max-height: 150px
+		max-width: 210px
+		max-height: 210px
+	//#secStartInfo
+	//	max-width: 377px
+	
+	//max-height: 142px
 
 
 
@@ -1139,9 +1140,8 @@ p
 	header nav .text
 		width: 460px
 
-	#secStartInfo
-		//background: orange
-		max-width: 324px
+	//#secStartInfo
+	//	max-width: 324px
 	.stats
 		max-width: 150px
 		min-height: 150px
@@ -1155,10 +1155,10 @@ p
 
 
 
-
-//Ancho de pantalla de una Galaxy Note en vertical (400px)
+//Ancho de pantalla de una Galaxy Note en vertical (414px)
+//ates ancho de pantalla de una Galaxy Note en vertical (400px)
 //@media screen and (max-width: 400px)
-@media screen and (max-width: 400px)
+@media screen and (max-width: 414px)
 	header nav .text
 		width: 300px
 
@@ -1166,18 +1166,30 @@ p
 	//	//max-width: 100%
 	//	width: 100%
 	//	height: 100%
-	#secImage
-		max-width: 100%
-		max-height: 100%
 
 	#secFirstLook
 		text-align: center
+		#secImage
+			//width: 400px !important
+			//height: 400px !important
+			max-width: 100%
+			max-height: 100%
 		#secStartInfo
 			text-align: left
+			width: 100%
 			//max-height: 130px
 			//max-width: 100%
-			max-width: 398px
+			//max-width: 398px
 			//margin-left: -2px
+	//#secFirstLook
+	//		background: blue
+	//		display: block
+	//		position: relative
+	//		section
+	//			display: inline-block
+	//			vertical-align: top
+	//			margin-right: -2px
+	//			margin-left: 0
 	.evolutions
 		.evolution-chain
 			text-align: left
@@ -1229,9 +1241,9 @@ p
 	header nav .text
 		width: 300px
 
-	#secFirstLook
-		#secStartInfo
-			max-width: 382px
+	//#secFirstLook
+	//	#secStartInfo
+	//		max-width: 382px
 
 
 
@@ -1247,9 +1259,9 @@ p
 	header nav .text
 		width: 300px
 
-	#secFirstLook
-		#secStartInfo
-			max-width: 358px
+	//#secFirstLook
+	//	#secStartInfo
+	//		max-width: 358px
 
 
 
@@ -1271,9 +1283,9 @@ p
 	header nav .text
 		width: 300px
 
-	#secFirstLook
-		#secStartInfo
-			max-width: 318px
+	//#secFirstLook
+	//	#secStartInfo
+	//		max-width: 318px
 
 
 

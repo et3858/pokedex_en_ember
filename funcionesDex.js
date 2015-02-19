@@ -116,7 +116,8 @@ Ember.Handlebars.registerHelper('ifTipo', function(valor, fire, options){
 
 	for (var i = 0; i < tipos.length; i++) {
 		if (valor2 === tipos[i]) {
-			res = " <span class=\"spnType spnType"+valor2.charAt(0).toUpperCase()+valor2.slice(1)+"\">"+tiposTraduccion[i]+"</span> ";
+			//res = " <span class=\"spnType spnType"+valor2.charAt(0).toUpperCase()+valor2.slice(1)+"\">"+tiposTraduccion[i]+"</span> ";
+			res = " <div class=\"spnType spnType"+valor2.charAt(0).toUpperCase()+valor2.slice(1)+"\">"+tiposTraduccion[i]+"</div> ";
 		}
 	}
 	return res;
@@ -639,10 +640,12 @@ $(document).on('ready', function(){
 					//console.log(document.URL);
 					if (document.URL.indexOf("#") === -1) {
 						urlVar = document.URL+"#/pokemon/";
-						window.location.href = urlVar+indiceNumero;
+						//window.location.href = urlVar+indiceNumero;
+						window.location.href = "#/pokemon/"+indiceNumero;
 					}else{
 						urlVar = document.URL.substr(0,document.URL.length-3);
-						window.location.href = urlVar+indiceNumero;
+						//window.location.href = urlVar+indiceNumero;
+						window.location.href = "#/pokemon/"+indiceNumero;
 					}
 					break;
 				}
@@ -656,10 +659,12 @@ $(document).on('ready', function(){
 					//console.log(document.URL);
 					if (document.URL.indexOf("#") === -1) {
 						urlVar = document.URL+"#/pokemon/";
-						window.location.href = urlVar+indiceNumero;
+						//window.location.href = urlVar+indiceNumero;
+						window.location.href = "#/pokemon/"+indiceNumero;
 					}else{
 						urlVar = document.URL.substr(0,document.URL.length-3);
-						window.location.href = urlVar+indiceNumero;
+						//window.location.href = urlVar+indiceNumero;
+						window.location.href = "#/pokemon/"+indiceNumero;
 					}
 					break;
 				}
@@ -673,10 +678,12 @@ $(document).on('ready', function(){
 					//console.log(document.URL);
 					if (document.URL.indexOf("#") === -1) {
 						urlVar = document.URL+"#/pokemon/";
-						window.location.href = urlVar+indiceNumero;
+						//window.location.href = urlVar+indiceNumero;
+						window.location.href = "#/pokemon/"+indiceNumero;
 					}else{
 						urlVar = document.URL.substr(0,document.URL.length-3);
-						window.location.href = urlVar+indiceNumero;
+						//window.location.href = urlVar+indiceNumero;
+						window.location.href = "#/pokemon/"+indiceNumero;
 					}
 					break;
 				}
@@ -684,7 +691,8 @@ $(document).on('ready', function(){
 		}else {
 			console.log("es numero");
 			urlVar = document.URL.substr(0,document.URL.length-3);
-			window.location.href = urlVar+dato.displayValue;
+			//window.location.href = urlVar+dato.displayValue;
+			window.location.href = "#/pokemon/"+dato.displayValue;
 		}
 
 

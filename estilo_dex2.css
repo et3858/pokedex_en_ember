@@ -24,16 +24,16 @@ body,html{font-family:"Roboto","Noto Sans",Helvetica neue,Helvetica,Arial,Sans-s
 div,header,nav,section,footer,article,aside,input,textarea,button,iframe,audio,video,img,embed,table,tr,th,td{margin:0;padding:0}
 header{background:#f00;display:block;position:fixed;top:0;width:100%;z-index:2;-webkit-box-shadow:0 1px 5px #808080;box-shadow:0 1px 5px #808080;}
 header nav{background:#008000;margin:0 auto;padding:10px 0;position:relative;vertical-align:middle;text-align:center;}
-header nav .text{border:0;-webkit-border-radius:10px;border-radius:10px;display:block;font-size:20px;outline:none;padding:8px 0 8px 10px;width:1090px}
+header nav .text{border:0;display:block;font-size:20px;outline:none;padding:8px 0 8px 10px;width:1090px}
 footer{background:#00f;display:block;height:50px}
 #secGeneral{background:#e2e2e2;display:block;min-height:500px;padding-top:64px;padding-bottom:1px;}
 #secGeneral #secPrincipal{display:block;margin:0 auto;max-width:1100px;min-height:400px;font-size:30px;}
 #secGeneral #secPrincipal #secName{display:block;margin:0;padding:5px 0 5px 10px}
-#secGeneral #secPrincipal #secFirstLook{display:block;position:relative;}
+#secGeneral #secPrincipal #secFirstLook{background:#fff;display:block;position:relative;-webkit-box-shadow:0 3px 10px #808080;box-shadow:0 3px 10px #808080;}
 #secGeneral #secPrincipal #secFirstLook section{display:inline-block;vertical-align:top;margin-right:-2px;margin-left:0}
-#secGeneral #secPrincipal #secFirstLook #secImage{background:#fff;-webkit-box-shadow:0 3px 10px #808080;box-shadow:0 3px 10px #808080;width:300px;height:300px;position:relative;text-align:center;}
+#secGeneral #secPrincipal #secFirstLook #secImage{background:#fff;width:300px;height:300px;position:relative;text-align:center;margin:5px;}
 #secGeneral #secPrincipal #secFirstLook #secImage img{max-width:100%;max-height:100%;position:absolute;margin:auto;top:0;bottom:0;left:0;right:0}
-#secGeneral #secPrincipal #secFirstLook #secStartInfo{width:790px;background:#e2e2e2;display:inline-block;margin-bottom:1px;padding:10px 0 0 0;font-size:.6em;vertical-align:middle;height:290px;}
+#secGeneral #secPrincipal #secFirstLook #secStartInfo{display:inline-block;margin-bottom:1px;padding:10px 0 0 0;font-size:.6em;vertical-align:middle;height:290px;}
 #secGeneral #secPrincipal #secFirstLook #secStartInfo .blcSpec{cursor:default;display:block;padding:0 0 0 10px;margin-bottom:10px;}
 #secGeneral #secPrincipal #secFirstLook #secStartInfo .blcSpec span{color:#808080;display:block;font-size:.9em}
 #secGeneral #secPrincipal #secOtherSpecifications{display:block;min-height:20px;}
@@ -186,34 +186,26 @@ p{margin:0 0 10px}
 .example-sports .league-name{border-bottom:1px solid #ccc;margin:0 20px 5px;padding:3px 0}
 .example-arabic .tt-dropdown-menu{text-align:right}
 @media screen and (max-width: 1024px){header nav .text{width:1000px}
-#secStartInfo{max-width:718px}
 }@media screen and (max-width: 960px){header nav .text{width:740px}
-#secStartInfo{max-width:654px}
 }@media screen and (max-width: 800px){header nav .text{width:740px}
-#secStartInfo{max-width:494px}
 }@media screen and (max-width: 768px){header nav .text{width:740px}
-#secStartInfo{max-width:464px}
 .evolutions .evolution-chain .transition{max-width:150px}
 }@media screen and (max-width: 640px){header nav .text{width:548px}
 #secImage{max-width:200px;max-height:200px}
-#secStartInfo{max-width:434px;max-height:192px}
+#secStartInfo{max-height:192px}
 .ability-general{padding-left:8px;padding-right:8px}
 }@media screen and (max-width: 600px){header nav .text{width:548px}
-#secStartInfo{max-width:394px}
 }@media screen and (max-width: 568px){header nav .text{width:548px}
-#secStartInfo{max-width:362px}
 .evolutions .evolution-chain .transition{max-width:100px}
 }@media screen and (max-width: 533px){header nav .text{width:460px}
-#secImage{max-width:150px;max-height:150px}
-#secStartInfo{max-width:377px}
+#secImage{max-width:210px;max-height:210px}
 }@media screen and (max-width: 480px){header nav .text{width:460px}
-#secStartInfo{max-width:324px}
 .stats{max-width:150px;min-height:150px}
 .evolutions .evolution-chain .transition{max-width:90px}
-}@media screen and (max-width: 400px){header nav .text{width:300px}
-#secImage{max-width:100%;max-height:100%}
+}@media screen and (max-width: 414px){header nav .text{width:300px}
 #secFirstLook{text-align:center;}
-#secFirstLook #secStartInfo{text-align:left;max-width:398px}
+#secFirstLook #secImage{max-width:100%;max-height:100%}
+#secFirstLook #secStartInfo{text-align:left;width:100%}
 .evolutions .evolution-chain{text-align:left;padding-left:10px;}
 .evolutions .evolution-chain .stage-current,.evolutions .evolution-chain .stage-passed,.evolutions .evolution-chain .stage-next{display:block !important}
 .evolutions .evolution-chain .transition{display:block !important;margin:0;text-align:center;margin-left:0 !important;margin-right:0 !important;margin-top:-8px;margin-bottom:-8px;max-width:100px;max-height:100px;}
@@ -221,9 +213,6 @@ p{margin:0 0 10px}
 .evolutions .evolution-chain .transition .line span,.evolutions .evolution-chain .transition .line-passed span,.evolutions .evolution-chain .transition .line img,.evolutions .evolution-chain .transition .line-passed img,.evolutions .evolution-chain .transition .line .pokemon,.evolutions .evolution-chain .transition .line-passed .pokemon{-o-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
 .evolutions .evolution-chain .transition .line-desc{position:absolute;top:30%;text-align:left;left:100%;width:120px;font-size:.8em !important}
 }@media screen and (max-width: 384px){header nav .text{width:300px}
-#secFirstLook #secStartInfo{max-width:382px}
 }@media screen and (max-width: 360px){header nav .text{width:300px}
-#secFirstLook #secStartInfo{max-width:358px}
 }@media screen and (max-width: 320px){header nav .text{width:300px}
-#secFirstLook #secStartInfo{max-width:318px}
 }
