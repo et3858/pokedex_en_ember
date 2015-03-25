@@ -7357,6 +7357,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['181'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -8646,6 +8647,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['212'],
 	ratioCaptura: 25,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -8703,6 +8705,7 @@ var names2 = [
 		{habilidadNombre: habNombre('moxie'),habilidadDescripcion: habDescripcion('moxie')},
 		],
 	},
+	megaEvolucion: ['214'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -9243,6 +9246,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['229'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 2,
@@ -9923,6 +9927,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['248'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -10236,6 +10241,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['257'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -11242,6 +11248,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['282'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -11980,6 +11987,7 @@ var names2 = [
 		{habilidadNombre: habNombre('sheer force'),habilidadDescripcion: habDescripcion('sheer force')},
 		],
 	},
+	megaEvolucion: ['303'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -12097,6 +12105,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['306'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		defensa: 3,
@@ -12165,6 +12174,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['308'],
 	ratioCaptura: 90,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -12234,6 +12244,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['310'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		velocidad: 2,
@@ -13642,6 +13653,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['354'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -13808,6 +13820,7 @@ var names2 = [
 		{habilidadNombre: habNombre('justified'),habilidadDescripcion: habDescripcion('justified')},
 		],
 	},
+	megaEvolucion: ['359'],
 	ratioCaptura: 30,
 	valoresEsfuerzo: {
 		ataque: 2,
@@ -14666,17 +14679,68 @@ var names2 = [
 		{habilidadNombre: habNombre('pressure'),habilidadDescripcion: habDescripcion('pressure')},
 		],
 	},
+	formas: [
+	{
+		descripcion: "Forma Normal",
+		tipo: ['psychic'],
+		altura: [0,0],
+		peso: [0,0],
+		img: "http://img.pokemondb.net/artwork/deoxys-normal.jpg",
+		spriteCode: "386",
+		metodo: "Según cada juego, debe tocar un meteorito específico o tocarlo consecutivamente",
+		valoresEsfuerzo: {
+			ataque: 1,
+			ataqueEspecial: 1,
+			velocidad: 1,
+		},
+	},
+	{
+		descripcion: "Forma Ataque",
+		tipo: ['psychic'],
+		altura: [0,0],
+		peso: [0,0],
+		img: "http://img.pokemondb.net/artwork/deoxys-attack.jpg",
+		spriteCode: "386a",
+		metodo: "Según cada juego, debe tocar un meteorito específico o tocarlo consecutivamente",
+		valoresEsfuerzo: {
+			ataque: 2,
+			ataqueEspecial: 1,
+		},
+	},
+	{
+		descripcion: "Forma Defensa",
+		tipo: ['psychic'],
+		altura: [0,0],
+		peso: [0,0],
+		img: "http://img.pokemondb.net/artwork/deoxys-defense.jpg",
+		spriteCode: "386d",
+		metodo: "Según cada juego, debe tocar un meteorito específico o tocarlo consecutivamente",
+		valoresEsfuerzo: {
+			defensa: 2,
+			defensaEspecial: 1,
+		},
+	},
+	{
+		descripcion: "Forma Velocidad",
+		tipo: ['psychic'],
+		altura: [0,0],
+		peso: [0,0],
+		img: "http://img.pokemondb.net/artwork/deoxys-speed.jpg",
+		spriteCode: "386s",
+		metodo: "Según cada juego, debe tocar un meteorito específico o tocarlo consecutivamente",
+		valoresEsfuerzo: {
+			velocidad: 3,
+		},
+	},
+	],
 	ratioCaptura: 3,
+	/*
 	valoresEsfuerzo: {
-		//(Solo en Deoxys forma Ataque) ataque: 2,
-		//(Solo en Deoxys forma Ataque) ataqueEspecial: 1,
-		//(Solo en Deoxys forma Defensa) defensa: 2,
-		//(Solo en Deoxys forma Defensa) defensaEspecial: 1,
-		//(Solo en Deoxys forma Velocidad) velocidad: 3,
 		ataque: 1,
 		ataqueEspecial: 1,
 		velocidad: 1,
 	},
+	*/
 	pasos: 255 * 121, grupo: ['Desconocido'], amistad: 0,
 	dexRegiones: {
 		dexNacional: '386',
@@ -16745,6 +16809,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['445'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -16851,6 +16916,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['448'],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -17250,6 +17316,7 @@ var names2 = [
 		},
 	},
 	],
+	megaEvolucion: ['460'],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		ataque: 1,
@@ -18116,6 +18183,56 @@ var names2 = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
+	formas: [
+	{
+		descripcion: "Normal",
+		tipo: ['electric', 'ghost'],
+		altura: [0,0],
+		peso: [0,0],
+		img: "http://img.pokemondb.net/artwork/rotom-normal.jpg",
+		metodo: "No requiere de objeto o método",
+	},
+	{
+		descripcion: "Rotom Ventilador",
+		tipo: ['electric', 'flying'],
+		altura: [0,0],
+		peso: [0,0],
+		img: "http://img.pokemondb.net/artwork/rotom-fan.jpg",
+		metodo: "Debe adoptar el ventilador ubicado en los posibles lugares donde haya electrodomésticos",
+	},
+	{
+		descripcion: "Rotom Frío",
+		tipo: ['electric', 'ice'],
+		altura: [0,0],
+		peso: [0,0],
+		img: "http://img.pokemondb.net/artwork/rotom-frost.jpg",
+		metodo: "Debe adoptar el refrigerador ubicado en los posibles lugares donde haya electrodomésticos",
+	},
+	{
+		descripcion: "Rotom Calor",
+		tipo: ['electric', 'fire'],
+		altura: [0,0],
+		peso: [0,0],
+		img: "http://img.pokemondb.net/artwork/rotom-heat.jpg",
+		metodo: "Debe adoptar el microondas ubicado en los posibles lugares donde haya electrodomésticos",
+	},
+	{
+		descripcion: "Rotom Corte",
+		tipo: ['electric', 'grass'],
+		altura: [0,0],
+		peso: [0,0],
+		img: "http://img.pokemondb.net/artwork/rotom-mow.jpg",
+		metodo: "Debe adoptar el corta-césped ubicado en los posibles lugares donde haya electrodomésticos",
+	},
+	{
+		descripcion: "Rotom Lavado",
+		tipo: ['electric', 'water'],
+		altura: [0,0],
+		peso: [0,0],
+		img: "http://img.pokemondb.net/artwork/rotom-wash.jpg",
+		metodo: "Debe adoptar la lavadora ubicada en los posibles lugares donde haya electrodomésticos",
+	},
+	],
 	ratioCaptura: 45,
 	valoresEsfuerzo: {
 		ataqueEspecial: 1,
@@ -18294,6 +18411,27 @@ var names2 = [
 		{habilidadNombre: habNombre('telepathy'),habilidadDescripcion: "(Sólo en Giratina forma Alterada) "+habDescripcion('telepathy')},
 		],
 	},
+	formas: [
+	{
+		descripcion: "Forma Alterada",
+		tipo: ['ghost', 'dragon'],
+		altura: [0,0],
+		peso: [0,0],
+		img: "http://img.pokemondb.net/artwork/giratina-altered.jpg",
+		spriteCode: "487",
+		metodo: "No requiere de objeto o método",
+	},
+	{
+		descripcion: "Forma Origen",
+		tipo: ['ghost', 'dragon'],
+		altura: [0,0],
+		peso: [0,0],
+		img: "http://img.pokemondb.net/artwork/giratina-origin.jpg",
+		spriteCode: "487o",
+		objeto: "http://www.serebii.net/itemdex/sprites/griseousorb.png",
+		metodo: "Equipar objeto Griseosfera, o estar en el Mudo Distorsión",
+	},
+	],
 	ratioCaptura: 3,
 	valoresEsfuerzo: {
 		ps: 3,
@@ -23677,14 +23815,56 @@ var names2 = [
 		{habilidadNombre: habNombre('teravolt'),habilidadDescripcion: "(Sólo en Kyurem Negro) "+habDescripcion('teravolt')},
 		],
 	},
+	formas: [
+	{
+		descripcion: "Kyurem Normal",
+		tipo: ['dragon', 'ice'],
+		altura: [0,0],
+		peso: [0,0],
+		img: "http://img.pokemondb.net/artwork/kyurem-normal.jpg",
+		spriteCode: "646",
+		metodo: "No requiere de objeto o método",
+		valoresEsfuerzo: {
+			ps: 1,
+			ataque: 1,
+			ataqueEspecial: 1,
+		}
+	},
+	{
+		descripcion: "Kyurem Negro",
+		tipo: ['dragon', 'ice'],
+		altura: [0,0],
+		peso: [0,0],
+		img: "http://img.pokemondb.net/artwork/kyurem-black.jpg",
+		spriteCode: "646-b",
+		objeto: "http://www.serebii.net/itemdex/sprites/dnasplicers.png",
+		metodo: "Aplicar objeto Punta ADN junto con Zekrom",
+		valoresEsfuerzo: {
+			ataque: 3,
+		}
+	},
+	{
+		descripcion: "Kyurem Blanco",
+		tipo: ['dragon', 'ice'],
+		altura: [0,0],
+		peso: [0,0],
+		img: "http://img.pokemondb.net/artwork/kyurem-white.jpg",
+		spriteCode: "646-w",
+		objeto: "http://www.serebii.net/itemdex/sprites/dnasplicers.png",
+		metodo: "Aplicar objeto Punta ADN junto con Reshiram",
+		valoresEsfuerzo: {
+			ataqueEspecial: 3,
+		}
+	},
+	],
 	ratioCaptura: 3,
+	/*
 	valoresEsfuerzo: {
-		//(Solo en Kyurem Blanco) ataqueEspecial: 3,
-		//(Solo en Kyurem Negro) ataque: 3,
 		ps: 1,
 		ataque: 1,
 		ataqueEspecial: 1,
 	},
+	*/
 	pasos: 255 * 121, grupo: ['Desconocido'], amistad: 0,
 	dexRegiones: {
 		dexNacional: '646',
@@ -26263,4 +26443,205 @@ var names2 = [
 },
 
 
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var namesOF = [
+{
+	id: '386a',
+	nombre: names[385], tipo: ['psychic'], clasificacion: 'Pokémon ADN',
+	altura: [getAltura(385).pies, getAltura(385).metros], peso: [getPeso(385).libras, getPeso(385).kilogramos],
+	habilidades: {
+		habilidadesNormales: [
+		{habilidadNombre: habNombre('pressure'),habilidadDescripcion: habDescripcion('pressure')},
+		],
+	},
+	ratioCaptura: 3,
+	valoresEsfuerzo: {
+		ataque: 2,
+		ataqueEspecial: 1,
+	},
+	pasos: 255 * 121, grupo: ['Desconocido'], amistad: 0,
+	dexRegiones: {
+		dexNacional: '386',
+		dexHoennRSE: '202',
+	},
+	idiomas: {frances: namesFR[385],aleman: namesDE[385],japones: [namesJP[385][1], namesJP[385][0]],coreano: [namesKO[385][1], namesKO[385][0]]}
+},
+{
+	id: '386d',
+	nombre: names[385], tipo: ['psychic'], clasificacion: 'Pokémon ADN',
+	altura: [getAltura(385).pies, getAltura(385).metros], peso: [getPeso(385).libras, getPeso(385).kilogramos],
+	habilidades: {
+		habilidadesNormales: [
+		{habilidadNombre: habNombre('pressure'),habilidadDescripcion: habDescripcion('pressure')},
+		],
+	},
+	ratioCaptura: 3,
+	valoresEsfuerzo: {
+		defensa: 2,
+		defensaEspecial: 1,
+	},
+	pasos: 255 * 121, grupo: ['Desconocido'], amistad: 0,
+	dexRegiones: {
+		dexNacional: '386',
+		dexHoennRSE: '202',
+	},
+	idiomas: {frances: namesFR[385],aleman: namesDE[385],japones: [namesJP[385][1], namesJP[385][0]],coreano: [namesKO[385][1], namesKO[385][0]]}
+},
+{
+	id: '386s',
+	nombre: names[385], tipo: ['psychic'], clasificacion: 'Pokémon ADN',
+	altura: [getAltura(385).pies, getAltura(385).metros], peso: [getPeso(385).libras, getPeso(385).kilogramos],
+	habilidades: {
+		habilidadesNormales: [
+		{habilidadNombre: habNombre('pressure'),habilidadDescripcion: habDescripcion('pressure')},
+		],
+	},
+	ratioCaptura: 3,
+	valoresEsfuerzo: {
+		velocidad: 3,
+	},
+	pasos: 255 * 121, grupo: ['Desconocido'], amistad: 0,
+	dexRegiones: {
+		dexNacional: '386',
+		dexHoennRSE: '202',
+	},
+	idiomas: {frances: namesFR[385],aleman: namesDE[385],japones: [namesJP[385][1], namesJP[385][0]],coreano: [namesKO[385][1], namesKO[385][0]]}
+},
 ];

@@ -301,7 +301,7 @@ var namesJP = [
 ["ペリッパー","Pelipper"],
 ["ラルトス","Ralts"],
 ["キルリア","Kirlia"],
-["サーナイト","Sirknight"],
+["サーナイト","Sirnight"/*"Sirknight"*/],
 ["アメタマ","Ametama"],
 ["アメモース","Amemoth"],
 ["キノココ","Kinococo"],

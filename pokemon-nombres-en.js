@@ -1231,3 +1231,127 @@ function getEvolveItem(valor){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Funciones unicamente aplicables megaevoluciones
+
+
+function getDexRegiones(array, id){
+	//
+	var regiones;
+	for(var i = 0; i < array.length; i++){
+		//
+		if (array[i].id == id) {
+			regiones = array[i]["dexRegiones"];
+		}
+	}
+	return regiones;
+}
+
+function getRatioCaptura(array, id){
+	//
+	var ratio;
+	for(var i = 0; i < array.length; i++){
+		//
+		if (array[i].id == id) {
+			ratio = array[i]["ratioCaptura"];
+		}
+	}
+	return ratio;
+}
+
+function getValoresEsfuerzo(array, id){
+	//
+	var valores;
+	for(var i = 0; i < array.length; i++){
+		//
+		if (array[i].id == id) {
+			valores = array[i]["valoresEsfuerzo"];
+		}
+	}
+	return valores;
+}
+
+function getPasos(array, id){
+	//
+	var pasos;
+	for(var i = 0; i < array.length; i++){
+		//
+		if (array[i].id == id) {
+			pasos = array[i]["pasos"];
+		}
+	}
+	return pasos;
+}
+
+function getGrupos(array, id){
+	//
+	var grupos;
+	for(var i = 0; i < array.length; i++){
+		//
+		if (array[i].id == id) {
+			grupos = array[i]["grupo"];
+		}
+	}
+	return grupos;
+}
+
+function getAmistad(array, id){
+	//
+	var amistad;
+	for(var i = 0; i < array.length; i++){
+		//
+		if (array[i].id == id) {
+			amistad = array[i]["amistad"];
+		}
+	}
+	return amistad;
+}
+
+function getGeneros(array, id){
+	//
+	var generos;
+	for(var i = 0; i < array.length; i++){
+		//
+		if (array[i].id == id) {
+			generos = array[i]["generos"];
+		}
+	}
+	return generos;
+}
+
+
+
+
+
+
+
+

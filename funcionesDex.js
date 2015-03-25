@@ -12,6 +12,7 @@ App.Router.map(function(){
 	//this.resource('mega');
 	this.resource('mega', { path: 'pokemon/mega/:mega_id' });
 	//this.resource('mega', { path: 'pokemon/mega/:mega_id' });
+	this.resource('primal', { path: 'pokemon/primal/:primal_id' });
 	//this.route('notfound', {path: '/*path'});
 });
 
@@ -43,10 +44,26 @@ App.IndexRoute = Ember.Route.extend({
 
 App.PokemonRoute = Ember.Route.extend({
 	model: function(params){
+		resetCounter();
+		//console.log("Codigo: "+params.post_id);
+		//ocultarArrowFormas(params.post_id);
 		return names2.findBy('id', params.post_id);
 	},
 	renderTemplate: function(){
 		this.render('pokemon', {path: '007'});
+	},
+	actions: {
+		hacerAlgo: function(){
+			alert("Hola");
+		},
+		forNext: function(){
+			getFigures();
+			toNext();
+		},
+		forPrev: function(){
+			getFigures();
+			toPrev();
+		}
 	}
 });
 
@@ -72,6 +89,17 @@ App.MegaRoute = Ember.Route.extend({
 
 
 
+App.PrimalRoute = Ember.Route.extend({
+	model: function(params){
+		return namesPR.findBy('id', params.primal_id);
+	},
+	renderTemplate: function(){
+		this.render('primal', {path: '007'});
+	}
+});
+
+
+
 App.PokemonController = Ember.ObjectController.extend({
 	//esPlanta: function(){
 	//	return this.get('valor') === 'grass';
@@ -81,6 +109,14 @@ App.PokemonController = Ember.ObjectController.extend({
 });
 
 App.MegaController = Ember.ObjectController.extend({
+	//esPlanta: function(){
+	//	return this.get('valor') === 'grass';
+	//}.property('valor'),
+	//.property('tipo')
+	//esFuego: Ember.computed.equal('valor', 'fire')
+});
+
+App.PrimalController = Ember.ObjectController.extend({
 	//esPlanta: function(){
 	//	return this.get('valor') === 'grass';
 	//}.property('valor'),
@@ -158,11 +194,21 @@ Ember.Handlebars.registerHelper('imagenPorNombre', function(valor, options){
 	}else if (nombreImg == 'Nidoran♂') {
 		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase().substr(0,nombreImg.length-1)+"-m.jpg\" border=\"0\">";
 	}else if (nombreImg == 'Rotom') {
-		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-normal.jpg\" border=\"0\">";
+		var rNormal = "<figure class=\"show\"><img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-normal.jpg\" border=\"0\"></figure>";
+		var rPod = "<figure><img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-mow.jpg\" border=\"0\"></figure>";
+		var rCalor = "<figure><img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-heat.jpg\" border=\"0\"></figure>";
+		var rLavado = "<figure><img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-wash.jpg\" border=\"0\"></figure>";
+		var rVent = "<figure><img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-fan.jpg\" border=\"0\"></figure>";
+		var rFrio = "<figure><img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-frost.jpg\" border=\"0\"></figure>";
+		return rNormal+rPod+rCalor+rLavado+rVent+rFrio;
+		//return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-normal.jpg\" border=\"0\">";
 	}else if (nombreImg == 'Kyurem') {
 		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-normal.jpg\" border=\"0\">";
 	}else if (nombreImg == 'Giratina') {
-		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-altered.jpg\" border=\"0\">";
+		//return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-altered.jpg\" border=\"0\">";
+		var primero = "<figure class=\"show\"><img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-altered.jpg\" border=\"0\"></figure>";
+		var segundo = "<figure><img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-origin.jpg\" border=\"0\"></figure>";
+		return primero+segundo;
 	}else if (nombreImg == 'Tornadus' || nombreImg == 'Thundurus' || nombreImg == 'Landorus') {
 		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-incarnate.jpg\" border=\"0\">";
 	}else if (nombreImg == 'Keldeo') {
@@ -176,7 +222,12 @@ Ember.Handlebars.registerHelper('imagenPorNombre', function(valor, options){
 	}else if (nombreImg == 'Aegislash') {
 		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-blade.jpg\" border=\"0\">";
 	}else if (nombreImg == 'Deoxys') {
-		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-normal.jpg\" border=\"0\">";
+		var dxyNormal = "<figure class=\"show\"><img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-normal.jpg\" border=\"0\"></figure>";
+		var dxyAttack = "<figure><img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-attack.jpg\" border=\"0\"></figure>";
+		var dxyDefense = "<figure><img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-defense.jpg\" border=\"0\"></figure>";
+		var dxySpeed = "<figure><img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-speed.jpg\" border=\"0\"></figure>";
+		return dxyNormal+dxyAttack+dxyDefense+dxySpeed;
+		//return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-normal.jpg\" border=\"0\">";
 	}else if (nombreImg == 'Wormadam') {
 		return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-plant.jpg\" border=\"0\">";
 	}else if (nombreImg == 'Pumpkaboo') {
@@ -204,16 +255,46 @@ Ember.Handlebars.registerHelper('imagenPorNombreMega', function(valor, nombrePkm
 });
 
 
+Ember.Handlebars.registerHelper('imagenPorNombrePrimigenio', function(valor, nombrePkmn, options){
+	var id = Ember.Handlebars.get(this, valor, options);
+	var nombreImg = Ember.Handlebars.get(this, nombrePkmn, options);
+	return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+"-primal.jpg\" border=\"0\">";
+	//return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase().substr(0,nombreImg.length-1)+".jpg\" border=\"0\">";
+	//http://img.pokemondb.net/artwork/kyogre-primal.jpg
+});
+
+
+
+Ember.Handlebars.registerHelper('imagenPorUrl', function(valor, options){
+	var id = Ember.Handlebars.get(this, valor, options);
+	return "<img src=\""+id+"\" border=\"0\">";
+});
+
+
+
+
+Ember.Handlebars.registerHelper('nombreMega', function(valor, nombrePkmn, options){
+	var id = Ember.Handlebars.get(this, valor, options);
+	var nombreImg = Ember.Handlebars.get(this, nombrePkmn, options);
+	if (id == '006x' || id == '150x') {
+		return "Mega "+nombreImg+" X";
+	}else if (id == '006y' || id == '150y') {
+		return "Mega "+nombreImg+" Y";
+	}else{
+		return "Mega "+nombreImg;
+	}
+	//<h1 id="secName">#{{id}} Mega {{nombre}}</h1>
+});
+
 Ember.Handlebars.registerHelper('tituloMega', function(valor, nombrePkmn, options){
 	var id = Ember.Handlebars.get(this, valor, options);
 	var nombreImg = Ember.Handlebars.get(this, nombrePkmn, options);
-	//return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase().substr(0,nombreImg.length-1)+".jpg\" border=\"0\">";
 	if (id == '006x' || id == '150x') {
-		return "<h1 id=\"secName\">#"+id.substr(0,id.length-1)+" Mega "+nombreImg+" X</h1>";
+		return id.substr(0,id.length-1)+" Mega "+nombreImg+" X";
 	}else if (id == '006y' || id == '150y') {
-		return "<h1 id=\"secName\">#"+id.substr(0,id.length-1)+" Mega "+nombreImg+" Y</h1>";
+		return id.substr(0,id.length-1)+" Mega "+nombreImg+" Y";
 	}else{
-		return "<h1 id=\"secName\">#"+id+" Mega "+nombreImg+"</h1>";
+		return id+" Mega "+nombreImg;
 	}
 	//<h1 id="secName">#{{id}} Mega {{nombre}}</h1>
 });
@@ -226,8 +307,13 @@ Ember.Handlebars.registerHelper('mostrarMegaPiedra', function(valor, options){
 			//megaImg += "<div class=\"line\"><img src=\""+namesM[m].megaPiedra.imagen+"\" width=\"24\" height=\"24\"></div>";
 			//megaImg += "<span class=\"line-desc\">"+namesM[m].megaPiedra.nombre+"</span>";
 			//break;
-			megaImg += "<img src=\""+namesM[m].megaPiedra.imagen+"\" width=\"24\" height=\"24\">"+namesM[m].megaPiedra.nombre;
-			break;
+			if(Ember.Handlebars.get(this, valor, options) == '384'){
+				megaImg += namesM[m].megaPiedra.nombre;
+				break;
+			}else{
+				megaImg += "<img src=\""+namesM[m].megaPiedra.imagen+"\" width=\"24\" height=\"24\">"+namesM[m].megaPiedra.nombre;
+				break;
+			}
 		}
 	}
 	return megaImg;
@@ -280,14 +366,32 @@ Ember.Handlebars.registerHelper('machoBarraPoncentaje', function(vMacho, options
 
 
 
-
-
-
 Ember.Handlebars.registerHelper('mostrarNumRealesGenero', function(valor, options){
 	var pGenero = Ember.Handlebars.get(this, valor, options);
 	//return pGenero.replace('.',',')+" %";
 	return pGenero+" %";
 });
+
+
+
+
+Ember.Handlebars.registerHelper('circlePercentageGender', function(valor, options){
+	return "<div class=\"bar\" style=\"transform: rotate("+Math.round((360*parseFloat(Ember.Handlebars.get(this, valor, options)/100)))+"deg)\"></div>";
+});
+
+
+Ember.Handlebars.registerHelper('ifOver50PecentGender', function(valor, options){
+	var id = Ember.Handlebars.get(this, valor, options);
+	if(parseFloat(id) > 50){
+		return options.fn(this);
+	}else{
+		return options.inverse(this);
+	}
+});
+
+
+
+
 
 
 Ember.Handlebars.registerHelper('ifJapones', function(valor, options){
@@ -321,7 +425,43 @@ Ember.Handlebars.registerHelper('ifCoreano', function(valor, options){
 
 
 
+Ember.Handlebars.registerHelper('comprobarValoresEVsFormas', function(formas, options){
+	var valorFormas = Ember.Handlebars.get(this, formas, options);
+	var evsFormas = false;
 
+	if(valorFormas[0].valoresEsfuerzo !== undefined){
+		evsFormas = true;
+	}
+	/*
+	for(var i = 0; i < valorFormas.length; i++){
+		if(valorFormas[i].valoresEsfuerzo !== undefined){
+			evsFormas = true;
+		}
+	}
+	*/
+	if (evsFormas == true) {
+		return options.fn(this);
+	}else{
+		return options.inverse(this);
+	}
+});
+
+
+
+Ember.Handlebars.registerHelper('ifLimitadorFormas', function(indexVal, lengthVal, options){
+	//var indexRes = Ember.Handlebars.get(this, indexVal, options) + 1;
+	//var lengthRes = Ember.Handlebars.get(this, lengthVal, options);
+
+	//console.log(indexRes+" of "+lengthRes);
+
+
+
+
+	if (Ember.Handlebars.get(this, indexVal, options) < Ember.Handlebars.get(this, lengthVal, options) - 1) {
+		return options.fn(this);
+		//console.log(Ember.Handlebars.get(this, indexVal, options));
+	}
+});
 
 
 
@@ -535,6 +675,57 @@ var numbers = ['001','002','003','004','005','006','007','008','009',
 
 
 
+
+function getIndexOfName(namesAr, name){
+	var indexVal = namesAr.indexOf(name);
+	if (indexVal > -1) {
+		return numbers[indexVal];
+	}
+}
+
+
+
+
+
+function getIndexOfJPName(namesAr, name){
+	var indexVal;
+	for(var i = 0; i < namesAr.length; i++){
+		//
+		if (name == namesAr[i][0]+" "+namesAr[i][1]) {
+			indexVal = i;
+		}
+	}
+	return numbers[indexVal];
+}
+
+
+
+
+
+function getJPNames(namesAr){
+	var newAr = [];
+	for(var i = 0; i < namesAr.length; i++){
+		newAr[i] = namesAr[i][0]+" "+namesAr[i][1];
+	}
+	return newAr;
+}
+
+
+
+function getJPNamesRomaji(namesAr){
+	var newAr = [];
+	for(var i = 0; i < namesAr.length; i++){
+		newAr[i] = namesAr[i][0];
+	}
+	return newAr;
+}
+
+
+
+
+
+
+
 $(document).on('ready', function(){
 	var charMap = {
 		"à": "a",
@@ -577,7 +768,7 @@ $(document).on('ready', function(){
 	var nombres = new Bloodhound({
 		datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
 		queryTokenizer: queryTokenizer,
-		limit: 20,
+		limit: 10,
 		/*
 		prefetch: {
 			url: 'listaPaises.json',
@@ -594,31 +785,167 @@ $(document).on('ready', function(){
 		*/
 
 		//local: $.map(numbers, function (name) {
-		local: $.map(names.concat(namesFR).concat(namesDE), function (name) {
+		//local: $.map(names.concat(namesFR).concat(namesDE), function (name) {
+		local: $.map(names, function (name) {
 			// Normalize the name - use this for searching
 			var normalized = normalize(name);
+			var number = getIndexOfName(names, name);
 			return {
-				value: normalized,
+				//value: normalized,
+				value: number+" "+normalized,
 				// Include the original name - use this for display purposes
-				displayValue: name
+				//displayValue: name
+				displayValue: number+" "+name
+				//mivalor: '000'
+			};
+		})
+	});
+
+	var nombres_FR = new Bloodhound({
+		datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+		queryTokenizer: queryTokenizer,
+		limit: 10,
+		//local: $.map(numbers, function (name) {
+		local: $.map(namesFR, function (name) {
+			// Normalize the name - use this for searching
+			var normalized = normalize(name);
+			var number = getIndexOfName(namesFR, name);
+			return {
+				//value: normalized,
+				value: number+" "+normalized,
+				// Include the original name - use this for display purposes
+				//displayValue: name
+				displayValue: number+" "+name
+			};
+		})
+	});
+
+	var nombres_DE = new Bloodhound({
+		datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+		queryTokenizer: queryTokenizer,
+		limit: 10,
+		//local: $.map(numbers, function (name) {
+		local: $.map(namesDE, function (name) {
+			// Normalize the name - use this for searching
+			var normalized = normalize(name);
+			var number = getIndexOfName(namesDE, name);
+			return {
+				//value: normalized,
+				value: number+" "+normalized,
+				// Include the original name - use this for display purposes
+				//displayValue: name
+				displayValue: number+" "+name
+			};
+		})
+	});
+
+
+	var nombres_JP = new Bloodhound({
+		datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+		queryTokenizer: queryTokenizer,
+		limit: 10,
+		//local: $.map(numbers, function (name) {
+		local: $.map(getJPNames(namesJP), function (name) {
+			// Normalize the name - use this for searching
+			var normalized = normalize(name);
+			var number = getIndexOfJPName(namesJP, name);
+			return {
+				//value: normalized,
+				value: number+" "+normalized,
+				// Include the original name - use this for display purposes
+				//displayValue: name
+				displayValue: number+" "+name
+			};
+		})
+	});
+
+
+
+	var nombres_KO = new Bloodhound({
+		datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+		queryTokenizer: queryTokenizer,
+		limit: 10,
+		//local: $.map(numbers, function (name) {
+		local: $.map(getJPNames(namesKO), function (name) {
+			// Normalize the name - use this for searching
+			var normalized = normalize(name);
+			var number = getIndexOfJPName(namesKO, name);
+			return {
+				//value: normalized,
+				value: number+" "+normalized,
+				// Include the original name - use this for display purposes
+				//displayValue: name
+				displayValue: number+" "+name
 			};
 		})
 	});
 	
 	nombres.initialize();
+	nombres_FR.initialize();
+	nombres_DE.initialize();
+	nombres_JP.initialize();
+	nombres_KO.initialize();
 
 	$('#txtSearchDex').typeahead({
 		minLength: 1,
 		hint: false,
 		highlight: true
-	}, {
+	},
+	{
 		name: 'nombres',
 		displayKey: 'displayValue',
-		source: nombres.ttAdapter()
-	})
+		source: nombres.ttAdapter(),
+		templates: {
+			header: '<h3 class="league-name">Nombres Genericos</h3>'
+			//suggestion: Handlebars.compile('<p><img src="http://www.serebii.net/itemdex/sprites/charizarditex.png" width="24" height="24"> - {{displayValue}}</p>')
+			//http://www.serebii.net/pokedex-xy/icon/004.png
+			//suggestion: Handlebars.compile('<p>{{numero}} - {{displayValue}}</p>')
+			//suggestion: Handlebars.compile('<p><img src="http://www.serebii.net/pokedex-xy/icon/{{numero}}.png"> - {{displayValue}}</p>')
+		},
+	},
+	{
+		name: 'nombresFR',
+		displayKey: 'displayValue',
+		source: nombres_FR.ttAdapter(),
+		templates: {
+			header: '<h3 class="league-name">Nombres en Frances</h3>'
+			//suggestion: Handlebars.compile('<p><img src="http://www.serebii.net/pokedex-xy/icon/{{numero}}.png"> - {{displayValue}}</p>')
+		},
+	},
+	{
+		name: 'nombresDE',
+		displayKey: 'displayValue',
+		source: nombres_DE.ttAdapter(),
+		templates: {
+			header: '<h3 class="league-name">Nombres en Aleman</h3>'
+			//suggestion: Handlebars.compile('<p><img src="http://www.serebii.net/pokedex-xy/icon/{{numero}}.png"> - {{displayValue}}</p>')
+		},
+	},
+	{
+		name: 'nombresJP',
+		displayKey: 'displayValue',
+		source: nombres_JP.ttAdapter(),
+		templates: {
+			header: '<h3 class="league-name">Nombres en Japones</h3>'
+			//suggestion: Handlebars.compile('<p><img src="http://www.serebii.net/pokedex-xy/icon/{{numero}}.png"> - {{displayValue}}</p>')
+		},
+	},
+	{
+		name: 'nombresKO',
+		displayKey: 'displayValue',
+		source: nombres_KO.ttAdapter(),
+		templates: {
+			header: '<h3 class="league-name">Nombres en Coreano</h3>'
+			//suggestion: Handlebars.compile('<p><img src="http://www.serebii.net/pokedex-xy/icon/{{numero}}.png"> - {{displayValue}}</p>')
+		},
+	}
+	)
 	.on('typeahead:selected', function(e, dato){
 		console.log("Evento accionado por seleccionar un item en la lista");
-		console.log(dato.displayValue);
+		//console.log(dato.value);
+		//console.log(dato.displayValue);
+		//console.log(dato.displayValue.substr(0,3));
+		window.location.href = "#/pokemon/"+dato.displayValue.substr(0,3);
 		//console.log(document.URL);
 		//console.log(window.location.href);
 		//window.location.href = "http:www.google.cl";
@@ -628,72 +955,72 @@ $(document).on('ready', function(){
 		//});
 
 		//var urlVar = document.URL.substr(0,document.URL.length-3);
-		var urlVar;
+		//var urlVar;
 
 
 
-		if (isNaN(dato.displayValue)) {
-			//Primera busqueda de pokemon por su nombre en ingles (utilizado internacionalmente)
-			for (var i = 0; i < names.length; i++) {
-				if (buscarPorNombre(dato.displayValue, names[i], i)){
-					var indiceNumero = numbers[i];
-					//console.log(document.URL);
-					if (document.URL.indexOf("#") === -1) {
-						urlVar = document.URL+"#/pokemon/";
-						//window.location.href = urlVar+indiceNumero;
-						window.location.href = "#/pokemon/"+indiceNumero;
-					}else{
-						urlVar = document.URL.substr(0,document.URL.length-3);
-						//window.location.href = urlVar+indiceNumero;
-						window.location.href = "#/pokemon/"+indiceNumero;
-					}
-					break;
-				}
-			}
+//	//	//if (isNaN(dato.displayValue)) {
+		//	//Primera busqueda de pokemon por su nombre en ingles (utilizado internacionalmente)
+		//	for (var i = 0; i < names.length; i++) {
+		//		if (buscarPorNombre(dato.displayValue, names[i], i)){
+		//			var indiceNumero = numbers[i];
+		//			//console.log(document.URL);
+		//			if (document.URL.indexOf("#") === -1) {
+		//				urlVar = document.URL+"#/pokemon/";
+		//				//window.location.href = urlVar+indiceNumero;
+		//				window.location.href = "#/pokemon/"+indiceNumero;
+		//			}else{
+		//				urlVar = document.URL.substr(0,document.URL.length-3);
+		//				//window.location.href = urlVar+indiceNumero;
+		//				window.location.href = "#/pokemon/"+indiceNumero;
+		//			}
+		//			break;
+		//		}
+		//	}
 
 
-			//Busqueda de pokemon en nombre frances
-			for (var i = 0; i < namesFR.length; i++) {
-				if (buscarPorNombre(dato.displayValue, namesFR[i], i)){
-					var indiceNumero = numbers[i];
-					//console.log(document.URL);
-					if (document.URL.indexOf("#") === -1) {
-						urlVar = document.URL+"#/pokemon/";
-						//window.location.href = urlVar+indiceNumero;
-						window.location.href = "#/pokemon/"+indiceNumero;
-					}else{
-						urlVar = document.URL.substr(0,document.URL.length-3);
-						//window.location.href = urlVar+indiceNumero;
-						window.location.href = "#/pokemon/"+indiceNumero;
-					}
-					break;
-				}
-			}
+	//	//	//Busqueda de pokemon en nombre frances
+		//	for (var i = 0; i < namesFR.length; i++) {
+		//		if (buscarPorNombre(dato.displayValue, namesFR[i], i)){
+		//			var indiceNumero = numbers[i];
+		//			//console.log(document.URL);
+		//			if (document.URL.indexOf("#") === -1) {
+		//				urlVar = document.URL+"#/pokemon/";
+		//				//window.location.href = urlVar+indiceNumero;
+		//				window.location.href = "#/pokemon/"+indiceNumero;
+		//			}else{
+		//				urlVar = document.URL.substr(0,document.URL.length-3);
+		//				//window.location.href = urlVar+indiceNumero;
+		//				window.location.href = "#/pokemon/"+indiceNumero;
+		//			}
+		//			break;
+		//		}
+		//	}
 
 
-			//Busqueda de pokemon en nombre aleman
-			for (var i = 0; i < namesDE.length; i++) {
-				if (buscarPorNombre(dato.displayValue, namesDE[i], i)){
-					var indiceNumero = numbers[i];
-					//console.log(document.URL);
-					if (document.URL.indexOf("#") === -1) {
-						urlVar = document.URL+"#/pokemon/";
-						//window.location.href = urlVar+indiceNumero;
-						window.location.href = "#/pokemon/"+indiceNumero;
-					}else{
-						urlVar = document.URL.substr(0,document.URL.length-3);
-						//window.location.href = urlVar+indiceNumero;
-						window.location.href = "#/pokemon/"+indiceNumero;
-					}
-					break;
-				}
-			}
-		}else {
-			console.log("es numero");
-			urlVar = document.URL.substr(0,document.URL.length-3);
-			//window.location.href = urlVar+dato.displayValue;
-			window.location.href = "#/pokemon/"+dato.displayValue;
-		}
+	//	//	//Busqueda de pokemon en nombre aleman
+		//	for (var i = 0; i < namesDE.length; i++) {
+		//		if (buscarPorNombre(dato.displayValue, namesDE[i], i)){
+		//			var indiceNumero = numbers[i];
+		//			//console.log(document.URL);
+		//			if (document.URL.indexOf("#") === -1) {
+		//				urlVar = document.URL+"#/pokemon/";
+		//				//window.location.href = urlVar+indiceNumero;
+		//				window.location.href = "#/pokemon/"+indiceNumero;
+		//			}else{
+		//				urlVar = document.URL.substr(0,document.URL.length-3);
+		//				//window.location.href = urlVar+indiceNumero;
+		//				window.location.href = "#/pokemon/"+indiceNumero;
+		//			}
+		//			break;
+		//		}
+		//	}
+		//}else {
+		//	console.log("es numero");
+		//	urlVar = document.URL.substr(0,document.URL.length-3);
+		//	//window.location.href = urlVar+dato.displayValue;
+		//	window.location.href = "#/pokemon/"+dato.displayValue;
+		//}
 
 
 
@@ -854,3 +1181,26 @@ function heredarPropiedadesEnMegas(){
 		}
 	};
 }
+
+
+
+
+
+function ocultarArrowFormas(valor){
+    //document.querySelector(".next").style.visibility = 'hidden';
+    //document.querySelector(".prev").style.visibility = 'hidden';
+    //console.log(document.querySelector(".next"));
+    //console.log(document.querySelector(".prev"));
+    var valores = [386, 487];
+    for(var i = 0; i < valores.length; i++){
+    	if (valor == valores[i]) {
+    		console.log(valor);
+    		document.querySelector(".next").style.visibility = 'hidden';
+            document.querySelector(".prev").style.visibility = 'hidden';
+    	}
+    }
+}
+
+
+
+
