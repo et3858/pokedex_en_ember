@@ -35,6 +35,7 @@
 	<script src="pokemon-nombres-jp.js"></script>
 	<script src="pokemon-nombres-ko.js"></script>
 	<script src="pokemon-sizes-2.js"></script>
+	<script src="pokemon-stats.js"></script>
 
 	<script src="pokemon-datos.js"></script>
 	<script src="pokemon-megas.js"></script>
@@ -403,27 +404,63 @@
 
 
 
-				<!--
+				
 				<section class="secSecond">
-					<div class="thirdTitle" id="stats-menu">Stats</div>
+					<div class="thirdTitle" id="stats-menu">Estadísticas</div>
 					<div class="thirdContent" id="stats-cont">
-
 						<div class="text-align-center">
-							<div class="graph-stats">
+							<div class="bar-stats">
 								<ul>
 									<li>
-										<span class="stat-label">PS</span>
-										<div class="hp-bar" style="width: 12.5%;" data-value="87.5">
+										<div class="bar-stat bar-hp">
+											<div class="bar-fill"></div>
+											<span class="name-stat">PS</span>
+											<span class="value-stat">255</span>
+										</div>
+										<!--
+										<div>
+											<span>100</span>
+											<span>200</span>
+										</div>
+										<div>
+											<span>200</span>
+											<span>300</span>
+										</div>
+										-->
+									</li>
+									<li>
+										<div class="bar-stat bar-attack">
+											<div class="bar-fill"></div>
+											<span class="name-stat">Ataque</span>
+											<span class="value-stat">255</span>
 										</div>
 									</li>
 									<li>
-										<span class="stat-label">Ataque</span>
-										<div class="attack-bar" style="width: 87.5%;" data-value="87.5">
+										<div class="bar-stat bar-defense">
+											<div class="bar-fill"></div>
+											<span class="name-stat">Defensa</span>
+											<span class="value-stat">255</span>
 										</div>
 									</li>
 									<li>
-										<span class="stat-label">Defensa Especial</span>
-										<div class="special-defense-bar" style="width: 87.5%;" data-value="87.5">
+										<div class="bar-stat bar-special-attack">
+											<div class="bar-fill"></div>
+											<span class="name-stat">Ataque Especial</span>
+											<span class="value-stat">255</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-special-defense">
+											<div class="bar-fill"></div>
+											<span class="name-stat">Defensa Especial</span>
+											<span class="value-stat">255</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-speed">
+											<div class="bar-fill"></div>
+											<span class="name-stat">Velocidad</span>
+											<span class="value-stat">255</span>
 										</div>
 									</li>
 								</ul>
@@ -431,7 +468,7 @@
 						</div>
 					</div>
 				</section>
-				-->
+				
 
 
 
@@ -684,12 +721,13 @@
 					<!--<img {{bind-attr src=img-pokemon/id.png}} width="300" height="300" border="0">-->
 					<!--{{#imagenPrincipal id}}-->
 					<!--{{/imagenPrincipal}}-->
-					{{#imagenPorNombre nombre}}
-					{{/imagenPorNombre}}
+					<!--{{#imagenPorNombre nombre}}{{/imagenPorNombre}}-->
+					{{#imagenPorNumero id}}{{/imagenPorNumero}}
 					
+					{{#imagenPorNumeroConfirm id}}
 					<span class="prev" {{action 'forPrev'}}>&laquo;</span>
 					<span class="next" {{action 'forNext'}}>&raquo;</span>
-					
+					{{/imagenPorNumeroConfirm}}
 					<!--<img {{bind-attr src=logoUrl}} alt="Logo">-->
 				</section>
 				<section id="secStartInfo">
@@ -711,12 +749,12 @@
 					</div>
 					<div class="blcSpec">
 						Altura
-						<span>{{altura}} m</span>
+						<span>{{#mostrarAltura altura}}{{/mostrarAltura}}</span>
 					</div>
 					<div class="blcSpec">
 						Peso
-						<span>{{peso}} kg</span>
-					</div>					
+						<span>{{#mostrarPeso peso}}{{/mostrarPeso}}</span>
+					</div>
 				</section>
 			</section>
 
@@ -795,6 +833,18 @@
 											{{/each}}
 										</div>
 										{{forma.descripcion}}
+										{{#if forma.altura}}
+										<div>
+											Altura
+											<span>{{#mostrarAltura forma.altura}}{{/mostrarAltura}}</span>
+										</div>
+										{{/if}}
+										{{#if forma.peso}}
+										<div>
+											Peso
+											<span>{{#mostrarPeso peso}}{{/mostrarPeso}}</span>
+										</div>
+										{{/if}}
 										{{#if forma.metodo}}
 										<div>
 											Objeto o método
@@ -1543,8 +1593,199 @@
 
 
 
+
+
+
 				<section class="secSecond">
-					<div class="thirdTitle" id="breeding-menu">Crianza</div>
+					<div class="thirdTitle" id="stats-menu">Estadísticas</div>
+					<div class="thirdContent" id="stats-cont">
+						<div class="text-align-center">
+							{{#if formas}}
+							{{#comprobarStatsFormas formas}}
+							
+							{{#each forma in formas}}
+
+							<div class="alternative-forms-header">
+								<!--<img src="http://www.serebii.net/pokedex-xy/icon/001.png">-->
+								{{#mostrarSpriteEvolucion forma.spriteCode}}{{/mostrarSpriteEvolucion}}
+								{{forma.descripcion}}
+							</div>
+							<div class="bar-stats">
+								<ul>
+									<li>
+										<div class="bar-stat bar-hp">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar forma.stats.ps}}{{/statBar}}
+											<span class="name-stat">PS</span><span class="value-stat">{{forma.stats.ps}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-attack">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar forma.stats.ataque}}{{/statBar}}
+											<span class="name-stat">Ataque</span><span class="value-stat">{{forma.stats.ataque}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-defense">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar forma.stats.defensa}}{{/statBar}}
+											<span class="name-stat">Defensa</span><span class="value-stat">{{forma.stats.defensa}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-special-attack">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar forma.stats.ataqueEspecial}}{{/statBar}}
+											<span class="name-stat">Ataque Especial</span><span class="value-stat">{{forma.stats.ataqueEspecial}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-special-defense">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar forma.stats.defensaEspecial}}{{/statBar}}
+											<span class="name-stat">Defensa Especial</span><span class="value-stat">{{forma.stats.defensaEspecial}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-speed">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar forma.stats.velocidad}}{{/statBar}}
+											<span class="name-stat">Velocidad</span><span class="value-stat">{{forma.stats.velocidad}}</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+							{{#ifLimitadorFormas _view.contentIndex formas.length}}
+							<div class="alternative-forms-separator"></div>
+							{{/ifLimitadorFormas}}
+
+
+							{{/each}}
+							{{else}}
+
+							<div class="bar-stats">
+								<ul>
+									<li>
+										<div class="bar-stat bar-hp">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.ps}}{{/statBar}}
+											<span class="name-stat">PS</span><span class="value-stat">{{stats.ps}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-attack">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.ataque}}{{/statBar}}
+											<span class="name-stat">Ataque</span><span class="value-stat">{{stats.ataque}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-defense">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.defensa}}{{/statBar}}
+											<span class="name-stat">Defensa</span><span class="value-stat">{{stats.defensa}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-special-attack">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.ataqueEspecial}}{{/statBar}}
+											<span class="name-stat">Ataque Especial</span><span class="value-stat">{{stats.ataqueEspecial}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-special-defense">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.defensaEspecial}}{{/statBar}}
+											<span class="name-stat">Defensa Especial</span><span class="value-stat">{{stats.defensaEspecial}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-speed">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.velocidad}}{{/statBar}}
+											<span class="name-stat">Velocidad</span><span class="value-stat">{{stats.velocidad}}</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+							{{/comprobarStatsFormas}}
+
+							{{else}}
+							<!--
+							<div class="alternative-forms-header">
+								<img src="http://www.serebii.net/pokedex-xy/icon/001.png">
+								Kyurem
+							</div>
+							-->
+							<div class="bar-stats">
+								<ul>
+									<li>
+										<div class="bar-stat bar-hp">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.ps}}{{/statBar}}
+											<span class="name-stat">PS</span><span class="value-stat">{{stats.ps}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-attack">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.ataque}}{{/statBar}}
+											<span class="name-stat">Ataque</span><span class="value-stat">{{stats.ataque}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-defense">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.defensa}}{{/statBar}}
+											<span class="name-stat">Defensa</span><span class="value-stat">{{stats.defensa}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-special-attack">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.ataqueEspecial}}{{/statBar}}
+											<span class="name-stat">Ataque Especial</span><span class="value-stat">{{stats.ataqueEspecial}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-special-defense">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.defensaEspecial}}{{/statBar}}
+											<span class="name-stat">Defensa Especial</span><span class="value-stat">{{stats.defensaEspecial}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-speed">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.velocidad}}{{/statBar}}
+											<span class="name-stat">Velocidad</span><span class="value-stat">{{stats.velocidad}}</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+							{{/if}}
+
+						</div>
+					</div>
+				</section>
+
+
+
+
+
+
+
+
+
+
+
+
+				<section class="secSecond">
+					<div class="thirdTitle" id="breeding-menu">Otros datos</div>
 					<div class="thirdContent" id="breeding-cont">
 						<div class="blcSpec">
 							Ratio captura
@@ -1824,12 +2065,12 @@
 					</div>
 					<div class="blcSpec">
 						Altura
-						<span>{{altura}} m</span>
+						<span>{{#mostrarAltura altura}}{{/mostrarAltura}}</span>
 					</div>
 					<div class="blcSpec">
 						Peso
-						<span>{{peso}} kg</span>
-					</div>					
+						<span>{{#mostrarPeso peso}}{{/mostrarPeso}}</span>
+					</div>
 				</section>
 
 			</section>
@@ -2133,40 +2374,118 @@
 
 
 				<section class="secSecond">
-					<div class="thirdTitle" id="breeding-menu">Crianza</div>
+					<div class="thirdTitle" id="breeding-menu">Distribución de géneros</div>
 					<div class="thirdContent" id="breeding-cont">
 
 						<div class="text-align-center">
-							<div class="graph-gender">
-								{{#if generos}}
-								<ul>
-									<li>
-										<span class="gender-label">Hembra</span>
-										<!--<div class="female-bar" style="width: 12.5%;"></div>-->
-										{{#hembraBarraPoncentaje generos.hembra}}{{/hembraBarraPoncentaje}}
-										<!--<span class="percentage-label">{{generos.hembra}}%</span>-->
-									</li>
-									<li>
-										<span class="gender-label">Macho</span>
-										<!--<div class="male-bar" style="width: 87.5%;"></div>-->
-										{{#machoBarraPoncentaje generos.macho}}{{/machoBarraPoncentaje}}
-										<!--<span class="percentage-label">{{generos.macho}}%</span>-->
-									</li>
-								</ul>
-								{{else}}
-								<ul>
-									<li>
-										<span class="gender-label">Hembra</span>
-										<div class="female-bar" style="width: 0%;"></div>
-									</li>
-									<li>
-										<span class="gender-label">Macho</span>
-										<div class="male-bar" style="width: 0%;"></div>
-									</li>
-								</ul>
-								{{/if}}
+							<div class="male-percentage">
+								<div class="male-circle">
+									<span>{{generos.macho}}%</span>
+									{{#ifOver50PecentGender generos.macho}}
+									<div class="slice-max">
+										<!--<div class="bar"></div>-->
+										{{#circlePercentageGender generos.macho}}{{/circlePercentageGender}}
+										<div class="fill"></div>
+									</div>
+									{{else}}
+									<div class="slice">
+										<!--<div class="bar"></div>-->
+										{{#circlePercentageGender generos.macho}}{{/circlePercentageGender}}
+									</div>
+									{{/ifOver50PecentGender}}
+								</div>
+								Machos
+							</div>
+							<div class="female-percentage">
+								<div class="female-circle">
+									<span>{{generos.hembra}}%</span>
+									{{#ifOver50PecentGender generos.hembra}}
+									<div class="slice-max">
+										<!--<div class="bar"></div>-->
+										{{#circlePercentageGender generos.hembra}}{{/circlePercentageGender}}
+										<div class="fill"></div>
+									</div>
+									{{else}}
+									<div class="slice">
+										<!--<div class="bar"></div>-->
+										{{#circlePercentageGender generos.hembra}}{{/circlePercentageGender}}
+									</div>
+									{{/ifOver50PecentGender}}
+								</div>
+								Hembras
 							</div>
 						</div>
+
+
+					</div>
+				</section>
+
+
+
+
+
+
+
+
+
+
+				<section class="secSecond">
+					<div class="thirdTitle" id="breeding-menu">Estadísticas</div>
+					<div class="thirdContent" id="breeding-cont">
+
+						<div class="text-align-center">
+							{{#if stats}}
+							<div class="bar-stats">
+								<ul>
+									<li>
+										<div class="bar-stat bar-hp">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.ps}}{{/statBar}}
+											<span class="name-stat">PS</span><span class="value-stat">{{stats.ps}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-attack">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.ataque}}{{/statBar}}
+											<span class="name-stat">Ataque</span><span class="value-stat">{{stats.ataque}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-defense">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.defensa}}{{/statBar}}
+											<span class="name-stat">Defensa</span><span class="value-stat">{{stats.defensa}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-special-attack">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.ataqueEspecial}}{{/statBar}}
+											<span class="name-stat">Ataque Especial</span><span class="value-stat">{{stats.ataqueEspecial}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-special-defense">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.defensaEspecial}}{{/statBar}}
+											<span class="name-stat">Defensa Especial</span><span class="value-stat">{{stats.defensaEspecial}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-speed">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.velocidad}}{{/statBar}}
+											<span class="name-stat">Velocidad</span><span class="value-stat">{{stats.velocidad}}</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+							{{else}}
+							Le falta estadisticas
+							{{/if}}
+						</div>
+
 
 					</div>
 				</section>
@@ -2179,7 +2498,7 @@
 
 
 				<section class="secSecond">
-					<div class="thirdTitle" id="breeding-menu">Crianza</div>
+					<div class="thirdTitle" id="breeding-menu">Otros datos</div>
 					<div class="thirdContent" id="breeding-cont">
 						<div class="blcSpec">
 							Ratio captura
@@ -2465,12 +2784,12 @@
 					</div>
 					<div class="blcSpec">
 						Altura
-						<span>{{altura}} m</span>
+						<span>{{#mostrarAltura altura}}{{/mostrarAltura}}</span>
 					</div>
 					<div class="blcSpec">
 						Peso
-						<span>{{peso}} kg</span>
-					</div>					
+						<span>{{#mostrarPeso peso}}{{/mostrarPeso}}</span>
+					</div>
 				</section>
 
 			</section>
@@ -2511,41 +2830,65 @@
 
 
 
+
+
 				<section class="secSecond">
-					<div class="thirdTitle" id="breeding-menu">Crianza</div>
+					<div class="thirdTitle" id="breeding-menu">Estadísticas</div>
 					<div class="thirdContent" id="breeding-cont">
 
 						<div class="text-align-center">
-							<div class="graph-gender">
-								{{#if generos}}
+							{{#if stats}}
+							<div class="bar-stats">
 								<ul>
 									<li>
-										<span class="gender-label">Hembra</span>
-										<!--<div class="female-bar" style="width: 12.5%;"></div>-->
-										{{#hembraBarraPoncentaje generos.hembra}}{{/hembraBarraPoncentaje}}
-										<!--<span class="percentage-label">{{generos.hembra}}%</span>-->
+										<div class="bar-stat bar-hp">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.ps}}{{/statBar}}
+											<span class="name-stat">PS</span><span class="value-stat">{{stats.ps}}</span>
+										</div>
 									</li>
 									<li>
-										<span class="gender-label">Macho</span>
-										<!--<div class="male-bar" style="width: 87.5%;"></div>-->
-										{{#machoBarraPoncentaje generos.macho}}{{/machoBarraPoncentaje}}
-										<!--<span class="percentage-label">{{generos.macho}}%</span>-->
+										<div class="bar-stat bar-attack">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.ataque}}{{/statBar}}
+											<span class="name-stat">Ataque</span><span class="value-stat">{{stats.ataque}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-defense">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.defensa}}{{/statBar}}
+											<span class="name-stat">Defensa</span><span class="value-stat">{{stats.defensa}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-special-attack">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.ataqueEspecial}}{{/statBar}}
+											<span class="name-stat">Ataque Especial</span><span class="value-stat">{{stats.ataqueEspecial}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-special-defense">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.defensaEspecial}}{{/statBar}}
+											<span class="name-stat">Defensa Especial</span><span class="value-stat">{{stats.defensaEspecial}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-speed">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar stats.velocidad}}{{/statBar}}
+											<span class="name-stat">Velocidad</span><span class="value-stat">{{stats.velocidad}}</span>
+										</div>
 									</li>
 								</ul>
-								{{else}}
-								<ul>
-									<li>
-										<span class="gender-label">Hembra</span>
-										<div class="female-bar" style="width: 0%;"></div>
-									</li>
-									<li>
-										<span class="gender-label">Macho</span>
-										<div class="male-bar" style="width: 0%;"></div>
-									</li>
-								</ul>
-								{{/if}}
 							</div>
+							{{else}}
+							Le falta estadisticas
+							{{/if}}
 						</div>
+
 
 					</div>
 				</section>
@@ -2557,8 +2900,10 @@
 
 
 
+
+
 				<section class="secSecond">
-					<div class="thirdTitle" id="breeding-menu">Crianza</div>
+					<div class="thirdTitle" id="breeding-menu">Otros datos</div>
 					<div class="thirdContent" id="breeding-cont">
 						<div class="blcSpec">
 							Ratio captura

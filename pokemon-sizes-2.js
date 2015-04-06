@@ -508,13 +508,13 @@ var sizes = [
 {id: 485,	dimensiones:	[{altura: ["5′7″", 1.70],	peso: [948, 430.0],},],},
 {id: 486,	dimensiones:	[{altura: ["12′2″", 3.71],	peso: [925.9, 420.0],},],},
 {id: 487,	dimensiones:	[{altura: ["14′9″", 4.50],	peso: [1653.5, 750.0], descripcion: "Giratina Altered Forme"},
-							 {altura: ["22′8″", 6.91],	peso: [1433, 650.0], descripcion: "Giratina Origin Forme"},],},
+							 {altura: ["22′8″", 6.91],	peso: [1433, 650.0], descripcion: "Giratina Origin Forme", cod: '487-o'},],},
 {id: 488,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [188.7, 85.6],},],},
 {id: 489,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [6.8, 3.1],},],},
 {id: 490,	dimensiones:	[{altura: ["1′0″", 0.30],	peso: [3.1, 1.4],},],},
 {id: 491,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [111.3, 50.5],},],},
 {id: 492,	dimensiones:	[{altura: ["0′8″", 0.20],	peso: [4.6, 2.1], descripcion: "Shaymin Land Forme"},
-							 {altura: ["1′4″", 0.41],	peso: [11.5, 5.2], descripcion: "Shaymin Sky Forme"},],},
+							 {altura: ["1′4″", 0.41],	peso: [11.5, 5.2], descripcion: "Shaymin Sky Forme", cod: '492-s'},],},
 {id: 493,	dimensiones:	[{altura: ["10′6″", 3.20],	peso: [705.5, 320.0],},],},
 {id: 494,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [8.8, 4.0],},],},
 {id: 495,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [17.9, 8.1],},],},
@@ -668,16 +668,16 @@ var sizes = [
 {id: 639,	dimensiones:	[{altura: ["6′3″", 1.91],	peso: [573.2, 260.0],},],},
 {id: 640,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [440.9, 200.0],},],},
 {id: 641,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [138.9, 63.0], descripcion: " Tornadus Incarnate Forme"},
-							 {altura: ["4′7″", 1.40],	peso: [138.9, 63.0], descripcion: " Tornadus Therian Forme"},],},
+							 {altura: ["4′7″", 1.40],	peso: [138.9, 63.0], descripcion: " Tornadus Therian Forme", cod: '641-t'},],},
 {id: 642,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [134.5, 61.0], descripcion: " Thundurus Incarnate Forme"},
-							 {altura: ["9′10″", 3.00],	peso: [134.5, 61.0], descripcion: " Thundurus Therian Forme"},],},
+							 {altura: ["9′10″", 3.00],	peso: [134.5, 61.0], descripcion: " Thundurus Therian Forme", cod: '642-t'},],},
 {id: 643,	dimensiones:	[{altura: ["10′6″", 3.20],	peso: [727.5, 330.0],},],},
 {id: 644,	dimensiones:	[{altura: ["9′6″", 2.90],	peso: [760.6, 345.0],},],},
 {id: 645,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [149.9, 68.0], descripcion: " Landorus Incarnate Forme"},
-							 {altura: ["4′3″", 1.30],	peso: [149.9, 68.0], descripcion: " Landorus Therian Forme"},],},
+							 {altura: ["4′3″", 1.30],	peso: [149.9, 68.0], descripcion: " Landorus Therian Forme", cod: '645-t'},],},
 {id: 646,	dimensiones:	[{altura: ["9′10″", 3.00],	peso: [716.5, 325.0], descripcion: "Kyurem"},
-							 {altura: ["10′10″", 3.30],	peso: [716.5, 325.0], descripcion: "Black Kyurem"},
-							 {altura: ["11′10″", 3.61],	peso: [716.5, 325.0], descripcion: "White Kyurem"},],},
+							 {altura: ["10′10″", 3.30],	peso: [716.5, 325.0], descripcion: "Black Kyurem", cod: '646-b'},
+							 {altura: ["11′10″", 3.61],	peso: [716.5, 325.0], descripcion: "White Kyurem", cod: '646-w'},],},
 {id: 647,	dimensiones:	[{altura: ["4′7″", 1.40],	peso: [106.9, 48.5],},],},
 /*
 {id: 647,	dimensiones:	[{altura: ["4′7″", 1.40],	peso: [106.9, 48.5], descripcion: "Keldeo Ordinary Forme"},],},
@@ -758,13 +758,13 @@ var sizes = [
 {id: 708,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [15.4, 7.0],},],},
 {id: 709,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [156.5, 71.0],},],},
 {id: 710,	dimensiones:	[{altura: ["1′04″", 0.41],	peso: [11, 5.0], descripcion: "Average Size"},
-							 {altura: ["1′0″", 0.31],	peso: [7.7, 3.5], descripcion: "Small Size"},
-							 {altura: ["1′08″", 0.51],	peso: [16.5, 7.5], descripcion: "Large Size"},
-							 {altura: ["2′07″", 0.81],	peso: [31.1, 15.0], descripcion: "Super Size"},],},
+							 {altura: ["1′0″", 0.31],	peso: [7.7, 3.5], descripcion: "Small Size", cod: '710-s'},
+							 {altura: ["1′08″", 0.51],	peso: [16.5, 7.5], descripcion: "Large Size", cod: '710-l'},
+							 {altura: ["2′07″", 0.81],	peso: [31.1, 15.0], descripcion: "Super Size", cod: '710-x'},],},
 {id: 711,	dimensiones:	[{altura: ["2′11″", 0.90],	peso: [27.6, 12.5], descripcion: "Average Size"},
-							 {altura: ["2′04″", 0.70],	peso: [20.9, 9.5], descripcion: "Small Size"},
-							 {altura: ["3′07″", 1.10],	peso: [30.9, 14.0], descripcion: "Large Size"},
-							 {altura: ["5′07″", 1.70],	peso: [86, 39.0], descripcion: "Super Size"},],},
+							 {altura: ["2′04″", 0.70],	peso: [20.9, 9.5], descripcion: "Small Size", cod: '710-s'},
+							 {altura: ["3′07″", 1.10],	peso: [30.9, 14.0], descripcion: "Large Size", cod: '710-l'},
+							 {altura: ["5′07″", 1.70],	peso: [86, 39.0], descripcion: "Super Size", cod: '710-x'},],},
 {id: 712,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [219.4, 99.5],},],},
 {id: 713,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [1113.3, 505.0],},],},
 {id: 714,	dimensiones:	[{altura: ["1′8″", 0.51],	peso: [17.6, 8.0],},],},
@@ -792,6 +792,25 @@ var sizes = [
 
 function getAltura(valor){
 	//console.log(valor);
+
+	//console.log("Hay "+arguments.length+" argumentos");
+	/*
+	if (valor === undefined) {
+		console.log("Argumento vacio");
+	}else{
+		console.log("viene con un argumento");
+	}
+	console.log(arguments);
+	*/
+
+
+
+
+	//http://javascript.info/tutorial/arguments
+	//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments
+
+	var vPies, vMetros;
+
 	for (var i = 0; i < sizes.length; i++) {
 		if (i == valor) {
 			//console.log("Altura en pies: "+sizes[i].dimensiones[0].altura[0]);
@@ -801,14 +820,38 @@ function getAltura(valor){
 			//}else{
 			//	console.log("Solo tiene una forma");
 			//}
-			return {pies: sizes[i].dimensiones[0].altura[0], metros: sizes[i].dimensiones[0].altura[1]};
+			if (sizes[i].dimensiones.length > 1) {
+				//console.log((i+1)+" tiene mas de una coleccion");
+				for(var j = 0; j < sizes[i].dimensiones.length; j++){
+					//
+					//console.log(sizes[i].dimensiones[j].altura);
+					if (arguments[1] == sizes[i].dimensiones[j].cod) {
+						//console.log(sizes[i].dimensiones[j].cod);
+						vPies = sizes[i].dimensiones[j].altura[0];
+						vMetros = sizes[i].dimensiones[j].altura[1];
+						break;
+						//return {pies: sizes[i].dimensiones[j].altura[0], metros: sizes[i].dimensiones[j].altura[1]};
+					}
+				}
+			}else{
+				//
+				vPies = sizes[i].dimensiones[0].altura[0];
+				vMetros = sizes[i].dimensiones[0].altura[1];
+				//return {pies: sizes[i].dimensiones[0].altura[0], metros: sizes[i].dimensiones[0].altura[1]};
+			}
+			break;
+			//return {pies: sizes[i].dimensiones[0].altura[0], metros: sizes[i].dimensiones[0].altura[1]};
 		}
 	}
+	return {pies: vPies, metros: vMetros};
 }
 
 
 
 function getPeso(valor){
+
+	var vLibras, vKilogramos;
+
 	for (var i = 0; i < sizes.length; i++) {
 		if (i == valor) {
 			//if (sizes[i].dimensiones.length > 1) {
@@ -816,8 +859,26 @@ function getPeso(valor){
 			//}else{
 			//	console.log("Solo tiene una forma");
 			//}
-			return {libras: sizes[i].dimensiones[0].peso[0], kilogramos: sizes[i].dimensiones[0].peso[1]};
+
+			if (sizes[i].dimensiones.length > 1) {
+				//
+				for(var j = 0; j < sizes[i].dimensiones.length; j++){
+					//
+					if (arguments[1] == sizes[i].dimensiones[j].cod) {
+						vLibras = sizes[i].dimensiones[j].peso[0];
+						vKilogramos = sizes[i].dimensiones[j].peso[1];
+						break;
+					}
+				}
+			}else{
+				//
+				vLibras = sizes[i].dimensiones[0].peso[0];
+				vKilogramos = sizes[i].dimensiones[0].peso[1];
+			}
+			break;
+			//return {libras: sizes[i].dimensiones[0].peso[0], kilogramos: sizes[i].dimensiones[0].peso[1]};
 		}
 	}
+	return {libras: vLibras, kilogramos: vKilogramos};
 }
 

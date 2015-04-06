@@ -179,6 +179,25 @@ Ember.Handlebars.registerHelper('imagenPrincipal', function(valor, options){
 	//return options.fn(this);
 });
 
+
+
+
+Ember.Handlebars.registerHelper('mostrarAltura', function(valor, options){
+	var valoresAltura = Ember.Handlebars.get(this, valor, options);
+	//console.log(valoresAltura[0]);
+	return valoresAltura[0]+"&nbsp;&nbsp;&nbsp;&nbsp;"+valoresAltura[1]+" m";
+});
+
+
+Ember.Handlebars.registerHelper('mostrarPeso', function(valor, options){
+	var valoresPeso = Ember.Handlebars.get(this, valor, options);
+	//console.log(valoresPeso[0]);
+	return valoresPeso[0]+" lbs&nbsp;&nbsp;&nbsp"+valoresPeso[1]+" kg";
+});
+
+
+
+
 Ember.Handlebars.registerHelper('imagenPorNombre', function(valor, options){
 	//http://img.pokemondb.net/artwork/bulbasaur.jpg
 	var nombreImg = Ember.Handlebars.get(this, valor, options);
@@ -240,6 +259,71 @@ Ember.Handlebars.registerHelper('imagenPorNombre', function(valor, options){
 	//return "<img src=\"http://img.pokemondb.net/artwork/"+nombreImg.toLowerCase()+".jpg\" width=\"300\" height=\"300\" border=\"0\">";
 	//return options.fn(this);
 });
+
+
+
+
+Ember.Handlebars.registerHelper('imagenPorNumero', function(valor, options){
+	//
+	var frameImg = "";
+	var numeroValor = Ember.Handlebars.get(this, valor, options);
+	for(var i = 0; i < names2.length; i++){
+		//
+		//if(i == parseInt(numeroValor) - 1){
+		if(names2[i].id == numeroValor){
+			//console.log("El numero preciso: "+numeroValor+" ("+names2[i].nombre+")");
+			if(numeroValor == '678'){
+				frameImg += "<figure class=\"show\"><img src=\"http://img.pokemondb.net/artwork/"+names2[i].nombre.toLowerCase()+"-male.jpg\" border=\"0\"></figure>";
+				frameImg += "<figure><img src=\"http://img.pokemondb.net/artwork/"+names2[i].nombre.toLowerCase()+"-female.jpg\" border=\"0\"></figure>";
+				break;
+			}
+			if(names2[i].formas !== undefined){
+				//console.log("Este numero tiene diferentes formas");
+				frameImg += "<figure class=\"show\"><img src=\""+names2[i].formas[0].img+"\" border=\"0\"></figure>";
+				//frameImg += "</figure>";
+				for(var j = 1; j < names2[i].formas.length; j++){
+					//
+					//console.log(names2[i].formas[j]);
+					frameImg += "<figure><img src=\""+names2[i].formas[j].img+"\" border=\"0\"></figure>";
+				}
+			}else{
+				//console.log("No tiene formas");
+				frameImg += "<img src=\"http://img.pokemondb.net/artwork/"+names2[i].nombre.toLowerCase()+".jpg\" border=\"0\">";
+			}
+			break;
+		}
+	}
+	return frameImg;
+});
+
+Ember.Handlebars.registerHelper('imagenPorNumeroConfirm', function(valor, options){
+	//
+	var hayFormas = false;
+	var numeroValor = Ember.Handlebars.get(this, valor, options);
+	for(var i = 0; i < names2.length; i++){
+		//
+		//if(i == parseInt(numeroValor) - 1){
+		if(names2[i].id == numeroValor){
+			//console.log("El numero preciso: "+numeroValor+" ("+names2[i].nombre+")");
+			if(numeroValor == '678'){
+				hayFormas = true;
+			}
+			if(names2[i].formas !== undefined){
+				//console.log("Este numero tiene diferentes formas");
+				//frameImg += "</figure>";
+				hayFormas = true;
+			}
+			break;
+		}
+	}
+	if(hayFormas == true){
+		return options.fn(this);
+	}
+});
+
+
+
+
 
 Ember.Handlebars.registerHelper('imagenPorNombreMega', function(valor, nombrePkmn, options){
 	var id = Ember.Handlebars.get(this, valor, options);
@@ -327,6 +411,20 @@ Ember.Handlebars.registerHelper('mostrarMegaPiedra', function(valor, options){
 
 
 
+Ember.Handlebars.registerHelper('statBar', function(valor, options){
+	//var nuevoValor = Ember.Handlebars.get(this, valor, options);
+	var nuevoValor = (100 * Ember.Handlebars.get(this, valor, options)) / 255;
+	//console.log((100*255)/255)
+	//return "<div class=\"bar-fill\" style=\"width: "+nuevoValor+"%;\"></div>";
+	return "<div class=\"bar-fill\" style=\"width: "+nuevoValor.toFixed(1)+"%;\"></div>";
+});
+
+
+
+
+
+
+
 
 
 
@@ -362,6 +460,7 @@ Ember.Handlebars.registerHelper('machoBarraPoncentaje', function(vMacho, options
 	var macho = Ember.Handlebars.get(this, vMacho, options);
 	return "<div class=\"male-bar\" style=\"width: "+macho+"%;\" data-value=\""+macho+"%\"></div>";
 });
+
 
 
 
@@ -440,6 +539,30 @@ Ember.Handlebars.registerHelper('comprobarValoresEVsFormas', function(formas, op
 	}
 	*/
 	if (evsFormas == true) {
+		return options.fn(this);
+	}else{
+		return options.inverse(this);
+	}
+});
+
+
+
+Ember.Handlebars.registerHelper('comprobarStatsFormas', function(formas, options){
+	var valorFormas = Ember.Handlebars.get(this, formas, options);
+	var statsFormas = false;
+	//console.log(valorFormas[0]);
+
+	if(valorFormas[0].stats !== undefined){
+		statsFormas = true;
+	}
+	/*
+	for(var i = 0; i < valorFormas.length; i++){
+		if(valorFormas[i].valoresEsfuerzo !== undefined){
+			statsFormas = true;
+		}
+	}
+	*/
+	if (statsFormas == true) {
 		return options.fn(this);
 	}else{
 		return options.inverse(this);

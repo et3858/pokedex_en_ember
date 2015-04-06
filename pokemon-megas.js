@@ -34,6 +34,7 @@ var namesM = [
 	amistad: getAmistad(names2, '003'),
 	generos: getGeneros(names2, '003'),
 	dexRegiones: getDexRegiones(names2, '003'),
+	stats: getStatsMega(2),
 	idiomas: {frances: namesFR[2],aleman: namesDE[2],japones: [namesJP[2][1], namesJP[2][0]],coreano: [namesKO[2][1], namesKO[2][0]]}
 },
 
@@ -75,6 +76,7 @@ var namesM = [
 	amistad: getAmistad(names2, '006'),
 	generos: getGeneros(names2, '006'),
 	dexRegiones: getDexRegiones(names2, '006'),
+	stats: getStatsMega(5, '006-x'),
 	idiomas: {frances: namesFR[5],aleman: namesDE[5],japones: [namesJP[5][1], namesJP[5][0]],coreano: [namesKO[5][1], namesKO[5][0]]}
 },
 
@@ -112,6 +114,7 @@ var namesM = [
 	amistad: getAmistad(names2, '006'),
 	generos: getGeneros(names2, '006'),
 	dexRegiones: getDexRegiones(names2, '006'),
+	stats: getStatsMega(5, '006-y'),
 	idiomas: {frances: namesFR[5],aleman: namesDE[5],japones: [namesJP[5][1], namesJP[5][0]],coreano: [namesKO[5][1], namesKO[5][0]]}
 },
 
@@ -153,6 +156,7 @@ var namesM = [
 	amistad: getAmistad(names2, '009'),
 	generos: getGeneros(names2, '009'),
 	dexRegiones: getDexRegiones(names2, '009'),
+	stats: getStatsMega(8),
 	idiomas: {frances: namesFR[8],aleman: namesDE[8],japones: [namesJP[8][1], namesJP[8][0]],coreano: [namesKO[8][1], namesKO[8][0]]}
 },
 
@@ -190,6 +194,7 @@ var namesM = [
 	amistad: getAmistad(names2, '065'),
 	generos: getGeneros(names2, '065'),
 	dexRegiones: getDexRegiones(names2, '065'),
+	stats: getStatsMega(64),
 	idiomas: {frances: namesFR[64],aleman: namesDE[64],japones: [namesJP[64][1], namesJP[64][0]],coreano: [namesKO[64][1], namesKO[64][0]]}
 },
 
@@ -227,6 +232,7 @@ var namesM = [
 	amistad: getAmistad(names2, '094'),
 	generos: getGeneros(names2, '094'),
 	dexRegiones: getDexRegiones(names2, '094'),
+	stats: getStatsMega(93),
 	idiomas: {frances: namesFR[93],aleman: namesDE[93],japones: [namesJP[93][1], namesJP[93][0]],coreano: [namesKO[93][1], namesKO[93][0]]}
 },
 
@@ -253,6 +259,7 @@ var namesM = [
 	amistad: getAmistad(names2, '115'),
 	generos: getGeneros(names2, '115'),
 	dexRegiones: getDexRegiones(names2, '115'),
+	stats: getStatsMega(114),
 	idiomas: {frances: namesFR[114],aleman: namesDE[114],japones: [namesJP[114][1], namesJP[114][0]],coreano: [namesKO[114][1], namesKO[114][0]]}
 },
 
@@ -276,6 +283,7 @@ var namesM = [
 	amistad: getAmistad(names2, '127'),
 	generos: getGeneros(names2, '127'),
 	dexRegiones: getDexRegiones(names2, '127'),
+	stats: getStatsMega(126),
 	idiomas: {frances: namesFR[126],aleman: namesDE[126],japones: [namesJP[126][1], namesJP[126][0]],coreano: [namesKO[126][1], namesKO[126][0]]}
 },
 
@@ -309,6 +317,7 @@ var namesM = [
 	amistad: getAmistad(names2, '130'),
 	generos: getGeneros(names2, '130'),
 	dexRegiones: getDexRegiones(names2, '130'),
+	stats: getStatsMega(129),
 	idiomas: {frances: namesFR[129],aleman: namesDE[129],japones: [namesJP[129][1], namesJP[129][0]],coreano: [namesKO[129][1], namesKO[129][0]]}
 },
 
@@ -333,6 +342,7 @@ var namesM = [
 	amistad: getAmistad(names2, '142'),
 	generos: getGeneros(names2, '142'),
 	dexRegiones: getDexRegiones(names2, '142'),
+	stats: getStatsMega(141),
 	idiomas: {frances: namesFR[141],aleman: namesDE[141],japones: [namesJP[141][1], namesJP[141][0]],coreano: [namesKO[141][1], namesKO[141][0]]}
 },
 
@@ -358,6 +368,7 @@ var namesM = [
 	grupo: getGrupos(names2, '150'),
 	amistad: getAmistad(names2, '150'),
 	dexRegiones: getDexRegiones(names2, '150'),
+	stats: getStatsMega(149, '150-x'),
 	idiomas: {frances: namesFR[149],aleman: namesDE[149],japones: [namesJP[149][1], namesJP[149][0]],coreano: [namesKO[149][1], namesKO[149][0]]}
 },
 
@@ -380,6 +391,7 @@ var namesM = [
 	grupo: getGrupos(names2, '150'),
 	amistad: getAmistad(names2, '150'),
 	dexRegiones: getDexRegiones(names2, '150'),
+	stats: getStatsMega(149, '150-y'),
 	idiomas: {frances: namesFR[149],aleman: namesDE[149],japones: [namesJP[149][1], namesJP[149][0]],coreano: [namesKO[149][1], namesKO[149][0]]}
 },
 
@@ -432,6 +444,7 @@ var namesM = [
 	amistad: getAmistad(names2, '181'),
 	generos: getGeneros(names2, '181'),
 	dexRegiones: getDexRegiones(names2, '181'),
+	stats: getStatsMega(180),
 	idiomas: {frances: namesFR[180],aleman: namesDE[180],japones: [namesJP[180][1], namesJP[180][0]],coreano: [namesKO[180][1], namesKO[180][0]]}
 },
 {
@@ -464,6 +477,7 @@ var namesM = [
 	amistad: getAmistad(names2, '212'),
 	generos: getGeneros(names2, '212'),
 	dexRegiones: getDexRegiones(names2, '212'),
+	stats: getStatsMega(211),
 	idiomas: {frances: namesFR[211],aleman: namesDE[211],japones: [namesJP[211][1], namesJP[211][0]],coreano: [namesKO[211][1], namesKO[211][0]]}
 },
 {
@@ -486,6 +500,7 @@ var namesM = [
 	amistad: getAmistad(names2, '214'),
 	generos: getGeneros(names2, '214'),
 	dexRegiones: getDexRegiones(names2, '214'),
+	stats: getStatsMega(213),
 	idiomas: {frances: namesFR[213],aleman: namesDE[213],japones: [namesJP[213][1], namesJP[213][0]],coreano: [namesKO[213][1], namesKO[213][0]]}
 },
 {
@@ -516,6 +531,7 @@ var namesM = [
 	amistad: getAmistad(names2, '229'),
 	generos: getGeneros(names2, '229'),
 	dexRegiones: getDexRegiones(names2, '229'),
+	stats: getStatsMega(228),
 	idiomas: {frances: namesFR[228],aleman: namesDE[228],japones: [namesJP[228][1], namesJP[228][0]],coreano: [namesKO[228][1], namesKO[228][0]]}
 },
 {
@@ -550,6 +566,7 @@ var namesM = [
 	amistad: getAmistad(names2, '248'),
 	generos: getGeneros(names2, '248'),
 	dexRegiones: getDexRegiones(names2, '248'),
+	stats: getStatsMega(247),
 	idiomas: {frances: namesFR[247],aleman: namesDE[247],japones: [namesJP[247][1], namesJP[247][0]],coreano: [namesKO[247][1], namesKO[247][0]]}
 },
 
@@ -602,6 +619,7 @@ var namesM = [
 	amistad: getAmistad(names2, '257'),
 	generos: getGeneros(names2, '257'),
 	dexRegiones: getDexRegiones(names2, '257'),
+	stats: getStatsMega(256),
 	idiomas: {frances: namesFR[256],aleman: namesDE[256],japones: [namesJP[256][1], namesJP[256][0]],coreano: [namesKO[256][1], namesKO[256][0]]}
 },
 {
@@ -651,6 +669,7 @@ var namesM = [
 	amistad: getAmistad(names2, '282'),
 	generos: getGeneros(names2, '282'),
 	dexRegiones: getDexRegiones(names2, '282'),
+	stats: getStatsMega(281),
 	idiomas: {frances: namesFR[281],aleman: namesDE[281],japones: [namesJP[281][1], namesJP[281][0]],coreano: [namesKO[281][1], namesKO[281][0]]}
 },
 {
@@ -673,6 +692,7 @@ var namesM = [
 	amistad: getAmistad(names2, '303'),
 	generos: getGeneros(names2, '303'),
 	dexRegiones: getDexRegiones(names2, '303'),
+	stats: getStatsMega(302),
 	idiomas: {frances: namesFR[302],aleman: namesDE[302],japones: [namesJP[302][1], namesJP[302][0]],coreano: [namesKO[302][1], namesKO[302][0]]}
 },
 {
@@ -707,6 +727,7 @@ var namesM = [
 	amistad: getAmistad(names2, '306'),
 	generos: getGeneros(names2, '306'),
 	dexRegiones: getDexRegiones(names2, '306'),
+	stats: getStatsMega(305),
 	idiomas: {frances: namesFR[305],aleman: namesDE[305],japones: [namesJP[305][1], namesJP[305][0]],coreano: [namesKO[305][1], namesKO[305][0]]}
 },
 {
@@ -737,6 +758,7 @@ var namesM = [
 	amistad: getAmistad(names2, '308'),
 	generos: getGeneros(names2, '308'),
 	dexRegiones: getDexRegiones(names2, '308'),
+	stats: getStatsMega(307),
 	idiomas: {frances: namesFR[307],aleman: namesDE[307],japones: [namesJP[307][1], namesJP[307][0]],coreano: [namesKO[307][1], namesKO[307][0]]}
 },
 {
@@ -767,6 +789,7 @@ var namesM = [
 	amistad: getAmistad(names2, '310'),
 	generos: getGeneros(names2, '310'),
 	dexRegiones: getDexRegiones(names2, '310'),
+	stats: getStatsMega(309),
 	idiomas: {frances: namesFR[309],aleman: namesDE[309],japones: [namesJP[309][1], namesJP[309][0]],coreano: [namesKO[309][1], namesKO[309][0]]}
 },
 {
@@ -797,6 +820,7 @@ var namesM = [
 	amistad: getAmistad(names2, '354'),
 	generos: getGeneros(names2, '354'),
 	dexRegiones: getDexRegiones(names2, '354'),
+	stats: getStatsMega(353),
 	idiomas: {frances: namesFR[353],aleman: namesDE[353],japones: [namesJP[353][1], namesJP[353][0]],coreano: [namesKO[353][1], namesKO[353][0]]}
 },
 {
@@ -819,6 +843,7 @@ var namesM = [
 	amistad: getAmistad(names2, '359'),
 	generos: getGeneros(names2, '359'),
 	dexRegiones: getDexRegiones(names2, '359'),
+	stats: getStatsMega(358),
 	idiomas: {frances: namesFR[358],aleman: namesDE[358],japones: [namesJP[358][1], namesJP[358][0]],coreano: [namesKO[358][1], namesKO[358][0]]}
 },
 
@@ -866,6 +891,7 @@ var namesM = [
 	amistad: getAmistad(names2, '445'),
 	generos: getGeneros(names2, '445'),
 	dexRegiones: getDexRegiones(names2, '445'),
+	stats: getStatsMega(444),
 	idiomas: {frances: namesFR[444],aleman: namesDE[444],japones: [namesJP[444][1], namesJP[444][0]],coreano: [namesKO[444][1], namesKO[444][0]]}
 },
 {
@@ -897,6 +923,7 @@ var namesM = [
 	amistad: getAmistad(names2, '448'),
 	generos: getGeneros(names2, '448'),
 	dexRegiones: getDexRegiones(names2, '448'),
+	stats: getStatsMega(447),
 	idiomas: {frances: namesFR[447],aleman: namesDE[447],japones: [namesJP[447][1], namesJP[447][0]],coreano: [namesKO[447][1], namesKO[447][0]]}
 },
 {
@@ -927,6 +954,7 @@ var namesM = [
 	amistad: getAmistad(names2, '460'),
 	generos: getGeneros(names2, '460'),
 	dexRegiones: getDexRegiones(names2, '460'),
+	stats: getStatsMega(459),
 	idiomas: {frances: namesFR[459],aleman: namesDE[459],japones: [namesJP[459][1], namesJP[459][0]],coreano: [namesKO[459][1], namesKO[459][0]]}
 },
 
@@ -1019,20 +1047,18 @@ var namesM = [
 	//	},
 	//},
 	//],
-	ratioCaptura: 45,
-	valoresEsfuerzo: {
-		ataque: 2,
-		defensaEspecial: 1,
+	megaPiedra: {
+		nombre: "Beedrillita",
+		imagen: "http://www.serebii.net/itemdex/sprites/beedrillite.png",
 	},
-	pasos: 255 * 11, grupo: ['Bicho'], amistad: 70,
-	generos: {macho: 50, hembra: 50},
-	dexRegiones: {
-		dexNacional: '015',
-		dexKanto: '015',
-		dexJohtoGSC: '029',
-		dexJohtoHGSS: '029',
-		dexKalosCentral: '028'
-	},
+	ratioCaptura: getRatioCaptura(names2, '015'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '015'),
+	pasos: getPasos(names2, '015'),
+	grupo: getGrupos(names2, '015'),
+	amistad: getAmistad(names2, '015'),
+	generos: getGeneros(names2, '015'),
+	dexRegiones: getDexRegiones(names2, '015'),
+	stats: getStatsMega(14),
 	idiomas: {frances: namesFR[14],aleman: namesDE[14],japones: [namesJP[14][1], namesJP[14][0]],coreano: [namesKO[14][1], namesKO[14][0]]}
 },
 {
@@ -1056,19 +1082,18 @@ var namesM = [
 	//	},
 	//},
 	//],
-	ratioCaptura: 45,
-	valoresEsfuerzo: {
-		velocidad: 3,
+	megaPiedra: {
+		nombre: "Pidgeotita",
+		imagen: "http://www.serebii.net/itemdex/sprites/pidgeotite.png",
 	},
-	pasos: 255 * 16, grupo: ['Volador'], amistad: 70,
-	generos: {macho: 50, hembra: 50},
-	dexRegiones: {
-		dexNacional: '018',
-		dexKanto: '018',
-		dexJohtoGSC: '012',
-		dexJohtoHGSS: '012',
-		dexKalosCentral: '019'
-	},
+	ratioCaptura: getRatioCaptura(names2, '018'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '018'),
+	pasos: getPasos(names2, '018'),
+	grupo: getGrupos(names2, '018'),
+	amistad: getAmistad(names2, '018'),
+	generos: getGeneros(names2, '018'),
+	dexRegiones: getDexRegiones(names2, '018'),
+	stats: getStatsMega(17),
 	idiomas: {frances: namesFR[17],aleman: namesDE[17],japones: [namesJP[17][1], namesJP[17][0]],coreano: [namesKO[17][1], namesKO[17][0]]}
 },
 {
@@ -1099,19 +1124,18 @@ var namesM = [
 	//	},
 	//},
 	//],
-	ratioCaptura: 75,
-	valoresEsfuerzo: {
-		defensa: 2,
+	megaPiedra: {
+		nombre: "Slowbronita",
+		imagen: "http://www.serebii.net/itemdex/sprites/slowbronite.png",
 	},
-	pasos: 255 * 21, grupo: ['Monstruo', 'Agua 1'], amistad: 70,
-	generos: {macho: 50,hembra: 50},
-	dexRegiones: {
-		dexNacional: '080',
-		dexKanto: '080',
-		dexJohtoGSC: '081',
-		dexJohtoHGSS: '081',
-		dexKalosCosta: '134',
-	},
+	ratioCaptura: getRatioCaptura(names2, '080'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '080'),
+	pasos: getPasos(names2, '080'),
+	grupo: getGrupos(names2, '080'),
+	amistad: getAmistad(names2, '080'),
+	generos: getGeneros(names2, '080'),
+	dexRegiones: getDexRegiones(names2, '080'),
+	stats: getStatsMega(79),
 	idiomas: {frances: namesFR[79],aleman: namesDE[79],japones: [namesJP[79][1], namesJP[79][0]],coreano: [namesKO[79][1], namesKO[79][0]]}
 },
 
@@ -1143,20 +1167,18 @@ var namesM = [
 	//	},
 	//},
 	//],
-	ratioCaptura: 25,
-	valoresEsfuerzo: {
-		defensa: 2,
+	megaPiedra: {
+		nombre: "Steelixita",
+		imagen: "http://www.serebii.net/itemdex/sprites/steelixite.png",
 	},
-	pasos: 255 * 26, grupo: ['Mineral'], amistad: 70,
-	generos: {macho: 50, hembra: 50},
-	dexRegiones: {
-		dexNacional: '208',
-		dexJohtoGSC: '063',
-		dexJohtoHGSS: '063',
-		dexSinnohDPPt: '035',
-		dexUnovaB2W2: '072',
-		dexKalosCosta: '054',
-	},
+	ratioCaptura: getRatioCaptura(names2, '208'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '208'),
+	pasos: getPasos(names2, '208'),
+	grupo: getGrupos(names2, '208'),
+	amistad: getAmistad(names2, '208'),
+	generos: getGeneros(names2, '208'),
+	dexRegiones: getDexRegiones(names2, '208'),
+	stats: getStatsMega(207),
 	idiomas: {frances: namesFR[207],aleman: namesDE[207],japones: [namesJP[207][1], namesJP[207][0]],coreano: [namesKO[207][1], namesKO[207][0]]}
 },
 
@@ -1191,16 +1213,18 @@ var namesM = [
 	//	},
 	//},
 	//],
-	ratioCaptura: 45,
-	valoresEsfuerzo: {
-		velocidad: 3,
+	megaPiedra: {
+		nombre: "Sceptilita",
+		imagen: "http://www.serebii.net/itemdex/sprites/sceptilite.png",
 	},
-	pasos: 255 * 21, grupo: ['Monstruo', 'Dragón'], amistad: 70,
-	generos: {macho: 87.5,hembra: 12.5},
-	dexRegiones: {
-		dexNacional: '254',
-		dexHoennRSE: '003',
-	},
+	ratioCaptura: getRatioCaptura(names2, '254'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '254'),
+	pasos: getPasos(names2, '254'),
+	grupo: getGrupos(names2, '254'),
+	amistad: getAmistad(names2, '254'),
+	generos: getGeneros(names2, '254'),
+	dexRegiones: getDexRegiones(names2, '254'),
+	stats: getStatsMega(253),
 	idiomas: {frances: namesFR[253],aleman: namesDE[253],japones: [namesJP[253][1], namesJP[253][0]],coreano: [namesKO[253][1], namesKO[253][0]]}
 },
 {
@@ -1224,16 +1248,18 @@ var namesM = [
 	//	},
 	//},
 	//],
-	ratioCaptura: 45,
-	valoresEsfuerzo: {
-		ataque: 3,
+	megaPiedra: {
+		nombre: "Swampertita",
+		imagen: "http://www.serebii.net/itemdex/sprites/swampertite.png",
 	},
-	pasos: 255 * 21, grupo: ['Monstruo', 'Agua 1'], amistad: 70,
-	generos: {macho: 87.5,hembra: 12.5},
-	dexRegiones: {
-		dexNacional: '260',
-		dexHoennRSE: '009',
-	},
+	ratioCaptura: getRatioCaptura(names2, '260'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '260'),
+	pasos: getPasos(names2, '260'),
+	grupo: getGrupos(names2, '260'),
+	amistad: getAmistad(names2, '260'),
+	generos: getGeneros(names2, '260'),
+	dexRegiones: getDexRegiones(names2, '260'),
+	stats: getStatsMega(259),
 	idiomas: {frances: namesFR[259],aleman: namesDE[259],japones: [namesJP[259][1], namesJP[259][0]],coreano: [namesKO[259][1], namesKO[259][0]]}
 },
 {
@@ -1245,18 +1271,18 @@ var namesM = [
 		{habilidadNombre: habNombre('magic bounce'),habilidadDescripcion: habDescripcion('magic bounce')},
 		],
 	},
-	ratioCaptura: 45,
-	valoresEsfuerzo: {
-		ataque: 1,
-		defensa: 1,
+	megaPiedra: {
+		nombre: "Sableynita",
+		imagen: "http://www.serebii.net/itemdex/sprites/sablenite.png",
 	},
-	pasos: 255 * 26, grupo: ['Humanoide'], amistad: 35,
-	generos: {macho: 50,hembra: 50},
-	dexRegiones: {
-		dexNacional: '302',
-		dexHoennRSE: '068',
-		dexKalosCosta: '123',
-	},
+	ratioCaptura: getRatioCaptura(names2, '302'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '302'),
+	pasos: getPasos(names2, '302'),
+	grupo: getGrupos(names2, '302'),
+	amistad: getAmistad(names2, '302'),
+	generos: getGeneros(names2, '302'),
+	dexRegiones: getDexRegiones(names2, '302'),
+	stats: getStatsMega(301),
 	idiomas: {frances: namesFR[301],aleman: namesDE[301],japones: [namesJP[301][1], namesJP[301][0]],coreano: [namesKO[301][1], namesKO[301][0]]}
 },
 {
@@ -1276,17 +1302,18 @@ var namesM = [
 	//	},
 	//},
 	//],
-	ratioCaptura: 60,
-	valoresEsfuerzo: {
-		ataque: 2,
+	megaPiedra: {
+		nombre: "Sharpedonita",
+		imagen: "http://www.serebii.net/itemdex/sprites/sharpedonite.png",
 	},
-	pasos: 255 * 21, grupo: ['Agua 2'], amistad: 35,
-	generos: {macho: 50,hembra: 50},
-	dexRegiones: {
-		dexNacional: '319',
-		dexHoennRSE: '098',
-		dexKalosCentral: '056',
-	},
+	ratioCaptura: getRatioCaptura(names2, '319'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '319'),
+	pasos: getPasos(names2, '319'),
+	grupo: getGrupos(names2, '319'),
+	amistad: getAmistad(names2, '319'),
+	generos: getGeneros(names2, '319'),
+	dexRegiones: getDexRegiones(names2, '319'),
+	stats: getStatsMega(318),
 	idiomas: {frances: namesFR[318],aleman: namesDE[318],japones: [namesJP[318][1], namesJP[318][0]],coreano: [namesKO[318][1], namesKO[318][0]]}
 },
 {
@@ -1306,18 +1333,18 @@ var namesM = [
 	//	},
 	//},
 	//],
-	ratioCaptura: 150,
-	valoresEsfuerzo: {
-		ataque: 1,
-		ataqueEspecial: 1,
+	megaPiedra: {
+		nombre: "Cameruptita",
+		imagen: "http://www.serebii.net/itemdex/sprites/cameruptite.png",
 	},
-	pasos: 255 * 21, grupo: ['Campo'], amistad: 70,
-	generos: {macho: 50,hembra: 50},
-	dexRegiones: {
-		dexNacional: '323',
-		dexHoennRSE: '102',
-		dexUnovaB2W2: '205',
-	},
+	ratioCaptura: getRatioCaptura(names2, '323'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '323'),
+	pasos: getPasos(names2, '323'),
+	grupo: getGrupos(names2, '323'),
+	amistad: getAmistad(names2, '323'),
+	generos: getGeneros(names2, '323'),
+	dexRegiones: getDexRegiones(names2, '323'),
+	stats: getStatsMega(322),
 	idiomas: {frances: namesFR[322],aleman: namesDE[322],japones: [namesJP[322][1], namesJP[322][0]],coreano: [namesKO[322][1], namesKO[322][0]]}
 },
 {
@@ -1337,19 +1364,18 @@ var namesM = [
 	//	},
 	//},
 	//],
-	ratioCaptura: 45,
-	valoresEsfuerzo: {
-		defensaEspecial: 2,
+	megaPiedra: {
+		nombre: "Altarianita",
+		imagen: "http://www.serebii.net/itemdex/sprites/altarianite.png",
 	},
-	pasos: 255 * 21, grupo: ['Dragón', 'Volador'], amistad: 70,
-	generos: {macho: 50,hembra: 50},
-	dexRegiones: {
-		dexNacional: '334',
-		dexHoennRSE: '122',
-		dexSinnohPt: '172',
-		dexUnovaB2W2: '247',
-		dexKalosMontana: '140',
-	},
+	ratioCaptura: getRatioCaptura(names2, '334'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '334'),
+	pasos: getPasos(names2, '334'),
+	grupo: getGrupos(names2, '334'),
+	amistad: getAmistad(names2, '334'),
+	generos: getGeneros(names2, '334'),
+	dexRegiones: getDexRegiones(names2, '334'),
+	stats: getStatsMega(333),
 	idiomas: {frances: namesFR[333],aleman: namesDE[333],japones: [namesJP[333][1], namesJP[333][0]],coreano: [namesKO[333][1], namesKO[333][0]]}
 },
 {
@@ -1380,17 +1406,18 @@ var namesM = [
 	//	},
 	//},
 	//],
-	ratioCaptura: 75,
-	valoresEsfuerzo: {
-		ps: 2,
+	megaPiedra: {
+		nombre: "Glalita",
+		imagen: "http://www.serebii.net/itemdex/sprites/glalitite.png",
 	},
-	pasos: 255 * 21, grupo: ['Hada', 'Mineral'], amistad: 70,
-	generos: {macho: 50,hembra: 50},
-	dexRegiones: {
-		dexNacional: '362',
-		dexHoennRSE: '172',
-		dexSinnohPt: '207',
-	},
+	ratioCaptura: getRatioCaptura(names2, '362'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '362'),
+	pasos: getPasos(names2, '362'),
+	grupo: getGrupos(names2, '362'),
+	amistad: getAmistad(names2, '362'),
+	generos: getGeneros(names2, '362'),
+	dexRegiones: getDexRegiones(names2, '362'),
+	stats: getStatsMega(361),
 	idiomas: {frances: namesFR[361],aleman: namesDE[361],japones: [namesJP[361][1], namesJP[361][0]],coreano: [namesKO[361][1], namesKO[361][0]]}
 },
 {
@@ -1414,17 +1441,18 @@ var namesM = [
 	//	},
 	//},
 	//],
-	ratioCaptura: 45,
-	valoresEsfuerzo: {
-		ataque: 3,
+	megaPiedra: {
+		nombre: "Salamencita",
+		imagen: "http://www.serebii.net/itemdex/sprites/salamencite.png",
 	},
-	pasos: 255 * 41, grupo: ['Dragón'], amistad: 35,
-	generos: {macho: 50,hembra: 50},
-	dexRegiones: {
-		dexNacional: '373',
-		dexHoennRSE: '189',
-		dexKalosCosta: '016',
-	},
+	ratioCaptura: getRatioCaptura(names2, '373'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '373'),
+	pasos: getPasos(names2, '373'),
+	grupo: getGrupos(names2, '373'),
+	amistad: getAmistad(names2, '373'),
+	generos: getGeneros(names2, '373'),
+	dexRegiones: getDexRegiones(names2, '373'),
+	stats: getStatsMega(372),
 	idiomas: {frances: namesFR[372],aleman: namesDE[372],japones: [namesJP[372][1], namesJP[372][0]],coreano: [namesKO[372][1], namesKO[372][0]]}
 },
 {
@@ -1448,16 +1476,17 @@ var namesM = [
 	//	},
 	//},
 	//],
-	ratioCaptura: 3,
-	valoresEsfuerzo: {
-		defensa: 3,
+	megaPiedra: {
+		nombre: "Metagrossita",
+		imagen: "http://www.serebii.net/itemdex/sprites/metagrossite.png",
 	},
-	pasos: 255 * 41, grupo: ['Mineral'], amistad: 35,
-	dexRegiones: {
-		dexNacional: '376',
-		dexHoennRSE: '192',
-		dexUnovaB2W2: '264',
-	},
+	ratioCaptura: getRatioCaptura(names2, '376'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '376'),
+	pasos: getPasos(names2, '376'),
+	grupo: getGrupos(names2, '376'),
+	amistad: getAmistad(names2, '376'),
+	dexRegiones: getDexRegiones(names2, '376'),
+	stats: getStatsMega(375),
 	idiomas: {frances: namesFR[375],aleman: namesDE[375],japones: [namesJP[375][1], namesJP[375][0]],coreano: [namesKO[375][1], namesKO[375][0]]}
 },
 {
@@ -1469,16 +1498,18 @@ var namesM = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
-	ratioCaptura: 3,
-	valoresEsfuerzo: {
-		defensaEspecial: 3,
+	megaPiedra: {
+		nombre: "Latiasita",
+		imagen: "http://www.serebii.net/itemdex/sprites/latiasite.png",
 	},
-	pasos: 255 * 121, grupo: ['Desconocido'], amistad: 90,
-	generos: {macho: 0, hembra: 100},
-	dexRegiones: {
-		dexNacional: '380',
-		dexHoennRSE: '196',
-	},
+	ratioCaptura: getRatioCaptura(names2, '380'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '380'),
+	pasos: getPasos(names2, '380'),
+	grupo: getGrupos(names2, '380'),
+	amistad: getAmistad(names2, '380'),
+	generos: getGeneros(names2, '380'),
+	dexRegiones: getDexRegiones(names2, '380'),
+	stats: getStatsMega(379),
 	idiomas: {frances: namesFR[379],aleman: namesDE[379],japones: [namesJP[379][1], namesJP[379][0]],coreano: [namesKO[379][1], namesKO[379][0]]}
 },
 {
@@ -1490,16 +1521,18 @@ var namesM = [
 		{habilidadNombre: habNombre('levitate'),habilidadDescripcion: habDescripcion('levitate')},
 		],
 	},
-	ratioCaptura: 3,
-	valoresEsfuerzo: {
-		ataqueEspecial: 3,
+	megaPiedra: {
+		nombre: "Latiosita",
+		imagen: "http://www.serebii.net/itemdex/sprites/latiosite.png",
 	},
-	pasos: 255 * 121, grupo: ['Desconocido'], amistad: 90,
-	generos: {macho: 100,hembra: 0},
-	dexRegiones: {
-		dexNacional: '381',
-		dexHoennRSE: '197',
-	},
+	ratioCaptura: getRatioCaptura(names2, '381'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '381'),
+	pasos: getPasos(names2, '381'),
+	grupo: getGrupos(names2, '381'),
+	amistad: getAmistad(names2, '381'),
+	generos: getGeneros(names2, '381'),
+	dexRegiones: getDexRegiones(names2, '381'),
+	stats: getStatsMega(380),
 	idiomas: {frances: namesFR[380],aleman: namesDE[380],japones: [namesJP[380][1], namesJP[380][0]],coreano: [namesKO[380][1], namesKO[380][0]]}
 },
 {
@@ -1511,16 +1544,16 @@ var namesM = [
 		{habilidadNombre: habNombre('delta stream'),habilidadDescripcion: habDescripcion('delta stream')},
 		],
 	},
-	ratioCaptura: 3,
-	valoresEsfuerzo: {
-		ataque: 2,
-		ataqueEspecial: 1,
+	megaPiedra: {
+		nombre: "No necesita de megapiedra",
 	},
-	pasos: 255 * 121, grupo: ['Desconocido'], amistad: 0,
-	dexRegiones: {
-		dexNacional: '384',
-		dexHoennRSE: '200',
-	},
+	ratioCaptura: getRatioCaptura(names2, '384'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '384'),
+	pasos: getPasos(names2, '384'),
+	grupo: getGrupos(names2, '384'),
+	amistad: getAmistad(names2, '384'),
+	dexRegiones: getDexRegiones(names2, '384'),
+	stats: getStatsMega(383),
 	idiomas: {frances: namesFR[383],aleman: namesDE[383],japones: [namesJP[383][1], namesJP[383][0]],coreano: [namesKO[383][1], namesKO[383][0]]}
 },
 
@@ -1551,17 +1584,18 @@ var namesM = [
 	//	},
 	//},
 	//],
-	ratioCaptura: 60,
-	valoresEsfuerzo: {
-		velocidad: 2,
+	megaPiedra: {
+		nombre: "Lopunnita",
+		imagen: "http://www.serebii.net/itemdex/sprites/lopunnite.png",
 	},
-	pasos: 255 * 21, grupo: ['Campo', 'Humanoide'], amistad: 140,
-	generos: {macho: 50,hembra: 50},
-	dexRegiones: {
-		dexNacional: '428',
-		dexSinnohDPPt: '068',
-		dexUnovaB2W2: '081',
-	},
+	ratioCaptura: getRatioCaptura(names2, '428'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '428'),
+	pasos: getPasos(names2, '428'),
+	grupo: getGrupos(names2, '428'),
+	amistad: getAmistad(names2, '428'),
+	generos: getGeneros(names2, '428'),
+	dexRegiones: getDexRegiones(names2, '428'),
+	stats: getStatsMega(427),
 	idiomas: {frances: namesFR[427],aleman: namesDE[427],japones: [namesJP[427][1], namesJP[427][0]],coreano: [namesKO[427][1], namesKO[427][0]]}
 },
 {
@@ -1600,17 +1634,18 @@ var namesM = [
 	//	},
 	//},
 	//],
-	ratioCaptura: 45,
-	valoresEsfuerzo: {
-		ataque: 3,
+	megaPiedra: {
+		nombre: "Galladita",
+		imagen: "http://www.serebii.net/itemdex/sprites/galladite.png",
 	},
-	pasos: 255 * 21, grupo: ['Amorfo'], amistad: 35,
-	generos: {macho: 100,hembra: 0},
-	dexRegiones: {
-		dexNacional: '475',
-		dexSinnohPt: '160',
-		dexKalosCentral: '067',
-	},
+	ratioCaptura: getRatioCaptura(names2, '475'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '475'),
+	pasos: getPasos(names2, '475'),
+	grupo: getGrupos(names2, '475'),
+	amistad: getAmistad(names2, '475'),
+	generos: getGeneros(names2, '475'),
+	dexRegiones: getDexRegiones(names2, '475'),
+	stats: getStatsMega(474),
 	idiomas: {frances: namesFR[474],aleman: namesDE[474],japones: [namesJP[474][1], namesJP[474][0]],coreano: [namesKO[474][1], namesKO[474][0]]}
 },
 
@@ -1634,18 +1669,18 @@ var namesM = [
 		{habilidadNombre: habNombre('healer'),habilidadDescripcion: habDescripcion('healer')},
 		],
 	},
-	ratioCaptura: 255,
-	valoresEsfuerzo: {
-		ps: 2,
+	megaPiedra: {
+		nombre: "Audinita",
+		imagen: "http://www.serebii.net/itemdex/sprites/audinite.png",
 	},
-	pasos: 255 * 21, grupo: ['Hada'], amistad: 70,
-	generos: {macho: 50, hembra: 50},
-	dexRegiones: {
-		dexNacional: '531',
-		dexUnovaBW: '037',
-		dexUnovaB2W2: '036',
-		dexKalosCentral: '123',
-	},
+	ratioCaptura: getRatioCaptura(names2, '531'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '531'),
+	pasos: getPasos(names2, '531'),
+	grupo: getGrupos(names2, '531'),
+	amistad: getAmistad(names2, '531'),
+	generos: getGeneros(names2, '531'),
+	dexRegiones: getDexRegiones(names2, '531'),
+	stats: getStatsMega(530),
 	idiomas: {frances: namesFR[530],aleman: namesDE[530],japones: [namesJP[530][1], namesJP[530][0]],coreano: [namesKO[530][1], namesKO[530][0]]}
 },
 
@@ -1668,16 +1703,17 @@ var namesM = [
 		{habilidadNombre: habNombre('magic bounce'),habilidadDescripcion: habDescripcion('magic bounce')},
 		],
 	},
-	ratioCaptura: 3,
-	valoresEsfuerzo: {
-		defensa: 1,
-		defensaEspecial: 2,
+	megaPiedra: {
+		nombre: "Diancita",
+		imagen: "http://www.serebii.net/itemdex/sprites/diancite.png",
 	},
-	pasos: 255 * 26, grupo: ['Desconocido'], amistad: 70,
-	dexRegiones: {
-		dexNacional: '719',
-		dexKalosCentral: '151',
-	},
+	ratioCaptura: getRatioCaptura(names2, '719'),
+	valoresEsfuerzo: getValoresEsfuerzo(names2, '719'),
+	pasos: getPasos(names2, '719'),
+	grupo: getGrupos(names2, '719'),
+	amistad: getAmistad(names2, '719'),
+	dexRegiones: getDexRegiones(names2, '719'),
+	stats: getStatsMega(718),
 	idiomas: {frances: namesFR[718],aleman: namesDE[718],japones: [namesJP[718][1], namesJP[718][0]],coreano: [namesKO[718][1], namesKO[718][0]]}
 },
 
@@ -1731,6 +1767,7 @@ var namesPR = [
 		dexNacional: '382',
 		dexHoennRSE: '198',
 	},
+	stats: getStatsMega(381),
 	idiomas: {frances: namesFR[381],aleman: namesDE[381],japones: [namesJP[381][1], namesJP[381][0]],coreano: [namesKO[381][1], namesKO[381][0]]}
 },
 {
@@ -1751,6 +1788,7 @@ var namesPR = [
 		dexNacional: '383',
 		dexHoennRSE: '199',
 	},
+	stats: getStatsMega(382),
 	idiomas: {frances: namesFR[382],aleman: namesDE[382],japones: [namesJP[382][1], namesJP[382][0]],coreano: [namesKO[382][1], namesKO[382][0]]}
 },
 ];

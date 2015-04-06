@@ -552,6 +552,8 @@ footer
 							position: absolute
 							top: 0
 							right: 100%
+						~ .bar-stats
+							margin-top: 80px
 					.alternative-forms-separator
 						background: #d2d2d2
 						margin: 20px 10px 20px 10px
@@ -989,44 +991,64 @@ footer
 								color: #F50057
 							.slice .bar, .slice .fill, .slice-max .bar, .slice-max .fill
 								border: 10px solid #F50057
-					.graph-stats
-						border-left: 2px solid #BDBDBD
-						border-bottom: 2px solid #BDBDBD
-						display: block
-						margin-left: 70px
-						margin-right: 70px
-						margin-bottom: 10px
+					.bar-stats
+						//height: 10px
+						margin-left: 10px
+						margin-right: 10px
 						text-align: left
-						font-size: .9em
-						padding-top: 4px
-						padding-bottom: 4px
 						ul
 							list-style-type: none
 							padding: 0
 							margin: 0
 							li
-								padding: 4px 0
-								.stat-label
-									display: inline-block
-									//background: blue
-									width: 56px
-									margin-left: -62px
-								.hp-bar, .attack-bar, .special-defense-bar
-									display: inline-block
-									//width: 100%
-									height: 40px
-									vertical-align: middle
+								//padding: 4px 0
+								font-size: .8em
+								height: 40px
+								//margin-bottom: 5px
+								font-weight: 600
+								.bar-stat
+									display: block
+									background: #d2d2d2
+									height: 8px
+									border-radius: 4px
 									position: relative
-									background: orange
-									&:after
-										content: attr(data-value)
+									.bar-fill
+										//background: red
+										//width: 50%
+										height: 100%
+										border-radius: 4px
+									.name-stat
 										position: absolute
-										top: 9px
-										left: 100%
-										margin-left: 5px
-										font-weight: 900
-
-
+										top: 100%
+										left: 0
+									.value-stat
+										position: absolute
+										top: 100%
+										right: 0
+								.bar-hp
+									color: #0bd20b
+									> .bar-fill
+										background: #0bd20b
+								.bar-attack
+									color: #FDC017
+									> .bar-fill
+										background: #FDC017
+								.bar-defense
+									color: #F18A0D
+									> .bar-fill
+										background: #F18A0D
+								.bar-special-attack
+									color: #00ADE7
+									> .bar-fill
+										background: #00ADE7
+								.bar-special-defense
+									color: #1752D1
+									> .bar-fill
+										background: #1752D1
+								.bar-speed
+									color: #CE31D9
+									> .bar-fill
+										background: #CE31D9
 
 
 
