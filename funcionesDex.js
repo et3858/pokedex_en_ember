@@ -14,6 +14,7 @@ App.Router.map(function(){
 	//this.resource('mega', { path: 'pokemon/mega/:mega_id' });
 	this.resource('primal', { path: 'pokemon/primal/:primal_id' });
 	//this.route('notfound', {path: '/*path'});
+	this.resource('list');
 });
 
 
@@ -100,6 +101,17 @@ App.PrimalRoute = Ember.Route.extend({
 
 
 
+
+
+
+App.ListRoute = Ember.Route.extend({
+	model: function(){
+		//return names2;
+		return namesLista;
+	}
+});
+
+
 App.PokemonController = Ember.ObjectController.extend({
 	//esPlanta: function(){
 	//	return this.get('valor') === 'grass';
@@ -123,6 +135,401 @@ App.PrimalController = Ember.ObjectController.extend({
 	//.property('tipo')
 	//esFuego: Ember.computed.equal('valor', 'fire')
 });
+
+
+
+//App.Post = DS.Model.extend({
+//    text: DS.attr('string'),
+//    active: DS.attr('boolean')
+//});
+
+App.ListController = Ember.ArrayController.extend({
+	//
+	sortAscending: true, //true: orden de menor a mayor; false: orden de mayor a menor
+	sortProperties: ['id'],
+	binario: true,
+	binario2: true,
+	/*
+	listaTipos: ['grass',
+	 'fire',
+	 'water',
+	 'bug',
+	 'poison',
+	 'flying',
+	 'normal',
+	 'electric',
+	 'ground',
+	 'rock',
+	 'steel',
+	 'fight',
+	 'psychic',
+	 'ghost',
+	 'dark',
+	 'ice',
+	 'dragon',
+	 'fairy'],
+	*/
+	listaTipos: [
+	{idTipo: 'grass', nombre: "Planta"},
+	{idTipo: 'fire', nombre: "Fuego"},
+	{idTipo: 'water', nombre: "Agua"},
+	{idTipo: 'bug', nombre: "Bicho"},
+	{idTipo: 'poison', nombre: "Veneno"},
+	{idTipo: 'flying', nombre: "Volador"},
+	{idTipo: 'normal', nombre: "Normal"},
+	{idTipo: 'electric', nombre: "Eléctrico"},
+	{idTipo: 'ground', nombre: "Tierra"},
+	{idTipo: 'rock', nombre: "Roca"},
+	{idTipo: 'steel', nombre: "Acero"},
+	{idTipo: 'fight', nombre: "Lucha"},
+	{idTipo: 'psychic', nombre: "Psíquico"},
+	{idTipo: 'ghost', nombre: "Fantasma"},
+	{idTipo: 'dark', nombre: "Siniestro"},
+	{idTipo: 'ice', nombre: "Hielo"},
+	{idTipo: 'dragon', nombre: "Dragón"},
+	{idTipo: 'fairy', nombre: "Hada"}
+	],
+	//Lista de tipos por seleccionar
+	selectedTipo: null,//Seleccion de tips. La opcion null es por defecto en la busqueda
+	filtrar: function(){
+		var content = this.get('content');
+		//
+		//var content = this.get('arrangedContent');
+		var nombrebuscar = this.get('nombrebuscar');
+		var regExp = new RegExp(nombrebuscar, 'i');
+		var getTipo = this.get('selectedTipo');
+
+		var binMega = this.get('binario');
+		var binFormas = this.get('binario2');
+
+
+		//console.log(this.get("arrangedContent"));
+
+
+		//console.log(!content);
+		////if(this.get('binario') == true){
+		//if(this.get('binario') == true){
+		//	//
+		//	//console.log(content);
+		//	for(var i = 0; i < content.length; i++){
+		//		if(typeof content[i].descripcion != 'undefined'){
+		//			//
+		//			return content.filter(function (item){
+		//				return typeof item.descripcion != 'undefined';
+		//			});
+		//		}
+		//	}
+		//	//return content;
+		//}
+		//return content;
+
+
+
+		//return content.filter((function (_this){
+		return content.filter(function (item){
+
+
+
+			//return function (item, index, enumerable){
+			//	//
+			//	if(binMega == item.megaTransformaciones){
+			//		//
+			//		//console.log(regExp.test(item.nombre));
+			//		if(regExp.test(item.nombre) || regExp.test(item.id) || regExp.test(item.descripcion)){
+			//			if(getTipo == null){
+			//				//
+			//				return binMega == item.megaTransformaciones;
+			//			}
+			//			for(var i = 0; i < item.tipo.length; i++){
+			//				if(getTipo == item.tipo[i]){
+			//					//
+			//					return item;
+			//				}
+			//			}
+			//		}
+			//	}
+			//	if(binFormas == item.otrasFormas){
+			//		//
+			//		if(regExp.test(item.nombre) || regExp.test(item.id)){
+			//			if(getTipo == null){
+			//				//
+			//				return binFormas == item.otrasFormas;
+			//			}
+			//			for(var i = 0; i < item.tipo.length; i++){
+			//				if(getTipo == item.tipo[i]){
+			//					//
+			//					return item;
+			//				}
+			//			}
+			//		}
+			//	}
+			//	if(typeof item.megaTransformaciones == 'undefined' && typeof item.otrasFormas == 'undefined'){
+			//		//
+			//		if(regExp.test(item.nombre) || regExp.test(item.id)){
+			//			if(getTipo == null){
+			//				//
+			//				return item;
+			//			}
+			//			for(var i = 0; i < item.tipo.length; i++){
+			//				if(getTipo == item.tipo[i]){
+			//					//
+			//					return item;
+			//				}
+			//			}
+			//		}
+			//	}
+			//};
+
+
+
+
+
+
+			//console.log(binMega);
+			//return item;
+			//if(binMega == false){
+			//	//
+			//	return typeof item.descripcion != 'undefined';
+			//}
+
+			//if(binMega == false){
+			//	//return typeof item.descripcion == 'undefined';
+			//	return !item.megaTransformaciones;
+			//}else{
+			//	return item;
+			//}
+
+
+
+
+
+
+			//if(binFormas == false){
+			//	//return typeof item.descripcion == 'undefined';
+			//	return !item.otrasFormas;
+			//}else{
+			//	return item;
+			//}
+
+			//if(binMega == false){
+			//	//return typeof item.descripcion == 'undefined';
+			//	return !item.megaTransformaciones;
+			//}else{
+			//	return item;
+			//}
+
+
+
+
+			//if(binFormas == false){
+			//	//return typeof item.descripcion == 'undefined';
+			//	return !item.otrasFormas;
+			//}
+
+			//if(binMega == false){
+			//	//return typeof item.descripcion == 'undefined';
+			//	return !item.megaTransformaciones;
+			//}
+
+			//if(binFormas == true && binMega == true){
+			//	//return typeof item.descripcion == 'undefined';
+			//	return item;
+			//}
+
+
+
+			//if(binFormas == false || binMega == false){
+			//	//return !item.otrasFormas || !item.megaTransformaciones;
+			//	if(binMega == false){
+			//		return !item.megaTransformaciones;
+			//	}
+			//	if(binFormas == false){
+			//		return !item.otrasFormas;
+			//	}
+			//}else{
+			//	return item;
+			//}
+
+
+
+			if(binMega == item.megaTransformaciones){
+				//
+				//console.log(regExp.test(item.nombre));
+				if(regExp.test(item.nombre) || regExp.test(item.id) || regExp.test(item.descripcion)){
+					if(getTipo == null){
+						//
+						return binMega == item.megaTransformaciones;
+					}
+					for(var i = 0; i < item.tipo.length; i++){
+						if(getTipo == item.tipo[i]){
+							//
+							return item;
+						}
+					}
+				}
+			}
+			if(binFormas == item.otrasFormas){
+				//
+				if(regExp.test(item.nombre) || regExp.test(item.id)){
+					if(getTipo == null){
+						//
+						return binFormas == item.otrasFormas;
+					}
+					for(var i = 0; i < item.tipo.length; i++){
+						if(getTipo == item.tipo[i]){
+							//
+							return item;
+						}
+					}
+				}
+			}
+			if(typeof item.megaTransformaciones == 'undefined' && typeof item.otrasFormas == 'undefined'){
+				//
+				if(regExp.test(item.nombre) || regExp.test(item.id)){
+					if(getTipo == null){
+						//
+						return item;
+					}
+					for(var i = 0; i < item.tipo.length; i++){
+						if(getTipo == item.tipo[i]){
+							//
+							return item;
+						}
+					}
+				}
+			}
+
+
+
+
+
+			//if(binMega == item.megaTransformaciones){
+			//	//
+			//	return binMega == item.megaTransformaciones;
+			//}
+			//if(binFormas == item.otrasFormas){
+			//	//
+			//	return binFormas == item.otrasFormas;
+			//}
+			//if(typeof item.megaTransformaciones == 'undefined' && typeof item.otrasFormas == 'undefined'){
+			//	return item;
+			//}
+		});
+		//})(this));
+
+
+
+
+
+
+		//if(this.get('binario') == false){
+		//	alert("Binario desactivado");
+		//}
+
+		//if(this.get('selectedTipo') != null){
+		//	alert(this.get('selectedTipo'));
+		//}
+
+
+		//return content;
+
+
+		//var otrasFormas = this.filter(function (item){
+		//	if(typeof item.formas != 'undefined'){
+		//		//return item;
+		//		for(var i = 0; i < item.formas.length; i++){
+		//			return item.formas[i];
+		//		}
+		//	}
+		//});
+		//return otrasFormas;
+
+
+
+		//var filtroTipo = this.filter(function (item){
+		//	//return regExp.test(item.get('nombre'));
+		//	//return regExp.test(item.nombre);
+		//	//return regExp.test(item.id);
+		//	if(getTipo == null){
+		//		return item;
+		//	}
+		//	//console.log(getTipo);
+		//	//console.log(typeof getTipo);
+		//	for(var i = 0; i < item.tipo.length; i++){
+		//		if(getTipo == item.tipo[i]){
+		//			//
+		//			return item;
+		//		}
+		//	}
+		//	//console.log(item.tipo[0]);
+		//	//return item;
+		//});
+		//return filtroTipo;
+
+
+
+
+
+
+		//var filtroNombre = this.filter(function (item){
+		//	//return regExp.test(item.get('nombre'));
+		//	return regExp.test(item.nombre);
+		//	//return regExp.test(item.id);
+		//});
+		//return filtroNombre;
+
+
+
+
+
+
+
+
+		//return content.filter(function (item, index, enumerable){
+		//	return item;
+		//});
+
+		//if(!content && !this.get('binario')){
+		//	return content;
+		//}
+
+		//return content.filter(function (item){
+		//	return item.get('active');
+		//	return item;
+		//});
+	}.property('content.@each', 'binario', 'binario2', 'nombrebuscar', 'selectedTipo', 'sortAscending', 'sortProperties'),
+	//}.property('content.@each', 'binario', 'binario2', 'nombrebuscar', 'selectedTipo'),
+
+	//http://www.jarrodctaylor.com/posts/Filter-And-Sort-Tables-In-Ember/
+	actions: {
+		sortBy: function(property){
+			//
+			//console.log(property);
+			//console.log(this.get('sortAscending'));
+			//console.log(this.get("sortProperties"));
+			if(this.get("sortProperties") == property){
+				//
+				//console.log("Es igual");
+				this.set("sortAscending", !this.get("sortAscending"));
+			}else{
+				//console.log("Es distinto");
+				this.set("sortProperties", [property]);
+			}
+			//this.set("sortProperties", [property]);
+		}
+	}
+	//}.property('content.isLoaded', 'binario')
+});
+
+
+
+
+Ember.Handlebars.registerHelper('pruebaSelect', function(valor, options){
+	//
+	var tomar = Ember.Handlebars.get(this, valor, options);
+	console.log(tomar);
+});
+
 
 
 
@@ -280,11 +687,13 @@ Ember.Handlebars.registerHelper('imagenPorNumero', function(valor, options){
 			if(names2[i].formas !== undefined){
 				//console.log("Este numero tiene diferentes formas");
 				frameImg += "<figure class=\"show\"><img src=\""+names2[i].formas[0].img+"\" border=\"0\"></figure>";
+				//frameImg += "<figure class=\"show\"><img src=\""+names2[i].formas[0].img+"\" border=\"0\"><figcaption>"+names2[i].formas[0].descripcion+"</figcaption></figure>";
 				//frameImg += "</figure>";
 				for(var j = 1; j < names2[i].formas.length; j++){
 					//
 					//console.log(names2[i].formas[j]);
 					frameImg += "<figure><img src=\""+names2[i].formas[j].img+"\" border=\"0\"></figure>";
+					//frameImg += "<figure><img src=\""+names2[i].formas[j].img+"\" border=\"0\"><figcaption>"+names2[i].formas[j].descripcion+"</figcaption></figure>";
 				}
 			}else{
 				//console.log("No tiene formas");
@@ -520,7 +929,35 @@ Ember.Handlebars.registerHelper('ifCoreano', function(valor, options){
 
 
 
+Ember.Handlebars.registerHelper('comprobarAlturaFormas', function(formas, options){
+	var valorFormas = Ember.Handlebars.get(this, formas, options);
+	var alturaFormas = false;
 
+	if(valorFormas[1].altura !== undefined){
+		alturaFormas = true;
+	}
+
+	if (alturaFormas == true) {
+		return options.fn(this);
+	}else{
+		return options.inverse(this);
+	}
+});
+
+Ember.Handlebars.registerHelper('comprobarPesoFormas', function(formas, options){
+	var valorFormas = Ember.Handlebars.get(this, formas, options);
+	var pesoFormas = false;
+
+	if(valorFormas[1].peso !== undefined){
+		pesoFormas = true;
+	}
+
+	if (pesoFormas == true) {
+		return options.fn(this);
+	}else{
+		return options.inverse(this);
+	}
+});
 
 
 
@@ -665,15 +1102,18 @@ Ember.Handlebars.registerHelper('mostrarCondicionEvolucion', function(valor, opt
 	if (Ember.Handlebars.get(this, valor, options) !== undefined) {
 		var condicion = Ember.Handlebars.get(this, valor, options);
 		if (condicion == 'happiness') {
-			return "<span class=\"flaticon-heart15 happiness\"></span>";
+			//return "<span class=\"flaticon-heart15 happiness\"></span>";
+			return "<span class=\"flaticon-heart374 happiness\"></span>";
 		}else if (condicion == 'daylight') {
-			return "<span class=\"flaticon-dark26 daylight\"></span>";
+			//return "<span class=\"flaticon-dark26 daylight\"></span>";
+			return "<span class=\"flaticon-sunny25 daylight\"></span>";
 		}else if (condicion == 'night') {
 			return "<span class=\"flaticon-camera70 night\"></span>";
 		}else if (condicion == 'location') {
 			return "<span class=\"flaticon-facebook30 location\"></span>";
 		}else if (condicion == 'movement') {
-			return "<span class=\"flaticon-compactdisc1 movement\"></span>";
+			//return "<span class=\"flaticon-compactdisc1 movement\"></span>";
+			return "<span class=\"flaticon-compact-disc1 movement\"></span>";
 		}else if (condicion == 'trade') {
 			return "<span class=\"flaticon-two347 trade\"></span>";
 		}else if (condicion == 'male') {
@@ -681,9 +1121,11 @@ Ember.Handlebars.registerHelper('mostrarCondicionEvolucion', function(valor, opt
 		}else if (condicion == 'female') {
 			return "<span class=\"flaticon-female204 female\"></span>";
 		}else if (condicion == 'beautiful') {
-			return "<span class=\"flaticon-3d64 beautiful\"></span>";
+			//return "<span class=\"flaticon-3d64 beautiful\"></span>";
+			return "<span class=\"flaticon-cube27 beautiful\"></span>";
 		}else if (condicion == 'ally') {
-			return "<span class=\"flaticon-black22 ally\"></span>";
+			//return "<span class=\"flaticon-black22 ally\"></span>";
+			return "<span class=\"flaticon-add6 ally\"></span>";
 		}else if (condicion == 'console-upside-down') {
 			return "<span class=\"flaticon-nintendo5 console-upside-down\"></span>";
 		}else if (condicion == 'rain') {
@@ -709,6 +1151,73 @@ Ember.Handlebars.registerHelper('mostrarEvolucion', function(valor, options){
 	return evo.evolucion.numeroEspecie;
 	//return names2[0].id;
 	//return names2[parseInt(evo.evolucion.numeroEspecie)-1].nombre;
+});
+
+
+
+
+
+
+
+
+Ember.Handlebars.registerHelper('pSiguiente', function(valor, options){
+	//
+	var siguiente = "";
+	var sig = Ember.Handlebars.get(this, valor, options);
+	for(var i = 0; i < names2.length; i++){
+		if(names2[i].id == sig){
+			console.log(sig);
+			if(sig == names2.length){
+				//console.log("El maximo");
+				//console.log("Siguiente: "+names2[0].id);
+				siguiente = "<a href=\"#/pokemon/"+names2[0].id+"\"></a>";
+				siguiente += "<div>#"+names2[0].id+"<br><span>"+names2[0].nombre+"</span></div>";
+				siguiente += "<img src=\"http://www.serebii.net/pokedex-xy/icon/"+names2[0].id+".png\" />";
+			}
+		}
+
+		if(parseInt(names2[i].id) == parseInt(sig)+1){
+			//console.log("Siguiente: "+names2[i].id)
+			siguiente = "<a href=\"#/pokemon/"+names2[i].id+"\"></a>";
+			siguiente += "<div>#"+names2[i].id+"<br><span>"+names2[i].nombre+"</span></div>";
+			siguiente += "<img src=\"http://www.serebii.net/pokedex-xy/icon/"+names2[i].id+".png\" />";
+		}
+
+	}
+	return siguiente;
+});
+
+
+
+Ember.Handlebars.registerHelper('pAnterior', function(valor, options){
+	//
+	var anterior = "";
+	var sig = Ember.Handlebars.get(this, valor, options);
+	for(var i = 0; i < names2.length; i++){
+		if(names2[i].id == sig){
+			console.log(sig);
+			if(parseInt(sig) - 1 == 0){
+				//console.log("el minimo");
+				for(var j = names2.length - 1; j >= 0; j--){
+					//
+					if(names2[j].id == names2.length){
+						//console.log("Anterior: "+names2[j].id);
+						anterior = "<a href=\"#/pokemon/"+names2[j].id+"\"></a>";
+						anterior += "<img src=\"http://www.serebii.net/pokedex-xy/icon/"+names2[j].id+".png\" />";
+						anterior += "<div>#"+names2[j].id+"<br><span>"+names2[j].nombre+"</span></div>";
+						break;
+					}
+				}
+			}
+		}
+		if(parseInt(names2[i].id) == parseInt(sig)-1){
+			//console.log("Anterior: "+names2[i].id);
+			anterior = "<a href=\"#/pokemon/"+names2[i].id+"\"></a>";
+			anterior += "<img src=\"http://www.serebii.net/pokedex-xy/icon/"+names2[i].id+".png\" />";
+			anterior += "<div>#"+names2[i].id+"<br><span>"+names2[i].nombre+"</span></div>";
+		}
+	}
+	return anterior;
 });
 
 
@@ -1019,11 +1528,12 @@ $(document).on('ready', function(){
 		displayKey: 'displayValue',
 		source: nombres.ttAdapter(),
 		templates: {
-			header: '<h3 class="league-name">Nombres Genericos</h3>'
+			//header: '<h3 class="league-name">Nombres Genericos</h3>'
 			//suggestion: Handlebars.compile('<p><img src="http://www.serebii.net/itemdex/sprites/charizarditex.png" width="24" height="24"> - {{displayValue}}</p>')
 			//http://www.serebii.net/pokedex-xy/icon/004.png
 			//suggestion: Handlebars.compile('<p>{{numero}} - {{displayValue}}</p>')
 			//suggestion: Handlebars.compile('<p><img src="http://www.serebii.net/pokedex-xy/icon/{{numero}}.png"> - {{displayValue}}</p>')
+			suggestion: Handlebars.compile('<div>{{displayValue}}</div>')
 		},
 	},
 	{
@@ -1031,8 +1541,9 @@ $(document).on('ready', function(){
 		displayKey: 'displayValue',
 		source: nombres_FR.ttAdapter(),
 		templates: {
-			header: '<h3 class="league-name">Nombres en Frances</h3>'
+			//header: '<h3 class="league-name">Nombres en Frances</h3>'
 			//suggestion: Handlebars.compile('<p><img src="http://www.serebii.net/pokedex-xy/icon/{{numero}}.png"> - {{displayValue}}</p>')
+			suggestion: Handlebars.compile('<p><div class="mini-flags mini-flag-french"></div> - {{displayValue}}</p>')
 		},
 	},
 	{
@@ -1040,8 +1551,9 @@ $(document).on('ready', function(){
 		displayKey: 'displayValue',
 		source: nombres_DE.ttAdapter(),
 		templates: {
-			header: '<h3 class="league-name">Nombres en Aleman</h3>'
+			//header: '<h3 class="league-name">Nombres en Aleman</h3>'
 			//suggestion: Handlebars.compile('<p><img src="http://www.serebii.net/pokedex-xy/icon/{{numero}}.png"> - {{displayValue}}</p>')
+			suggestion: Handlebars.compile('<p><div class="mini-flags mini-flag-german"></div> - {{displayValue}}</p>')
 		},
 	},
 	{
@@ -1049,8 +1561,9 @@ $(document).on('ready', function(){
 		displayKey: 'displayValue',
 		source: nombres_JP.ttAdapter(),
 		templates: {
-			header: '<h3 class="league-name">Nombres en Japones</h3>'
+			//header: '<h3 class="league-name">Nombres en Japones</h3>'
 			//suggestion: Handlebars.compile('<p><img src="http://www.serebii.net/pokedex-xy/icon/{{numero}}.png"> - {{displayValue}}</p>')
+			suggestion: Handlebars.compile('<p><div class="mini-flags mini-flag-japanese"></div> - {{displayValue}}</p>')
 		},
 	},
 	{
@@ -1058,8 +1571,10 @@ $(document).on('ready', function(){
 		displayKey: 'displayValue',
 		source: nombres_KO.ttAdapter(),
 		templates: {
-			header: '<h3 class="league-name">Nombres en Coreano</h3>'
+			//header: '<h3 class="league-name">Nombres en Coreano</h3>'
 			//suggestion: Handlebars.compile('<p><img src="http://www.serebii.net/pokedex-xy/icon/{{numero}}.png"> - {{displayValue}}</p>')
+			suggestion: Handlebars.compile('<p><div class="mini-flags mini-flag-korean"><div class="geon trigram"></div><div class="ri trigram"></div><div class="taegeukgi"></div><div class="gam trigram"></div><div class="gon trigram"></div></div> - {{displayValue}}</p>')
+			
 		},
 	}
 	)
@@ -1204,7 +1719,9 @@ function inicio(){
 	var idiomas = document.getElementById("languages-menu");
 	idiomas.addEventListener("click", mostrarIdiomas);
 
+
 }
+
 
 
 

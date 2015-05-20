@@ -1054,6 +1054,7 @@ var names2 = [
 		dexJohtoGSC: '022',
 		dexJohtoHGSS: '022',
 		dexHoennRSE: '156',
+		dexHoennORAS: '163',
 		dexSinnohDPPt: '104',
 		dexKalosCentral: '036',
 	},
@@ -1098,6 +1099,7 @@ var names2 = [
 		dexJohtoGSC: '023',
 		dexJohtoHGSS: '023',
 		dexHoennRSE: '157',
+		dexHoennORAS: '164',
 		dexSinnohDPPt: '105',
 		dexKalosCentral: '037',
 	},
@@ -1140,6 +1142,7 @@ var names2 = [
 		dexJohtoGSC: '048',
 		dexJohtoHGSS: '048',
 		dexHoennRSE: '112',
+		dexHoennORAS: '117',
 		dexUnovaB2W2: '113',
 		dexKalosMontana: '097',
 	},
@@ -1178,6 +1181,7 @@ var names2 = [
 		dexJohtoGSC: '049',
 		dexJohtoHGSS: '049',
 		dexHoennRSE: '113',
+		dexHoennORAS: '118',
 		dexUnovaB2W2: '114',
 		dexKalosMontana: '098',
 	},
@@ -1612,6 +1616,7 @@ var names2 = [
 		dexJohtoGSC: '125',
 		dexJohtoHGSS: '127',
 		dexHoennRSE: '153',
+		dexHoennORAS: '160',
 		dexUnovaB2W2: '248',
 	},
 	stats: getStats(36),
@@ -1651,6 +1656,7 @@ var names2 = [
 		dexJohtoGSC: '126',
 		dexJohtoHGSS: '128',
 		dexHoennRSE: '154',
+		dexHoennORAS: '161',
 		dexUnovaB2W2: '249',
 	},
 	stats: getStats(37),
@@ -1695,6 +1701,7 @@ var names2 = [
 		dexJohtoGSC: '044',
 		dexJohtoHGSS: '044',
 		dexHoennRSE: '138',
+		dexHoennORAS: '143',
 		dexUnovaB2W2: '282',
 		dexKalosMontana: '120',
 	},
@@ -1740,6 +1747,7 @@ var names2 = [
 		dexJohtoGSC: '045',
 		dexJohtoHGSS: '045',
 		dexHoennRSE: '139',
+		dexHoennORAS: '144',
 		dexUnovaB2W2: '283',
 		dexKalosMontana: '121',
 	},
@@ -1783,6 +1791,7 @@ var names2 = [
 		dexJohtoGSC: '037',
 		dexJohtoHGSS: '037',
 		dexHoennRSE: '063',
+		dexHoennORAS: '065',
 		dexSinnohDPPt: '028',
 		dexUnovaB2W2: '061',
 		dexKalosCentral: '145',
@@ -1827,6 +1836,7 @@ var names2 = [
 		dexJohtoGSC: '038',
 		dexJohtoHGSS: '038',
 		dexHoennRSE: '064',
+		dexHoennORAS: '066',
 		dexSinnohDPPt: '029',
 		dexUnovaB2W2: '062',
 		dexKalosCentral: '146',
@@ -1882,6 +1892,7 @@ var names2 = [
 		dexJohtoGSC: '083',
 		dexJohtoHGSS: '083',
 		dexHoennRSE: '088',
+		dexHoennORAS: '091',
 		dexKalosCentral: '105',
 	},
 	stats: getStats(42),
@@ -1935,6 +1946,7 @@ var names2 = [
 		dexJohtoGSC: '084',
 		dexJohtoHGSS: '084',
 		dexHoennRSE: '089',
+		dexHoennORAS: '092',
 		dexKalosCentral: '106',
 	},
 	stats: getStats(43),
@@ -1991,6 +2003,7 @@ var names2 = [
 		dexJohtoGSC: '085',
 		dexJohtoHGSS: '085',
 		dexHoennRSE: '090',
+		dexHoennORAS: '093',
 		dexKalosCentral: '107',
 	},
 	stats: getStats(44),
@@ -2321,6 +2334,7 @@ var names2 = [
 		dexJohtoGSC: '138',
 		dexJohtoHGSS: '140',
 		dexHoennRSE: '158',
+		dexHoennORAS: '165',
 		dexSinnohDPPt: '043',
 		dexUnovaB2W2: '028',
 		dexKalosCentral: '059',
@@ -2361,6 +2375,7 @@ var names2 = [
 		dexJohtoGSC: '139',
 		dexJohtoHGSS: '141',
 		dexHoennRSE: '159',
+		dexHoennORAS: '166',
 		dexSinnohDPPt: '044',
 		dexUnovaB2W2: '029',
 		dexKalosCentral: '060',
@@ -2719,6 +2734,7 @@ var names2 = [
 		dexJohtoGSC: '089',
 		dexJohtoHGSS: '089',
 		dexHoennRSE: '039',
+		dexHoennORAS: '040',
 		dexSinnohDPPt: '020',
 		dexKalosCentral: '102',
 	},
@@ -2763,6 +2779,7 @@ var names2 = [
 		dexJohtoGSC: '090',
 		dexJohtoHGSS: '090',
 		dexHoennRSE: '040',
+		dexHoennORAS: '041',
 		dexSinnohDPPt: '021',
 		dexKalosCentral: '103',
 	},
@@ -2808,6 +2825,7 @@ var names2 = [
 		dexJohtoGSC: '091',
 		dexJohtoHGSS: '091',
 		dexHoennRSE: '041',
+		dexHoennORAS: '042',
 		dexSinnohDPPt: '022',
 		dexKalosCentral: '104',
 	},
@@ -2852,6 +2870,7 @@ var names2 = [
 		dexJohtoGSC: '140',
 		dexJohtoHGSS: '142',
 		dexHoennRSE: '073',
+		dexHoennORAS: '075',
 		dexSinnohDPPt: '040',
 		dexKalosCosta: '057',
 	},
@@ -2896,6 +2915,7 @@ var names2 = [
 		dexJohtoGSC: '141',
 		dexJohtoHGSS: '143',
 		dexHoennRSE: '074',
+		dexHoennORAS: '076',
 		dexSinnohDPPt: '041',
 		dexKalosCosta: '058',
 	},
@@ -2940,6 +2960,7 @@ var names2 = [
 		dexJohtoGSC: '142',
 		dexJohtoHGSS: '144',
 		dexHoennRSE: '075',
+		dexHoennORAS: '077',
 		dexSinnohDPPt: '042',
 		dexKalosCosta: '059',
 	},
@@ -3102,6 +3123,7 @@ var names2 = [
 		dexJohtoGSC: '162',
 		dexJohtoHGSS: '164',
 		dexHoennRSE: '066',
+		dexHoennORAS: '068',
 		dexSinnohDPPt: '136',
 		dexKalosCosta: '025',
 	},
@@ -3141,6 +3163,7 @@ var names2 = [
 		dexJohtoGSC: '163',
 		dexJohtoHGSS: '165',
 		dexHoennRSE: '067',
+		dexHoennORAS: '069',
 		dexSinnohDPPt: '137',
 		dexKalosCosta: '026',
 	},
@@ -3185,6 +3208,7 @@ var names2 = [
 		dexJohtoGSC: '034',
 		dexJohtoHGSS: '034',
 		dexHoennRSE: '057',
+		dexHoennORAS: '058',
 		dexSinnohDPPt: '031',
 		dexKalosMontana: '009',
 	},
@@ -3229,6 +3253,7 @@ var names2 = [
 		dexJohtoGSC: '035',
 		dexJohtoHGSS: '035',
 		dexHoennRSE: '058',
+		dexHoennORAS: '059',
 		dexSinnohDPPt: '032',
 		dexKalosMontana: '010',
 	},
@@ -3273,6 +3298,7 @@ var names2 = [
 		dexJohtoGSC: '036',
 		dexJohtoHGSS: '036',
 		dexHoennRSE: '059',
+		dexHoennORAS: '060',
 		dexSinnohDPPt: '033',
 		dexKalosMontana: '011',
 	},
@@ -3484,6 +3510,7 @@ var names2 = [
 		dexJohtoGSC: '118',
 		dexJohtoHGSS: '119',
 		dexHoennRSE: '082',
+		dexHoennORAS: '084',
 		dexSinnohPt: '178',
 		dexUnovaB2W2: '048',
 		dexKalosMontana: '069',
@@ -3528,6 +3555,7 @@ var names2 = [
 		dexJohtoGSC: '119',
 		dexJohtoHGSS: '120',
 		dexHoennRSE: '083',
+		dexHoennORAS: '085',
 		dexSinnohPt: '179',
 		dexUnovaB2W2: '049',
 		dexKalosMontana: '070',
@@ -3597,6 +3625,7 @@ var names2 = [
 		dexJohtoGSC: '199',
 		dexJohtoHGSS: '204',
 		dexHoennRSE: '092',
+		dexHoennORAS: '095',
 		dexKalosCentral: '094',
 	},
 	stats: getStats(83),
@@ -3635,6 +3664,7 @@ var names2 = [
 		dexJohtoGSC: '200',
 		dexJohtoHGSS: '205',
 		dexHoennRSE: '093',
+		dexHoennORAS: '096',
 		dexKalosCentral: '095',
 	},
 	stats: getStats(84),
@@ -3747,6 +3777,7 @@ var names2 = [
 		dexJohtoGSC: '116',
 		dexJohtoHGSS: '117',
 		dexHoennRSE: '106',
+		dexHoennORAS: '111',
 		dexUnovaB2W2: '064',
 	},
 	stats: getStats(87),
@@ -3786,6 +3817,7 @@ var names2 = [
 		dexJohtoGSC: '117',
 		dexJohtoHGSS: '118',
 		dexHoennRSE: '107',
+		dexHoennORAS: '112',
 		dexUnovaB2W2: '065',
 	},
 	stats: getStats(88),
@@ -4202,6 +4234,7 @@ var names2 = [
 		dexJohtoGSC: '120',
 		dexJohtoHGSS: '121',
 		dexHoennRSE: '084',
+		dexHoennORAS: '087',
 		dexKalosMontana: '072',
 	},
 	stats: getStats(99),
@@ -4239,6 +4272,7 @@ var names2 = [
 		dexJohtoGSC: '121',
 		dexJohtoHGSS: '122',
 		dexHoennRSE: '085',
+		dexHoennORAS: '088',
 		dexKalosMontana: '073',
 	},
 	stats: getStats(100),
@@ -4569,6 +4603,7 @@ var names2 = [
 		dexJohtoGSC: '114',
 		dexJohtoHGSS: '115',
 		dexHoennRSE: '108',
+		dexHoennORAS: '113',
 		dexUnovaB2W2: '046',
 	},
 	stats: getStats(108),
@@ -4603,6 +4638,7 @@ var names2 = [
 		dexJohtoGSC: '115',
 		dexJohtoHGSS: '116',
 		dexHoennRSE: '109',
+		dexHoennORAS: '114',
 		dexUnovaB2W2: '047',
 	},
 	stats: getStats(109),
@@ -4647,6 +4683,7 @@ var names2 = [
 		dexJohtoGSC: '206',
 		dexJohtoHGSS: '211',
 		dexHoennRSE: '169',
+		dexHoennORAS: '176',
 		dexSinnohPt: '186',
 		dexKalosCosta: '050',
 	},
@@ -4692,6 +4729,7 @@ var names2 = [
 		dexJohtoGSC: '207',
 		dexJohtoHGSS: '212',
 		dexHoennRSE: '170',
+		dexHoennORAS: '177',
 		dexSinnohPt: '187',
 		dexKalosCosta: '051',
 	},
@@ -4849,6 +4887,7 @@ var names2 = [
 		dexJohtoGSC: '186',
 		dexJohtoHGSS: '190',
 		dexHoennRSE: '184',
+		dexHoennORAS: '193',
 		dexKalosCosta: '039',
 	},
 	stats: getStats(115),
@@ -4894,6 +4933,7 @@ var names2 = [
 		dexJohtoGSC: '187',
 		dexJohtoHGSS: '191',
 		dexHoennRSE: '185',
+		dexHoennORAS: '194',
 		dexKalosCosta: '040',
 	},
 	stats: getStats(116),
@@ -4932,6 +4972,7 @@ var names2 = [
 		dexJohtoGSC: '078',
 		dexJohtoHGSS: '078',
 		dexHoennRSE: '050',
+		dexHoennORAS: '051',
 		dexSinnohDPPt: '078',
 		dexKalosCentral: '053',
 	},
@@ -4971,6 +5012,7 @@ var names2 = [
 		dexJohtoGSC: '079',
 		dexJohtoHGSS: '079',
 		dexHoennRSE: '051',
+		dexHoennORAS: '052',
 		dexSinnohDPPt: '079',
 		dexKalosCentral: '054',
 	},
@@ -5010,6 +5052,7 @@ var names2 = [
 		dexJohtoGSC: '167',
 		dexJohtoHGSS: '169',
 		dexHoennRSE: '143',
+		dexHoennORAS: '148',
 		dexUnovaB2W2: '238',
 		dexKalosCosta: '034',
 	},
@@ -5049,6 +5092,7 @@ var names2 = [
 		dexJohtoGSC: '168',
 		dexJohtoHGSS: '170',
 		dexHoennRSE: '144',
+		dexHoennORAS: '149',
 		dexUnovaB2W2: '239',
 		dexKalosCosta: '035',
 	},
@@ -5283,6 +5327,7 @@ var names2 = [
 		dexJohtoGSC: '112',
 		dexJohtoHGSS: '113',
 		dexHoennRSE: '167',
+		dexHoennORAS: '174',
 		dexUnovaB2W2: '146',
 		dexKalosCosta: '130',
 	},
@@ -5351,6 +5396,7 @@ var names2 = [
 		dexJohtoGSC: '076',
 		dexJohtoHGSS: '076',
 		dexHoennRSE: '052',
+		dexHoennORAS: '053',
 		dexSinnohDPPt: '023',
 		dexKalosCentral: '049',
 	},
@@ -5390,6 +5436,7 @@ var names2 = [
 		dexJohtoGSC: '077',
 		dexJohtoHGSS: '077',
 		dexHoennRSE: '053',
+		dexHoennORAS: '054',
 		dexSinnohDPPt: '024',
 		dexKalosCentral: '050',
 	},
@@ -7068,6 +7115,7 @@ var names2 = [
 		dexJohtoGSC: '039',
 		dexJohtoHGSS: '039',
 		dexHoennRSE: '065',
+		dexHoennORAS: '067',
 		dexSinnohDPPt: '030',
 		dexUnovaB2W2: '063',
 		dexKalosCentral: '147',
@@ -7107,6 +7155,7 @@ var names2 = [
 		dexJohtoGSC: '174',
 		dexJohtoHGSS: '176',
 		dexHoennRSE: '181',
+		dexHoennORAS: '190',
 		dexKalosCosta: '147',
 	},
 	stats: getStats(169),
@@ -7144,6 +7193,7 @@ var names2 = [
 		dexJohtoGSC: '175',
 		dexJohtoHGSS: '177',
 		dexHoennRSE: '182',
+		dexHoennORAS: '191',
 		dexKalosCosta: '148',
 	},
 	stats: getStats(170),
@@ -7186,6 +7236,7 @@ var names2 = [
 		dexJohtoGSC: '021',
 		dexJohtoHGSS: '021',
 		dexHoennRSE: '155',
+		dexHoennORAS: '162',
 		dexSinnohDPPt: '103',
 		dexKalosCentral: '035',
 	},
@@ -7273,6 +7324,7 @@ var names2 = [
 		dexJohtoGSC: '043',
 		dexJohtoHGSS: '043',
 		dexHoennRSE: '137',
+		dexHoennORAS: '142',
 		dexUnovaB2W2: '281',
 		dexKalosMontana: '119',
 	},
@@ -7395,6 +7447,7 @@ var names2 = [
 		dexJohtoGSC: '159',
 		dexJohtoHGSS: '161',
 		dexHoennRSE: '162',
+		dexHoennORAS: '169',
 	},
 	stats: getStats(176),
 	idiomas: {frances: namesFR[176],aleman: namesDE[176],japones: [namesJP[176][1], namesJP[176][0]],coreano: [namesKO[176][1], namesKO[176][0]]}
@@ -7432,6 +7485,7 @@ var names2 = [
 		dexJohtoGSC: '160',
 		dexJohtoHGSS: '162',
 		dexHoennRSE: '163',
+		dexHoennORAS: '170',
 	},
 	stats: getStats(177),
 	idiomas: {frances: namesFR[177],aleman: namesDE[177],japones: [namesJP[177][1], namesJP[177][0]],coreano: [namesKO[177][1], namesKO[177][0]]}
@@ -7607,6 +7661,7 @@ var names2 = [
 		dexJohtoGSC: '086',
 		dexJohtoHGSS: '086',
 		dexHoennRSE: '091',
+		dexHoennORAS: '094',
 		dexKalosCentral: '108',
 	},
 	stats: getStats(181),
@@ -7649,6 +7704,7 @@ var names2 = [
 		dexJohtoGSC: '130',
 		dexJohtoHGSS: '132',
 		dexHoennRSE: '055',
+		dexHoennORAS: '056',
 		dexSinnohDPPt: '125',
 		dexUnovaB2W2: '031',
 		dexKalosCentral: '042',
@@ -7693,6 +7749,7 @@ var names2 = [
 		dexJohtoGSC: '131',
 		dexJohtoHGSS: '133',
 		dexHoennRSE: '056',
+		dexHoennORAS: '057',
 		dexSinnohDPPt: '126',
 		dexUnovaB2W2: '032',
 		dexKalosCentral: '043',
@@ -8527,6 +8584,7 @@ var names2 = [
 		dexJohtoGSC: '107',
 		dexJohtoHGSS: '108',
 		dexHoennRSE: '161',
+		dexHoennORAS: '168',
 		dexKalosCosta: '119',
 	},
 	stats: getStats(201),
@@ -8556,6 +8614,7 @@ var names2 = [
 		dexJohtoGSC: '147',
 		dexJohtoHGSS: '149',
 		dexHoennRSE: '164',
+		dexHoennORAS: '171',
 		dexSinnohDPPt: '121',
 	},
 	stats: getStats(202),
@@ -8934,6 +8993,7 @@ var names2 = [
 		dexJohtoGSC: '113',
 		dexJohtoHGSS: '114',
 		dexHoennRSE: '168',
+		dexHoennORAS: '175',
 		dexSinnohDPPt: '062',
 		dexUnovaB2W2: '145',
 		dexKalosCosta: '131',
@@ -9085,6 +9145,7 @@ var names2 = [
 		dexJohtoGSC: '211',
 		dexJohtoHGSS: '216',
 		dexHoennRSE: '103',
+		dexHoennORAS: '108',
 		dexKalosMontana: '012',
 	},
 	stats: getStats(217),
@@ -9122,6 +9183,7 @@ var names2 = [
 		dexJohtoGSC: '212',
 		dexJohtoHGSS: '217',
 		dexHoennRSE: '104',
+		dexHoennORAS: '109',
 		dexKalosMontana: '013',
 	},
 	stats: getStats(218),
@@ -9239,6 +9301,7 @@ var names2 = [
 		dexJohtoGSC: '171',
 		dexJohtoHGSS: '173',
 		dexHoennRSE: '180',
+		dexHoennORAS: '189',
 		dexUnovaB2W2: '237',
 		dexKalosCosta: '146',
 	},
@@ -9414,6 +9477,7 @@ var names2 = [
 		dexJohtoGSC: '198',
 		dexJohtoHGSS: '203',
 		dexHoennRSE: '115',
+		dexHoennORAS: '120',
 		dexUnovaB2W2: '203',
 		dexKalosMontana: '112',
 	},
@@ -9535,6 +9599,7 @@ var names2 = [
 		dexJohtoGSC: '188',
 		dexJohtoHGSS: '192',
 		dexHoennRSE: '186',
+		dexHoennORAS: '195',
 		dexKalosCosta: '041',
 	},
 	stats: getStats(229),
@@ -9571,6 +9636,7 @@ var names2 = [
 		dexJohtoGSC: '195',
 		dexJohtoHGSS: '200',
 		dexHoennRSE: '165',
+		dexHoennORAS: '172',
 	},
 	stats: getStats(230),
 	idiomas: {frances: namesFR[230],aleman: namesDE[230],japones: [namesJP[230][1], namesJP[230][0]],coreano: [namesKO[230][1], namesKO[230][0]]}
@@ -9607,6 +9673,7 @@ var names2 = [
 		dexJohtoGSC: '196',
 		dexJohtoHGSS: '201',
 		dexHoennRSE: '166',
+		dexHoennORAS: '173',
 	},
 	stats: getStats(231),
 	idiomas: {frances: namesFR[231],aleman: namesDE[231],japones: [namesJP[231][1], namesJP[231][0]],coreano: [namesKO[231][1], namesKO[231][0]]}
@@ -10324,6 +10391,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '252',
 		dexHoennRSE: '001',
+		dexHoennORAS: '001',
 	},
 	stats: getStats(251),
 	idiomas: {frances: namesFR[251],aleman: namesDE[251],japones: [namesJP[251][1], namesJP[251][0]],coreano: [namesKO[251][1], namesKO[251][0]]}
@@ -10361,6 +10429,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '253',
 		dexHoennRSE: '002',
+		dexHoennORAS: '002',
 	},
 	stats: getStats(252),
 	idiomas: {frances: namesFR[252],aleman: namesDE[252],japones: [namesJP[252][1], namesJP[252][0]],coreano: [namesKO[252][1], namesKO[252][0]]}
@@ -10399,6 +10468,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '254',
 		dexHoennRSE: '003',
+		dexHoennORAS: '003',
 	},
 	stats: getStats(253),
 	idiomas: {frances: namesFR[253],aleman: namesDE[253],japones: [namesJP[253][1], namesJP[253][0]],coreano: [namesKO[253][1], namesKO[253][0]]}
@@ -10436,6 +10506,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '255',
 		dexHoennRSE: '004',
+		dexHoennORAS: '004',
 	},
 	stats: getStats(254),
 	idiomas: {frances: namesFR[254],aleman: namesDE[254],japones: [namesJP[254][1], namesJP[254][0]],coreano: [namesKO[254][1], namesKO[254][0]]}
@@ -10474,6 +10545,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '256',
 		dexHoennRSE: '005',
+		dexHoennORAS: '005',
 	},
 	stats: getStats(255),
 	idiomas: {frances: namesFR[255],aleman: namesDE[255],japones: [namesJP[255][1], namesJP[255][0]],coreano: [namesKO[255][1], namesKO[255][0]]}
@@ -10512,6 +10584,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '257',
 		dexHoennRSE: '006',
+		dexHoennORAS: '006',
 	},
 	stats: getStats(256),
 	idiomas: {frances: namesFR[256],aleman: namesDE[256],japones: [namesJP[256][1], namesJP[256][0]],coreano: [namesKO[256][1], namesKO[256][0]]}
@@ -10549,6 +10622,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '258',
 		dexHoennRSE: '007',
+		dexHoennORAS: '007',
 	},
 	stats: getStats(257),
 	idiomas: {frances: namesFR[257],aleman: namesDE[257],japones: [namesJP[257][1], namesJP[257][0]],coreano: [namesKO[257][1], namesKO[257][0]]}
@@ -10586,6 +10660,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '259',
 		dexHoennRSE: '008',
+		dexHoennORAS: '008',
 	},
 	stats: getStats(258),
 	idiomas: {frances: namesFR[258],aleman: namesDE[258],japones: [namesJP[258][1], namesJP[258][0]],coreano: [namesKO[258][1], namesKO[258][0]]}
@@ -10624,6 +10699,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '260',
 		dexHoennRSE: '009',
+		dexHoennORAS: '009',
 	},
 	stats: getStats(259),
 	idiomas: {frances: namesFR[259],aleman: namesDE[259],japones: [namesJP[259][1], namesJP[259][0]],coreano: [namesKO[259][1], namesKO[259][0]]}
@@ -10658,6 +10734,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '261',
 		dexHoennRSE: '010',
+		dexHoennORAS: '010',
 		dexKalosMontana: '044',
 	},
 	stats: getStats(260),
@@ -10693,6 +10770,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '262',
 		dexHoennRSE: '011',
+		dexHoennORAS: '011',
 		dexKalosMontana: '045',
 	},
 	stats: getStats(261),
@@ -10728,6 +10806,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '263',
 		dexHoennRSE: '012',
+		dexHoennORAS: '012',
 		dexKalosCentral: '012',
 	},
 	stats: getStats(262),
@@ -10763,6 +10842,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '264',
 		dexHoennRSE: '013',
+		dexHoennORAS: '013',
 		dexKalosCentral: '013',
 	},
 	stats: getStats(263),
@@ -10811,6 +10891,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '265',
 		dexHoennRSE: '014',
+		dexHoennORAS: '014',
 		dexSinnohDPPt: '048',
 	},
 	stats: getStats(264),
@@ -10859,6 +10940,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '266',
 		dexHoennRSE: '015',
+		dexHoennORAS: '015',
 		dexSinnohDPPt: '049',
 	},
 	stats: getStats(265),
@@ -10910,6 +10992,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '267',
 		dexHoennRSE: '016',
+		dexHoennORAS: '016',
 		dexSinnohDPPt: '050',
 	},
 	stats: getStats(266),
@@ -10958,6 +11041,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '268',
 		dexHoennRSE: '017',
+		dexHoennORAS: '017',
 		dexSinnohDPPt: '051',
 	},
 	stats: getStats(267),
@@ -11009,6 +11093,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '269',
 		dexHoennRSE: '018',
+		dexHoennORAS: '018',
 		dexSinnohDPPt: '052',
 	},
 	stats: getStats(268),
@@ -11049,6 +11134,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '270',
 		dexHoennRSE: '019',
+		dexHoennORAS: '019',
 		dexKalosMontana: '055',
 	},
 	stats: getStats(269),
@@ -11089,6 +11175,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '271',
 		dexHoennRSE: '020',
+		dexHoennORAS: '020',
 		dexKalosMontana: '056',
 	},
 	stats: getStats(270),
@@ -11129,6 +11216,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '272',
 		dexHoennRSE: '021',
+		dexHoennORAS: '021',
 		dexKalosMontana: '057',
 	},
 	stats: getStats(271),
@@ -11169,6 +11257,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '273',
 		dexHoennRSE: '022',
+		dexHoennORAS: '022',
 	},
 	stats: getStats(272),
 	idiomas: {frances: namesFR[272],aleman: namesDE[272],japones: [namesJP[272][1], namesJP[272][0]],coreano: [namesKO[272][1], namesKO[272][0]]}
@@ -11208,6 +11297,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '274',
 		dexHoennRSE: '023',
+		dexHoennORAS: '023',
 	},
 	stats: getStats(273),
 	idiomas: {frances: namesFR[273],aleman: namesDE[273],japones: [namesJP[273][1], namesJP[273][0]],coreano: [namesKO[273][1], namesKO[273][0]]}
@@ -11247,6 +11337,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '275',
 		dexHoennRSE: '024',
+		dexHoennORAS: '024',
 	},
 	stats: getStats(274),
 	idiomas: {frances: namesFR[274],aleman: namesDE[274],japones: [namesJP[274][1], namesJP[274][0]],coreano: [namesKO[274][1], namesKO[274][0]]}
@@ -11280,6 +11371,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '276',
 		dexHoennRSE: '025',
+		dexHoennORAS: '025',
 		dexKalosCosta: '019',
 	},
 	stats: getStats(275),
@@ -11314,6 +11406,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '277',
 		dexHoennRSE: '026',
+		dexHoennORAS: '026',
 		dexKalosCosta: '020',
 	},
 	stats: getStats(276),
@@ -11348,6 +11441,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '278',
 		dexHoennRSE: '027',
+		dexHoennORAS: '027',
 		dexSinnohDPPt: '119',
 		dexUnovaB2W2: '212',
 		dexKalosCosta: '017',
@@ -11384,6 +11478,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '279',
 		dexHoennRSE: '028',
+		dexHoennORAS: '028',
 		dexSinnohDPPt: '120',
 		dexUnovaB2W2: '213',
 		dexKalosCosta: '018',
@@ -11437,6 +11532,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '280',
 		dexHoennRSE: '029',
+		dexHoennORAS: '029',
 		dexSinnohPt: '157',
 		dexKalosCentral: '064',
 	},
@@ -11489,6 +11585,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '281',
 		dexHoennRSE: '030',
+		dexHoennORAS: '030',
 		dexSinnohPt: '158',
 		dexKalosCentral: '065',
 	},
@@ -11545,6 +11642,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '282',
 		dexHoennRSE: '031',
+		dexHoennORAS: '031',
 		dexSinnohPt: '159',
 		dexKalosCentral: '066',
 	},
@@ -11580,6 +11678,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '283',
 		dexHoennRSE: '032',
+		dexHoennORAS: '033',
 		dexKalosCentral: '047',
 	},
 	stats: getStats(282),
@@ -11615,6 +11714,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '284',
 		dexHoennRSE: '033',
+		dexHoennORAS: '034',
 		dexKalosCentral: '048',
 	},
 	stats: getStats(283),
@@ -11650,6 +11750,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '285',
 		dexHoennRSE: '034',
+		dexHoennORAS: '035',
 	},
 	stats: getStats(284),
 	idiomas: {frances: namesFR[284],aleman: namesDE[284],japones: [namesJP[284][1], namesJP[284][0]],coreano: [namesKO[284][1], namesKO[284][0]]}
@@ -11684,6 +11785,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '286',
 		dexHoennRSE: '035',
+		dexHoennORAS: '036',
 	},
 	stats: getStats(285),
 	idiomas: {frances: namesFR[285],aleman: namesDE[285],japones: [namesJP[285][1], namesJP[285][0]],coreano: [namesKO[285][1], namesKO[285][0]]}
@@ -11718,6 +11820,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '287',
 		dexHoennRSE: '036',
+		dexHoennORAS: '037',
 		dexUnovaB2W2: '276',
 	},
 	stats: getStats(286),
@@ -11753,6 +11856,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '288',
 		dexHoennRSE: '037',
+		dexHoennORAS: '038',
 		dexUnovaB2W2: '277',
 	},
 	stats: getStats(287),
@@ -11788,6 +11892,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '289',
 		dexHoennRSE: '038',
+		dexHoennORAS: '039',
 		dexUnovaB2W2: '278',
 	},
 	stats: getStats(288),
@@ -11828,6 +11933,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '290',
 		dexHoennRSE: '042',
+		dexHoennORAS: '043',
 		dexKalosCentral: '111',
 	},
 	stats: getStats(289),
@@ -11871,6 +11977,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '291',
 		dexHoennRSE: '043',
+		dexHoennORAS: '044',
 		dexKalosCentral: '112',
 	},
 	stats: getStats(290),
@@ -11910,6 +12017,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '292',
 		dexHoennRSE: '044',
+		dexHoennORAS: '045',
 		dexKalosCentral: '113',
 	},
 	stats: getStats(291),
@@ -11948,6 +12056,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '293',
 		dexHoennRSE: '045',
+		dexHoennORAS: '046',
 		dexKalosCentral: '140',
 	},
 	stats: getStats(292),
@@ -11986,6 +12095,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '294',
 		dexHoennRSE: '046',
+		dexHoennORAS: '047',
 		dexKalosCentral: '141',
 	},
 	stats: getStats(293),
@@ -12024,6 +12134,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '295',
 		dexHoennRSE: '047',
+		dexHoennORAS: '048',
 		dexKalosCentral: '142',
 	},
 	stats: getStats(294),
@@ -12059,6 +12170,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '296',
 		dexHoennRSE: '048',
+		dexHoennORAS: '049',
 		dexKalosCosta: '095',
 	},
 	stats: getStats(295),
@@ -12094,6 +12206,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '297',
 		dexHoennRSE: '049',
+		dexHoennORAS: '050',
 		dexKalosCosta: '096',
 	},
 	stats: getStats(296),
@@ -12134,6 +12247,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '298',
 		dexHoennRSE: '054',
+		dexHoennORAS: '055',
 		dexSinnohDPPt: '124',
 		dexUnovaB2W2: '030',
 		dexKalosCentral: '041',
@@ -12172,6 +12286,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '299',
 		dexHoennRSE: '060',
+		dexHoennORAS: '061',
 		dexSinnohPt: '155',
 		dexUnovaB2W2: '164',
 		dexKalosCosta: '093',
@@ -12210,6 +12325,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '300',
 		dexHoennRSE: '061',
+		dexHoennORAS: '063',
 		dexUnovaB2W2: '078',
 		dexKalosCentral: '078',
 	},
@@ -12248,6 +12364,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '301',
 		dexHoennRSE: '062',
+		dexHoennORAS: '064',
 		dexUnovaB2W2: '079',
 		dexKalosCentral: '079',
 	},
@@ -12278,6 +12395,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '302',
 		dexHoennRSE: '068',
+		dexHoennORAS: '070',
 		dexKalosCosta: '123',
 	},
 	stats: getStats(301),
@@ -12307,6 +12425,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '303',
 		dexHoennRSE: '069',
+		dexHoennORAS: '071',
 		dexKalosCosta: '063',
 	},
 	stats: getStats(302),
@@ -12346,6 +12465,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '304',
 		dexHoennRSE: '070',
+		dexHoennORAS: '072',
 		dexUnovaB2W2: '166',
 		dexKalosMontana: '099',
 	},
@@ -12386,6 +12506,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '305',
 		dexHoennRSE: '071',
+		dexHoennORAS: '073',
 		dexUnovaB2W2: '167',
 		dexKalosMontana: '100',
 	},
@@ -12427,6 +12548,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '306',
 		dexHoennRSE: '072',
+		dexHoennORAS: '074',
 		dexUnovaB2W2: '168',
 		dexKalosMontana: '101',
 	},
@@ -12462,6 +12584,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '307',
 		dexHoennRSE: '076',
+		dexHoennORAS: '078',
 		dexSinnohDPPt: '086',
 		dexKalosCentral: '143',
 	},
@@ -12498,6 +12621,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '308',
 		dexHoennRSE: '077',
+		dexHoennORAS: '079',
 		dexSinnohDPPt: '087',
 		dexKalosCentral: '144',
 	},
@@ -12534,6 +12658,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '309',
 		dexHoennRSE: '078',
+		dexHoennORAS: '080',
 		dexKalosCosta: '073',
 	},
 	stats: getStats(308),
@@ -12570,6 +12695,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '310',
 		dexHoennRSE: '079',
+		dexHoennORAS: '081',
 		dexKalosCosta: '074',
 	},
 	stats: getStats(309),
@@ -12596,6 +12722,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '311',
 		dexHoennRSE: '080',
+		dexHoennORAS: '082',
 		dexKalosCentral: '096',
 	},
 	stats: getStats(310),
@@ -12622,6 +12749,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '312',
 		dexHoennRSE: '081',
+		dexHoennORAS: '083',
 		dexKalosCentral: '097',
 	},
 	stats: getStats(311),
@@ -12649,6 +12777,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '313',
 		dexHoennRSE: '086',
+		dexHoennORAS: '089',
 		dexKalosCentral: '133',
 	},
 	stats: getStats(312),
@@ -12676,6 +12805,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '314',
 		dexHoennRSE: '087',
+		dexHoennORAS: '090',
 		dexKalosCentral: '134',
 	},
 	stats: getStats(313),
@@ -12717,6 +12847,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '315',
 		dexHoennRSE: '094',
+		dexHoennORAS: '098',
 		dexSinnohDPPt: '026',
 		dexUnovaB2W2: '134',
 		dexKalosCentral: '072',
@@ -12754,6 +12885,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '316',
 		dexHoennRSE: '095',
+		dexHoennORAS: '200',
 		dexKalosCentral: '098',
 	},
 	stats: getStats(315),
@@ -12789,6 +12921,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '317',
 		dexHoennRSE: '096',
+		dexHoennORAS: '101',
 		dexKalosCentral: '099',
 	},
 	stats: getStats(316),
@@ -12823,6 +12956,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '318',
 		dexHoennRSE: '097',
+		dexHoennORAS: '102',
 		dexKalosCentral: '055',
 	},
 	stats: getStats(317),
@@ -12858,6 +12992,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '319',
 		dexHoennRSE: '098',
+		dexHoennORAS: '103',
 		dexKalosCentral: '056',
 	},
 	stats: getStats(318),
@@ -12893,6 +13028,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '320',
 		dexHoennRSE: '099',
+		dexHoennORAS: '104',
 		dexUnovaB2W2: '240',
 		dexKalosCosta: '027',
 	},
@@ -12929,6 +13065,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '321',
 		dexHoennRSE: '100',
+		dexHoennORAS: '105',
 		dexUnovaB2W2: '241',
 		dexKalosCosta: '028',
 	},
@@ -12965,6 +13102,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '322',
 		dexHoennRSE: '101',
+		dexHoennORAS: '106',
 		dexUnovaB2W2: '204',
 	},
 	stats: getStats(321),
@@ -13002,6 +13140,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '323',
 		dexHoennRSE: '102',
+		dexHoennORAS: '107',
 		dexUnovaB2W2: '205',
 	},
 	stats: getStats(322),
@@ -13028,6 +13167,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '324',
 		dexHoennRSE: '105',
+		dexHoennORAS: '110',
 		dexKalosMontana: '096',
 	},
 	stats: getStats(323),
@@ -13063,6 +13203,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '325',
 		dexHoennRSE: '110',
+		dexHoennORAS: '115',
 		dexUnovaB2W2: '206',
 		dexKalosCosta: '007',
 	},
@@ -13099,6 +13240,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '326',
 		dexHoennRSE: '111',
+		dexHoennORAS: '116',
 		dexUnovaB2W2: '207',
 		dexKalosCosta: '008',
 	},
@@ -13127,6 +13269,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '327',
 		dexHoennRSE: '114',
+		dexHoennORAS: '119',
 		dexKalosMontana: '131',
 	},
 	stats: getStats(326),
@@ -13166,6 +13309,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '328',
 		dexHoennRSE: '116',
+		dexHoennORAS: '121',
 		dexUnovaB2W2: '121',
 		dexKalosMontana: '003',
 	},
@@ -13203,6 +13347,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '329',
 		dexHoennRSE: '117',
+		dexHoennORAS: '122',
 		dexUnovaB2W2: '122',
 		dexKalosMontana: '004',
 	},
@@ -13240,6 +13385,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '330',
 		dexHoennRSE: '118',
+		dexHoennORAS: '123',
 		dexUnovaB2W2: '123',
 		dexKalosMontana: '005',
 	},
@@ -13275,6 +13421,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '331',
 		dexHoennRSE: '119',
+		dexHoennORAS: '124',
 	},
 	stats: getStats(330),
 	idiomas: {frances: namesFR[330],aleman: namesDE[330],japones: [namesJP[330][1], namesJP[330][0]],coreano: [namesKO[330][1], namesKO[330][0]]}
@@ -13309,6 +13456,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '332',
 		dexHoennRSE: '120',
+		dexHoennORAS: '125',
 	},
 	stats: getStats(331),
 	idiomas: {frances: namesFR[331],aleman: namesDE[331],japones: [namesJP[331][1], namesJP[331][0]],coreano: [namesKO[331][1], namesKO[331][0]]}
@@ -13342,6 +13490,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '333',
 		dexHoennRSE: '121',
+		dexHoennORAS: '126',
 		dexSinnohPt: '171',
 		dexUnovaB2W2: '246',
 		dexKalosMontana: '139',
@@ -13379,6 +13528,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '334',
 		dexHoennRSE: '122',
+		dexHoennORAS: '127',
 		dexSinnohPt: '172',
 		dexUnovaB2W2: '247',
 		dexKalosMontana: '140',
@@ -13407,6 +13557,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '335',
 		dexHoennRSE: '123',
+		dexHoennORAS: '128',
 		dexUnovaB2W2: '186',
 		dexKalosCosta: '005',
 	},
@@ -13435,6 +13586,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '336',
 		dexHoennRSE: '124',
+		dexHoennORAS: '129',
 		dexUnovaB2W2: '187',
 		dexKalosCosta: '006',
 	},
@@ -13458,6 +13610,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '337',
 		dexHoennRSE: '125',
+		dexHoennORAS: '130',
 		dexUnovaB2W2: '214',
 		dexKalosCosta: '012',
 	},
@@ -13481,6 +13634,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '338',
 		dexHoennRSE: '126',
+		dexHoennORAS: '131',
 		dexUnovaB2W2: '215',
 		dexKalosCosta: '013',
 	},
@@ -13517,6 +13671,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '339',
 		dexHoennRSE: '127',
+		dexHoennORAS: '132',
 		dexSinnohDPPt: '080',
 		dexKalosMontana: '040',
 	},
@@ -13553,6 +13708,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '340',
 		dexHoennRSE: '128',
+		dexHoennORAS: '133',
 		dexSinnohDPPt: '081',
 		dexKalosMontana: '041',
 	},
@@ -13589,6 +13745,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '341',
 		dexHoennRSE: '129',
+		dexHoennORAS: '134',
 		dexUnovaB2W2: '279',
 		dexKalosCentral: '051',
 	},
@@ -13625,6 +13782,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '342',
 		dexHoennRSE: '130',
+		dexHoennORAS: '135',
 		dexUnovaB2W2: '280',
 		dexKalosCentral: '052',
 	},
@@ -13656,6 +13814,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '343',
 		dexHoennRSE: '131',
+		dexHoennORAS: '136',
 		dexUnovaB2W2: '169',
 	},
 	stats: getStats(342),
@@ -13686,6 +13845,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '344',
 		dexHoennRSE: '132',
+		dexHoennORAS: '137',
 		dexUnovaB2W2: '170',
 	},
 	stats: getStats(343),
@@ -13720,6 +13880,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '345',
 		dexHoennRSE: '133',
+		dexHoennORAS: '138',
 	},
 	stats: getStats(344),
 	idiomas: {frances: namesFR[344],aleman: namesDE[344],japones: [namesJP[344][1], namesJP[344][0]],coreano: [namesKO[344][1], namesKO[344][0]]}
@@ -13753,6 +13914,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '346',
 		dexHoennRSE: '134',
+		dexHoennORAS: '139',
 	},
 	stats: getStats(345),
 	idiomas: {frances: namesFR[345],aleman: namesDE[345],japones: [namesJP[345][1], namesJP[345][0]],coreano: [namesKO[345][1], namesKO[345][0]]}
@@ -13786,6 +13948,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '347',
 		dexHoennRSE: '135',
+		dexHoennORAS: '140',
 	},
 	stats: getStats(346),
 	idiomas: {frances: namesFR[346],aleman: namesDE[346],japones: [namesJP[346][1], namesJP[346][0]],coreano: [namesKO[346][1], namesKO[346][0]]}
@@ -13819,6 +13982,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '348',
 		dexHoennRSE: '136',
+		dexHoennORAS: '141',
 	},
 	stats: getStats(347),
 	idiomas: {frances: namesFR[347],aleman: namesDE[347],japones: [namesJP[347][1], namesJP[347][0]],coreano: [namesKO[347][1], namesKO[347][0]]}
@@ -13861,6 +14025,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '349',
 		dexHoennRSE: '140',
+		dexHoennORAS: '145',
 		dexSinnohDPPt: '138',
 	},
 	stats: getStats(348),
@@ -13905,6 +14070,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '350',
 		dexHoennRSE: '141',
+		dexHoennORAS: '146',
 		dexSinnohDPPt: '139',
 	},
 	stats: getStats(349),
@@ -13954,6 +14120,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '351',
 		dexHoennRSE: '142',
+		dexHoennORAS: '147',
 		dexUnovaB2W2: '163',
 	},
 	stats: getStats(350),
@@ -13980,6 +14147,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '352',
 		dexHoennRSE: '145',
+		dexHoennORAS: '150',
 		dexKalosCentral: '116',
 	},
 	stats: getStats(351),
@@ -14015,6 +14183,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '353',
 		dexHoennRSE: '146',
+		dexHoennORAS: '151',
 		dexUnovaB2W2: '210',
 		dexKalosMontana: '122',
 	},
@@ -14052,6 +14221,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '354',
 		dexHoennRSE: '147',
+		dexHoennORAS: '152',
 		dexUnovaB2W2: '211',
 		dexKalosMontana: '123',
 	},
@@ -14093,6 +14263,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '355',
 		dexHoennRSE: '148',
+		dexHoennORAS: '153',
 		dexSinnohPt: '189',
 	},
 	stats: getStats(354),
@@ -14134,6 +14305,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '356',
 		dexHoennRSE: '149',
+		dexHoennORAS: '154',
 		dexSinnohPt: '190',
 	},
 	stats: getStats(355),
@@ -14161,6 +14333,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '357',
 		dexHoennRSE: '150',
+		dexHoennORAS: '156',
 		dexSinnohPt: '185',
 		dexUnovaB2W2: '288',
 	},
@@ -14195,6 +14368,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '358',
 		dexHoennRSE: '151',
+		dexHoennORAS: '158',
 		dexSinnohDPPt: '083',
 		dexKalosCosta: '112',
 	},
@@ -14224,6 +14398,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '359',
 		dexHoennRSE: '152',
+		dexHoennORAS: '159',
 		dexSinnohPt: '209',
 		dexUnovaB2W2: '216',
 		dexKalosCosta: '009',
@@ -14260,6 +14435,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '360',
 		dexHoennRSE: '160',
+		dexHoennORAS: '167',
 		dexKalosCosta: '118',
 	},
 	stats: getStats(359),
@@ -14303,6 +14479,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '361',
 		dexHoennRSE: '171',
+		dexHoennORAS: '179',
 		dexSinnohPt: '206',
 	},
 	stats: getStats(360),
@@ -14350,6 +14527,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '362',
 		dexHoennRSE: '172',
+		dexHoennORAS: '180',
 		dexSinnohPt: '207',
 	},
 	stats: getStats(361),
@@ -14389,6 +14567,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '363',
 		dexHoennRSE: '173',
+		dexHoennORAS: '182',
 		dexUnovaB2W2: '243',
 	},
 	stats: getStats(362),
@@ -14428,6 +14607,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '364',
 		dexHoennRSE: '174',
+		dexHoennORAS: '183',
 		dexUnovaB2W2: '244',
 	},
 	stats: getStats(363),
@@ -14467,6 +14647,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '365',
 		dexHoennRSE: '175',
+		dexHoennORAS: '184',
 		dexUnovaB2W2: '245',
 	},
 	stats: getStats(364),
@@ -14511,6 +14692,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '366',
 		dexHoennRSE: '176',
+		dexHoennORAS: '185',
 		dexKalosCosta: '141',
 	},
 	stats: getStats(365),
@@ -14559,6 +14741,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '367',
 		dexHoennRSE: '177',
+		dexHoennORAS: '186',
 		dexKalosCosta: '142',
 	},
 	stats: getStats(366),
@@ -14606,6 +14789,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '368',
 		dexHoennRSE: '178',
+		dexHoennORAS: '187',
 		dexKalosCosta: '143',
 	},
 	stats: getStats(367),
@@ -14634,6 +14818,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '369',
 		dexHoennRSE: '179',
+		dexHoennORAS: '188',
 		dexKalosCosta: '042',
 	},
 	stats: getStats(368),
@@ -14660,6 +14845,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '370',
 		dexHoennRSE: '183',
+		dexHoennORAS: '192',
 		dexKalosCosta: '029',
 	},
 	stats: getStats(369),
@@ -14698,6 +14884,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '371',
 		dexHoennRSE: '187',
+		dexHoennORAS: '196',
 		dexKalosCosta: '014',
 	},
 	stats: getStats(370),
@@ -14736,6 +14923,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '372',
 		dexHoennRSE: '188',
+		dexHoennORAS: '197',
 		dexKalosCosta: '015',
 	},
 	stats: getStats(371),
@@ -14775,6 +14963,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '373',
 		dexHoennRSE: '189',
+		dexHoennORAS: '198',
 		dexKalosCosta: '016',
 	},
 	stats: getStats(372),
@@ -14812,6 +15001,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '374',
 		dexHoennRSE: '190',
+		dexHoennORAS: '199',
 		dexUnovaB2W2: '262',
 	},
 	stats: getStats(373),
@@ -14849,6 +15039,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '375',
 		dexHoennRSE: '191',
+		dexHoennORAS: '200',
 		dexUnovaB2W2: '263',
 	},
 	stats: getStats(374),
@@ -14887,6 +15078,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '376',
 		dexHoennRSE: '192',
+		dexHoennORAS: '201',
 		dexUnovaB2W2: '264',
 	},
 	stats: getStats(375),
@@ -14912,6 +15104,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '377',
 		dexHoennRSE: '193',
+		dexHoennORAS: '202',
 	},
 	stats: getStats(376),
 	idiomas: {frances: namesFR[376],aleman: namesDE[376],japones: [namesJP[376][1], namesJP[376][0]],coreano: [namesKO[376][1], namesKO[376][0]]}
@@ -14936,6 +15129,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '378',
 		dexHoennRSE: '194',
+		dexHoennORAS: '203',
 	},
 	stats: getStats(377),
 	idiomas: {frances: namesFR[377],aleman: namesDE[377],japones: [namesJP[377][1], namesJP[377][0]],coreano: [namesKO[377][1], namesKO[377][0]]}
@@ -14961,6 +15155,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '379',
 		dexHoennRSE: '195',
+		dexHoennORAS: '204',
 	},
 	stats: getStats(378),
 	idiomas: {frances: namesFR[378],aleman: namesDE[378],japones: [namesJP[378][1], namesJP[378][0]],coreano: [namesKO[378][1], namesKO[378][0]]}
@@ -14984,6 +15179,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '380',
 		dexHoennRSE: '196',
+		dexHoennORAS: '205',
 	},
 	stats: getStats(379),
 	idiomas: {frances: namesFR[379],aleman: namesDE[379],japones: [namesJP[379][1], namesJP[379][0]],coreano: [namesKO[379][1], namesKO[379][0]]}
@@ -15007,6 +15203,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '381',
 		dexHoennRSE: '197',
+		dexHoennORAS: '206',
 	},
 	stats: getStats(380),
 	idiomas: {frances: namesFR[380],aleman: namesDE[380],japones: [namesJP[380][1], namesJP[380][0]],coreano: [namesKO[380][1], namesKO[380][0]]}
@@ -15020,6 +15217,7 @@ var names2 = [
 		{habilidadNombre: habNombre('drizzle'),habilidadDescripcion: habDescripcion('drizzle')},
 		],
 	},
+	primigenio: '382',
 	ratioCaptura: 5,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -15028,6 +15226,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '382',
 		dexHoennRSE: '198',
+		dexHoennORAS: '207',
 	},
 	stats: getStats(381),
 	idiomas: {frances: namesFR[381],aleman: namesDE[381],japones: [namesJP[381][1], namesJP[381][0]],coreano: [namesKO[381][1], namesKO[381][0]]}
@@ -15041,6 +15240,7 @@ var names2 = [
 		{habilidadNombre: habNombre('drought'),habilidadDescripcion: habDescripcion('drought')},
 		],
 	},
+	primigenio: '383',
 	ratioCaptura: 5,
 	valoresEsfuerzo: {
 		ataque: 3,
@@ -15049,6 +15249,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '383',
 		dexHoennRSE: '199',
+		dexHoennORAS: '208',
 	},
 	stats: getStats(382),
 	idiomas: {frances: namesFR[382],aleman: namesDE[382],japones: [namesJP[382][1], namesJP[382][0]],coreano: [namesKO[382][1], namesKO[382][0]]}
@@ -15072,6 +15273,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '384',
 		dexHoennRSE: '200',
+		dexHoennORAS: '209',
 	},
 	stats: getStats(383),
 	idiomas: {frances: namesFR[383],aleman: namesDE[383],japones: [namesJP[383][1], namesJP[383][0]],coreano: [namesKO[383][1], namesKO[383][0]]}
@@ -15093,6 +15295,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '385',
 		dexHoennRSE: '201',
+		dexHoennORAS: '210',
 	},
 	stats: getStats(384),
 	idiomas: {frances: namesFR[384],aleman: namesDE[384],japones: [namesJP[384][1], namesJP[384][0]],coreano: [namesKO[384][1], namesKO[384][0]]}
@@ -15110,8 +15313,6 @@ var names2 = [
 	{
 		descripcion: "Forma Normal",
 		tipo: ['psychic'],
-		altura: [0,0],
-		peso: [0,0],
 		img: "http://img.pokemondb.net/artwork/deoxys-normal.jpg",
 		spriteCode: "386",
 		metodo: "Según cada juego, debe tocar un meteorito específico o tocarlo consecutivamente",
@@ -15125,8 +15326,6 @@ var names2 = [
 	{
 		descripcion: "Forma Ataque",
 		tipo: ['psychic'],
-		altura: [0,0],
-		peso: [0,0],
 		img: "http://img.pokemondb.net/artwork/deoxys-attack.jpg",
 		spriteCode: "386a",
 		metodo: "Según cada juego, debe tocar un meteorito específico o tocarlo consecutivamente",
@@ -15139,8 +15338,6 @@ var names2 = [
 	{
 		descripcion: "Forma Defensa",
 		tipo: ['psychic'],
-		altura: [0,0],
-		peso: [0,0],
 		img: "http://img.pokemondb.net/artwork/deoxys-defense.jpg",
 		spriteCode: "386d",
 		metodo: "Según cada juego, debe tocar un meteorito específico o tocarlo consecutivamente",
@@ -15153,8 +15350,6 @@ var names2 = [
 	{
 		descripcion: "Forma Velocidad",
 		tipo: ['psychic'],
-		altura: [0,0],
-		peso: [0,0],
 		img: "http://img.pokemondb.net/artwork/deoxys-speed.jpg",
 		spriteCode: "386s",
 		metodo: "Según cada juego, debe tocar un meteorito específico o tocarlo consecutivamente",
@@ -15176,6 +15371,7 @@ var names2 = [
 	dexRegiones: {
 		dexNacional: '386',
 		dexHoennRSE: '202',
+		dexHoennORAS: '211',
 	},
 	//stats: getStats(385),
 	idiomas: {frances: namesFR[385],aleman: namesDE[385],japones: [namesJP[385][1], namesJP[385][0]],coreano: [namesKO[385][1], namesKO[385][0]]}
@@ -15932,6 +16128,7 @@ var names2 = [
 	generos: {macho: 50,hembra: 50},
 	dexRegiones: {
 		dexNacional: '406',
+		dexHoennORAS: '097',
 		dexSinnohDPPt: '025',
 		dexUnovaB2W2: '133',
 		dexKalosCentral: '071',
@@ -15974,6 +16171,7 @@ var names2 = [
 	generos: {macho: 50,hembra: 50},
 	dexRegiones: {
 		dexNacional: '407',
+		dexHoennORAS: '099',
 		dexSinnohDPPt: '027',
 		dexUnovaB2W2: '135',
 		dexKalosCentral: '073',
@@ -16959,6 +17157,7 @@ var names2 = [
 	generos: {macho: 50,hembra: 50},
 	dexRegiones: {
 		dexNacional: '433',
+		dexHoennORAS: '157',
 		dexSinnohDPPt: '082',
 		dexKalosCosta: '111',
 	},
@@ -17978,6 +18177,7 @@ var names2 = [
 	pasos: 255 * 21, grupo: ['Mineral'], amistad: 70,
 	dexRegiones: {
 		dexNacional: '462',
+		dexHoennORAS: '086',
 		dexSinnohPt: '180',
 		dexUnovaB2W2: '050',
 		dexKalosMontana: '071',
@@ -18058,6 +18258,7 @@ var names2 = [
 	generos: {macho: 50,hembra: 50},
 	dexRegiones: {
 		dexNacional: '464',
+		dexHoennORAS: '178',
 		dexSinnohPt: '188',
 		dexKalosCosta: '052',
 	},
@@ -18641,6 +18842,7 @@ var names2 = [
 	generos: {macho: 100,hembra: 0},
 	dexRegiones: {
 		dexNacional: '475',
+		dexHoennORAS: '032',
 		dexSinnohPt: '160',
 		dexKalosCentral: '067',
 	},
@@ -18678,6 +18880,7 @@ var names2 = [
 	generos: {macho: 50,hembra: 50},
 	dexRegiones: {
 		dexNacional: '476',
+		dexHoennORAS: '062',
 		dexSinnohPt: '156',
 		dexUnovaB2W2: '165',
 		dexKalosCosta: '094',
@@ -18720,6 +18923,7 @@ var names2 = [
 	generos: {macho: 50,hembra: 50},
 	dexRegiones: {
 		dexNacional: '477',
+		dexHoennORAS: '155',
 		dexSinnohPt: '191',
 	},
 	stats: getStats(476),
@@ -18764,6 +18968,7 @@ var names2 = [
 	generos: {macho: 0, hembra: 100},
 	dexRegiones: {
 		dexNacional: '478',
+		dexHoennORAS: '181',
 		dexSinnohPt: '208',
 	},
 	stats: getStats(477),
@@ -25941,6 +26146,41 @@ var names2 = [
 },
 */
 {
+	id: '678',
+	nombre: names[677], tipo: ['psychic'], clasificacion: 'Pokémon Autocontrol',
+	altura: [getAltura(677).pies, getAltura(677).metros], peso: [getPeso(677).libras, getPeso(677).kilogramos],
+	habilidades: {
+		habilidadesNormales: [
+		{habilidadNombre: habNombre('Vista Lince'),habilidadDescripcion: habDescripcion('Vista Lince')},
+		{habilidadNombre: habNombre('Allanamiento'),habilidadDescripcion: habDescripcion('Allanamiento')},
+		],
+		habilidadesOcultas: [
+		{habilidadNombre: habNombre('Bromista'),habilidadDescripcion: "(Sólo en machos) "+habDescripcion('Bromista')},
+		{habilidadNombre: habNombre('Tenacidad'),habilidadDescripcion: "(Sólo en hembras) "+habDescripcion('Tenacidad')},
+		]
+	},
+	cadenaEvolutiva: [
+	{
+		preevolucion: {
+			numeroEspecie: '677',
+			metodo: "Subiendo desde nivel 25",
+		},
+	},
+	],
+	ratioCaptura: 75,
+	valoresEsfuerzo: {
+		velocidad: 2,
+	},
+	pasos: 255 * 21, grupo: ['Campo'], amistad: 70,
+	generos: {macho: 50,hembra: 50},
+	dexRegiones: {
+		dexNacional: '678',
+		dexKalosCentral: '115',
+	},
+	stats: getStats(677),
+	idiomas: {frances: namesFR[677],aleman: namesDE[677],japones: [namesJP[677][1], namesJP[677][0]],coreano: [namesKO[677][1], namesKO[677][0]]}
+},
+{
 	id: '679',
 	nombre: names[678], tipo: ['steel', 'ghost'], clasificacion: 'Pokémon Tizona',
 	altura: [getAltura(678).pies, getAltura(678).metros], peso: [getPeso(678).libras, getPeso(678).kilogramos],
@@ -27090,6 +27330,34 @@ var names2 = [
 		},
 	},
 	],
+	medidas: [
+	{
+		descripcion: "Tamaño Promedio",
+		spriteCode: "710",
+		stats: getStats(709),
+	},
+	{
+		descripcion: "Tamaño Pequeño",
+		altura: [getAltura(709, '710-s').pies, getAltura(709, '710-s').metros],
+		peso: [getPeso(709, '710-s').libras, getPeso(709, '710-s').kilogramos],
+		spriteCode: "710",
+		stats: getStats(709, '710-s'),
+	},
+	{
+		descripcion: "Tamaño Grande",
+		altura: [getAltura(709, '710-l').pies, getAltura(709, '710-l').metros],
+		peso: [getPeso(709, '710-l').libras, getPeso(709, '710-l').kilogramos],
+		spriteCode: "710",
+		stats: getStats(709, '710-l'),
+	},
+	{
+		descripcion: "Tamaño Super",
+		altura: [getAltura(709, '710-x').pies, getAltura(709, '710-x').metros],
+		peso: [getPeso(709, '710-x').libras, getPeso(709, '710-x').kilogramos],
+		spriteCode: "710",
+		stats: getStats(709, '710-x'),
+	},
+	],
 	ratioCaptura: 120,
 	valoresEsfuerzo: {
 		defensa: 1,
@@ -27100,7 +27368,7 @@ var names2 = [
 		dexNacional: '710',
 		dexKalosMontana: '063',
 	},
-	stats: getStats(709),
+	//stats: getStats(709),
 	idiomas: {frances: namesFR[709],aleman: namesDE[709],japones: [namesJP[709][1], namesJP[709][0]],coreano: [namesKO[709][1], namesKO[709][0]]}
 },
 {
@@ -27125,6 +27393,34 @@ var names2 = [
 		},
 	},
 	],
+	medidas: [
+	{
+		descripcion: "Tamaño Promedio",
+		spriteCode: "711",
+		stats: getStats(710),
+	},
+	{
+		descripcion: "Tamaño Pequeño",
+		altura: [getAltura(710, '711-s').pies, getAltura(710, '711-s').metros],
+		peso: [getPeso(710, '711-s').libras, getPeso(710, '711-s').kilogramos],
+		spriteCode: "711",
+		stats: getStats(710, '711-s'),
+	},
+	{
+		descripcion: "Tamaño Grande",
+		altura: [getAltura(710, '711-l').pies, getAltura(710, '711-l').metros],
+		peso: [getPeso(710, '711-l').libras, getPeso(710, '711-l').kilogramos],
+		spriteCode: "711",
+		stats: getStats(710, '711-l'),
+	},
+	{
+		descripcion: "Tamaño Super",
+		altura: [getAltura(710, '711-x').pies, getAltura(710, '711-x').metros],
+		peso: [getPeso(710, '711-x').libras, getPeso(710, '711-x').kilogramos],
+		spriteCode: "711",
+		stats: getStats(710, '711-x'),
+	},
+	],
 	ratioCaptura: 60,
 	valoresEsfuerzo: {
 		defensa: 2,
@@ -27135,7 +27431,7 @@ var names2 = [
 		dexNacional: '711',
 		dexKalosMontana: '064',
 	},
-	stats: getStats(710),
+	//stats: getStats(710),
 	idiomas: {frances: namesFR[710],aleman: namesDE[710],japones: [namesJP[710][1], namesJP[710][0]],coreano: [namesKO[710][1], namesKO[710][0]]}
 },
 {
@@ -27369,6 +27665,28 @@ var names2 = [
 		{habilidadNombre: habNombre('magician'),habilidadDescripcion: habDescripcion('magician')},
 		],
 	},
+	formas: [
+	{
+		descripcion: "Forma Contenida",
+		tipo: ['psychic', 'ghost'],
+		img: "http://cdn.bulbagarden.net/upload/thumb/f/fb/720Hoopa.png/600px-720Hoopa.png",
+		spriteCode: "720",
+		metodo: "No requiere de objeto o método",
+		stats: getStats(719),
+	},
+	{
+		clasificacion: 'Pokémon Genio Burlón',
+		descripcion: "Forma Desatada",
+		tipo: ['psychic', 'dark'],
+		altura: [getAltura(719, '720-u').pies, getAltura(719, '720-u').metros],
+		peso: [getPeso(719, '720-u').libras, getPeso(719, '720-u').kilogramos],
+		img: "http://cdn.bulbagarden.net/upload/thumb/a/ad/720Hoopa-Unbound.png/600px-720Hoopa-Unbound.png",
+		spriteCode: "720-u",
+		//objeto: "http://www.serebii.net/itemdex/sprites/dnasplicers.png",
+		metodo: "Se desconoce objeto o metodo de transformación",
+		stats: getStats(719, '720-u'),
+	},
+	],
 	ratioCaptura: 3,
 	valoresEsfuerzo: {
 		ataqueEspecial: 3,
@@ -27378,7 +27696,7 @@ var names2 = [
 		dexNacional: '720',
 		dexKalosCentral: '152',
 	},
-	stats: getStats(719),
+	//stats: getStats(719),
 	idiomas: {frances: namesFR[719],aleman: namesDE[719],japones: [namesJP[719][1], namesJP[719][0]],coreano: [namesKO[719][1], namesKO[719][0]]}
 },
 
@@ -27457,41 +27775,7 @@ var names2 = [
 
 
 
-{
-	id: '678',
-	nombre: names[677], tipo: ['psychic'], clasificacion: 'Pokémon Autocontrol',
-	altura: [getAltura(677).pies, getAltura(677).metros], peso: [getPeso(677).libras, getPeso(677).kilogramos],
-	habilidades: {
-		habilidadesNormales: [
-		{habilidadNombre: habNombre('Vista Lince'),habilidadDescripcion: habDescripcion('Vista Lince')},
-		{habilidadNombre: habNombre('Allanamiento'),habilidadDescripcion: habDescripcion('Allanamiento')},
-		],
-		habilidadesOcultas: [
-		{habilidadNombre: habNombre('Bromista'),habilidadDescripcion: "(Sólo en machos) "+habDescripcion('Bromista')},
-		{habilidadNombre: habNombre('Tenacidad'),habilidadDescripcion: "(Sólo en hembras) "+habDescripcion('Tenacidad')},
-		]
-	},
-	cadenaEvolutiva: [
-	{
-		preevolucion: {
-			numeroEspecie: '677',
-			metodo: "Subiendo desde nivel 25",
-		},
-	},
-	],
-	ratioCaptura: 75,
-	valoresEsfuerzo: {
-		velocidad: 2,
-	},
-	pasos: 255 * 21, grupo: ['Campo'], amistad: 70,
-	generos: {macho: 50,hembra: 50},
-	dexRegiones: {
-		dexNacional: '678',
-		dexKalosCentral: '115',
-	},
-	stats: getStats(677),
-	idiomas: {frances: namesFR[677],aleman: namesDE[677],japones: [namesJP[677][1], namesJP[677][0]],coreano: [namesKO[677][1], namesKO[677][0]]}
-},
+
 
 
 ];
@@ -27651,6 +27935,7 @@ var namesOF = [
 	dexRegiones: {
 		dexNacional: '386',
 		dexHoennRSE: '202',
+		dexHoennORAS: '200',
 	},
 	stats: getStats(385),
 	idiomas: {frances: namesFR[385],aleman: namesDE[385],japones: [namesJP[385][1], namesJP[385][0]],coreano: [namesKO[385][1], namesKO[385][0]]}
@@ -27673,6 +27958,7 @@ var namesOF = [
 	dexRegiones: {
 		dexNacional: '386',
 		dexHoennRSE: '202',
+		dexHoennORAS: '200',
 	},
 	stats: getStats(385),
 	idiomas: {frances: namesFR[385],aleman: namesDE[385],japones: [namesJP[385][1], namesJP[385][0]],coreano: [namesKO[385][1], namesKO[385][0]]}
@@ -27694,6 +27980,7 @@ var namesOF = [
 	dexRegiones: {
 		dexNacional: '386',
 		dexHoennRSE: '202',
+		dexHoennORAS: '200',
 	},
 	stats: getStats(385),
 	idiomas: {frances: namesFR[385],aleman: namesDE[385],japones: [namesJP[385][1], namesJP[385][0]],coreano: [namesKO[385][1], namesKO[385][0]]}

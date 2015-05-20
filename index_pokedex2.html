@@ -48,6 +48,7 @@
 
 	<header>
 		<nav>
+			<!--<label for="txtSearchDex">Mi etiqueta</label><br>-->
 			<input type="text" class="text" id="txtSearchDex" name="txtSearchDex" placeholder="Buscar..." />
 		</nav>
 	</header>
@@ -265,27 +266,27 @@
 						
 						<div class="text-align-center">
 							<div class="stats">
-								<span class="flaticon-heart15 spn-HP"></span>
+								<span class="flaticon-heart374 spn-HP"></span>
 								<!--<span></span>-->
 								PS +1
 							</div>
 							<div class="stats">
-								<span class="flaticon-cross9 spn-Atk"></span>
+								<span class="flaticon-cross6 spn-Atk"></span>
 								<!--<span></span>-->
 								Ataque +1
 							</div>
 							<div class="stats">
-								<span class="flaticon-shield15 spn-Def"></span>
+								<span class="flaticon-shield9 spn-Def"></span>
 								<!--<span></span>-->
 								Defensa +1
 							</div>
 							<div class="stats">
-								<span class="flaticon-cross9 spn-Special-Atk"></span>
+								<span class="flaticon-cross6 spn-Special-Atk"></span>
 								<!--<span></span>-->
 								Ataque especial +1
 							</div>
 							<div class="stats">
-								<span class="flaticon-shield15 spn-Special-Def"></span>
+								<span class="flaticon-shield9 spn-Special-Def"></span>
 								<!--<span></span>-->
 								Defensa especial +1
 							</div>
@@ -618,6 +619,21 @@
 
 
 	<footer>
+		<div class="pokemon-prev">
+			<span class="nav-arrows flaticon-go10"></span>
+			<!--prev-->
+			<img src="http://www.serebii.net/pokedex-xy/icon/720.png" />
+			<div>#720<br><span>Hoopa</span></div>
+		</div>
+		<div class="pokemon-next">
+			<!--next-->
+			<div>#002<br><span>Ivysaur</span></div>
+			<img src="http://www.serebii.net/pokedex-xy/icon/002.png" />
+			<span class="nav-arrows flaticon-right244"></span>
+		</div>
+		<p>
+		<div>Icons made by <a href="http://www.flaticon.com/authors/stephen-hutchings" title="Stephen Hutchings">Stephen Hutchings</a>, <a href="http://www.flaticon.com/authors/zurb" title="Zurb">Zurb</a>, <a href="http://www.flaticon.com/authors/yannick" title="Yannick">Yannick</a>, <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>, <a href="http://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a>, <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a>, <a href="http://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+		</p>
 	</footer>
 
 
@@ -749,11 +765,74 @@
 					</div>
 					<div class="blcSpec">
 						Altura
+						<!--<span>{{#mostrarAltura altura}}{{/mostrarAltura}}</span>-->
+						{{#if formas}}
+						{{#comprobarAlturaFormas formas}}
+
+						{{#each forma in formas}}
+						{{#if forma.altura}}
+						<span>{{#mostrarAltura forma.altura}}{{/mostrarAltura}} ({{forma.descripcion}})</span>
+						{{else}}
+						<span>{{#mostrarAltura altura}}{{/mostrarAltura}} ({{forma.descripcion}})</span>
+						{{/if}}
+						{{/each}}
+
+						{{else}}
 						<span>{{#mostrarAltura altura}}{{/mostrarAltura}}</span>
+						{{/comprobarAlturaFormas}}
+						{{else}}
+
+						{{#if medidas}}
+						{{#each medida in medidas}}
+						{{#if medida.altura}}
+						<span>{{#mostrarAltura medida.altura}}{{/mostrarAltura}} ({{medida.descripcion}})</span>
+						{{else}}
+						<span>{{#mostrarAltura altura}}{{/mostrarAltura}} ({{medida.descripcion}})</span>
+						{{/if}}
+						{{/each}}
+
+						{{else}}
+						<span>{{#mostrarAltura altura}}{{/mostrarAltura}}</span>
+						{{/if}}
+
+						{{/if}}
 					</div>
 					<div class="blcSpec">
 						Peso
+						<!--<span>{{#mostrarPeso peso}}{{/mostrarPeso}}</span>-->
+
+
+
+						{{#if formas}}
+						{{#comprobarPesoFormas formas}}
+
+						{{#each forma in formas}}
+						{{#if forma.peso}}
+						<span>{{#mostrarPeso forma.peso}}{{/mostrarPeso}} ({{forma.descripcion}})</span>
+						{{else}}
+						<span>{{#mostrarPeso peso}}{{/mostrarPeso}} ({{forma.descripcion}})</span>
+						{{/if}}
+						{{/each}}
+
+						{{else}}
 						<span>{{#mostrarPeso peso}}{{/mostrarPeso}}</span>
+						{{/comprobarPesoFormas}}
+						{{else}}
+
+						{{#if medidas}}
+						{{#each medida in medidas}}
+						{{#if medida.peso}}
+						<span>{{#mostrarPeso medida.peso}}{{/mostrarPeso}} ({{medida.descripcion}})</span>
+						{{else}}
+						<span>{{#mostrarPeso peso}}{{/mostrarPeso}} ({{medida.descripcion}})</span>
+						{{/if}}
+						{{/each}}
+
+						{{else}}
+						<span>{{#mostrarPeso peso}}{{/mostrarPeso}}</span>
+						{{/if}}
+
+						{{/if}}
 					</div>
 				</section>
 			</section>
@@ -833,6 +912,7 @@
 											{{/each}}
 										</div>
 										{{forma.descripcion}}
+										<!--
 										{{#if forma.altura}}
 										<div>
 											Altura
@@ -845,6 +925,7 @@
 											<span>{{#mostrarPeso peso}}{{/mostrarPeso}}</span>
 										</div>
 										{{/if}}
+										-->
 										{{#if forma.metodo}}
 										<div>
 											Objeto o método
@@ -1266,7 +1347,7 @@
 				</section>
 
 
-
+				{{#if megaEvolucion}}
 				<section class="secSecond">
 					<div class="thirdTitle">Mega evolución</div>
 					<div class="thirdContent">
@@ -1319,6 +1400,7 @@
 						</div>
 					</div>
 				</section>
+				{{/if}}
 
 
 
@@ -1353,35 +1435,35 @@
 							
 							{{#if forma.valoresEsfuerzo.ps}}
 							<div class="stats">
-								<span class="flaticon-heart15 spn-HP"></span>
+								<span class="flaticon-heart374 spn-HP"></span>
 								PS +{{forma.valoresEsfuerzo.ps}}
 							</div>
 							{{/if}}
 							
 							{{#if forma.valoresEsfuerzo.ataque}}
 							<div class="stats">
-								<span class="flaticon-cross9 spn-Atk"></span>
+								<span class="flaticon-cross6 spn-Atk"></span>
 								Ataque +{{forma.valoresEsfuerzo.ataque}}
 							</div>
 							{{/if}}
 							
 							{{#if forma.valoresEsfuerzo.defensa}}
 							<div class="stats">
-								<span class="flaticon-shield15 spn-Def"></span>
+								<span class="flaticon-shield9 spn-Def"></span>
 								Defensa +{{forma.valoresEsfuerzo.defensa}}
 							</div>
 							{{/if}}
 							
 							{{#if forma.valoresEsfuerzo.ataqueEspecial}}
 							<div class="stats">
-								<span class="flaticon-cross9 spn-Special-Atk"></span>
+								<span class="flaticon-cross6 spn-Special-Atk"></span>
 								Ataque especial +{{forma.valoresEsfuerzo.ataqueEspecial}}
 							</div>
 							{{/if}}
 							
 							{{#if forma.valoresEsfuerzo.defensaEspecial}}
 							<div class="stats">
-								<span class="flaticon-shield15 spn-Special-Def"></span>
+								<span class="flaticon-shield9 spn-Special-Def"></span>
 								Defensa especial +{{forma.valoresEsfuerzo.defensaEspecial}}
 							</div>
 							{{/if}}
@@ -1406,35 +1488,35 @@
 
 							{{#if valoresEsfuerzo.ps}}
 							<div class="stats">
-								<span class="flaticon-heart15 spn-HP"></span>
+								<span class="flaticon-heart374 spn-HP"></span>
 								PS +{{valoresEsfuerzo.ps}}
 							</div>
 							{{/if}}
 							
 							{{#if valoresEsfuerzo.ataque}}
 							<div class="stats">
-								<span class="flaticon-cross9 spn-Atk"></span>
+								<span class="flaticon-cross6 spn-Atk"></span>
 								Ataque +{{valoresEsfuerzo.ataque}}
 							</div>
 							{{/if}}
 							
 							{{#if valoresEsfuerzo.defensa}}
 							<div class="stats">
-								<span class="flaticon-shield15 spn-Def"></span>
+								<span class="flaticon-shield9 spn-Def"></span>
 								Defensa +{{valoresEsfuerzo.defensa}}
 							</div>
 							{{/if}}
 							
 							{{#if valoresEsfuerzo.ataqueEspecial}}
 							<div class="stats">
-								<span class="flaticon-cross9 spn-Special-Atk"></span>
+								<span class="flaticon-cross6 spn-Special-Atk"></span>
 								Ataque especial +{{valoresEsfuerzo.ataqueEspecial}}
 							</div>
 							{{/if}}
 							
 							{{#if valoresEsfuerzo.defensaEspecial}}
 							<div class="stats">
-								<span class="flaticon-shield15 spn-Special-Def"></span>
+								<span class="flaticon-shield9 spn-Special-Def"></span>
 								Defensa especial +{{valoresEsfuerzo.defensaEspecial}}
 							</div>
 							{{/if}}
@@ -1456,35 +1538,35 @@
 
 							{{#if valoresEsfuerzo.ps}}
 							<div class="stats">
-								<span class="flaticon-heart15 spn-HP"></span>
+								<span class="flaticon-heart374 spn-HP"></span>
 								PS +{{valoresEsfuerzo.ps}}
 							</div>
 							{{/if}}
 							
 							{{#if valoresEsfuerzo.ataque}}
 							<div class="stats">
-								<span class="flaticon-cross9 spn-Atk"></span>
+								<span class="flaticon-cross6 spn-Atk"></span>
 								Ataque +{{valoresEsfuerzo.ataque}}
 							</div>
 							{{/if}}
 							
 							{{#if valoresEsfuerzo.defensa}}
 							<div class="stats">
-								<span class="flaticon-shield15 spn-Def"></span>
+								<span class="flaticon-shield9 spn-Def"></span>
 								Defensa +{{valoresEsfuerzo.defensa}}
 							</div>
 							{{/if}}
 							
 							{{#if valoresEsfuerzo.ataqueEspecial}}
 							<div class="stats">
-								<span class="flaticon-cross9 spn-Special-Atk"></span>
+								<span class="flaticon-cross6 spn-Special-Atk"></span>
 								Ataque especial +{{valoresEsfuerzo.ataqueEspecial}}
 							</div>
 							{{/if}}
 							
 							{{#if valoresEsfuerzo.defensaEspecial}}
 							<div class="stats">
-								<span class="flaticon-shield15 spn-Special-Def"></span>
+								<span class="flaticon-shield9 spn-Special-Def"></span>
 								Defensa especial +{{valoresEsfuerzo.defensaEspecial}}
 							</div>
 							{{/if}}
@@ -1657,6 +1739,8 @@
 								</ul>
 							</div>
 
+
+
 							{{#ifLimitadorFormas _view.contentIndex formas.length}}
 							<div class="alternative-forms-separator"></div>
 							{{/ifLimitadorFormas}}
@@ -1721,6 +1805,80 @@
 								Kyurem
 							</div>
 							-->
+
+
+
+
+
+
+
+							{{#if medidas}}
+
+							{{#each medida in medidas}}
+
+							<div class="alternative-forms-header">
+								<!--<img src="http://www.serebii.net/pokedex-xy/icon/001.png">-->
+								{{#mostrarSpriteEvolucion medida.spriteCode}}{{/mostrarSpriteEvolucion}}
+								{{medida.descripcion}}
+							</div>
+							<div class="bar-stats">
+								<ul>
+									<li>
+										<div class="bar-stat bar-hp">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar medida.stats.ps}}{{/statBar}}
+											<span class="name-stat">PS</span><span class="value-stat">{{medida.stats.ps}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-attack">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar medida.stats.ataque}}{{/statBar}}
+											<span class="name-stat">Ataque</span><span class="value-stat">{{medida.stats.ataque}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-defense">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar medida.stats.defensa}}{{/statBar}}
+											<span class="name-stat">Defensa</span><span class="value-stat">{{medida.stats.defensa}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-special-attack">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar medida.stats.ataqueEspecial}}{{/statBar}}
+											<span class="name-stat">Ataque Especial</span><span class="value-stat">{{medida.stats.ataqueEspecial}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-special-defense">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar medida.stats.defensaEspecial}}{{/statBar}}
+											<span class="name-stat">Defensa Especial</span><span class="value-stat">{{medida.stats.defensaEspecial}}</span>
+										</div>
+									</li>
+									<li>
+										<div class="bar-stat bar-speed">
+											<!--<div class="bar-fill"></div>-->
+											{{#statBar medida.stats.velocidad}}{{/statBar}}
+											<span class="name-stat">Velocidad</span><span class="value-stat">{{medida.stats.velocidad}}</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+							{{#ifLimitadorFormas _view.contentIndex medidas.length}}
+							<div class="alternative-forms-separator"></div>
+							{{/ifLimitadorFormas}}
+
+
+							{{/each}}
+
+
+							{{else}}
+
+
 							<div class="bar-stats">
 								<ul>
 									<li>
@@ -1767,6 +1925,8 @@
 									</li>
 								</ul>
 							</div>
+
+							{{/if}}
 							{{/if}}
 
 						</div>
@@ -1854,6 +2014,13 @@
 							{{#if dexRegiones.dexHoennRSE}}
 							<div class="pokedex-regions">
 								<span class="pokedex-number">#{{dexRegiones.dexHoennRSE}}</span>Dex Hoenn (RSE)
+							</div>
+							{{/if}}
+
+
+							{{#if dexRegiones.dexHoennORAS}}
+							<div class="pokedex-regions">
+								<span class="pokedex-number">#{{dexRegiones.dexHoennORAS}}</span>Dex Hoenn (ORAS)
 							</div>
 							{{/if}}
 
@@ -1969,6 +2136,23 @@
 
 
 	<footer>
+		<div class="pokemon-prev">
+			<!--<a href="#/pokemon/492"></a>-->
+			<span class="nav-arrows flaticon-go10"></span>
+			<!--prev-->
+			<!--<img src="http://www.serebii.net/pokedex-xy/icon/720.png" />-->
+			<!--<div>#720<br><span>Hoopa</span></div>-->
+			{{#pAnterior id}}{{/pAnterior}}
+		</div>
+
+		<div class="pokemon-next">
+			<!--<a href="#/pokemon/492"></a>-->
+			<!--next-->
+			<!--<div>#002<br><span>Ivysaur</span></div>-->
+			<!--<img src="http://www.serebii.net/pokedex-xy/icon/002.png" />-->
+			{{#pSiguiente id}}{{/pSiguiente}}
+			<span class="nav-arrows flaticon-right244"></span>
+		</div>
 	</footer>
 
 
@@ -2325,35 +2509,35 @@
 						<div class="text-align-center">
 							{{#if valoresEsfuerzo.ps}}
 							<div class="stats">
-								<span class="flaticon-heart15 spn-HP"></span>
+								<span class="flaticon-heart374 spn-HP"></span>
 								PS +{{valoresEsfuerzo.ps}}
 							</div>
 							{{/if}}
 							
 							{{#if valoresEsfuerzo.ataque}}
 							<div class="stats">
-								<span class="flaticon-cross9 spn-Atk"></span>
+								<span class="flaticon-cross6 spn-Atk"></span>
 								Ataque +{{valoresEsfuerzo.ataque}}
 							</div>
 							{{/if}}
 							
 							{{#if valoresEsfuerzo.defensa}}
 							<div class="stats">
-								<span class="flaticon-shield15 spn-Def"></span>
+								<span class="flaticon-shield9 spn-Def"></span>
 								Defensa +{{valoresEsfuerzo.defensa}}
 							</div>
 							{{/if}}
 							
 							{{#if valoresEsfuerzo.ataqueEspecial}}
 							<div class="stats">
-								<span class="flaticon-cross9 spn-Special-Atk"></span>
+								<span class="flaticon-cross6 spn-Special-Atk"></span>
 								Ataque especial +{{valoresEsfuerzo.ataqueEspecial}}
 							</div>
 							{{/if}}
 							
 							{{#if valoresEsfuerzo.defensaEspecial}}
 							<div class="stats">
-								<span class="flaticon-shield15 spn-Special-Def"></span>
+								<span class="flaticon-shield9 spn-Special-Def"></span>
 								Defensa especial +{{valoresEsfuerzo.defensaEspecial}}
 							</div>
 							{{/if}}
@@ -3090,8 +3274,220 @@
 	</footer>
 	</script>
 
+	<script type="text/x-handlebars" id="list">
+	<!--<h1>Listado</h1>-->
 
 
+
+
+
+
+
+
+
+
+
+
+
+	<section id="secGeneral">
+	<section id="secPrincipal">
+	<section id="sec-list-general">
+		{{!--
+		{{#each filtrar}}
+		{{id}} {{nombre}}
+		{{/each}}
+		--}}
+
+
+
+
+		{{!--
+		{{#each filtrar}}
+
+		{{id}} {{nombre}}
+		{{#if descripcion}}
+		&nbsp;({{descripcion}})
+		{{/if}}
+		<br>
+		
+		{{/each}}
+		--}}
+
+
+
+		<section class="advanced-search">
+			<h3 class="advanced-search-title">Busqueda avanzada</h3>
+			
+			{{input type="text" name="txtsearchbyname" placeholder="Número o nombre de pokemon" value=nombrebuscar}}
+			<!--<br>-->
+			<!--Tipo-->
+			<span class="select-type">
+				{{view Ember.Select class="select-type-select" content=listaTipos optionValuePath="content.idTipo" optionLabelPath="content.nombre" value=selectedTipo prompt="(todos los tipos)"}}
+			</span>
+			<br>
+
+			<span class="checkbox-option">
+				<!--<input type="checkbox" name="megaevolution" value="Megaevolution" />Incluir Mega Evolución-->
+				{{input type="checkbox" name="megaevolution" id="megaevolution" value="Megaevolution" checked=binario}}
+				<label for="megaevolution"></label>
+				Incluir Mega Evoluciones y Formas Primigenias
+			</span>
+			<!--<br>-->
+
+			<span class="checkbox-option">
+				<!--<input type="checkbox" name="alternativeforms" value="Alternativeforms" />Incluir Formas alternativas-->
+				{{input type="checkbox" name="alternativeforms" id="alternativeforms" value="Alternativeforms" checked=binario2}}
+				<label for="alternativeforms"></label>
+				Incluir Formas alternativas
+			</span>
+			
+			<!--<br>-->
+			<br>
+		</section>
+
+		
+		<section>
+			{{!--
+			<ul>
+				<li {{action "sortBy" "id"}}>Numero</li>
+				<li {{action "sortBy" "nombre"}}>Nombre</li>
+				<li>Tipo(s)</li>
+				<li>Altura</li>
+				<li>Peso</li>
+			</ul>
+			--}}
+
+
+			<ul>
+				{{#each pokemon in filtrar}}
+				<li>
+					<article>{{pokemon.id}}</article>
+					<article class="list-name-content">
+						{{pokemon.nombre}}
+						{{#if pokemon.descripcion}}
+						<!--<br>-->
+						<span>{{pokemon.descripcion}}</span>
+						{{/if}}
+					</article>
+					<article class="list-type-content">
+						{{#each valor in pokemon.tipo}}
+						{{#ifTipo valor fire}}
+						{{/ifTipo}}
+						{{/each}}
+					</article>
+
+					{{!--
+					<article>{{pokemon.altura}}</article>
+					<article>{{pokemon.peso}}</article>
+					--}}
+
+					{{!--
+					<article class="list-evs-content">
+						{{#if pokemon.valoresEsfuerzo.ps}}
+						<div class="evs-hp">PS <span>{{pokemon.valoresEsfuerzo.ps}}</span></div>
+						{{/if}}
+
+						{{#if pokemon.valoresEsfuerzo.ataque}}
+						<div class="evs-atk">At <span>{{pokemon.valoresEsfuerzo.ataque}}</span></div>
+						{{/if}}
+
+						{{#if pokemon.valoresEsfuerzo.defensa}}
+						<div class="evs-def">Def <span>{{pokemon.valoresEsfuerzo.defensa}}</span></div>
+						{{/if}}
+
+						{{#if pokemon.valoresEsfuerzo.ataqueEspecial}}
+						<div class="evs-sp-atk">At Esp <span>{{pokemon.valoresEsfuerzo.ataqueEspecial}}</span></div>
+						{{/if}}
+
+						{{#if pokemon.valoresEsfuerzo.defensaEspecial}}
+						<div class="evs-sp-def">Def Esp <span>{{pokemon.valoresEsfuerzo.defensaEspecial}}</span></div>
+						{{/if}}
+
+						{{#if pokemon.valoresEsfuerzo.velocidad}}
+						<div class="evs-spd">Vel <span>{{pokemon.valoresEsfuerzo.velocidad}}</span></div>
+						{{/if}}
+					</article>
+					--}}
+
+					<article class="list-stats-content">
+						<div class="stats-hp">{{pokemon.stats.ps}}</div>
+						<div class="stats-atk">{{pokemon.stats.ataque}}</div>
+						<div class="stats-def">{{pokemon.stats.defensa}}</div>
+						<div class="stats-sp-atk">{{pokemon.stats.ataqueEspecial}}</div>
+						<div class="stats-sp-def">{{pokemon.stats.defensaEspecial}}</div>
+						<div class="stats-spd">{{pokemon.stats.velocidad}}</div>
+					</article>
+				</li>
+				{{/each}}
+			</ul>
+
+		</section>
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+		
+		{{!--
+		{{#each}}
+
+
+
+		{{#if formas}}
+		{{#each forma in formas}}
+		<section>
+		{{id}} {{nombre}} {{forma.descripcion}}
+		</section>
+		{{/each}}
+
+		{{else}}
+		<section>
+		{{id}} {{nombre}}
+		</section>
+		{{/if}}
+
+
+
+
+		{{#if megaEvolucion}}
+		{{#each mega in megaEvolucion}}
+		<section>
+		{{mega}}
+		</section>
+		{{/each}}
+		{{/if}}
+
+
+
+
+		{{/each}}
+		--}}
+		
+		
+	</section>
+	</section>
+	</section>
+
+	<footer>
+	</footer>
+	</script>
 
 
 

@@ -20,12 +20,50 @@
 .spnTypeIce{background:#4ddfe4}
 .spnTypeDragon{background:#4c06c5}
 .spnTypeFairy{background:#ef99bd}
+.mini-flags{width:21px;height:14px;display:inline-block;-webkit-box-shadow:0 1px 1px #808080;box-shadow:0 1px 1px #808080}
+.mini-flag-french{background:-o-linear-gradient(left, #00f 33%, #fff 33%, #fff 67%, #f00 67%);background:-ms-linear-gradient(left, #00f 33%, #fff 33%, #fff 67%, #f00 67%);background:-moz-linear-gradient(left, #00f 33%, #fff 33%, #fff 67%, #f00 67%);background:-webkit-linear-gradient(left, #00f 33%, #fff 33%, #fff 67%, #f00 67%);background:linear-gradient(to right, #00f 33%, #fff 33%, #fff 67%, #f00 67%)}
+.mini-flag-german{background:-o-linear-gradient(top, #000 33%, #f00 33%, #f00 67%, #ff0 67%);background:-ms-linear-gradient(top, #000 33%, #f00 33%, #f00 67%, #ff0 67%);background:-moz-linear-gradient(top, #000 33%, #f00 33%, #f00 67%, #ff0 67%);background:-webkit-linear-gradient(top, #000 33%, #f00 33%, #f00 67%, #ff0 67%);background:linear-gradient(to bottom, #000 33%, #f00 33%, #f00 67%, #ff0 67%)}
+.mini-flag-japanese{background:#fff;}
+.mini-flag-japanese:before{content:"";display:block;width:8px;height:8px;background:#f00;-webkit-border-radius:50%;border-radius:50%;margin:auto;position:relative;top:3px}
+.mini-flag-korean{background:#fff;position:relative;}
+.mini-flag-korean .taegeukgi{width:8px;height:8px;-webkit-border-radius:100%;border-radius:100%;background:-o-linear-gradient(225deg, #c60c30 50%, #003478 50%);background:-ms-linear-gradient(225deg, #c60c30 50%, #003478 50%);background:-moz-linear-gradient(225deg, #c60c30 50%, #003478 50%);background:-webkit-linear-gradient(225deg, #c60c30 50%, #003478 50%);background:linear-gradient(-135deg, #c60c30 50%, #003478 50%);position:absolute;top:3px;right:7px;}
+.mini-flag-korean .taegeukgi:before,.mini-flag-korean .taegeukgi:after{width:4px;height:4px;-webkit-border-radius:100%;border-radius:100%;position:absolute;content:""}
+.mini-flag-korean .taegeukgi:before{background:#c60c30;top:2px;left:0}
+.mini-flag-korean .taegeukgi:after{background:#003478;bottom:2px;right:0}
+.mini-flag-korean .trigram{width:1px;height:5px;position:absolute}
+.mini-flag-korean .geon:before,.mini-flag-korean .geon:after,.mini-flag-korean .ri:before,.mini-flag-korean .ri:after,.mini-flag-korean .gam:before,.mini-flag-korean .gam:after,.mini-flag-korean .gon:before,.mini-flag-korean .gon:after{content:"";width:1px;height:5px;position:absolute}
+.mini-flag-korean .geon,.mini-flag-korean .geon:before,.mini-flag-korean .geon:after,.mini-flag-korean .ri:before,.mini-flag-korean .ri:after,.mini-flag-korean .gam{background:#000}
+.mini-flag-korean .ri,.mini-flag-korean .gon,.mini-flag-korean .gon:before,.mini-flag-korean .gon:after,.mini-flag-korean .gam:before,.mini-flag-korean .gam:after{background:-o-linear-gradient(top, #000 0%, #000 50%, #fff 50%, #fff 55%, #000 55%, #000 100%);background:-ms-linear-gradient(top, #000 0%, #000 50%, #fff 50%, #fff 55%, #000 55%, #000 100%);background:-moz-linear-gradient(top, #000 0%, #000 50%, #fff 50%, #fff 55%, #000 55%, #000 100%);background:-webkit-linear-gradient(top, #000 0%, #000 50%, #fff 50%, #fff 55%, #000 55%, #000 100%);background:linear-gradient(to bottom, #000 0%, #000 50%, #fff 50%, #fff 55%, #000 55%, #000 100%)}
+.mini-flag-korean .geon:before,.mini-flag-korean .ri:before,.mini-flag-korean .gam:before,.mini-flag-korean .gon:before{left:1px}
+.mini-flag-korean .geon:after,.mini-flag-korean .ri:after,.mini-flag-korean .gam:after,.mini-flag-korean .gon:after{right:1px}
+.mini-flag-korean .geon,.mini-flag-korean .ri{left:25%}
+.mini-flag-korean .gam,.mini-flag-korean .gon{right:25%}
+.mini-flag-korean .geon,.mini-flag-korean .gam{top:8%}
+.mini-flag-korean .gon,.mini-flag-korean .ri{bottom:8%}
+.mini-flag-korean .ri,.mini-flag-korean .gam{-o-transform:rotate(-30deg);-ms-transform:rotate(-30deg);-moz-transform:rotate(-30deg);-webkit-transform:rotate(-30deg);transform:rotate(-30deg)}
+.mini-flag-korean .geon,.mini-flag-korean .gon{-o-transform:rotate(30deg);-ms-transform:rotate(30deg);-moz-transform:rotate(30deg);-webkit-transform:rotate(30deg);transform:rotate(30deg)}
 body,html{font-family:"Roboto","Noto Sans",Helvetica neue,Helvetica,Arial,Sans-serif;margin:0;padding:0;position:relative}
 div,header,nav,section,footer,article,aside,input,textarea,button,iframe,audio,video,img,embed,table,tr,th,td{margin:0;padding:0}
 header{background:#f00;display:block;position:fixed;top:0;width:100%;z-index:2;-webkit-box-shadow:0 1px 5px #808080;box-shadow:0 1px 5px #808080;}
-header nav{background:#008000;margin:0 auto;padding:10px 0;position:relative;vertical-align:middle;text-align:center;}
-header nav .text{border:0;display:block;font-size:20px;outline:none;padding:8px 0 8px 10px;width:1090px}
-footer{background:#00f;display:block;height:50px}
+header nav{background:#3f51b5;margin:0 auto;padding:10px 0;position:relative;vertical-align:middle;text-align:center;}
+header nav .text{background:#283593;color:#fff;border:0;display:block;font-size:20px;outline:none;padding:8px 0 8px 10px;width:1090px;}
+header nav .text:placeholder{color:#f00}
+footer{background:#00f;display:block;height:80px;position:relative;}
+footer .pokemon-prev,footer .pokemon-next{display:inline-block;height:100%;width:50%;position:absolute;color:#fff;-o-transition:box-shadow 0.5s ease;-ms-transition:box-shadow 0.5s ease;-moz-transition:box-shadow 0.5s ease;-webkit-transition:box-shadow 0.5s ease;transition:box-shadow 0.5s ease;}
+footer .pokemon-prev:hover,footer .pokemon-next:hover{-webkit-box-shadow:0 3px 10px #808080 inset;box-shadow:0 3px 10px #808080 inset}
+footer .pokemon-prev .nav-arrows,footer .pokemon-next .nav-arrows,footer .pokemon-prev div,footer .pokemon-next div,footer .pokemon-prev img,footer .pokemon-next img{display:inline-block;vertical-align:top;margin-top:10px}
+footer .pokemon-prev .nav-arrows,footer .pokemon-next .nav-arrows{margin-left:20px;margin-right:20px;padding-top:12px;}
+footer .pokemon-prev .nav-arrows:before,footer .pokemon-next .nav-arrows:before{margin:0;font-size:2em}
+footer .pokemon-prev img,footer .pokemon-next img{-webkit-border-radius:50%;border-radius:50%;padding:13px}
+footer .pokemon-prev div,footer .pokemon-next div{margin-left:10px;margin-right:10px;}
+footer .pokemon-prev div span,footer .pokemon-next div span{font-size:1.2em}
+footer .pokemon-prev a,footer .pokemon-next a{position:absolute;width:100%;height:100%}
+footer .pokemon-prev{background:#757575;top:0;left:0;text-align:left;}
+footer .pokemon-prev img{background:#bdbdbd}
+footer .pokemon-prev a{top:0;left:0}
+footer .pokemon-next{background:#3f51b5;top:0;right:0;text-align:right;}
+footer .pokemon-next img{background:#9fa8da}
+footer .pokemon-next a{top:0;right:0}
 #secGeneral{background:#e2e2e2;display:block;min-height:500px;padding-top:64px;padding-bottom:1px;}
 #secGeneral #secPrincipal{display:block;margin:0 auto;max-width:1100px;min-height:400px;font-size:30px;}
 #secGeneral #secPrincipal a{text-decoration:none}
@@ -34,7 +72,7 @@ footer{background:#00f;display:block;height:50px}
 #secGeneral #secPrincipal #secFirstLook section{display:inline-block;vertical-align:top;margin-right:-2px;margin-left:0}
 #secGeneral #secPrincipal #secFirstLook #secImage{background:#fff;width:300px;height:300px;position:relative;text-align:center;margin:5px;}
 #secGeneral #secPrincipal #secFirstLook #secImage img{max-width:100%;max-height:100%;position:absolute;margin:auto;top:0;bottom:0;left:0;right:0}
-#secGeneral #secPrincipal #secFirstLook #secStartInfo{display:inline-block;margin-bottom:1px;padding:10px 0 0 0;font-size:.6em;vertical-align:middle;height:290px;}
+#secGeneral #secPrincipal #secFirstLook #secStartInfo{display:inline-block;margin-bottom:1px;padding:10px 0 0 0;font-size:.6em;vertical-align:middle;height:500px;max-height:310px;}
 #secGeneral #secPrincipal #secFirstLook #secStartInfo .blcSpec{cursor:default;display:block;padding:0 0 0 10px;margin-bottom:10px;}
 #secGeneral #secPrincipal #secFirstLook #secStartInfo .blcSpec span{color:#808080;display:block;font-size:.9em}
 #secGeneral #secPrincipal #secOtherSpecifications{display:block;min-height:20px;}
@@ -86,14 +124,14 @@ footer{background:#00f;display:block;height:50px}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .evolution-chain .transition .line-desc{font-size:.7em}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain{display:block;}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .evolution-init,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .mega-evolution-list{display:inline-block;vertical-align:middle;}
-#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .evolution-init .mega-evolution-option,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .mega-evolution-list .mega-evolution-option{display:inline-block;background:#fff;margin:5px 0 0 5px;-webkit-box-shadow:0 1px 5px #808080;box-shadow:0 1px 5px #808080}
-#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .stage-padding,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .transition,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .mega-specifications{display:inline-block;vertical-align:middle}
-#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .stage-padding{background:#fff;width:160px;height:160px;-webkit-border-radius:50%;border-radius:50%;}
+#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .evolution-init .mega-evolution-option,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .mega-evolution-list .mega-evolution-option{display:inline-block;background:#fff;-webkit-box-shadow:0 1px 5px #808080;box-shadow:0 1px 5px #808080;width:250px}
+#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .stage-padding,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .transition,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .mega-specifications{display:block;vertical-align:middle}
+#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .stage-padding{background:#fff;width:160px;height:160px;-webkit-border-radius:50%;border-radius:50%;margin:auto;}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .stage-padding .stage-simple{background:transparent;width:110px;height:110px;position:relative;z-index:1;top:50%;left:50%;margin-right:-50%;-o-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .stage-padding .stage-simple img{max-width:100%;max-height:100%;position:absolute;margin:auto;top:0;bottom:0;left:0;right:0}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .transition .line{background:#808080;display:block}
-#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .mega-specifications{text-align:left;padding-right:20px;}
-#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .mega-specifications div{font-size:.9em;margin-top:10px;}
+#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .mega-specifications{color:#000;margin-bottom:20px;}
+#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .mega-specifications div{font-size:.9em;margin:auto;margin-top:10px;text-align:left;width:100px;}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .mega-specifications div span{font-size:.8em;color:#808080;display:block;position:relative;}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .evolutions .mega-evolution-chain .mega-specifications div span img{position:absolute;top:0;right:100%;margin-top:-5px}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .alternative-forms-header{margin-left:82px;text-align:left;position:relative;padding-left:10px;}
@@ -126,8 +164,8 @@ footer{background:#00f;display:block;height:50px}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .stats .spn-Special-Atk{background:#00ade7}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .stats .spn-Special-Def{background:#1752d1}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .stats .spn-Spd{background:#ce31d9}
-#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .pokedex-regions{display:inline-block;vertical-align:top;width:150px;font-size:.9em;}
-#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .pokedex-regions span{background:#00f;-webkit-border-radius:50%;border-radius:50%;color:#fff;font-size:30px;width:100px;height:100px;display:block;line-height:100px;margin:0 auto;margin-bottom:5px}
+#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .pokedex-regions{display:inline-block;vertical-align:top;width:150px;font-size:.9em;margin-bottom:10px;}
+#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .pokedex-regions span{background:#1976d2;-webkit-border-radius:50%;border-radius:50%;color:#fff;font-size:30px;width:100px;height:100px;display:block;line-height:100px;margin:0 auto;margin-bottom:5px}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .flags{display:inline-block;font-size:.9em;width:120px;height:130px;text-align:center;padding:0 30px;position:relative;vertical-align:top;}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .flags div{display:block;height:70px}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .flags .flag-portrait{-webkit-box-shadow:0 1px 5px #000;box-shadow:0 1px 5px #000;margin-bottom:5px}
@@ -179,7 +217,7 @@ footer{background:#00f;display:block;height:50px}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .male-circle:after,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .male-circle:after,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .female-circle:after,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .female-circle:after{content:"";width:130px;height:130px;background:transparent;display:block;-webkit-border-radius:50%;border-radius:50%;position:absolute;top:10px;left:10px}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .male-circle span,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .male-circle span,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .female-circle span,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .female-circle span{position:absolute;top:10px;left:10px;width:130px;height:130px;z-index:1;background:#fff;-webkit-border-radius:50%;border-radius:50%;font-size:2.3em;line-height:130px}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .male-circle .slice,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .male-circle .slice,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .female-circle .slice,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .female-circle .slice,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .male-circle .slice-max,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .male-circle .slice-max,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .female-circle .slice-max,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .female-circle .slice-max{width:150px;height:150px;position:absolute;}
-#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .male-circle .slice .bar,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .male-circle .slice .bar,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .female-circle .slice .bar,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .female-circle .slice .bar,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .male-circle .slice-max .bar,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .male-circle .slice-max .bar,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .female-circle .slice-max .bar,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .female-circle .slice-max .bar{position:absolute;width:130px;height:130px;-webkit-border-radius:50%;border-radius:50%;clip:rect(0,75px,150px,0)}
+#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .male-circle .slice .bar,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .male-circle .slice .bar,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .female-circle .slice .bar,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .female-circle .slice .bar,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .male-circle .slice-max .bar,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .male-circle .slice-max .bar,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .female-circle .slice-max .bar,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .female-circle .slice-max .bar{position:absolute;width:130px;height:130px;-webkit-border-radius:50%;border-radius:50%;clip:rect(0,75px,150px,0);}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .male-circle .slice .fill,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .male-circle .slice .fill,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .female-circle .slice .fill,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .female-circle .slice .fill,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .male-circle .slice-max .fill,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .male-circle .slice-max .fill,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .female-circle .slice-max .fill,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .female-circle .slice-max .fill{position:absolute;width:130px;height:130px;-webkit-border-radius:50%;border-radius:50%;clip:rect(0,75px,150px,0);-o-transform:rotate(180deg);-ms-transform:rotate(180deg);-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);transform:rotate(180deg)}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .male-circle .slice,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .male-circle .slice,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .female-circle .slice,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .female-circle .slice{clip:rect(0,150px,150px,75px)}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .male-percentage .male-circle span,#secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .female-percentage .male-circle span{color:#1565c0}
@@ -205,6 +243,49 @@ footer{background:#00f;display:block;height:50px}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .bar-stats ul li .bar-special-defense > .bar-fill{background:#1752d1}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .bar-stats ul li .bar-speed{color:#ce31d9;}
 #secGeneral #secPrincipal #secOtherSpecifications .secSecond .thirdContent .bar-stats ul li .bar-speed > .bar-fill{background:#ce31d9}
+#secGeneral #secPrincipal #sec-list-general{font-size:.6em;}
+#secGeneral #secPrincipal #sec-list-general section{width:100%;}
+#secGeneral #secPrincipal #sec-list-general section ul{padding:0;}
+#secGeneral #secPrincipal #sec-list-general section ul li{background:#fff;margin:0;margin-top:6px;margin-bottom:6px;padding-top:10px;display:block;-webkit-box-shadow:0 1px 5px #808080;box-shadow:0 1px 5px #808080;list-style-type:none;}
+#secGeneral #secPrincipal #sec-list-general section ul li article{display:inline-block;padding-left:10px;vertical-align:top;}
+#secGeneral #secPrincipal #sec-list-general section ul li article span{color:#808080;font-size:.8em;display:block}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-name-content{width:130px;height:50px}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-type-content{font-size:.9em;width:210px}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-evs-content{font-size:.9em;}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-evs-content div{background:#f0f0f0;display:inline-block;vertical-align:middle;color:#fff;width:70px;position:relative;padding-left:5px;font-weight:600;}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-evs-content div span{color:#fff;display:inline-block;position:absolute;top:0;right:0;height:100%;padding:0 5px;font-size:inherit}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-evs-content .evs-hp{border:2px solid #0bd20b;color:#0bd20b;}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-evs-content .evs-hp span{background:#0bd20b}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-evs-content .evs-atk{border:2px solid #fdc017;color:#fdc017;}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-evs-content .evs-atk span{background:#fdc017}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-evs-content .evs-def{border:2px solid #f18a0d;color:#f18a0d;}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-evs-content .evs-def span{background:#f18a0d}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-evs-content .evs-sp-atk{border:2px solid #00ade7;color:#00ade7;}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-evs-content .evs-sp-atk span{background:#00ade7}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-evs-content .evs-sp-def{border:2px solid #1752d1;color:#1752d1;}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-evs-content .evs-sp-def span{background:#1752d1}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-evs-content .evs-spd{border:2px solid #ce31d9;color:#ce31d9;}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-evs-content .evs-spd span{background:#ce31d9}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-stats-content div{display:inline-block;text-align:right;width:32px;font-size:.9em;font-weight:600;padding:5px 5px 0 5px}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-stats-content .stats-hp{border-bottom:4px solid #0bd20b;color:#0bd20b}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-stats-content .stats-atk{border-bottom:4px solid #fdc017;color:#fdc017}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-stats-content .stats-def{border-bottom:4px solid #f18a0d;color:#f18a0d}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-stats-content .stats-sp-atk{border-bottom:4px solid #00ade7;color:#00ade7}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-stats-content .stats-sp-def{border-bottom:4px solid #1752d1;color:#1752d1}
+#secGeneral #secPrincipal #sec-list-general section ul li .list-stats-content .stats-spd{border-bottom:4px solid #ce31d9;color:#ce31d9}
+#secGeneral #secPrincipal #sec-list-general .advanced-search{background:#78909c;color:#fff;text-align:center;}
+#secGeneral #secPrincipal #sec-list-general .advanced-search .advanced-search-title{padding-top:1em;font-weight:normal}
+#secGeneral #secPrincipal #sec-list-general .advanced-search input[type=text]{border:0;padding:.5em 0 .5em .5em;width:100%;max-width:50%;font-size:inherit}
+#secGeneral #secPrincipal #sec-list-general .advanced-search .select-type{position:relative;display:inline-block;}
+#secGeneral #secPrincipal #sec-list-general .advanced-search .select-type .select-type-select{font-size:inherit;border:0;margin:0;padding:.5em;padding-right:3.5em;-moz-appearance:none;-webkit-appearance:none;appearance:none;-webkit-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0}
+#secGeneral #secPrincipal #sec-list-general .advanced-search .select-type:before,#secGeneral #secPrincipal #sec-list-general .advanced-search .select-type:after{content:"";position:absolute;pointer-events:none}
+#secGeneral #secPrincipal #sec-list-general .advanced-search .select-type:after{content:"\25BC";height:1em;line-height:1;right:.6em;top:50%;margin-top:-.5em}
+#secGeneral #secPrincipal #sec-list-general .advanced-search .select-type:before{width:2em;right:0;top:0;bottom:0;-webkit-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0;background:#e2e2e2}
+#secGeneral #secPrincipal #sec-list-general .advanced-search .checkbox-option{display:block;margin:auto;margin-top:.8em;position:relative;text-align:left;width:100%;max-width:70%;}
+#secGeneral #secPrincipal #sec-list-general .advanced-search .checkbox-option label{border:2px solid #fff;display:inline-block;position:relative;width:1.2em;height:1.2em;vertical-align:middle;}
+#secGeneral #secPrincipal #sec-list-general .advanced-search .checkbox-option label:before{content:"";position:absolute;width:.2em;height:.5em;top:.2em;left:.4em;-o-transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg);border-bottom:3px solid #fff;border-right:3px solid #fff;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
+#secGeneral #secPrincipal #sec-list-general .advanced-search .checkbox-option input{position:absolute;visibility:hidden;top:0;}
+#secGeneral #secPrincipal #sec-list-general .advanced-search .checkbox-option input:checked + label:before{opacity:1;-ms-filter:none;filter:none}
 .container{margin:0 auto;max-width:750px;text-align:center}
 .tt-dropdown-menu,.gist{text-align:left}
 .title,.example-name{font-family:Prociono}
@@ -231,24 +312,31 @@ p{margin:0 0 10px}
 .example-sports .league-name{border-bottom:1px solid #ccc;margin:0 20px 5px;padding:3px 0}
 .example-arabic .tt-dropdown-menu{text-align:right}
 @media screen and (max-width: 1024px){header nav .text{width:1000px}
+#secOtherSpecifications{padding-left:6px;padding-right:6px}
 }@media screen and (max-width: 960px){header nav .text{width:740px}
 }@media screen and (max-width: 800px){header nav .text{width:740px}
 .alternative-forms-header{margin-bottom:20px}
 }@media screen and (max-width: 768px){header nav .text{width:740px}
 .evolutions .evolution-chain .transition{max-width:150px}
+.alternative-forms-header{margin-bottom:60px}
 }@media screen and (max-width: 640px){header nav .text{width:548px}
 #secImage{max-width:200px;max-height:200px}
 #secStartInfo{max-height:192px}
 .ability-general{padding-left:8px;padding-right:8px}
+#sec-list-general .advanced-search .checkbox-option{max-width:85% !important}
 }@media screen and (max-width: 600px){header nav .text{width:548px}
 }@media screen and (max-width: 568px){header nav .text{width:548px}
 .evolutions .evolution-chain .transition{max-width:100px}
-.stats span{max-width:70px;max-height:70px}
+#sec-list-general section ul li{padding-bottom:10px;}
+#sec-list-general section ul li article span{display:inline-block !important}
+#sec-list-general section ul li .list-name-content{width:320px !important;height:initial !important;padding-bottom:8px}
 }@media screen and (max-width: 533px){header nav .text{width:460px}
 #secImage{max-width:210px;max-height:210px}
+footer .pokemon-prev div{display:none;visibility:hidden}
+footer .pokemon-next{width:70%}
 }@media screen and (max-width: 480px){header nav .text{width:460px}
-.stats{max-width:150px;min-height:150px}
 .evolutions .evolution-chain .transition{max-width:90px}
+footer .pokemon-next{width:65%}
 }@media screen and (max-width: 414px){header nav .text{width:300px}
 #secFirstLook{text-align:center;}
 #secFirstLook #secImage{max-width:100%;max-height:100%}
@@ -259,7 +347,25 @@ p{margin:0 0 10px}
 .evolutions .evolution-chain .transition .line,.evolutions .evolution-chain .transition .line-passed{margin-top:0 !important;-o-transform:rotate(90deg);-ms-transform:rotate(90deg);-moz-transform:rotate(90deg);-webkit-transform:rotate(90deg);transform:rotate(90deg);top:30%;position:relative;}
 .evolutions .evolution-chain .transition .line span,.evolutions .evolution-chain .transition .line-passed span,.evolutions .evolution-chain .transition .line img,.evolutions .evolution-chain .transition .line-passed img,.evolutions .evolution-chain .transition .line .pokemon,.evolutions .evolution-chain .transition .line-passed .pokemon{-o-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
 .evolutions .evolution-chain .transition .line-desc{position:absolute;top:30%;text-align:left;left:100%;width:120px;font-size:.8em !important}
+.alternative-forms-header{margin-left:62px !important;margin-bottom:50px;}
+.alternative-forms-header img{padding:10px !important}
+.stats{font-size:.8em !important;max-width:90px;max-height:100px;}
+.stats span{max-width:50px;max-height:50px;}
+.stats span:before{font-size:26px !important;padding-top:12px !important}
+.pokedex-regions{max-width:90px;}
+.pokedex-regions span{font-size:18px !important;max-width:50px;max-height:50px;line-height:50px !important}
+#sec-list-general section{width:initial !important;}
+#sec-list-general section ul li .list-type-content{width:94% !important;padding-bottom:8px}
+#sec-list-general .advanced-search{text-align:left !important;padding-left:10px;}
+#sec-list-general .advanced-search input[type=text]{max-width:93% !important;margin-bottom:.8em}
+#sec-list-general .advanced-search .checkbox-option{max-width:96% !important;margin-left:initial !important}
+footer .pokemon-prev img{display:none;visibility:hidden}
+footer .pokemon-next{width:80%}
 }@media screen and (max-width: 384px){header nav .text{width:300px}
+.flags{padding:0 20px !important}
+footer .pokemon-prev .nav-arrows,footer .pokemon-next .nav-arrows{margin-left:10px;margin-right:10px}
 }@media screen and (max-width: 360px){header nav .text{width:300px}
+#sec-list-general section ul li .list-name-content{width:230px !important}
 }@media screen and (max-width: 320px){header nav .text{width:300px}
+.flags{padding:0 10px !important}
 }

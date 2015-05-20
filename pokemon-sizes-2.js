@@ -5,22 +5,28 @@ var sizes = [
 
 {id: 001,	dimensiones:	[{altura: ["2′4″", 0.71],	peso: [15.2, 6.9],},],},
 {id: 002,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [28.7, 13.0],},],},
-{id: 003,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [220.5, 100.0],},],},
+{id: 003,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [220.5, 100.0],},],
+		megaDimensiones:	[{altura: ["7′6″", 2.29],	peso: [342.8, 155.5], descripcion: "Mega Venusaur", cod: '003-m'},],},
 {id: 004,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [18.7, 8.5],},],},
 {id: 005,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [41.9, 19.0],},],},
-{id: 006,	dimensiones:	[{altura: ["5′7″", 1.70],	peso: [199.5, 90.5],},],},
+{id: 006,	dimensiones:	[{altura: ["5′7″", 1.70],	peso: [199.5, 90.5],},],
+		megaDimensiones:	[{altura: ["5′7″", 1.70],	peso: [243.6, 110.5], descripcion: "Mega Charizard X", cod: '006-mx'},
+							 {altura: ["5′7″", 1.70],	peso: [221.6, 100.5], descripcion: "Mega Charizard Y", cod: '006-my'},],},
 {id: 007,	dimensiones:	[{altura: ["1′8″", 0.51],	peso: [19.8, 9.0],},],},
 {id: 008,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [49.6, 22.5],},],},
-{id: 009,	dimensiones:	[{altura: ["5′3″", 1.60],	peso: [188.5, 85.5],},],},
+{id: 009,	dimensiones:	[{altura: ["5′3″", 1.60],	peso: [188.5, 85.5],},],
+		megaDimensiones:	[{altura: ["5′3″", 1.60],	peso: [222.9, 101.1], descripcion: "Mega Blastoise", cod: '009-m'},],},
 {id: 010,	dimensiones:	[{altura: ["1′0″", 0.30],	peso: [6.4, 2.9],},],},
 {id: 011,	dimensiones:	[{altura: ["2′4″", 0.71],	peso: [21.8, 9.9],},],},
 {id: 012,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [70.5, 32.0],},],},
 {id: 013,	dimensiones:	[{altura: ["1′0″", 0.30],	peso: [7.1, 3.2],},],},
 {id: 014,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [22, 10.0],},],},
-{id: 015,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [65, 29.5],},],},
+{id: 015,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [65, 29.5],},],
+		megaDimensiones:	[{altura: ["4′7″", 1.40],	peso: [89.3, 40.5], descripcion: "Mega Beedrill", cod: '015-m'},],},
 {id: 016,	dimensiones:	[{altura: ["1′0″", 0.30],	peso: [4, 1.8],},],},
 {id: 017,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [66.1, 30.0],},],},
-{id: 018,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [87.1, 39.5],},],},
+{id: 018,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [87.1, 39.5],},],
+		megaDimensiones:	[{altura: ["7′3″", 2.21],	peso: [111.3, 50.5], descripcion: "Mega Pidgeot", cod: '018-m'},],},
 {id: 019,	dimensiones:	[{altura: ["1′0″", 0.30],	peso: [7.7, 3.5],},],},
 {id: 020,	dimensiones:	[{altura: ["2′4″", 0.71],	peso: [40.8, 18.5],},],},
 {id: 021,	dimensiones:	[{altura: ["1′0″", 0.30],	peso: [4.4, 2.0],},],},
@@ -67,7 +73,8 @@ var sizes = [
 {id: 062,	dimensiones:	[{altura: ["4′3″", 1.30],	peso: [119, 54.0],},],},
 {id: 063,	dimensiones:	[{altura: ["2′11″", 0.89],	peso: [43, 19.5],},],},
 {id: 064,	dimensiones:	[{altura: ["4′3″", 1.30],	peso: [124.6, 56.5],},],},
-{id: 065,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [105.8, 48.0],},],},
+{id: 065,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [105.8, 48.0],},],
+		megaDimensiones:	[{altura: ["3′11″", 1.19],	peso: [105.8, 48.0], descripcion: "Mega Alakazam", cod: '065-m'},],},
 {id: 066,	dimensiones:	[{altura: ["2′7″", 0.79],	peso: [43, 19.5],},],},
 {id: 067,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [155.4, 70.5],},],},
 {id: 068,	dimensiones:	[{altura: ["5′3″", 1.60],	peso: [286.6, 130.0],},],},
@@ -82,7 +89,8 @@ var sizes = [
 {id: 077,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [66.1, 30.0],},],},
 {id: 078,	dimensiones:	[{altura: ["5′7″", 1.70],	peso: [209.4, 95.0],},],},
 {id: 079,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [79.4, 36.0],},],},
-{id: 080,	dimensiones:	[{altura: ["5′3″", 1.60],	peso: [173.1, 78.5],},],},
+{id: 080,	dimensiones:	[{altura: ["5′3″", 1.60],	peso: [173.1, 78.5],},],
+		megaDimensiones:	[{altura: ["6′7″", 2.01],	peso: [264.6, 120.0], descripcion: "Mega Slowbro", cod: '080-m'},],},
 {id: 081,	dimensiones:	[{altura: ["1′0″", 0.30],	peso: [13.2, 6.0],},],},
 {id: 082,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [132.3, 60.0],},],},
 {id: 083,	dimensiones:	[{altura: ["2′7″", 0.79],	peso: [33.1, 15.0],},],},
@@ -96,7 +104,8 @@ var sizes = [
 {id: 091,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [292.1, 132.5],},],},
 {id: 092,	dimensiones:	[{altura: ["4′3″", 1.30],	peso: [0.2, 0.1],},],},
 {id: 093,	dimensiones:	[{altura: ["5′3″", 1.60],	peso: [0.2, 0.1],},],},
-{id: 094,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [89.3, 40.5],},],},
+{id: 094,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [89.3, 40.5],},],
+		megaDimensiones:	[{altura: ["4′7″", 1.40],	peso: [89.3, 40.5], descripcion: "Mega Gengar", cod: '094-m'},],},
 {id: 095,	dimensiones:	[{altura: ["28′10″", 8.79],	peso: [463, 210.0],},],},
 {id: 096,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [71.4, 32.4],},],},
 {id: 097,	dimensiones:	[{altura: ["5′3″", 1.60],	peso: [166.7, 75.6],},],},
@@ -117,7 +126,8 @@ var sizes = [
 {id: 112,	dimensiones:	[{altura: ["6′3″", 1.91],	peso: [264.6, 120.0],},],},
 {id: 113,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [76.3, 34.6],},],},
 {id: 114,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [77.2, 35.0],},],},
-{id: 115,	dimensiones:	[{altura: ["7′3″", 2.21],	peso: [176.4, 80.0],},],},
+{id: 115,	dimensiones:	[{altura: ["7′3″", 2.21],	peso: [176.4, 80.0],},],
+		megaDimensiones:	[{altura: ["7′3″", 2.21],	peso: [220.5, 100.0], descripcion: "Mega Kangaskhan", cod: '115-m'},],},
 {id: 116,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [17.6, 8.0],},],},
 {id: 117,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [55.1, 25.0],},],},
 {id: 118,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [33.1, 15.0],},],},
@@ -129,10 +139,12 @@ var sizes = [
 {id: 124,	dimensiones:	[{altura: ["4′7″", 1.40],	peso: [89.5, 40.6],},],},
 {id: 125,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [66.1, 30.0],},],},
 {id: 126,	dimensiones:	[{altura: ["4′3″", 1.30],	peso: [98.1, 44.5],},],},
-{id: 127,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [121.3, 55.0],},],},
+{id: 127,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [121.3, 55.0],},],
+		megaDimensiones:	[{altura: ["5′7″", 1.70],	peso: [130.1, 59.0], descripcion: "Mega Pinsir", cod: '127-m'},],},
 {id: 128,	dimensiones:	[{altura: ["4′7″", 1.40],	peso: [194.9, 88.4],},],},
 {id: 129,	dimensiones:	[{altura: ["2′11″", 0.89],	peso: [22, 10.0],},],},
-{id: 130,	dimensiones:	[{altura: ["21′4″", 6.50],	peso: [518.1, 235.0],},],},
+{id: 130,	dimensiones:	[{altura: ["21′4″", 6.50],	peso: [518.1, 235.0],},],
+		megaDimensiones:	[{altura: ["21′4″", 6.50],	peso: [672.4, 305.0], descripcion: "Mega Gyarados", cod: '130-m'},],},
 {id: 131,	dimensiones:	[{altura: ["8′2″", 2.49],	peso: [485, 220.0],},],},
 {id: 132,	dimensiones:	[{altura: ["1′0″", 0.30],	peso: [8.8, 4.0],},],},
 {id: 133,	dimensiones:	[{altura: ["1′0″", 0.30],	peso: [14.3, 6.5],},],},
@@ -144,7 +156,8 @@ var sizes = [
 {id: 139,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [77.2, 35.0],},],},
 {id: 140,	dimensiones:	[{altura: ["1′8″", 0.51],	peso: [25.4, 11.5],},],},
 {id: 141,	dimensiones:	[{altura: ["4′3″", 1.30],	peso: [89.3, 40.5],},],},
-{id: 142,	dimensiones:	[{altura: ["5′11″", 1.80],	peso: [130.1, 59.0],},],},
+{id: 142,	dimensiones:	[{altura: ["5′11″", 1.80],	peso: [130.1, 59.0],},],
+		megaDimensiones:	[{altura: ["6′11″", 2.11],	peso: [174.2, 79.0], descripcion: "Mega Aerodactyl", cod: '142-m'},],},
 {id: 143,	dimensiones:	[{altura: ["6′11″", 2.11],	peso: [1014.1, 460.0],},],},
 {id: 144,	dimensiones:	[{altura: ["5′7″", 1.70],	peso: [122.1, 55.4],},],},
 {id: 145,	dimensiones:	[{altura: ["5′3″", 1.60],	peso: [116, 52.6],},],},
@@ -152,7 +165,9 @@ var sizes = [
 {id: 147,	dimensiones:	[{altura: ["5′11″", 1.80],	peso: [7.3, 3.3],},],},
 {id: 148,	dimensiones:	[{altura: ["13′1″", 3.99],	peso: [36.4, 16.5],},],},
 {id: 149,	dimensiones:	[{altura: ["7′3″", 2.21],	peso: [463, 210.0],},],},
-{id: 150,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [269, 122.0],},],},
+{id: 150,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [269, 122.0],},],
+		megaDimensiones:	[{altura: ["7′7″", 2.31],	peso: [280, 127.0], descripcion: "Mega Mewtwo X", cod: '150-mx'},
+							 {altura: ["4′11″", 1.50],	peso: [72.8, 33.0], descripcion: "Mega Mewtwo Y", cod: '150-my'},],},
 {id: 151,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [8.8, 4.0],},],},
 {id: 152,	dimensiones:	[{altura: ["2′11″", 0.89],	peso: [14.1, 6.4],},],},
 {id: 153,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [34.8, 15.8],},],},
@@ -183,7 +198,8 @@ var sizes = [
 {id: 178,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [33.1, 15.0],},],},
 {id: 179,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [17.2, 7.8],},],},
 {id: 180,	dimensiones:	[{altura: ["2′7″", 0.79],	peso: [29.3, 13.3],},],},
-{id: 181,	dimensiones:	[{altura: ["4′7″", 1.40],	peso: [135.6, 61.5],},],},
+{id: 181,	dimensiones:	[{altura: ["4′7″", 1.40],	peso: [135.6, 61.5],},],
+		megaDimensiones:	[{altura: ["4′7″", 1.40],	peso: [135.6, 61.5], descripcion: "Mega Ampharos", cod: '181-m'},],},
 {id: 182,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [12.8, 5.8],},],},
 {id: 183,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [18.7, 8.5],},],},
 {id: 184,	dimensiones:	[{altura: ["2′7″", 0.79],	peso: [62.8, 28.5],},],},
@@ -210,13 +226,16 @@ var sizes = [
 {id: 205,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [277.3, 125.8],},],},
 {id: 206,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [30.9, 14.0],},],},
 {id: 207,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [142.9, 64.8],},],},
-{id: 208,	dimensiones:	[{altura: ["30′2″", 9.19],	peso: [881.8, 400.0],},],},
+{id: 208,	dimensiones:	[{altura: ["30′2″", 9.19],	peso: [881.8, 400.0],},],
+		megaDimensiones:	[{altura: ["34′5″", 10.49],	peso: [1631.4, 740.0], descripcion: "Mega Steelix", cod: '208-m'},],},
 {id: 209,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [17.2, 7.8],},],},
 {id: 210,	dimensiones:	[{altura: ["4′7″", 1.40],	peso: [107.4, 48.7],},],},
 {id: 211,	dimensiones:	[{altura: ["1′8″", 0.51],	peso: [8.6, 3.9],},],},
-{id: 212,	dimensiones:	[{altura: ["5′11″", 1.80],	peso: [260.1, 118.0],},],},
+{id: 212,	dimensiones:	[{altura: ["5′11″", 1.80],	peso: [260.1, 118.0],},],
+		megaDimensiones:	[{altura: ["6′7″", 2.01],	peso: [275.6, 125.0], descripcion: "Mega Scizor", cod: '212-m'},],},
 {id: 213,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [45.2, 20.5],},],},
-{id: 214,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [119, 54.0],},],},
+{id: 214,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [119, 54.0],},],
+		megaDimensiones:	[{altura: ["5′7″", 1.70],	peso: [137.8, 62.5], descripcion: "Mega Heracross", cod: '214-m'},],},
 {id: 215,	dimensiones:	[{altura: ["2′11″", 0.89],	peso: [61.7, 28.0],},],},
 {id: 216,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [19.4, 8.8],},],},
 {id: 217,	dimensiones:	[{altura: ["5′11″", 1.80],	peso: [277.3, 125.8],},],},
@@ -231,7 +250,8 @@ var sizes = [
 {id: 226,	dimensiones:	[{altura: ["6′11″", 2.11],	peso: [485, 220.0],},],},
 {id: 227,	dimensiones:	[{altura: ["5′7″", 1.70],	peso: [111.3, 50.5],},],},
 {id: 228,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [23.8, 10.8],},],},
-{id: 229,	dimensiones:	[{altura: ["4′7″", 1.40],	peso: [77.2, 35.0],},],},
+{id: 229,	dimensiones:	[{altura: ["4′7″", 1.40],	peso: [77.2, 35.0],},],
+		megaDimensiones:	[{altura: ["6′3″", 1.91],	peso: [109.1, 49.5], descripcion: "Mega Houndoom", cod: '229-m'},],},
 {id: 230,	dimensiones:	[{altura: ["5′11″", 1.80],	peso: [335.1, 152.0],},],},
 {id: 231,	dimensiones:	[{altura: ["1′8″", 0.51],	peso: [73.9, 33.5],},],},
 {id: 232,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [264.6, 120.0],},],},
@@ -250,19 +270,23 @@ var sizes = [
 {id: 245,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [412.3, 187.0],},],},
 {id: 246,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [158.7, 72.0],},],},
 {id: 247,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [335.1, 152.0],},],},
-{id: 248,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [445.3, 202.0],},],},
+{id: 248,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [445.3, 202.0],},],
+		megaDimensiones:	[{altura: ["8′2″", 2.49],	peso: [562.2, 255.0], descripcion: "Mega Tyranitar", cod: '248-m'},],},
 {id: 249,	dimensiones:	[{altura: ["17′1″", 5.21],	peso: [476.2, 216.0],},],},
 {id: 250,	dimensiones:	[{altura: ["12′6″", 3.81],	peso: [438.7, 199.0],},],},
 {id: 251,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [11, 5.0],},],},
 {id: 252,	dimensiones:	[{altura: ["1′8″", 0.51],	peso: [11, 5.0],},],},
 {id: 253,	dimensiones:	[{altura: ["2′11″", 0.89],	peso: [47.6, 21.6],},],},
-{id: 254,	dimensiones:	[{altura: ["5′7″", 1.70],	peso: [115.1, 52.2],},],},
+{id: 254,	dimensiones:	[{altura: ["5′7″", 1.70],	peso: [115.1, 52.2],},],
+		megaDimensiones:	[{altura: ["6′3″", 1.91],	peso: [121.7, 55.2], descripcion: "Mega Sceptile", cod: '254-m'},],},
 {id: 255,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [5.5, 2.5],},],},
 {id: 256,	dimensiones:	[{altura: ["2′11″", 0.89],	peso: [43, 19.5],},],},
-{id: 257,	dimensiones:	[{altura: ["6′3″", 1.91],	peso: [114.6, 52.0],},],},
+{id: 257,	dimensiones:	[{altura: ["6′3″", 1.91],	peso: [114.6, 52.0],},],
+		megaDimensiones:	[{altura: ["6′3″", 1.91],	peso: [114.6, 52.0], descripcion: "Mega Blaziken", cod: '257-m'},],},
 {id: 258,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [16.8, 7.6],},],},
 {id: 259,	dimensiones:	[{altura: ["2′4″", 0.71],	peso: [61.7, 28.0],},],},
-{id: 260,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [180.6, 81.9],},],},
+{id: 260,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [180.6, 81.9],},],
+		megaDimensiones:	[{altura: ["6′3″", 1.91],	peso: [224.9, 102.0], descripcion: "Mega Swampert", cod: '260-m'},],},
 {id: 261,	dimensiones:	[{altura: ["1′8″", 0.51],	peso: [30, 13.6],},],},
 {id: 262,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [81.6, 37.0],},],},
 {id: 263,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [38.6, 17.5],},],},
@@ -284,7 +308,8 @@ var sizes = [
 {id: 279,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [61.7, 28.0],},],},
 {id: 280,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [14.6, 6.6],},],},
 {id: 281,	dimensiones:	[{altura: ["2′7″", 0.79],	peso: [44.5, 20.2],},],},
-{id: 282,	dimensiones:	[{altura: ["5′3″", 1.60],	peso: [106.7, 48.4],},],},
+{id: 282,	dimensiones:	[{altura: ["5′3″", 1.60],	peso: [106.7, 48.4],},],
+		megaDimensiones:	[{altura: ["5′3″", 1.60],	peso: [106.7, 48.4], descripcion: "Mega Gardevoir", cod: '282-m'},],},
 {id: 283,	dimensiones:	[{altura: ["1′8″", 0.51],	peso: [3.7, 1.7],},],},
 {id: 284,	dimensiones:	[{altura: ["2′7″", 0.79],	peso: [7.9, 3.6],},],},
 {id: 285,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [9.9, 4.5],},],},
@@ -304,15 +329,20 @@ var sizes = [
 {id: 299,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [213.8, 97.0],},],},
 {id: 300,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [24.3, 11.0],},],},
 {id: 301,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [71.9, 32.6],},],},
-{id: 302,	dimensiones:	[{altura: ["1′8″", 0.51],	peso: [24.3, 11.0],},],},
-{id: 303,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [25.4, 11.5],},],},
+{id: 302,	dimensiones:	[{altura: ["1′8″", 0.51],	peso: [24.3, 11.0],},],
+		megaDimensiones:	[{altura: ["1′8″", 0.51],	peso: [354.9, 161.0], descripcion: "Mega Sableye", cod: '302-m'},],},
+{id: 303,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [25.4, 11.5],},],
+		megaDimensiones:	[{altura: ["3′3″", 0.99],	peso: [51.8, 23.5], descripcion: "Mega Mawile", cod: '303-m'},],},
 {id: 304,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [132.3, 60.0],},],},
 {id: 305,	dimensiones:	[{altura: ["2′11″", 0.89],	peso: [264.6, 120.0],},],},
-{id: 306,	dimensiones:	[{altura: ["6′11″", 2.11],	peso: [793.7, 360.0],},],},
+{id: 306,	dimensiones:	[{altura: ["6′11″", 2.11],	peso: [793.7, 360.0],},],
+		megaDimensiones:	[{altura: ["7′3″", 2.21],	peso: [870.8, 395.0], descripcion: "Mega Aggron", cod: '306-m'},],},
 {id: 307,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [24.7, 11.2],},],},
-{id: 308,	dimensiones:	[{altura: ["4′3″", 1.30],	peso: [69.4, 31.5],},],},
+{id: 308,	dimensiones:	[{altura: ["4′3″", 1.30],	peso: [69.4, 31.5],},],
+		megaDimensiones:	[{altura: ["4′3″", 1.30],	peso: [69.4, 31.5], descripcion: "Mega Medicham", cod: '308-m'},],},
 {id: 309,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [33.5, 15.2],},],},
-{id: 310,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [88.6, 40.2],},],},
+{id: 310,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [88.6, 40.2],},],
+		megaDimensiones:	[{altura: ["5′11″", 1.80],	peso: [97, 44.0], descripcion: "Mega Manectric", cod: '310-m'},],},
 {id: 311,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [9.3, 4.2],},],},
 {id: 312,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [9.3, 4.2],},],},
 {id: 313,	dimensiones:	[{altura: ["2′4″", 0.71],	peso: [39, 17.7],},],},
@@ -321,11 +351,13 @@ var sizes = [
 {id: 316,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [22.7, 10.3],},],},
 {id: 317,	dimensiones:	[{altura: ["5′7″", 1.70],	peso: [176.4, 80.0],},],},
 {id: 318,	dimensiones:	[{altura: ["2′7″", 0.79],	peso: [45.9, 20.8],},],},
-{id: 319,	dimensiones:	[{altura: ["5′11″", 1.80],	peso: [195.8, 88.8],},],},
+{id: 319,	dimensiones:	[{altura: ["5′11″", 1.80],	peso: [195.8, 88.8],},],
+		megaDimensiones:	[{altura: ["8′2″", 2.49],	peso: [287.3, 130.3], descripcion: "Mega Sharpedo", cod: '319-m'},],},
 {id: 320,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [286.6, 130.0],},],},
 {id: 321,	dimensiones:	[{altura: ["47′7″", 14.50],	peso: [877.4, 398.0],},],},
 {id: 322,	dimensiones:	[{altura: ["2′4″", 0.71],	peso: [52.9, 24.0],},],},
-{id: 323,	dimensiones:	[{altura: ["6′3″", 1.91],	peso: [485, 220.0],},],},
+{id: 323,	dimensiones:	[{altura: ["6′3″", 1.91],	peso: [485, 220.0],},],
+		megaDimensiones:	[{altura: ["8′2″", 2.49],	peso: [706.6, 320.5], descripcion: "Mega Camerupt", cod: '323-m'},],},
 {id: 324,	dimensiones:	[{altura: ["1′8″", 0.51],	peso: [177.3, 80.4],},],},
 {id: 325,	dimensiones:	[{altura: ["2′4″", 0.71],	peso: [67.5, 30.6],},],},
 {id: 326,	dimensiones:	[{altura: ["2′11″", 0.89],	peso: [157.6, 71.5],},],},
@@ -336,7 +368,8 @@ var sizes = [
 {id: 331,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [113.1, 51.3],},],},
 {id: 332,	dimensiones:	[{altura: ["4′3″", 1.30],	peso: [170.6, 77.4],},],},
 {id: 333,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [2.6, 1.2],},],},
-{id: 334,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [45.4, 20.6],},],},
+{id: 334,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [45.4, 20.6],},],
+		megaDimensiones:	[{altura: ["4′11″", 1.50],	peso: [45.4, 20.6], descripcion: "Mega Altaria", cod: '334-m'},],},
 {id: 335,	dimensiones:	[{altura: ["4′3″", 1.30],	peso: [88.8, 40.3],},],},
 {id: 336,	dimensiones:	[{altura: ["8′10″", 2.69],	peso: [115.7, 52.5],},],},
 {id: 337,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [370.4, 168.0],},],},
@@ -356,15 +389,18 @@ var sizes = [
 {id: 351,	dimensiones:	[{altura: ["1′0″", 0.30],	peso: [1.8, 0.8],},],},
 {id: 352,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [48.5, 22.0],},],},
 {id: 353,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [5.1, 2.3],},],},
-{id: 354,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [27.6, 12.5],},],},
+{id: 354,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [27.6, 12.5],},],
+		megaDimensiones:	[{altura: ["3′11″", 1.19],	peso: [28.7, 13.0], descripcion: "Mega Banette", cod: '354-m'},],},
 {id: 355,	dimensiones:	[{altura: ["2′7″", 0.79],	peso: [33.1, 15.0],},],},
 {id: 356,	dimensiones:	[{altura: ["5′3″", 1.60],	peso: [67.5, 30.6],},],},
 {id: 357,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [220.5, 100.0],},],},
 {id: 358,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [2.2, 1.0],},],},
-{id: 359,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [103.6, 47.0],},],},
+{id: 359,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [103.6, 47.0],},],
+		megaDimensiones:	[{altura: ["3′11″", 1.19],	peso: [108, 49.0], descripcion: "Mega Absol", cod: '359-m'},],},
 {id: 360,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [30.9, 14.0],},],},
 {id: 361,	dimensiones:	[{altura: ["2′4″", 0.71],	peso: [37, 16.8],},],},
-{id: 362,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [565.5, 256.5],},],},
+{id: 362,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [565.5, 256.5],},],
+		megaDimensiones:	[{altura: ["6′11″", 2.11],	peso: [772.1, 350.2], descripcion: "Mega Glalie", cod: '362-m'},],},
 {id: 363,	dimensiones:	[{altura: ["2′7″", 0.79],	peso: [87.1, 39.5],},],},
 {id: 364,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [193.1, 87.6],},],},
 {id: 365,	dimensiones:	[{altura: ["4′7″", 1.40],	peso: [332, 150.6],},],},
@@ -375,18 +411,25 @@ var sizes = [
 {id: 370,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [19.2, 8.7],},],},
 {id: 371,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [92.8, 42.1],},],},
 {id: 372,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [243.6, 110.5],},],},
-{id: 373,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [226.2, 102.6],},],},
+{id: 373,	dimensiones:	[{altura: ["4′11″", 1.50],	peso: [226.2, 102.6],},],
+		megaDimensiones:	[{altura: ["5′11″", 1.80],	peso: [248.2, 112.6], descripcion: "Mega Salamence", cod: '373-m'},],},
 {id: 374,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [209.9, 95.2],},],},
 {id: 375,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [446.4, 202.5],},],},
-{id: 376,	dimensiones:	[{altura: ["5′3″", 1.60],	peso: [1212.5, 550.0],},],},
+{id: 376,	dimensiones:	[{altura: ["5′3″", 1.60],	peso: [1212.5, 550.0],},],
+		megaDimensiones:	[{altura: ["8′2″", 2.49],	peso: [2078.7, 942.9], descripcion: "Mega Metagross", cod: '376-m'},],},
 {id: 377,	dimensiones:	[{altura: ["5′7″", 1.70],	peso: [507.1, 230.0],},],},
 {id: 378,	dimensiones:	[{altura: ["5′11″", 1.80],	peso: [385.8, 175.0],},],},
 {id: 379,	dimensiones:	[{altura: ["6′3″", 1.91],	peso: [451.9, 205.0],},],},
-{id: 380,	dimensiones:	[{altura: ["4′7″", 1.40],	peso: [88.2, 40.0],},],},
-{id: 381,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [132.3, 60.0],},],},
-{id: 382,	dimensiones:	[{altura: ["14′9″", 4.50],	peso: [776, 352.0],},],},
-{id: 383,	dimensiones:	[{altura: ["11′6″", 3.51],	peso: [2094.4, 950.0],},],},
-{id: 384,	dimensiones:	[{altura: ["23′0″", 7.01],	peso: [455.3, 206.5],},],},
+{id: 380,	dimensiones:	[{altura: ["4′7″", 1.40],	peso: [88.2, 40.0],},],
+		megaDimensiones:	[{altura: ["5′11″", 1.80],	peso: [114.6, 52.0], descripcion: "Mega Latias", cod: '380-m'},],},
+{id: 381,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [132.3, 60.0],},],
+		megaDimensiones:	[{altura: ["7′7″", 2.31],	peso: [154.3, 70.0], descripcion: "Mega Latios", cod: '381-m'},],},
+{id: 382,	dimensiones:	[{altura: ["14′9″", 4.50],	peso: [776, 352.0],},],
+		 priDimensiones:	[{altura: ["32′1″", 9.78],	peso: [948, 430.0], descripcion: "Primal Kyogre", cod: '382-p'},],},
+{id: 383,	dimensiones:	[{altura: ["11′6″", 3.51],	peso: [2094.4, 950.0],},],
+		 priDimensiones:	[{altura: ["16′5″", 5.00],	peso: [2204.4, 999.9], descripcion: "Primal Groudon", cod: '383-p'},],},
+{id: 384,	dimensiones:	[{altura: ["23′0″", 7.01],	peso: [455.3, 206.5],},],
+		megaDimensiones:	[{altura: ["35′05″", 10.8],	peso: [864.2, 392.0], descripcion: "Mega Rayquaza", cod: '384-m'},],},
 {id: 385,	dimensiones:	[{altura: ["1′0″", 0.30],	peso: [2.4, 1.1],},],},
 {id: 386,	dimensiones:	[{altura: ["5′7″", 1.70],	peso: [134, 60.8],},],},
 /*
@@ -441,7 +484,8 @@ var sizes = [
 {id: 425,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [2.6, 1.2],},],},
 {id: 426,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [33.1, 15.0],},],},
 {id: 427,	dimensiones:	[{altura: ["1′4″", 0.41],	peso: [12.1, 5.5],},],},
-{id: 428,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [73.4, 33.3],},],},
+{id: 428,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [73.4, 33.3],},],
+		megaDimensiones:	[{altura: ["4′3″", 1.30],	peso: [62.4, 28.3], descripcion: "Mega Lopunny", cod: '428-m'},],},
 {id: 429,	dimensiones:	[{altura: ["2′11″", 0.89],	peso: [9.7, 4.4],},],},
 {id: 430,	dimensiones:	[{altura: ["2′11″", 0.89],	peso: [60.2, 27.3],},],},
 {id: 431,	dimensiones:	[{altura: ["1′8″", 0.51],	peso: [8.6, 3.9],},],},
@@ -458,10 +502,12 @@ var sizes = [
 {id: 442,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [238.1, 108.0],},],},
 {id: 443,	dimensiones:	[{altura: ["2′4″", 0.71],	peso: [45.2, 20.5],},],},
 {id: 444,	dimensiones:	[{altura: ["4′7″", 1.40],	peso: [123.5, 56.0],},],},
-{id: 445,	dimensiones:	[{altura: ["6′3″", 1.91],	peso: [209.4, 95.0],},],},
+{id: 445,	dimensiones:	[{altura: ["6′3″", 1.91],	peso: [209.4, 95.0],},],
+		megaDimensiones:	[{altura: ["6′3″", 1.91],	peso: [209.4, 95.0], descripcion: "Mega Garchomp", cod: '445-m'},],},
 {id: 446,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [231.5, 105.0],},],},
 {id: 447,	dimensiones:	[{altura: ["2′4″", 0.71],	peso: [44.5, 20.2],},],},
-{id: 448,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [119, 54.0],},],},
+{id: 448,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [119, 54.0],},],
+		megaDimensiones:	[{altura: ["4′3″", 1.30],	peso: [126.8, 57.5], descripcion: "Mega Lucario", cod: '448-m'},],},
 {id: 449,	dimensiones:	[{altura: ["2′7″", 0.79],	peso: [109.1, 49.5],},],},
 {id: 450,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [661.4, 300.0],},],},
 {id: 451,	dimensiones:	[{altura: ["2′7″", 0.79],	peso: [26.5, 12.0],},],},
@@ -473,7 +519,8 @@ var sizes = [
 {id: 457,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [52.9, 24.0],},],},
 {id: 458,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [143.3, 65.0],},],},
 {id: 459,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [111.3, 50.5],},],},
-{id: 460,	dimensiones:	[{altura: ["7′3″", 2.21],	peso: [298.7, 135.5],},],},
+{id: 460,	dimensiones:	[{altura: ["7′3″", 2.21],	peso: [298.7, 135.5],},],
+		megaDimensiones:	[{altura: ["8′10″", 2.69],	peso: [407.8, 185.0], descripcion: "Mega Abomasnow", cod: '460-m'},],},
 {id: 461,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [75, 34.0],},],},
 {id: 462,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [396.8, 180.0],},],},
 {id: 463,	dimensiones:	[{altura: ["5′7″", 1.70],	peso: [308.6, 140.0],},],},
@@ -488,7 +535,8 @@ var sizes = [
 {id: 472,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [93.7, 42.5],},],},
 {id: 473,	dimensiones:	[{altura: ["8′2″", 2.49],	peso: [641.5, 291.0],},],},
 {id: 474,	dimensiones:	[{altura: ["2′11″", 0.89],	peso: [75, 34.0],},],},
-{id: 475,	dimensiones:	[{altura: ["5′3″", 1.60],	peso: [114.6, 52.0],},],},
+{id: 475,	dimensiones:	[{altura: ["5′3″", 1.60],	peso: [114.6, 52.0],},],
+		megaDimensiones:	[{altura: ["5′3″", 1.60],	peso: [124.3, 56.4], descripcion: "Mega Gallade", cod: '475-m'},],},
 {id: 476,	dimensiones:	[{altura: ["4′7″", 1.40],	peso: [749.6, 340.0],},],},
 {id: 477,	dimensiones:	[{altura: ["7′3″", 2.21],	peso: [235, 106.6],},],},
 {id: 478,	dimensiones:	[{altura: ["4′3″", 1.30],	peso: [58.6, 26.6],},],},
@@ -553,7 +601,8 @@ var sizes = [
 {id: 528,	dimensiones:	[{altura: ["2′11″", 0.89],	peso: [23.1, 10.5],},],},
 {id: 529,	dimensiones:	[{altura: ["1′0″", 0.30],	peso: [18.7, 8.5],},],},
 {id: 530,	dimensiones:	[{altura: ["2′4″", 0.71],	peso: [89.1, 40.4],},],},
-{id: 531,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [68.3, 31.0],},],},
+{id: 531,	dimensiones:	[{altura: ["3′7″", 1.09],	peso: [68.3, 31.0],},],
+		megaDimensiones:	[{altura: ["4′11″", 1.50],	peso: [70.5, 32.0], descripcion: "Mega Audino", cod: '531-m'},],},
 {id: 532,	dimensiones:	[{altura: ["2′0″", 0.61],	peso: [27.6, 12.5],},],},
 {id: 533,	dimensiones:	[{altura: ["3′11″", 1.19],	peso: [88.2, 40.0],},],},
 {id: 534,	dimensiones:	[{altura: ["4′7″", 1.40],	peso: [191.8, 87.0],},],},
@@ -762,9 +811,9 @@ var sizes = [
 							 {altura: ["1′08″", 0.51],	peso: [16.5, 7.5], descripcion: "Large Size", cod: '710-l'},
 							 {altura: ["2′07″", 0.81],	peso: [31.1, 15.0], descripcion: "Super Size", cod: '710-x'},],},
 {id: 711,	dimensiones:	[{altura: ["2′11″", 0.90],	peso: [27.6, 12.5], descripcion: "Average Size"},
-							 {altura: ["2′04″", 0.70],	peso: [20.9, 9.5], descripcion: "Small Size", cod: '710-s'},
-							 {altura: ["3′07″", 1.10],	peso: [30.9, 14.0], descripcion: "Large Size", cod: '710-l'},
-							 {altura: ["5′07″", 1.70],	peso: [86, 39.0], descripcion: "Super Size", cod: '710-x'},],},
+							 {altura: ["2′04″", 0.70],	peso: [20.9, 9.5], descripcion: "Small Size", cod: '711-s'},
+							 {altura: ["3′07″", 1.10],	peso: [30.9, 14.0], descripcion: "Large Size", cod: '711-l'},
+							 {altura: ["5′07″", 1.70],	peso: [86, 39.0], descripcion: "Super Size", cod: '711-x'},],},
 {id: 712,	dimensiones:	[{altura: ["3′3″", 0.99],	peso: [219.4, 99.5],},],},
 {id: 713,	dimensiones:	[{altura: ["6′7″", 2.01],	peso: [1113.3, 505.0],},],},
 {id: 714,	dimensiones:	[{altura: ["1′8″", 0.51],	peso: [17.6, 8.0],},],},
@@ -772,13 +821,10 @@ var sizes = [
 {id: 716,	dimensiones:	[{altura: ["9′10″", 3.00],	peso: [474, 215.0],},],},
 {id: 717,	dimensiones:	[{altura: ["19′0″", 5.79],	peso: [447.5, 203.0],},],},
 {id: 718,	dimensiones:	[{altura: ["16′5″", 5.00],	peso: [672.4, 305.0],},],},
-{id: 719,	dimensiones:	[{altura: ["2′4″", 0.71],	peso: [19.4, 8.8],},],},
-
-
-
-
+{id: 719,	dimensiones:	[{altura: ["2′4″", 0.71],	peso: [19.4, 8.8],},],
+		megaDimensiones:	[{altura: ["3′7″", 1.09],	peso: [61.3, 27.8], descripcion: "Mega Diancie", cod: '719-m'},],},
 {id: 720,	dimensiones:	[{altura: ["1′8″", 0.51],	peso: [19.8, 9.0], descripcion: "Confined Forme"},
-							 {altura: ["21′04″", 6.5],	peso: [1080.3, 490.0], descripcion: "Unbound Forme"},],},
+							 {altura: ["21′04″", 6.5],	peso: [1080.3, 490.0], descripcion: "Unbound Forme", cod: '720-u'},],},
 
 
 ];
@@ -882,3 +928,118 @@ function getPeso(valor){
 	return {libras: vLibras, kilogramos: vKilogramos};
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Para megas
+
+
+
+function getAlturaMega(valor){
+	//
+	var vPies, vMetros;
+	for(var i = 0; i < sizes.length; i++){
+		//
+		if(i == valor && sizes[i].priDimensiones !== undefined){
+			//
+			return{
+				pies: sizes[i].priDimensiones[0].altura[0],
+				metros: sizes[i].priDimensiones[0].altura[1],
+			};
+		}
+		if(i == valor && sizes[i].megaDimensiones !== undefined){
+			//
+			if(sizes[i].megaDimensiones.length > 1){
+				//
+				//console.log("Tiene mas megaevoluciones");
+				for(var j = 0; j < sizes[i].megaDimensiones.length; j++){
+					//
+					if(arguments[1] == sizes[i].megaDimensiones[j].cod){
+						vPies = sizes[i].megaDimensiones[j].altura[0];
+						vMetros = sizes[i].megaDimensiones[j].altura[1];
+					}
+				}
+			}else{
+				//console.log("Solo una megaevolucion");
+				vPies = sizes[i].megaDimensiones[0].altura[0];
+				vMetros = sizes[i].megaDimensiones[0].altura[1];
+			}
+			return {pies: vPies, metros: vMetros};
+		}
+	}
+}
+
+
+
+
+
+
+function getPesoMega(valor){
+	//
+	var vLibras, vKilogramos;
+	for(var i = 0; i < sizes.length; i++){
+		//
+		if(i == valor && sizes[i].priDimensiones !== undefined){
+			//
+			return{
+				libras: sizes[i].priDimensiones[0].peso[0],
+				kilogramos: sizes[i].priDimensiones[0].peso[1],
+			};
+		}
+		if(i == valor && sizes[i].megaDimensiones !== undefined){
+			//
+			if(sizes[i].megaDimensiones.length > 1){
+				//
+				//console.log("Tiene mas megaevoluciones");
+				for(var j = 0; j < sizes[i].megaDimensiones.length; j++){
+					//
+					if(arguments[1] == sizes[i].megaDimensiones[j].cod){
+						vLibras = sizes[i].megaDimensiones[j].peso[0];
+						vKilogramos = sizes[i].megaDimensiones[j].peso[1];
+					}
+				}
+			}else{
+				//console.log("Solo una megaevolucion");
+				vLibras = sizes[i].megaDimensiones[0].peso[0];
+				vKilogramos = sizes[i].megaDimensiones[0].peso[1];
+			}
+			return {libras: vLibras, kilogramos: vKilogramos};
+		}
+	}
+}

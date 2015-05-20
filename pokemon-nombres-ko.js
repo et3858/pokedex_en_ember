@@ -765,7 +765,7 @@ var namesKO = [
 ["이벨타르","Ibeltareu"],
 ["지가르데","Jigareude"],
 ["디안시","Diansi"],
-["(???)","(???)"],
+["후파","Hupa"],
 
 
 

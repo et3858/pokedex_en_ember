@@ -33,7 +33,7 @@
 })(document);
 */
 
-
+//http://themarklee.com/2014/10/05/better-simple-slideshow/
 
 
 

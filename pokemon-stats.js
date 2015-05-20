@@ -951,12 +951,18 @@ var stats = [
 {id: 707	, valores: [{ps: 57,	ataque: 80,	defensa: 91,	ataqueEspecial: 80,	defensaEspecial: 87,	velocidad: 75,	total: 470,	avg: 78.33},],},
 {id: 708	, valores: [{ps: 43,	ataque: 70,	defensa: 48,	ataqueEspecial: 50,	defensaEspecial: 60,	velocidad: 38,	total: 309,	avg: 51.5},],},
 {id: 709	, valores: [{ps: 85,	ataque: 110,	defensa: 76,	ataqueEspecial: 65,	defensaEspecial: 82,	velocidad: 56,	total: 474,	avg: 79},],},
-{id: 710	, valores: [{ps: 49,	ataque: 66,	defensa: 70,	ataqueEspecial: 44,	defensaEspecial: 55,	velocidad: 51,	total: 335,	avg: 55.83},],},
+{id: 710	, valores: [{ps: 49,	ataque: 66,	defensa: 70,	ataqueEspecial: 44,	defensaEspecial: 55,	velocidad: 51,	total: 335,	avg: 55.83, desc: "Average Size", cod: '710'},
+						{ps: 44,	ataque: 66,	defensa: 70,	ataqueEspecial: 44,	defensaEspecial: 55,	velocidad: 56,	total: 335,	avg: 55.83, desc: "Small Size", cod: '710-s'},
+						{ps: 54,	ataque: 66,	defensa: 70,	ataqueEspecial: 44,	defensaEspecial: 55,	velocidad: 46,	total: 335,	avg: 55.83, desc: "Large Size", cod: '710-l'},
+						{ps: 59,	ataque: 66,	defensa: 70,	ataqueEspecial: 44,	defensaEspecial: 55,	velocidad: 41,	total: 335,	avg: 55.83, desc: "Super Size", cod: '710-x'},],},
 //710	710	Pumpkaboo (Average Size)	, valores: [{ps: 49,	ataque: 66,	defensa: 70,	ataqueEspecial: 44,	defensaEspecial: 55,	velocidad: 51,	total: 335,	avg: 55.83},],},
 //710	710	Pumpkaboo (Small Size)	, valores: [{ps: 44,	ataque: 66,	defensa: 70,	ataqueEspecial: 44,	defensaEspecial: 55,	velocidad: 56,	total: 335,	avg: 55.83},],},
 //710	710	Pumpkaboo (Large Size)	, valores: [{ps: 54,	ataque: 66,	defensa: 70,	ataqueEspecial: 44,	defensaEspecial: 55,	velocidad: 46,	total: 335,	avg: 55.83},],},
 //710	710	Pumpkaboo (Super Size)	, valores: [{ps: 59,	ataque: 66,	defensa: 70,	ataqueEspecial: 44,	defensaEspecial: 55,	velocidad: 41,	total: 335,	avg: 55.83},],},
-{id: 711	, valores: [{ps: 65,	ataque: 90,	defensa: 122,	ataqueEspecial: 58,	defensaEspecial: 75,	velocidad: 84,	total: 494,	avg: 82.33},],},
+{id: 711	, valores: [{ps: 65,	ataque: 90,	defensa: 122,	ataqueEspecial: 58,	defensaEspecial: 75,	velocidad: 84,	total: 494,	avg: 82.33, desc: "Average Size", cod: '711'},
+						{ps: 55,	ataque: 85,	defensa: 122,	ataqueEspecial: 58,	defensaEspecial: 75,	velocidad: 99,	total: 494,	avg: 82.33, desc: "Small Size", cod: '711-s'},
+						{ps: 75,	ataque: 95,	defensa: 122,	ataqueEspecial: 58,	defensaEspecial: 75,	velocidad: 69,	total: 494,	avg: 82.33, desc: "Large Size", cod: '711-l'},
+						{ps: 85,	ataque: 100,	defensa: 122,	ataqueEspecial: 58,	defensaEspecial: 75,	velocidad: 54,	total: 494,	avg: 82.33, desc: "Super Size", cod: '711-x'},],},
 //711	711	Gourgeist (Average Size)	, valores: [{ps: 65,	ataque: 90,	defensa: 122,	ataqueEspecial: 58,	defensaEspecial: 75,	velocidad: 84,	total: 494,	avg: 82.33},],},
 //711	711	Gourgeist (Small Size)	, valores: [{ps: 55,	ataque: 85,	defensa: 122,	ataqueEspecial: 58,	defensaEspecial: 75,	velocidad: 99,	total: 494,	avg: 82.33},],},
 //711	711	Gourgeist (Large Size)	, valores: [{ps: 75,	ataque: 95,	defensa: 122,	ataqueEspecial: 58,	defensaEspecial: 75,	velocidad: 69,	total: 494,	avg: 82.33},],},
@@ -971,7 +977,8 @@ var stats = [
 {id: 719	, valores: [{ps: 50,	ataque: 100,	defensa: 150,	ataqueEspecial: 100,	defensaEspecial: 150,	velocidad: 50,	total: 600,	avg: 100},],
 			valoresMega: [{ps: 50,	ataque: 160,	defensa: 110,	ataqueEspecial: 160,	defensaEspecial: 110,	velocidad: 110,	total: 700,	avg: 116.67, desc: "Mega Diancie", cod: '719'},],},
 //719M	719M	Diancie (Mega Diancie)	, valores: [{ps: 50,	ataque: 160,	defensa: 110,	ataqueEspecial: 160,	defensaEspecial: 110,	velocidad: 110,	total: 700,	avg: 116.67},],},
-{id: 720	, valores: [{ps: 80,	ataque: 110,	defensa: 60,	ataqueEspecial: 150,	defensaEspecial: 130,	velocidad: 70,	total: 600,	avg: 100},],},
+{id: 720	, valores: [{ps: 80,	ataque: 110,	defensa: 60,	ataqueEspecial: 150,	defensaEspecial: 130,	velocidad: 70,	total: 600,	avg: 100},
+						{ps: 80,	ataque: 160,	defensa: 60,	ataqueEspecial: 170,	defensaEspecial: 130,	velocidad: 70,	total: 680,	avg: 113.33, desc: "Unbound Forme", cod: '720-u'},],},
 //720	Hoopa (Hoopa Confined)	, valores: [{ps: 80,	ataque: 110,	defensa: 60,	ataqueEspecial: 150,	defensaEspecial: 130,	velocidad: 70,	total: 600,	avg: 100},],},
 
 
@@ -985,12 +992,22 @@ function getStats(valor){
 	for(var i = 0; i < stats.length; i++){
 		//
 		if(i == valor){
+			//if(i == 709) console.log(i+1);
 			if(stats[i].valores.length > 1){
 				//
 				for(var j = 0; j < stats[i].valores.length; j++){
 					//
+					//if(arguments[1] !== undefined) console.log("Segundo");
 					if(arguments[1] == stats[i].valores[j].cod){
 						//
+						vPS = stats[i].valores[j].ps;
+						vAtaque = stats[i].valores[j].ataque;
+						vDefensa = stats[i].valores[j].defensa;
+						vAtaqueEspecial = stats[i].valores[j].ataqueEspecial;
+						vDefensaEspecial = stats[i].valores[j].defensaEspecial;
+						vVelocidad = stats[i].valores[j].velocidad;
+						break;
+					}else if(arguments[1] === undefined){
 						vPS = stats[i].valores[j].ps;
 						vAtaque = stats[i].valores[j].ataque;
 						vDefensa = stats[i].valores[j].defensa;
@@ -1083,6 +1100,43 @@ function getStatsMega(valor){
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//calculus para sacar puntuaciones por nivel y naturaleza
+
+
+//PS
+//((iv + 2 * baseStat + (ev/4)) * level/100) + 10 + level
+
+
+//Ataque, Defensa, Ataque especial, Defensa especial y Velocidad
+//(((iv + 2 * baseStat + (ev/4)) * level/100) + 5) * natureValue
+
+
+
+//...donde
+/*
+iv = individual values (valores individuales) entre 0....31
+ev = effort values (valores de esfuerzo)      entre 0...252
+baseStat = estadistica base                   entre 0...255
+level = nivel del pokemon                     entre 1...100
+natureValue = valor de naturaleza:            90% (0.9) si es desfavorable, 110% (1.1) si es favorable
+*/
+
+
+
+
 
 
 
